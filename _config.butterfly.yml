@@ -749,7 +749,7 @@ subtitle:
   # https://github.com/mattboldt/typed.js/#customization
   typed_option:
   # source 調用第三方服務
-  source: true 關閉調用
+  # source: true 關閉調用
   source: 1  調用一言網的一句話（簡體） https://hitokoto.cn/
   # source: 2  調用一句網（簡體） https://yijuzhan.com/
   # source: 3  調用今日詩詞（簡體） https://www.jinrishici.com/
