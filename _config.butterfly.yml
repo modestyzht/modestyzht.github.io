@@ -44,7 +44,7 @@ favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img: /workspaces/modestyzht.github.io/themes/img/酷.jpg
+  img: themes/img/酷.jpg
   effect: false
 
 # Disable all banner image
@@ -268,7 +268,7 @@ aside:
 # busuanzi count for PV / UV in site
 # 訪問人數
 busuanzi:
-  site_uv: true
+  site_访客数: true
   site_pv: true
   page_pv: true
 
