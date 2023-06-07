@@ -640,7 +640,7 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background:
+background: https://w.wallhaven.cc/full/zy/wallhaven-zygeko.jpg
 
 # Footer Background
 footer_bg: false
@@ -750,7 +750,7 @@ subtitle:
   typed_option:
   # source 調用第三方服務
   # source: true 關閉調用
-  source: 1  調用一言網的一句話（簡體） https://hitokoto.cn/
+  # source: 1  調用一言網的一句話（簡體） https://hitokoto.cn/
   # source: 2  調用一句網（簡體） https://yijuzhan.com/
   # source: 3  調用今日詩詞（簡體） https://www.jinrishici.com/
   # subtitle 會先顯示 source , 再顯示 sub 的內容
