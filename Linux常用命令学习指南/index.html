@@ -1,0 +1,190 @@
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Linux常用命令学习指南 | 西北野驴的Blog</title><meta name="author" content="驴哥"><meta name="copyright" content="驴哥"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="正文： 欢迎来到本文，我们将为您提供一份Linux常用命令学习指南。在Linux系统中，命令行是一个强大而灵活的工具，可以帮助您完成各种任务。无论您是新手还是有经验的用户，掌握一些常用命令将使您的Linux使用更加高效。以下是一些实用的常用命令及其简要说明：  ls：列出目录内容用法：ls [选项] [目录]这个命令用于列出当前目录或指定目录中的文件和子目录。  cd：切换目录用法：cd [目录]">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Linux常用命令学习指南">
+<meta property="og:url" content="https://modestyzht.github.io/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/index.html">
+<meta property="og:site_name" content="西北野驴的Blog">
+<meta property="og:description" content="正文： 欢迎来到本文，我们将为您提供一份Linux常用命令学习指南。在Linux系统中，命令行是一个强大而灵活的工具，可以帮助您完成各种任务。无论您是新手还是有经验的用户，掌握一些常用命令将使您的Linux使用更加高效。以下是一些实用的常用命令及其简要说明：  ls：列出目录内容用法：ls [选项] [目录]这个命令用于列出当前目录或指定目录中的文件和子目录。  cd：切换目录用法：cd [目录]">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png">
+<meta property="article:published_time" content="2023-06-20T10:25:54.859Z">
+<meta property="article:modified_time" content="2023-06-20T10:25:54.859Z">
+<meta property="article:author" content="驴哥">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://modestyzht.github.io/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: 'Just',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Linux常用命令学习指南',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2023-06-20 10:25:54'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      if (id) link.id = id
+      link.onerror = reject
+      link.onload = link.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        link.onload = link.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(link)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">3</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><hr class="custom-hr"/></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://w.wallhaven.cc/full/zy/wallhaven-zygeko.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="西北野驴的Blog"><span class="site-name">西北野驴的Blog</span></a></span><div id="menus"><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Linux常用命令学习指南</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2023-06-20T10:25:54.859Z" title="Created 2023-06-20 10:25:54">2023-06-20</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2023-06-20T10:25:54.859Z" title="Updated 2023-06-20 10:25:54">2023-06-20</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Linux常用命令学习指南"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post View:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>正文：</p>
+<p>欢迎来到本文，我们将为您提供一份Linux常用命令学习指南。在Linux系统中，命令行是一个强大而灵活的工具，可以帮助您完成各种任务。无论您是新手还是有经验的用户，掌握一些常用命令将使您的Linux使用更加高效。以下是一些实用的常用命令及其简要说明：</p>
+<ol>
+<li><p>ls：列出目录内容<br>用法：ls [选项] [目录]<br>这个命令用于列出当前目录或指定目录中的文件和子目录。</p>
+</li>
+<li><p>cd：切换目录<br>用法：cd [目录]<br>使用cd命令可以进入指定的目录。例如，cd Documents将进入当前用户的Documents目录。</p>
+</li>
+<li><p>mkdir：创建目录<br>用法：mkdir [目录]<br>使用mkdir命令可以创建一个新的目录。例如，mkdir myfolder将在当前目录下创建一个名为myfolder的目录。</p>
+</li>
+<li><p>rm：删除文件或目录<br>用法：rm [选项] [文件&#x2F;目录]<br>rm命令用于删除指定的文件或目录。请小心使用此命令，因为删除的文件将无法恢复。</p>
+</li>
+<li><p>cp：复制文件或目录<br>用法：cp [选项] 源文件 目标文件&#x2F;目录<br>cp命令可以复制指定的文件或目录。您需要提供源文件的路径和目标文件&#x2F;目录的路径。</p>
+</li>
+<li><p>mv：移动文件或目录<br>用法：mv [选项] 源文件&#x2F;目录 目标文件&#x2F;目录<br>使用mv命令可以移动文件或目录到指定的目标位置。您也可以使用它来重命名文件或目录。</p>
+</li>
+<li><p>grep：在文件中搜索文本<br>用法：grep [选项] 搜索词 源文件<br>grep命令用于在文件中搜索指定的文本。它将输出包含搜索词的行。</p>
+</li>
+<li><p>chmod：修改文件权限<br>用法：chmod [选项] 权限 文件&#x2F;目录<br>使用chmod命令可以修改文件或目录的权限。您可以使用数字形式或符号形式来指定权限。</p>
+</li>
+<li><p>sudo：以管理员权限运行命令<br>用法：sudo 命令<br>sudo命令允许普通用户以管理员权限运行指定的命令。它需要您输入管理员密码。</p>
+</li>
+</ol>
+<p>这只是一小部分常用命令，但它们覆盖了日常使用中的许多常见任务。随着您的使用经验增加，您可以逐渐探索更多命令和其它选项。记得使用命</p>
+<p>令后面的–help选项或者查阅相关文档以获取更多详细信息。</p>
+<p>结论：<br>掌握一些常用的Linux命令将使您在Linux系统中更加自如。ls、cd、mkdir、rm、cp、mv、grep、chmod和sudo是一些非常实用的命令，可以帮助您完成各种日常任务。不断练习和实践，您将逐渐熟悉这些命令，并在Linux系统中变得更加高效。</p>
+<p>希望这篇文章能为您提供有关Linux常用命令的简明实用指南。如果您有任何疑问或需要进一步的帮助，请随时提问。祝您在学习和使用Linux命令时取得成功！</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">Author: </span><span class="post-copyright-info"><a href="https://modestyzht.github.io">驴哥</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">Link: </span><span class="post-copyright-info"><a href="https://modestyzht.github.io/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/">https://modestyzht.github.io/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="tag_share"><div class="post-meta__tag-list"></div><div class="post_share"><div class="social-share" data-image="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/Linux%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97/" title="Linux操作系统安装指南"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">Next Post</div><div class="next_info">Linux操作系统安装指南</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">驴哥</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">3</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>关注西北驴哥</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content">欢迎来到西北戈壁滩</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97/" title="Linux常用命令学习指南">Linux常用命令学习指南</a><time datetime="2023-06-20T10:25:54.859Z" title="Created 2023-06-20 10:25:54">2023-06-20</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/Linux%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97/" title="Linux操作系统安装指南">Linux操作系统安装指南</a><time datetime="2023-06-20T10:25:54.859Z" title="Created 2023-06-20 10:25:54">2023-06-20</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/Linux%E7%B3%BB%E7%BB%9F%E6%93%8D%E4%BD%9C%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/" title="Linux系统操作入门指南">Linux系统操作入门指南</a><time datetime="2023-06-20T10:25:54.859Z" title="Created 2023-06-20 10:25:54">2023-06-20</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2023 By 驴哥</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Read Mode"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="Switch Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between single-column and double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="Back To Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
