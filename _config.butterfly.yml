@@ -270,13 +270,15 @@ aside:
     order: -1 # Sort of order. 1, asc for ascending; -1, desc for descending
 
 # busuanzi count for PV / UV in site
-# 訪問人數
-busuanzi:
-  site_uv: true
-  site_pv: true
-  page_pv: true
-  site_uv_text: "访客数"
-  site_pv_text: "访问量"
+# 访客
+visitors:
+  enable: true
+  counter_type: busuanzi
+  busuanzi_config:
+    site_uv: true
+    site_pv: true
+    site_uv_text: "独立访客"
+    site_pv_text: "访问量"
 
 # Time difference between publish date and now (網頁運行時間)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
