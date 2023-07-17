@@ -14,7 +14,7 @@ menu:
  标签: /tags/ || fas fa-tags
  分类: /categories/ || fas fa-folder-open
  目录||fas fa-list:
-   Music: /music/ || fas fa-music
+   音乐: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
   # Link: /link/ || fas fa-link
   # About: /about/ || fas fa-heart
@@ -299,7 +299,7 @@ newest_comments:
 
 # Conversion between Traditional and Simplified Chinese (簡繁轉換)
 translate:
-  enable: false
+  enable: true
   # The text of a button
   default: 繁
   # the language of website (1 - Traditional Chinese/ 2 - Simplified Chinese）
@@ -642,7 +642,7 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background:
+background: https://w.wallhaven.cc/full/2y/wallhaven-2y3qrg.png
 
 # Footer Background
 footer_bg: false
