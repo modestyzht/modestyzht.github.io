@@ -13,7 +13,7 @@ menu:
  文章: /archives/ || fas fa-archive
  标签: /tags/ || fas fa-tags
  分类: /categories/ || fas fa-folder-open
- 目录||fas fa-list:
+ 链接||fas fa-list:
    音乐: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
   # Link: /link/ || fas fa-link
@@ -51,7 +51,7 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img:
+index_img: https://w.wallhaven.cc/full/2y/wallhaven-2y3qrg.png
 
 # If the banner of page not setting, it will show the top_img
 default_top_img:
