@@ -57,7 +57,7 @@ index_img: https://w.wallhaven.cc/full/zy/wallhaven-zygeko.jpg
 default_top_img:
 
 # The banner image of archive page
-archive_img: https://w.wallhaven.cc/full/zy/wallhaven-zyxvqy.jpg
+archive_img: 
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
