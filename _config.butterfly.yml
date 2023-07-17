@@ -9,8 +9,8 @@ nav:
 
 # Menu 目錄
 menu:
- Home: / || fas fa-home
- Archives: /archives/ || fas fa-archive
+ 主页: / || fas fa-home
+ 文章: /archives/ || fas fa-archive
  Tags: /tags/ || fas fa-tags
  Categories: /categories/ || fas fa-folder-open
  List||fas fa-list:
@@ -44,7 +44,7 @@ favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img: https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png
+  img: https://c-ssl.dtstatic.com/uploads/blog/202208/01/20220801091938_9f3d5.thumb.400_0.jpeg
   effect: false
 
 # Disable all banner image
