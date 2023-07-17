@@ -208,7 +208,7 @@ footer:
   owner:
     enable: true
     since: 2020
-  custom_text: 欢迎来到西北荒漠恶魔及😎
+  custom_text: 欢迎来到西北荒漠😎
   copyright: true # Copyright of theme and framework
 
 # aside (側邊欄)
@@ -219,7 +219,7 @@ aside:
   hide: false
   button: true
   mobile: true # display on mobile
-  position: right # left or right
+  position: left # left or right
   display:
     archive: true
     tag: true
