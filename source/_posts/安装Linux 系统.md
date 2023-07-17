@@ -13,10 +13,11 @@ categories: Linux
 
 # 在 Windows 上安装 Linux 系统
 
-![Linux on Windows](https://static.open-open.com/lib/uploadImg/20150313/20150313090037_148.jpg)
+
 
 欢迎来到本文，如果你想在 Windows 操作系统上体验 Linux，本指南将为你提供一份关于在 Windows 上安装 Linux 系统的详细指南。
 
+![Linux on Windows](https://static.open-open.com/lib/uploadImg/20150313/20150313090037_148.jpg)
 ## 安装 WSL
 
 Windows Subsystem for Linux（WSL）是 Windows 上的一个功能，允许你在 Windows 系统中运行 Linux 发行版。
