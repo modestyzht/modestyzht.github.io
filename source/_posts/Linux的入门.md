@@ -2,7 +2,6 @@
 title: Linux系统入门概述
 date: 2023.7.17
 description: 在微信提供的小程序制作平台上制作一个自己的小程序(以JD小程序为例)
-top_img: https://www.linuxprobe.com/wp-content/uploads/2017/07/2017-07-01-s-wz-01.jpg
 cover: https://www.linuxprobe.com/wp-content/uploads/2017/07/2017-07-01-s-wz-01.jpg
 copyright_author: 驴哥
 copyright_url: https://modestyzht.github.io/
@@ -12,8 +11,6 @@ copyright_info: 此文章版权为驴哥所有,如有转载,请注明来自原�
 
 
 # Linux系统入门概述
-
-![Linux Logo](linux-logo.png)
 
 欢迎来到本文，我们将介绍 Linux 操作系统的基本知识和入门要点。Linux 是一个强大且广泛使用的开源操作系统，具有广泛的应用场景和灵活性。
 
