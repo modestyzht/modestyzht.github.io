@@ -50,11 +50,12 @@ avatar:
 # Disable all banner image
 disable_top_img: false
 
-# The banner image of home page
-index_img: https://w.wallhaven.cc/full/2y/wallhaven-2y3qrg.png
+# The banner image of home page 首页顶部图片
+index_img: https://w.wallhaven.cc/full/zy/wallhaven-zygeko.jpg
 
 # If the banner of page not setting, it will show the top_img
-default_top_img:
+default_top_img: https://w.wallhaven.cc/full/zy/wallhaven-zyxvqy.jpg
+default_top_img: https://w.wallhaven.cc/full/o5/wallhaven-o59gvl.jpg
 
 # The banner image of archive page
 archive_img:
