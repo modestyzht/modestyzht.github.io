@@ -44,7 +44,7 @@ favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img: https://c-ssl.dtstatic.com/uploads/blog/202208/01/20220801091938_9f3d5.thumb.400_0.jpeg
+  img: https://w.wallhaven.cc/full/zy/wallhaven-zy5e2o.jpg
   effect: false
 
 # Disable all banner image
@@ -230,11 +230,11 @@ aside:
     button:
       enable: true
       icon: fab fa-github
-      text: Follow Me
+      text: 跟俺来！
       link: https://github.com/xxxxxx
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: 这是驴哥的 Blog
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
