@@ -642,7 +642,7 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: https://w.wallhaven.cc/full/2y/wallhaven-2y3qrg.png
+background: url(https://w.wallhaven.cc/full/zy/wallhaven-zy5e2o.jpg)
 
 # Footer Background
 footer_bg: false
