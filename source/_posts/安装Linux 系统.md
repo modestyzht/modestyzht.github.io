@@ -4,7 +4,7 @@ date: 2023.7.17
 description: 欢迎来到本文，如果你想在 Windows 操作系统上体验 Linux，本指南将为你提供一份关于在 Windows 上安装 Linux 系统的详细指南。
 
 top_img: https://w.wallhaven.cc/full/zy/wallhaven-zygeko.jpg
-cover: https://www.linuxprobe.com/wp-content/uploads/2017/07/2017-07-01-s-wz-01.jpg
+cover: https://www.linuxprobe.com/wp-content/uploads/2018/09/20180927006.jpg
 copyright_author: 驴哥
 copyright_url: https://modestyzht.github.io/
 copyright_info: 此文章版权为驴哥所有,如有转载,请注明来自原作者
