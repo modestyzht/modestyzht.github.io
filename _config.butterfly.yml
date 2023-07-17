@@ -61,7 +61,7 @@ archive_img:
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img:
+tag_img: https://w.wallhaven.cc/full/2y/wallhaven-2y3qrg.png
 
 # The banner image of tag page
 # format:
@@ -70,7 +70,7 @@ tag_per_img:
 
 # If the banner of category page not setting, it will show the top_img
 # note: category page, not categories page (子分類頁面的 top_img)
-category_img:
+category_img: https://w.wallhaven.cc/full/2y/wallhaven-2y3qrg.png
 
 # The banner image of category page
 # format:
