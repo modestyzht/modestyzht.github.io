@@ -229,9 +229,9 @@ aside:
     description:
     button:
       enable: true
-      icon: fab fa-github
+      icon: fa-solid fa-dinosaur
       text: 跟俺来！
-      link: https://github.com/xxxxxx
+      link: https://space.bilibili.com/1089540568?spm_id_from=333.999.0.0
   card_announcement:
     enable: true
     content: 这是驴哥的 Blog
@@ -277,8 +277,7 @@ visitors:
   busuanzi_config:
     site_uv: true
     site_pv: true
-    site_uv_text: "独立访客"
-    site_pv_text: "访问量"
+
 
 # Time difference between publish date and now (網頁運行時間)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
