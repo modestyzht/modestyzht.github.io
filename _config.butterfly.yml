@@ -234,7 +234,7 @@ aside:
       link: https://space.bilibili.com/1089540568?spm_id_from=333.999.0.0
   card_announcement:
     enable: true
-    content: 这是驴哥的 Blog
+    content: 欢迎来西北戈壁撒野🐱‍🏍
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
