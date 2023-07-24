@@ -3,7 +3,7 @@ title: Linux中shell进阶版
 date: 2023-7-24
 description: 在上一篇博客中，我们介绍了 Linux 系统中一些基础命令，用于文件和目录管理、文件查看和编辑、网络操作等。在本篇博客中，我们将进一步学习 Linux 系统上更多的基础命令，以便更高效地使用和管理我们的系统。
 top_img: https://w.wallhaven.cc/full/zy/wallhaven-zygeko.jpg
-cover: https://th.wallhaven.cc/small/dp/dpl3x3.jpg
+cover: https://img1.baidu.com/it/u=35310676,872305638&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=313
 copyright_author: 驴哥
 copyright_url: https://modestyzht.github.io/
 copyright_info: 此文章版权为驴哥所有,如有转载,请注明来自原作者
