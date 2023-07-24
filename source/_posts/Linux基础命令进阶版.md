@@ -8,8 +8,9 @@ copyright_author: 驴哥
 copyright_url: https://modestyzht.github.io/
 copyright_info: 此文章版权为驴哥所有,如有转载,请注明来自原作者
 categories: Linux的学习
-top: 4
+
 ---
+top: 4
 # Linux系统基础命令进阶版
 
 在上一篇博客中，我们介绍了 Linux 系统中一些基础命令，用于文件和目录管理、文件查看和编辑、网络操作等。在本篇博客中，我们将进一步学习 Linux 系统上更多的基础命令，以便更高效地使用和管理我们的系统。

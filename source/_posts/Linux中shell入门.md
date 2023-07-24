@@ -8,8 +8,9 @@ copyright_author: 驴哥
 copyright_url: https://modestyzht.github.io/
 copyright_info: 此文章版权为驴哥所有,如有转载,请注明来自原作者
 categories: Linux的学习
-top: 3
+
 ---
+top: 3
 # Linux中Shell命令入门
 
 作为一个 Linux 系统的用户，了解和熟悉 Shell 命令是非常重要的。Shell 是 Linux 系统的命令行解释器，通过输入不同的命令，我们可以与系统进行交互、管理文件和目录、执行程序等。本篇博客将为你介绍一些基本的 Shell 命令，帮助你入门并开始在命令行中高效地工作。
