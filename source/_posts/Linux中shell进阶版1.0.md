@@ -10,7 +10,7 @@ copyright_info: 此文章版权为驴哥所有,如有转载,请注明来自原�
 categories: Linux的学习
 
 ---
-top: 2
+
 # Linux系统中Shell命令进阶版
 
 在上一篇博客中，我们入门了一些 Linux 中常用的 Shell 命令，现在让我们继续深入学习并探索更多的进阶命令，以便更加高效地使用和管理我们的 Linux 系统。
