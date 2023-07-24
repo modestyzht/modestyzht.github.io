@@ -1,5 +1,5 @@
 ---
-title: Linux系统基础命令指南
+title: Linux基础命令指南
 date: 2023.7.17
 description: 欢迎来到本文，我们将为你介绍一些在 Linux 系统中常用的基础命令。掌握这些命令可以帮助你进行文件和目录管理、系统配置以及与 Linux 系统的日常交互。
 top_img: https://w.wallhaven.cc/full/zy/wallhaven-zygeko.jpg
