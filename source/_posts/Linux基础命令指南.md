@@ -7,7 +7,8 @@ cover: https://img.linux.net.cn/data/attachment/album/201808/21/093640ox5xzq4ldd
 copyright_author: 驴哥
 copyright_url: https://modestyzht.github.io/
 copyright_info: 此文章版权为驴哥所有,如有转载,请注明来自原作者
-categories: Linux
+categories: Linux的学习
+top: 5
 ---
 # Linux系统基础命令指南
 

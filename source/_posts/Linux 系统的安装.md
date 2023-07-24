@@ -8,7 +8,8 @@ cover: https://www.linuxprobe.com/wp-content/uploads/2018/09/20180927006.jpg
 copyright_author: 驴哥
 copyright_url: https://modestyzht.github.io/
 copyright_info: 此文章版权为驴哥所有,如有转载,请注明来自原作者
-categories: Linux
+categories: Linux的学习
+top: 7
 ---
 
 # 在 Windows 上安装 Linux 系统
