@@ -2,7 +2,7 @@
 title: Linux中shell入门
 date: 2023-7-22
 description: 作为一个 Linux 系统的用户，了解和熟悉 Shell 命令是非常重要的。Shell 是 Linux 系统的命令行解释器，通过输入不同的命令，我们可以与系统进行交互、管理文件和目录、执行程序等。本篇博客将为你介绍一些基本的 Shell 命令，帮助你入门并开始在命令行中高效地工作。
-top_img: https://w.wallhaven.cc/full/zy/wallhaven-zygeko.jpg
+top_img: https://w.wallhaven.cc/full/1p/wallhaven-1pqxwv.png
 cover: https://th.wallhaven.cc/small/dp/dpl3x3.jpg
 copyright_author: 驴哥
 copyright_url: https://modestyzht.github.io/

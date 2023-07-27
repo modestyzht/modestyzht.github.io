@@ -3,7 +3,7 @@ title: 在 Windows 上安装 Linux 系统
 date: 2023-7-17
 description: 欢迎来到本文，如果你想在 Windows 操作系统上体验 Linux，本指南将为你提供一份关于在 Windows 上安装 Linux 系统的详细指南。
 
-top_img: https://w.wallhaven.cc/full/zy/wallhaven-zygeko.jpg
+top_img: https://w.wallhaven.cc/full/1p/wallhaven-1pqxwv.png
 cover: https://www.linuxprobe.com/wp-content/uploads/2018/09/20180927006.jpg
 copyright_author: 驴哥
 copyright_url: https://modestyzht.github.io/
