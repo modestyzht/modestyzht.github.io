@@ -3,7 +3,7 @@ title: 轻松自动化Linux任务
 date: 2023-7-29
 description: 探索Shell脚本的趣味世界：轻松自动化Linux任务
 
-top_img: https://w.wallhaven.cc/full/1p/wallhaven-1pqxwv.png
+top_img: https://w.wallhaven.cc/full/m3/wallhaven-m3oq1k.jpg
 cover: https://w.wallhaven.cc/full/2y/wallhaven-2y3qrg.png
 copyright_author: 驴哥
 copyright_url: https://modestyzht.github.io/

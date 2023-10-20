@@ -2,7 +2,7 @@
 title: Linux基础命令指南进阶版
 date: 2023-7-19
 description: 在上一篇博客中，我们介绍了 Linux 系统中一些基础命令，用于文件和目录管理、文件查看和编辑、网络操作等。在本篇博客中，我们将进一步学习 Linux 系统上更多的基础命令，以便更高效地使用和管理我们的系统。
-top_img: https://w.wallhaven.cc/full/1p/wallhaven-1pqxwv.png
+top_img: https://w.wallhaven.cc/full/m3/wallhaven-m3oq1k.jpg
 cover: https://images.9k9k.com/2021/10/27/1635297558_1.jpg
 copyright_author: 驴哥
 copyright_url: https://modestyzht.github.io/
