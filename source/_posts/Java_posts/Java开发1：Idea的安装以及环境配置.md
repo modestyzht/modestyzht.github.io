@@ -1,6 +1,6 @@
-title: Java开发1：Idea的安装以及环境配置
+title: Java开发1：IDEA的安装以及环境配置
 date: 2024-2-10
-description: 在这篇博客文章中，我们将开始Java的学习😁😁。
+description: 从这篇文章开始，我们将进入Java开发的学习
 top_img: https://w.wallhaven.cc/full/m3/wallhaven-m3oq1k.jpg
 cover: https://w.wallhaven.cc/full/ex/wallhaven-exrqrr.jpg
 copyright_author: 驴哥
@@ -66,7 +66,6 @@ categories: Java
    ```
    如果你看到相关的 Java 版本信息，说明 Java 已经成功安装并配置。
 
-# Java 开发平台搭建与环境配置（续）
 
 在上一部分，我们介绍了在 Windows、Linux 和 macOS 操作系统上搭建和配置 Java 开发环境的基本步骤。在本文的后续部分，我们将详细介绍一些特定操作系统的相关配置。
 
