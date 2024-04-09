@@ -32,23 +32,18 @@ Ctrl + Alt + O: 优化导入，移除未使用的导入并按需导入类。
 `soutv`: 打印变量值 `System.out.println("变量名 = " + 变量);`
 `soutm`: 打印方法名 `System.out.println("类名.方法名");`
 `soutp`: 打印方法参数值 `System.out.println("参数名 = " + 参数);`
-
 这些快捷输入方式能够提高编码效率，同时 IntelliJ IDEA 还提供了许多其他方便的快捷输入方式，如：
-
 `fori`: 快速生成 for 循环 `for (int i = 0; i < length; i++) {...}`
 `iter`: 快速生成增强型 for 循环 `for (Type element : iterable) {...}`
 `ifn`: 生成 if 语句，检查对象是否为 null `if (object == null) {...}`
 `inn`: 生成 if 语句，检查对象是否不为 null `if (object != null) {...}`
 `iferr`: 生成 try-catch 语句块，捕获异常 `try {...} catch (Exception e) {...}`
-
 此外，还有一些其他常用的快捷输入方式，如：
-
 `souf`: 格式化输出字符串 `System.out.printf("格式化字符串", 参数);`
 `psf`: 生成 `public static final` 字段 `public static final 类型 字段名 = 值;`
 `psfs`: 生成 `public static final String` 字段 `public static final String 字段名 = "值";`
 `psfi`: 生成 `public static final int` 字段 `public static final int 字段名 = 值;`
 `psfs`: 生成 `public static final String` 字段 `public static final String 字段名 = "值";`
-
 这些快捷输入方式能够减少开发过程中的重复性工作，提高代码编写效率。
 
 # 一、语法基础 （Grammar basics）：
