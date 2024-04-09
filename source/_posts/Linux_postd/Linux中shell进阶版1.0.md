@@ -7,7 +7,7 @@ cover: https://img1.baidu.com/it/u=35310676,872305638&fm=253&fmt=auto&app=138&f=
 copyright_author: 驴哥
 copyright_url: https://modestyzht.github.io/
 copyright_info: 此文章版权为驴哥所有,如有转载,请注明来自原作者
-categories: Linux的学习
+categories: Linux
 
 ---
 

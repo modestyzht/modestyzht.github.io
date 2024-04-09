@@ -7,7 +7,7 @@ cover: https://www.linuxprobe.com/wp-content/uploads/2017/07/2017-07-01-s-wz-01.
 copyright_author: 驴哥
 copyright_url: https://modestyzht.github.io/
 copyright_info: 此文章版权为驴哥所有,如有转载,请注明来自原作者
-categories: Linux的学习
+categories: Linux
 
 ---
 

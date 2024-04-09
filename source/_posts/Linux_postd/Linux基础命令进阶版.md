@@ -7,7 +7,7 @@ cover: https://images.9k9k.com/2021/10/27/1635297558_1.jpg
 copyright_author: 驴哥
 copyright_url: https://modestyzht.github.io/
 copyright_info: 此文章版权为驴哥所有,如有转载,请注明来自原作者
-categories: Linux的学习
+categories: Linux
 
 ---
 

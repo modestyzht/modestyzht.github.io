@@ -7,7 +7,7 @@ cover: https://th.wallhaven.cc/small/dp/dpl3x3.jpg
 copyright_author: 驴哥
 copyright_url: https://modestyzht.github.io/
 copyright_info: 此文章版权为驴哥所有,如有转载,请注明来自原作者
-categories: Linux的学习
+categories: Linux
 
 ---
 
