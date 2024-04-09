@@ -15,66 +15,41 @@ categories: Java
 # 关于IDEA使用的一些小技巧（Tips）：
 
 1. **快捷键**
-   - Ctrl + Space: 自动代码补全，根据上下文提供代码建议。
-   - Ctrl + Alt + L: 格式化代码。
-   - Ctrl + / (Windows) 或 Command + / (Mac): 注释/取消注释当前行或选中的代码块。
-   - Ctrl + D: 复制当前行或选中的代码块。
-   - Ctrl + Y: 删除当前行。
-   - Ctrl + Shift + Z (Windows) 或 Command + Shift + Z (Mac): 撤销最后一次操作。
-   - Ctrl + Shift + F: 在项目中进行全局搜索。
-   - Ctrl + F: 在当前文件中进行搜索。
-   - Ctrl + Shift + F7: 高亮显示当前选中的文本，在文本中所有出现的地方都高亮显示。
-   - Ctrl + Alt + O: 优化导入，移除未使用的导入并按需导入类。
+Ctrl + Space: 自动代码补全，根据上下文提供代码建议。
+Ctrl + Alt + L: 格式化代码。
+Ctrl + / (Windows) 或 Command + / (Mac): 注释/取消注释当前行或选中的代码块。
+Ctrl + D: 复制当前行或选中的代码块。
+Ctrl + Y: 删除当前行。
+Ctrl + Shift + Z (Windows) 或 Command + Shift + Z (Mac): 撤销最后一次操作。
+Ctrl + Shift + F: 在项目中进行全局搜索。
+Ctrl + F: 在当前文件中进行搜索。
+Ctrl + Shift + F7: 高亮显示当前选中的文本，在文本中所有出现的地方都高亮显示。
+Ctrl + Alt + O: 优化导入，移除未使用的导入并按需导入类。
 
 2. **快捷输入** 
-   - `sout`: 打印输出语句 `System.out.println();`
-   - `psvm`: 快速生成主方法 `public static void main(String[] args) {...}`
-   - `soutv`: 打印变量值 `System.out.println("变量名 = " + 变量);`
-   -  `soutm`: 打印方法名 `System.out.println("类名.方法名");`
-   - `soutp`: 打印方法参数值 `System.out.println("参数名 = " + 参数);`
+`sout`: 打印输出语句 `System.out.println();`
+`psvm`: 快速生成主方法 `public static void main(String[] args) {...}`
+`soutv`: 打印变量值 `System.out.println("变量名 = " + 变量);`
+`soutm`: 打印方法名 `System.out.println("类名.方法名");`
+`soutp`: 打印方法参数值 `System.out.println("参数名 = " + 参数);`
 
 这些快捷输入方式能够提高编码效率，同时 IntelliJ IDEA 还提供了许多其他方便的快捷输入方式，如：
 
-   - `fori`: 快速生成 for 循环 `for (int i = 0; i < length; i++) {...}`
-   - `iter`: 快速生成增强型 for 循环 `for (Type element : iterable) {...}`
-   - `ifn`: 生成 if 语句，检查对象是否为 null `if (object == null) {...}`
-   - `inn`: 生成 if 语句，检查对象是否不为 null `if (object != null) {...}`
-   - `iferr`: 生成 try-catch 语句块，捕获异常 `try {...} catch (Exception e) {...}`
+`fori`: 快速生成 for 循环 `for (int i = 0; i < length; i++) {...}`
+`iter`: 快速生成增强型 for 循环 `for (Type element : iterable) {...}`
+`ifn`: 生成 if 语句，检查对象是否为 null `if (object == null) {...}`
+`inn`: 生成 if 语句，检查对象是否不为 null `if (object != null) {...}`
+`iferr`: 生成 try-catch 语句块，捕获异常 `try {...} catch (Exception e) {...}`
 
 此外，还有一些其他常用的快捷输入方式，如：
 
-   - `souf`: 格式化输出字符串 `System.out.printf("格式化字符串", 参数);`
-   - `psf`: 生成 `public static final` 字段 `public static final 类型 字段名 = 值;`
-   - `psfs`: 生成 `public static final String` 字段 `public static final String 字段名 = "值";`
-   - `psfi`: 生成 `public static final int` 字段 `public static final int 字段名 = 值;`
-   - `psfs`: 生成 `public static final String` 字段 `public static final String 字段名 = "值";`
+`souf`: 格式化输出字符串 `System.out.printf("格式化字符串", 参数);`
+`psf`: 生成 `public static final` 字段 `public static final 类型 字段名 = 值;`
+`psfs`: 生成 `public static final String` 字段 `public static final String 字段名 = "值";`
+`psfi`: 生成 `public static final int` 字段 `public static final int 字段名 = 值;`
+`psfs`: 生成 `public static final String` 字段 `public static final String 字段名 = "值";`
 
 这些快捷输入方式能够减少开发过程中的重复性工作，提高代码编写效率。
-3. **代码模板**
-   - 你可以使用代码模板来快速生成常用代码块，比如 `main` 方法、`for` 循环等。在设置中搜索 "Live Templates" 可以管理和添加自定义代码模板。
-
-4. **多行编辑**
-   - 在编辑器中按住 `Alt` 键并点击鼠标左键，可以进行多行同时编辑。这在需要同时修改多行代码时非常有用。
-
-5. **版本控制**
-   - IDEA集成了版本控制工具，如Git，可以方便地进行代码版本管理。通过 `VCS` 菜单可以执行版本控制相关的操作。
-
-6. **插件**
-   - IDEA支持丰富的插件生态系统，你可以根据自己的需求安装各种插件来扩展IDEA的功能，比如支持不同语言、框架的插件，或者是各种辅助工具插件等。
-
-7. **代码调试**
-   - 使用IDEA内置的调试工具可以方便地进行代码调试，设置断点、监视变量值等操作可以帮助你更快地定位和解决问题。
-
-8. **代码提示和自动补全**
-   - IDEA的代码提示和自动补全功能非常强大，能够根据上下文快速推断你想要输入的代码，大大提高了编码效率。
-
-9. **快速导航**
-   - 使用 `Ctrl + N` 或 `Ctrl + Shift + N` 可以快速跳转到类或文件，而 `Ctrl + Shift + F12` 可以最大化编辑器窗口，帮助你更专注地编写代码。
-
-10. **代码检查和重构**
-   - IDEA内置了代码检查和重构工具，可以帮助你发现潜在的问题并提供相应的解决方案，同时也能够帮助你对代码进行优化和重构，提高代码质量。
-
-
 
 # 一、语法基础 （Grammar basics）：
 
