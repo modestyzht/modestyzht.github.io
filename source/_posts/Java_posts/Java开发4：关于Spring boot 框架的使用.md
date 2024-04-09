@@ -1,6 +1,6 @@
 ---
 title: Java开发4：关于Spring boot 框架的使用
-date: 2024-4-7
+date: 2024-4-8
 description: 这篇文章中是关于Spring boot 框架的使用
 top_img: https://w.wallhaven.cc/full/m3/wallhaven-m3oq1k.jpg
 cover: https://w.wallhaven.cc/full/rr/wallhaven-rrzp5q.jpg
