@@ -7,7 +7,7 @@ copyright_author: 驴哥
 copyright_url: https://modestyzht.github.io/
 copyright_info: 此文章版权为驴哥所有,如有转载,请注明来自原作者
 categories: Java开发入门
-top：1000
+
 ---
 # Java 开发平台搭建与环境配置
 
