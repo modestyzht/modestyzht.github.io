@@ -1,5 +1,5 @@
 title: Java开发1：Idea的安装以及环境配置
-date: 2024-4-9
+date: 2024-2-10
 description: 在这篇博客文章中，我们将开始Java的学习😁😁。
 top_img: https://w.wallhaven.cc/full/m3/wallhaven-m3oq1k.jpg
 cover: https://w.wallhaven.cc/full/ex/wallhaven-exrqrr.jpg
