@@ -1,3 +1,4 @@
+---
 title: Java开发2：Java语言的一些基础知识
 date: 2024-3-26
 description: 这篇文章中是一些Java语言的基础知识，通过了解仅便于后续开发；如需进一步学习可以去B站搜索相关课程学习
@@ -9,6 +10,7 @@ copyright_info: 此文章版权为驴哥所有,如有转载,请注明来自原�
 categories: Java
 
 ---
+这篇文章仅仅用于了解Java的一些相关概念，并不是完整的Java学习内容，如果需要完整的学习，建议前往B站搜索学习；
 
 # 一、语法基础 （Grammar basics）：
 

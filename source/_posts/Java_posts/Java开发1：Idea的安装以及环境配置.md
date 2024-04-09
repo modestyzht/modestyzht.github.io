@@ -1,3 +1,4 @@
+---
 title: Java开发1：IDEA的安装以及环境配置
 date: 2024-2-10
 description: 从这篇文章开始，我们将进入Java开发的学习
