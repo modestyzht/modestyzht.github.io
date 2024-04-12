@@ -53,30 +53,30 @@ MyBatis-Plus 是 MyBatis 的增强工具包，提供了许多便捷的功能和�
 请将 latest_version_here 替换为你需要使用的 MyBatis-Plus 版本号，你可以在 Maven 仓库中查找最新版本号。
 
 添加 MySQL 依赖：
-
+```xml
 <dependency>
     <groupId>mysql</groupId>
     <artifactId>mysql-connector-java</artifactId>
     <version>8.0.36</version>
 </dependency>
-
+```
 添加数据连接池依赖：
-
+```xml
 <dependency>
     <groupId>com.alibaba</groupId>
     <artifactId>druid-spring-boot-starter</artifactId>
     <version>1.1.20</version>
 </dependency>
-
+```
 3. 全局配置
 配置数据库相关信息：
-
+```java
 spring.datasource.type=com.alibaba.druid.pool.DruidDataSource
 spring.datasource.driver-class-name=com.mysql.jdbc.Driver
 spring.datasource.url=jdbc:mysql://localhost:3306/mydb?use
 spring.datasource.username=root
 spring.datasource.password=root
 mybatis-plus.configuration.log-impl=org.apache.ibatis.logging.stdout.StdOutImpl
-
+```
 
 添加 `@MapperScan` 注解。
