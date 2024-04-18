@@ -79,4 +79,26 @@ spring.datasource.password=root
 mybatis-plus.configuration.log-impl=org.apache.ibatis.logging.stdout.StdOutImpl
 ```
 
-添加 `@MapperScan` 注解。
+# 添加 `@MapperScan` 注解。
+
+@MapperScan 注解是 MyBatis 框架中的一个注解，用于指定 MyBatis Mapper 接口所在的包路径，以便 MyBatis 能够扫描并将这些接口注册为 Mapper 映射器。
+
+使用 @MapperScan 注解可以简化 MyBatis Mapper 接口的配置，而不必一个个手动配置每个 Mapper 接口。通过指定要扫描的包路径，MyBatis 将会自动扫描这些路径下的接口，并将其注册为 Mapper 映射器，使得这些接口可以被 MyBatis 所识别并且在需要时被调用。
+
+下面是 @MapperScan 注解的基本使用方式：
+```java
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+// 指定要扫描的 Mapper 接口所在的包路径
+@MapperScan("com.example.mapper")
+public class MyApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(MyApplication.class, args);
+    }
+}
+```
+在上面的例子中，@MapperScan("com.example.mapper") 表示要扫描 com.example.mapper 包及其子包下的 Mapper 接口，并将它们注册为 Mapper 映射器。这样，在应用启动时，MyBatis 将会自动扫描这些接口，并将其配置为可用的 Mapper。
