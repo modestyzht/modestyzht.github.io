@@ -102,7 +102,97 @@ public class MyApplication {
 }
 ```
 在上面的例子中，@MapperScan("com.example.mapper") 表示要扫描 com.example.mapper 包及其子包下的 Mapper 接口，并将它们注册为 Mapper 映射器。这样，在应用启动时，MyBatis 将会自动扫描这些接口，并将其配置为可用的 Mapper。
+# 编写实体类
+```java
+public class User {
+    private Long id;
+    private String name;
+    private String email;
+    // 其他字段和getter/setter方法
+}
+```
+# 编写Mapper接口
+```java
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.example.entity.User;
 
+public interface UserMapper extends BaseMapper<User> {
+    // 可以添加一些自定义的方法
+}
+```
+# 使用Service层
+```java
+import com.example.mapper.UserMapper;
+import com.example.entity.User;
+
+public class UserService {
+    private final UserMapper userMapper;
+
+    public UserService(UserMapper userMapper) {
+        this.userMapper = userMapper;
+    }
+
+    public User getUserById(Long id) {
+        return userMapper.selectById(id);
+    }
+
+    public void saveUser(User user) {
+        userMapper.insert(user);
+    }
+    // 其他业务逻辑方法
+}
+```
+# 添加业务逻辑处理
+```java
+import org.springframework.web.bind.annotation.*;
+import com.example.entity.User;
+import com.example.service.UserService;
+
+@RestController
+@RequestMapping("/users")
+public class UserController {
+    private final UserService userService;
+
+    public UserController(UserService userService) {
+        this.userService = userService;
+    }
+
+    @GetMapping("/{id}")
+    public User getUserById(@PathVariable Long id) {
+        return userService.getUserById(id);
+    }
+
+    @PostMapping
+    public void createUser(@RequestBody User user) {
+        userService.saveUser(user);
+    }
+    // 其他请求处理方法
+}
+```
+# 使用MyBatis-Plus的插件
+```java
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import org.springframework.stereotype.Service;
+import com.example.entity.User;
+import com.example.mapper.UserMapper;
+
+@Service
+public class UserService {
+    private final UserMapper userMapper;
+
+    public UserService(UserMapper userMapper) {
+        this.userMapper = userMapper;
+    }
+
+    public Page<User> getUsersByPage(int pageNum, int pageSize) {
+        return userMapper.selectPage(new Page<>(pageNum, pageSize), null);
+    }
+}
+```
+# 运行项目
+启动Spring Boot应用程序，可以使用@SpringBootApplication注解标记启动类。
+测试各功能是否正常运行，可以使用工具如Postman发送请求并验证返回结果。
+在浏览器或Postman中访问相应的接口，检查返回结果是否符合预期。
 
 
 感谢你阅读我的博客文章！如果你有任何问题或想了解更多关于这个项目的内容，请随时与我联系。
