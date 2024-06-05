@@ -3,7 +3,7 @@ title: Java开发2：Java语言的一些基础知识
 date: 2024-3-26
 description: 这篇文章中是一些Java语言的基础知识，通过了解仅便于后续开发；如需进一步学习可以去B站搜索相关课程学习
 top_img: https://w.wallhaven.cc/full/m3/wallhaven-m3oq1k.jpg
-cover: https://w.wallhaven.cc/full/m3/wallhaven-m3m57k.jpg
+cover: https://cdn.jsdelivr.net/gh/modestyzht/mypic/img/wallhaven-m3m57k.webp
 copyright_author: 驴哥
 copyright_url: https://modestyzht.github.io/
 copyright_info: 此文章版权为驴哥所有,如有转载,请注明来自原作者
