@@ -143,9 +143,9 @@ html:not([data-theme="dark"]) #post-info #post-meta a:hover {
 #page-header #post-info {
     position: absolute;
     bottom: 0px;
-    left: 50%;
-    transform: translateX(-50%);
-    margin: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
     padding: 20px 40px;
     box-sizing: border-box;
     display: block;
