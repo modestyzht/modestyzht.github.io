@@ -2,8 +2,8 @@
 title: Linux系统入门概述
 date: 2023-7-16
 description: 欢迎来到本文，我们将介绍 Linux 操作系统的基本知识和入门要点。Linux 是一个强大且广泛使用的开源操作系统，具有广泛的应用场景和灵活性。
-top_img: https://w.wallhaven.cc/full/m3/wallhaven-m3oq1k.jpg
-cover: https://www.linuxprobe.com/wp-content/uploads/2017/07/2017-07-01-s-wz-01.jpg
+top_img: /img/core/bkgnd.jpg
+cover: /img/posts/cover-install.jpg
 copyright_author: 驴哥
 copyright_url: https://modestyzht.github.io/
 copyright_info: 此文章版权为驴哥所有,如有转载,请注明来自原作者
