@@ -1,5 +1,5 @@
 function updateRuntime() {
-  const createTime = new Date('2023-01-12T00:00:00').getTime();
+  const createTime = new Date('2023-07-17T00:00:00').getTime();
   const now = new Date().getTime();
   let totalSeconds = Math.floor((now - createTime) / 1000);
   const daysInYear = 365;

@@ -209,11 +209,11 @@ footer:
   nav:
   owner:
     enable: true
-    since: 2020
+    since: 2023
   copyright:
     enable: false
     version: true
-  custom_text: <dev><a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">陕ICP备2025072980号-1</a></dev><div id="workboard"></div>
+  custom_text: <div id="workboard"></div>
 
 # aside (侧边栏)
 # --------------------------------------
