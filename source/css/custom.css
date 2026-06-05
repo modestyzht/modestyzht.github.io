@@ -6,21 +6,35 @@
 
 /* ================== 导航栏字体图标放大 ================== */
 #nav .site-name {
-    font-size: 1.35rem;
+    font-size: 1.6rem;
 }
+/* 普通菜单项（主页） */
+#nav .menus_items .menus_item > a,
 #nav .menus_items .menus_item > a > i,
 #nav .menus_items .menus_item > a > span {
-    font-size: 1.05rem;
+    font-size: 1.2rem !important;
 }
+/* 下拉菜单父级项（AI、文章、链接） */
+#nav .menus_items .menus_item > span.site-page,
+#nav .menus_items .menus_item > span.site-page > i,
+#nav .menus_items .menus_item > span.site-page > span {
+    font-size: 1.2rem !important;
+}
+/* 下拉子菜单 */
 #nav .menus_items .menus_item .menus_item_child li a {
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 #nav .menus_items .menus_item .menus_item_child li a i {
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 #nav .site-icon {
-    width: 32px;
-    height: 32px;
+    width: 38px;
+    height: 38px;
+}
+#search-button > a,
+#search-button > a > span,
+#search-button > a > i {
+    font-size: 1.2rem;
 }
 
 /* ================== 全局毛玻璃样式 ================== */

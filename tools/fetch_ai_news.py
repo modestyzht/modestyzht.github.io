@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 AI 新闻自动抓取脚本
-从多个 RSS 源获取 AI 相关新闻，生成 Hexo 格式的 Markdown 文章。
+从多个 RSS 源获取 AI 相关新闻，抓取完整内容，生成 Hexo 格式的 Markdown 文章。
 """
 
 import feedparser
@@ -9,8 +9,10 @@ import hashlib
 import json
 import os
 import re
+import requests
 from datetime import datetime, timedelta
-from pathlib import Path
+from bs4 import BeautifulSoup
+from markdownify import markdownify as md
 
 # ── 配置 ──────────────────────────────────────────────────────────────────────
 
@@ -23,11 +25,16 @@ RSS_FEEDS = [
     {"name": "ArXiv AI", "url": "http://export.arxiv.org/rss/cs.AI", "lang": "en"},
 ]
 
-MAX_NEWS_PER_DAY = 20
+MAX_NEWS_PER_DAY = 10  # 减少数量，因为每篇都会抓取完整内容
 DEDUP_FILE = "tools/news_history.json"
 OUTPUT_DIR = "source/_posts"
 JSON_OUTPUT = "source/data/latest-news.json"
 CATEGORY = "AI新闻"
+
+# 请求头
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+}
 
 
 # ── 工具函数 ──────────────────────────────────────────────────────────────────
@@ -44,10 +51,8 @@ def extract_summary(text: str, source: str) -> str:
     if not text:
         return ""
 
-    # 清理 HTML 标签
     text = clean_html(text)
 
-    # 移除 Hacker News 的无用信息
     if source == "Hacker News":
         hn_patterns = [
             r'Article URL:\s*https?://\S+',
@@ -58,16 +63,69 @@ def extract_summary(text: str, source: str) -> str:
         for pattern in hn_patterns:
             text = re.sub(pattern, '', text)
 
-    # 清理多余空白和标点
     text = re.sub(r'\s+', ' ', text).strip()
     text = re.sub(r'^[\s\-:：,，]+', '', text)
     text = re.sub(r'[\s\-:：,，]+$', '', text)
 
-    # 如果清理后内容太短，返回空
     if len(text) < 15:
         return ""
 
     return text[:250]
+
+
+def fetch_article_content(url: str) -> str:
+    """抓取文章完整内容并转换为 Markdown"""
+    try:
+        response = requests.get(url, headers=HEADERS, timeout=15)
+        response.raise_for_status()
+        response.encoding = response.apparent_encoding or 'utf-8'
+
+        soup = BeautifulSoup(response.text, 'html.parser')
+
+        # 移除无用元素
+        for tag in soup.find_all(['script', 'style', 'nav', 'header', 'footer', 'aside', 'iframe']):
+            tag.decompose()
+
+        # 尝试找到文章主体
+        article = None
+        # 常见的文章容器选择器
+        selectors = [
+            'article',
+            '[class*="article"]',
+            '[class*="post"]',
+            '[class*="content"]',
+            '[class*="story"]',
+            'main',
+            '.entry-content',
+            '#content',
+        ]
+        for selector in selectors:
+            article = soup.select_one(selector)
+            if article and len(article.get_text(strip=True)) > 200:
+                break
+
+        if not article:
+            article = soup.find('body')
+
+        if not article:
+            return ""
+
+        # 转换为 Markdown
+        content = md(str(article), heading_style="ATX", strip=['img'])
+
+        # 清理 Markdown
+        content = re.sub(r'\n{3,}', '\n\n', content)
+        content = content.strip()
+
+        # 限制长度（避免过长）
+        if len(content) > 8000:
+            content = content[:8000] + "\n\n*（内容已截断）*"
+
+        return content
+
+    except Exception as e:
+        print(f"  [WARN] Failed to fetch article: {e}")
+        return ""
 
 
 def load_history() -> dict:
@@ -97,7 +155,6 @@ def fetch_all_feeds() -> list:
         try:
             feed = feedparser.parse(feed_config["url"])
             for entry in feed.entries[:10]:
-                # 尝试从多个字段获取摘要
                 raw_summary = entry.get("summary", "") or entry.get("description", "")
                 summary = extract_summary(raw_summary, feed_config["name"])
 
@@ -119,7 +176,6 @@ def deduplicate(entries: list, history: dict) -> list:
     """基于链接哈希去重，确保每个来源都有新闻"""
     seen = set(h["hash"] for h in history["published"])
 
-    # 按来源分组
     by_source = {}
     for entry in entries:
         source = entry["source"]
@@ -127,9 +183,8 @@ def deduplicate(entries: list, history: dict) -> list:
             by_source[source] = []
         by_source[source].append(entry)
 
-    # 从每个来源选取新闻，确保多样性
     unique = []
-    per_source = max(3, MAX_NEWS_PER_DAY // len(by_source)) if by_source else MAX_NEWS_PER_DAY
+    per_source = max(2, MAX_NEWS_PER_DAY // len(by_source)) if by_source else MAX_NEWS_PER_DAY
 
     for source, source_entries in by_source.items():
         count = 0
@@ -150,10 +205,26 @@ def deduplicate(entries: list, history: dict) -> list:
     return unique[:MAX_NEWS_PER_DAY]
 
 
+# ── 内容抓取 ──────────────────────────────────────────────────────────────────
+
+def fetch_full_content(entries: list) -> list:
+    """抓取每篇文章的完整内容"""
+    print("\n--- Fetching full article content ---")
+    for i, entry in enumerate(entries, 1):
+        print(f"[{i}/{len(entries)}] {entry['title'][:50]}...")
+        content = fetch_article_content(entry["link"])
+        entry["content"] = content
+        if content:
+            print(f"  OK: {len(content)} chars")
+        else:
+            print(f"  SKIP: no content")
+    return entries
+
+
 # ── Markdown 生成 ─────────────────────────────────────────────────────────────
 
 def generate_markdown(entries: list) -> str:
-    """生成一篇 Hexo 文章，包含当日所有新闻"""
+    """生成一篇 Hexo 文章，包含每篇新闻的完整内容"""
     today = datetime.now()
     date_str = today.strftime("%Y-%m-%d")
     title = f"AI 日报 - {date_str}"
@@ -172,15 +243,28 @@ cover: /img/core/bkgnd.jpg
     body = f"\n# {title}\n\n"
     body += f"> 本文由脚本自动生成，共收录 {len(entries)} 条 AI 相关资讯。\n\n"
 
+    # 生成目录
+    body += "## 目录\n\n"
     for i, entry in enumerate(entries, 1):
-        summary = clean_html(entry["summary"])
+        body += f"{i}. [{entry['title']}](#{i})\n"
+    body += "\n---\n\n"
+
+    # 生成每篇文章
+    for i, entry in enumerate(entries, 1):
         lang_text = "中文" if entry["lang"] == "zh" else "英文"
-        body += f"## {i}. {entry['title']}\n\n"
-        body += f"**来源**: {entry['source']} | **语言**: {lang_text}\n\n"
-        if summary:
-            body += f"{summary}\n\n"
-        body += f"[阅读原文]({entry['link']})\n\n"
-        body += "---\n\n"
+        body += f"<h2 id=\"{i}\">{i}. {entry['title']}</h2>\n\n"
+        body += f"**来源**: {entry['source']} | **语言**: {lang_text} | "
+        body += f"[原文链接]({entry['link']})\n\n"
+
+        if entry.get("content"):
+            body += entry["content"]
+        elif entry.get("summary"):
+            body += f"> {entry['summary']}\n\n"
+            body += f"*（无法获取完整内容，请点击原文链接阅读）*\n"
+        else:
+            body += f"*（无法获取内容，请点击原文链接阅读）*\n"
+
+        body += "\n\n---\n\n"
 
     return front_matter + body
 
@@ -195,13 +279,15 @@ def generate_json(entries: list) -> str:
         "items": []
     }
     for entry in entries:
-        summary = entry["summary"] if entry["summary"] else "暂无摘要，点击阅读原文查看完整内容"
+        summary = entry["summary"] if entry["summary"] else "暂无摘要"
+        has_content = bool(entry.get("content"))
         data["items"].append({
             "title": entry["title"],
             "link": entry["link"],
             "summary": summary,
             "source": entry["source"],
-            "lang": entry["lang"]
+            "lang": entry["lang"],
+            "has_content": has_content
         })
     return json.dumps(data, ensure_ascii=False, indent=2)
 
@@ -220,6 +306,9 @@ def main():
     if not entries:
         print("No new AI news found today.")
         return
+
+    # 抓取完整内容
+    entries = fetch_full_content(entries)
 
     # 生成 Markdown 文章
     markdown = generate_markdown(entries)

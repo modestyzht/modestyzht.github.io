@@ -1,147 +1,71 @@
 {
   "date": "2026-06-06",
-  "updated": "2026-06-06 00:18:08",
-  "count": 20,
+  "updated": "2026-06-06 00:27:22",
+  "count": 8,
   "items": [
     {
       "title": "架构变更案例：面向演进式架构的实用方法",
       "link": "https://www.infoq.cn/article/arLDulGp7TW4dAUaCMHB?utm_source=rss&utm_medium=article",
-      "summary": "暂无摘要，点击阅读原文查看完整内容",
+      "summary": "暂无摘要",
       "source": "InfoQ",
-      "lang": "zh"
+      "lang": "zh",
+      "has_content": true
     },
     {
       "title": "openJiuwen 社区又上新： JiuwenSwarm 给 Harness 装上「后训练」",
       "link": "https://www.infoq.cn/article/lk4PwQKXhgPSlM7a8ACU?utm_source=rss&utm_medium=article",
-      "summary": "暂无摘要，点击阅读原文查看完整内容",
+      "summary": "暂无摘要",
       "source": "InfoQ",
-      "lang": "zh"
+      "lang": "zh",
+      "has_content": true
     },
     {
-      "title": "从流水线到蜂巢：AI 时代企业组织如何进化",
-      "link": "https://www.infoq.cn/article/Oaa5FuLAwC0ADOgm3DKY?utm_source=rss&utm_medium=article",
-      "summary": "暂无摘要，点击阅读原文查看完整内容",
-      "source": "InfoQ",
-      "lang": "zh"
-    },
-    {
-      "title": "超越客户 360：通过自适应体验赢得谨慎消费者的技术栈 ｜ 技术趋势",
-      "link": "https://www.infoq.cn/article/g4wSu5ZhdrugHA4KXSw9?utm_source=rss&utm_medium=article",
-      "summary": "暂无摘要，点击阅读原文查看完整内容",
-      "source": "InfoQ",
-      "lang": "zh"
-    },
-    {
-      "title": "Node.js 从 27 版本开始改为每年发布一个大版本",
-      "link": "https://www.infoq.cn/article/9yfZrDDTaZYOSP2idLXh?utm_source=rss&utm_medium=article",
-      "summary": "暂无摘要，点击阅读原文查看完整内容",
-      "source": "InfoQ",
-      "lang": "zh"
+      "title": "Y Combinator's CEO says he ships 37,000 lines of AI code per day",
+      "link": "https://www.fastcompany.com/91520702/y-combinator-garry-tan-agentic-ai-social-media",
+      "summary": "暂无摘要",
+      "source": "Hacker News",
+      "lang": "en",
+      "has_content": false
     },
     {
       "title": "Vibe Justice System – AI Courts convened in pursuit of correctness",
       "link": "https://github.com/wlilley93/vibe-justice-system",
-      "summary": "暂无摘要，点击阅读原文查看完整内容",
+      "summary": "暂无摘要",
       "source": "Hacker News",
-      "lang": "en"
-    },
-    {
-      "title": "AI must foster 'maternal instincts' or we risk extinction, warns Geoffrey Hinton",
-      "link": "https://www.cbc.ca/radio/ideas/geoffrey-hinton-maternal-instincts-9.7094116",
-      "summary": "暂无摘要，点击阅读原文查看完整内容",
-      "source": "Hacker News",
-      "lang": "en"
-    },
-    {
-      "title": "Machine-verified proof that M3P ∈ P and P = NP via Pedigree Polytopes",
-      "link": "https://github.com/TiruArt/Pedigree-Polytopes-Lean4",
-      "summary": "暂无摘要，点击阅读原文查看完整内容",
-      "source": "Hacker News",
-      "lang": "en"
-    },
-    {
-      "title": "Flood of AI 'garbage' is pushing open-source developers to the limit",
-      "link": "https://www.newscientist.com/article/2527761-flood-of-ai-garbage-is-pushing-open-source-developers-to-the-limit/",
-      "summary": "暂无摘要，点击阅读原文查看完整内容",
-      "source": "Hacker News",
-      "lang": "en"
-    },
-    {
-      "title": "CrankGPT: A human-powered local and private AI solution",
-      "link": "https://crankgpt.com/",
-      "summary": "暂无摘要，点击阅读原文查看完整内容",
-      "source": "Hacker News",
-      "lang": "en"
+      "lang": "en",
+      "has_content": true
     },
     {
       "title": "New York lawmakers pass one-year ban on new data centers",
       "link": "https://www.theverge.com/policy/944041/new-york-data-center-moratorium",
       "summary": "The New York State legislature passed a one-year moratorium on new large data centers, the first statewide ban of its kind if Democratic Governor Kathy Hochul signs it into law. Lawmakers behind the bill say it's meant to give policymakers time to un",
       "source": "The Verge",
-      "lang": "en"
+      "lang": "en",
+      "has_content": true
     },
     {
       "title": "This AI startup says it can tell if a script will make a hit film",
       "link": "https://www.theverge.com/ai-artificial-intelligence/943531/ai-script-quilty-simon-horsman-daniel-wood",
       "summary": "When Quilty hit the industry trades earlier this year, the AI startup promised that its tool could accurately predict a film's success just by reading the script. When people actually got a chance to experiment with Quilty's product, though, they wer",
       "source": "The Verge",
-      "lang": "en"
-    },
-    {
-      "title": "Kevin O’Leary agrees to downsize massive Utah data center",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/943234/kevin-oleary-agrees-to-downsize-massive-utah-data-center",
-      "summary": "Kevin O'Leary agreed to halve the size of his planned 40,000-acre data center in Utah amid mounting pressure from residents and activists, as reported earlier by local affiliate ABC4. The Shark Tank star sent a letter to Utah Senate President J. Stua",
-      "source": "The Verge",
-      "lang": "en"
-    },
-    {
-      "title": "TSMC struggles to keep up with AI demand: &#8216;We can only support so much&#8217;",
-      "link": "https://www.theverge.com/tech/943066/tsmc-ai-demand-struggles",
-      "summary": "Taiwan Semiconductor Manufacturing Co. - the world's biggest semiconductor-maker - is struggling to meet demands from American customers even with its factory buildout in the US, according to reports from Reuters and Bloomberg. \"Customer demand is so",
-      "source": "The Verge",
-      "lang": "en"
-    },
-    {
-      "title": "Elon Musk is steamrolling Wall Street to become a trillionaire",
-      "link": "https://www.theverge.com/podcast/942586/elon-musk-spacex-ipo-x-xai-index-funds",
-      "summary": "Today on Decoder, I’m talking to Ryan Mac, a technology reporter at The New York Times and coauthor of the excellent book Character Limit: How Elon Musk Destroyed Twitter, which came out in 2024. I can’t recommend it enough. I wanted to have Ryan on ",
-      "source": "The Verge",
-      "lang": "en"
+      "lang": "en",
+      "has_content": true
     },
     {
       "title": "The Download: AI hacking beyond Mythos, and chatbots’ impact on our brains",
       "link": "https://www.technologyreview.com/2026/06/05/1138452/the-download-ai-hacking-mythos-chatbots-brain-impacts/",
       "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The Meta hack shows there’s more to AI security than Mythos On Monday, reports emerged that attacker",
       "source": "MIT Tech Review",
-      "lang": "en"
+      "lang": "en",
+      "has_content": true
     },
     {
       "title": "Are AI chatbots making us lose control of our brains?",
       "link": "https://www.technologyreview.com/2026/06/05/1138427/are-ai-chatbots-making-us-lose-control-of-our-brains/",
       "summary": "This week I’ve been at SXSW London. There’s been music, film, and a lot—and I mean a lot—of talk about AI. I also had the opportunity to sit down with Gloria Mark, a psychologist at the University of California, Irvine, who has spent the last 30 year",
       "source": "MIT Tech Review",
-      "lang": "en"
-    },
-    {
-      "title": "The Meta hack shows there’s more to AI security than Mythos",
-      "link": "https://www.technologyreview.com/2026/06/05/1138437/the-meta-hack-shows-theres-more-to-ai-security-than-mythos/",
-      "summary": "On June 5, 404 Media reported that attackers had been using Meta’s AI customer support agent to steal Instagram accounts. Their approach was simple: They asked the agent to link the accounts to email addresses that they controlled, and the agent comp",
-      "source": "MIT Tech Review",
-      "lang": "en"
-    },
-    {
-      "title": "The Download: AI-generated lawsuits and virtual power plants for data centers",
-      "link": "https://www.technologyreview.com/2026/06/04/1138408/the-download-ai-lawsuits-virtual-power-plants-data-centers/",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How courts are coping with a flood of AI-generated lawsuits Most days in her chambers, Judge Maritza",
-      "source": "MIT Tech Review",
-      "lang": "en"
-    },
-    {
-      "title": "How courts are coping with a flood of AI-generated lawsuits",
-      "link": "https://www.technologyreview.com/2026/06/04/1138391/courts-coping-ai-lawsuits/",
-      "summary": "Most days in her chambers, Judge Maritza Braswell, a federal magistrate judge in Colorado, sifts through stacks of documents written by people without a lawyer. Many of them can’t afford to hire a lawyer, and others have cases too weak or too small t",
-      "source": "MIT Tech Review",
-      "lang": "en"
+      "lang": "en",
+      "has_content": true
     }
   ]
 }
