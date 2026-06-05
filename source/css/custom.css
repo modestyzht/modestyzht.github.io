@@ -151,6 +151,8 @@ html:not([data-theme="dark"]) #post-info #post-meta a:hover {
     display: block;
     text-align: left;
     border-radius: 10px;
+    width: calc(100% - 40px);
+    max-width: 800px;
 }
 @media screen and (max-width: 768px) {
     #page-header #post-info {
