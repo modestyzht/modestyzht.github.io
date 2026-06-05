@@ -10,6 +10,7 @@ nav:
 # Menu 目录
 menu:
  主页: / || fas fa-home
+ 新闻: /news/ || fas fa-newspaper
  文章||fas fa-archive:
    归档: /archives/ || fas fa-archive
    标签: /tags/ || fas fa-tags

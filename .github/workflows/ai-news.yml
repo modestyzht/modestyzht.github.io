@@ -1,0 +1,39 @@
+name: AI News Daily Update
+
+on:
+  schedule:
+    # 每天北京时间早上 8:00 (UTC 0:00)
+    - cron: '0 0 * * *'
+  workflow_dispatch:  # 支持手动触发
+
+jobs:
+  fetch-news:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r tools/requirements.txt
+
+      - name: Fetch and generate AI news
+        run: python tools/fetch_ai_news.py
+
+      - name: Check for changes
+        id: check
+        run: |
+          git diff --quiet source/_posts/ || echo "has_changes=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push
+        if: steps.check.outputs.has_changes == 'true'
+        run: |
+          git config user.name "AI News Bot"
+          git config user.email "bot@modestyzht.github.io"
+          git add source/_posts/ai-daily-*.md tools/news_history.json
+          git commit -m "AI Daily: $(date +%Y-%m-%d)"
+          git push

@@ -8,3 +8,8 @@ public/
 _multiconfig.yml
 package-lock.json
 yarn.lock
+
+# Python
+__pycache__/
+*.pyc
+*.pyo

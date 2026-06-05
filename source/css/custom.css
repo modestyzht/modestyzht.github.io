@@ -1,6 +1,6 @@
 /* ================== 标题分离 ================== */
-/* 中间大标题 → 西北驴哥的博客 */
-#site-title::after {
+/* 中间大标题 → 西北驴哥的博客（仅首页） */
+.is-home #site-title::after {
     content: "的博客";
 }
 
@@ -541,4 +541,120 @@ html[data-theme="dark"] .category-lists .category-list-child .category-list-link
 html[data-theme="dark"] .category-lists .category-list-child .category-list-count {
     background: rgba(255,255,255,0.1);
     color: #999;
+}
+
+/* ================== 新闻页面样式 ================== */
+.news-list {
+    margin-top: 30px;
+}
+
+.news-item {
+    padding: 24px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border: 1px solid rgba(255, 255, 255, 0.85);
+    box-shadow: 0 4px 12px rgba(138, 138, 138, 0.1);
+    transition: all 0.3s ease;
+}
+
+.news-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(73, 177, 245, 0.2);
+    border-color: rgba(73, 177, 245, 0.3);
+}
+
+.news-title {
+    margin: 0 0 12px 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.news-title a {
+    color: #2c3e50;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.news-title a:hover {
+    color: #49b1f5;
+}
+
+.news-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 12px;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.news-meta i {
+    margin-right: 6px;
+}
+
+.news-tags {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.news-tags a.tag {
+    color: #49b1f5;
+    text-decoration: none;
+    padding: 2px 10px;
+    border-radius: 12px;
+    background: rgba(73, 177, 245, 0.1);
+    font-size: 0.8rem;
+    transition: all 0.3s ease;
+}
+
+.news-tags a.tag:hover {
+    background: #49b1f5;
+    color: #fff;
+}
+
+.news-desc {
+    margin: 0;
+    color: #555;
+    line-height: 1.7;
+    font-size: 0.95rem;
+}
+
+/* 夜间模式 */
+html[data-theme="dark"] .news-item {
+    background: rgba(30, 30, 30, 0.6);
+    border-color: rgba(255, 255, 255, 0.08);
+}
+
+html[data-theme="dark"] .news-item:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    border-color: rgba(73, 177, 245, 0.4);
+}
+
+html[data-theme="dark"] .news-title a {
+    color: #c0c0c0;
+}
+
+html[data-theme="dark"] .news-title a:hover {
+    color: #49b1f5;
+}
+
+html[data-theme="dark"] .news-meta {
+    color: #999;
+}
+
+html[data-theme="dark"] .news-desc {
+    color: #aaa;
+}
+
+html[data-theme="dark"] .news-tags a.tag {
+    background: rgba(73, 177, 245, 0.15);
+}
+
+html[data-theme="dark"] .news-tags a.tag:hover {
+    background: #49b1f5;
+    color: #fff;
 }
