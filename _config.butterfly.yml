@@ -10,11 +10,12 @@ nav:
 # Menu 目录
 menu:
  主页: / || fas fa-home
+ 论文: /paper/ || fas fa-file-alt
  AI||fas fa-robot:
    日报: /news/ || fas fa-newspaper
    # 智能体: /agents/ || fas fa-brain
    Skill: /skills/ || fas fa-magic
- 文章||fas fa-archive:
+ 博客||fas fa-archive:
    归档: /archives/ || fas fa-archive
    标签: /tags/ || fas fa-tags
    分类: /categories/ || fas fa-folder-open
@@ -239,7 +240,7 @@ aside:
     button:
       enable: true
       icon: fa-solid fa-dinosaur
-      text: 跟俺来！
+      text: 跟俺来！（码仓）
       link: https://github.com/modestyzht/modestyzht.github.io
   card_announcement:
     enable: true
