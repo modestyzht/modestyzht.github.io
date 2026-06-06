@@ -13,3 +13,6 @@ yarn.lock
 __pycache__/
 *.pyc
 *.pyo
+
+# Theme (installed via npm)
+themes/
