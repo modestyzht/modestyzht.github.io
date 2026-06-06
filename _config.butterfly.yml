@@ -11,9 +11,9 @@ nav:
 menu:
  主页: / || fas fa-home
  AI||fas fa-robot:
-   新闻: /news/ || fas fa-newspaper
+   日报: /news/ || fas fa-newspaper
    # 智能体: /agents/ || fas fa-brain
-   # Skill: /skills/ || fas fa-magic
+   Skill: /skills/ || fas fa-magic
  文章||fas fa-archive:
    归档: /archives/ || fas fa-archive
    标签: /tags/ || fas fa-tags

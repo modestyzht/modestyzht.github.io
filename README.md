@@ -10,6 +10,20 @@
 
 ## 主要特性
 
+### AI 新闻日报系统
+- **自动抓取**: 基于 RSS 订阅源，每天自动抓取全球 AI 领域最新资讯
+- **多源聚合**: 聚合机器之心、InfoQ、Hacker News、The Verge、MIT Tech Review、ArXiv 等 6 大来源
+- **智能去重**: 基于链接哈希自动去重，确保内容唯一性
+- **完整内容**: 自动抓取文章全文并转换为 Markdown 格式
+- **定时更新**: 通过 GitHub Actions 每天北京时间 8:00 自动更新
+- **专属封面**: AI 日报配有专属封面图片，提升视觉识别度
+
+### AI Skill 技能中心
+- **25+ 热门 Skill**: 涵盖设计、前端、移动端、动画、文档、多媒体、代码工具等 7 大类
+- **详细文档**: 每个 Skill 包含名称、作用、使用方法、适配工具和 GitHub 仓库
+- **主流工具支持**: 兼容 Claude Code、Codex、Cursor、OpenCode、MiniMax CLI 等 AI 编码工具
+- **仓库溯源**: 标注每个 Skill 的 GitHub 仓库地址和 Star 数量
+
 ### 主题与样式
 - **Butterfly 主题**: 功能丰富、设计优雅的 Hexo 主题
 - **毛玻璃效果**: 全局半透明模糊背景，营造现代感
@@ -35,6 +49,12 @@
 
 博客包含 21 篇技术文章，涵盖以下分类:
 
+### AI 新闻日报 (每日更新)
+- 自动抓取全球 AI 领域最新资讯
+- 涵盖大模型、AI 应用、学术研究等方向
+- 支持中英文双语内容
+- 查看最新日报: [AI 新闻](https://modestyzht.github.io/news/)
+
 ### Java 开发 (6 篇)
 - IDEA 安装及环境配置
 - Java 语言基础知识
@@ -57,6 +77,16 @@
 - 博客入坑指南
 - 模块化 PRD 方法
 
+### AI Skill 技能中心
+- **设计类**: soft-skill、redesign-skill、minimalist-skill、brutalist-skill、color-font-skill、brandkit
+- **前端开发类**: frontend-dev、fullstack-dev、imagegen-frontend-web
+- **移动端开发类**: react-native-dev、flutter-dev、ios-application-dev、android-native-dev
+- **GSAP 动画类**: gsap-core、gsap-scrolltrigger、gsap-react
+- **文档生成类**: minimax-docx、minimax-pdf、minimax-xlsx、pptx-generator
+- **多媒体创作类**: minimax-music-gen、web-video-presentation、image-to-code-skill、gif-sticker-maker
+- **代码工具类**: code-review、claude-api、security-review、simplify
+- 查看全部技能: [AI Skill](https://modestyzht.github.io/skills/)
+
 ## 项目结构
 
 ```
@@ -64,21 +94,35 @@ modestyzht.github.io/
 ├── _config.yml              # Hexo 主配置
 ├── _config.butterfly.yml    # Butterfly 主题配置
 ├── package.json             # 项目依赖
+├── tools/
+│   ├── fetch_ai_news.py     # AI 新闻自动抓取脚本
+│   └── news_history.json    # 新闻去重记录
 ├── source/
 │   ├── _posts/              # 文章目录
 │   │   ├── Java_posts/      # Java 系列文章
-│   │   └── Linux_postd/     # Linux 系列文章
+│   │   ├── Linux_postd/     # Linux 系列文章
+│   │   └── ai-daily-*.md    # AI 日报文章
+│   ├── news/                # AI 新闻日报页面
+│   │   └── index.md
+│   ├── skills/              # AI Skill 技能中心
+│   │   └── index.md
+│   ├── data/
+│   │   └── latest-news.json # 最新新闻 JSON 数据
 │   ├── css/
 │   │   └── custom.css       # 自定义样式
 │   ├── js/
 │   │   └── runtime.js       # 运行时间脚本
-│   ├── img/                 # 图片资源
+│   ├── img/
+│   │   └── core/
+│   │       ├── bkgnd.jpg    # 默认背景图
+│   │       └── ai-daily-cover.png  # AI 日报封面
 │   ├── tags/                # 标签页
 │   └── categories/          # 分类页
 ├── themes/
 │   └── butterfly/           # Butterfly 主题
 └── .github/workflows/
-    └── gh-pages.yml         # GitHub Actions 配置
+    ├── gh-pages.yml         # GitHub Actions 部署配置
+    └── ai-news.yml          # AI 新闻自动更新配置
 ```
 
 ## 自定义样式说明
