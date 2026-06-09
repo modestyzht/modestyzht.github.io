@@ -21,6 +21,7 @@ menu:
    分类: /categories/ || fas fa-folder-open
  链接||fas fa-list:
    音乐: /music/ || fas fa-music
+   中转站: https://api.mirrorworkforce.cn/ || fas fa-server
   #   Movie: /movies/ || fas fa-video
   # Link: /link/ || fas fa-link
   # About: /about/ || fas fa-heart
