@@ -214,7 +214,7 @@ npm run deploy
 - hexo-generator-search - 本地搜索
 - hexo-renderer-marked - Markdown 渲染
 - hexo-renderer-stylus - CSS 预处理
-- hexo-browsersync - 实时预览
+- hexo-server - 本地预览
 
 ## 配置要点
 

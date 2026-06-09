@@ -294,26 +294,6 @@ def generate_json(entries: list) -> str:
 
 # ── 旧日报清理 ────────────────────────────────────────────────────────────────
 
-def strip_old_daily_frontmatter():
-    """移除旧 AI 日报的 front-matter，使首页只展示最新一篇"""
-    today_file = f"ai-daily-{datetime.now().strftime('%Y-%m-%d')}.md"
-    for fname in os.listdir(OUTPUT_DIR):
-        if not fname.startswith("ai-daily-") or not fname.endswith(".md"):
-            continue
-        if fname == today_file:
-            continue
-        filepath = os.path.join(OUTPUT_DIR, fname)
-        with open(filepath, "r", encoding="utf-8") as f:
-            content = f.read()
-        # 匹配开头的 front-matter 块
-        match = re.match(r'^---\s*\n.*?\n---\s*\n', content, re.DOTALL)
-        if match:
-            new_content = content[match.end():]
-            with open(filepath, "w", encoding="utf-8") as f:
-                f.write(new_content)
-            print(f"[Clean] Stripped front-matter: {fname}")
-
-
 # ── 主流程 ────────────────────────────────────────────────────────────────────
 
 def main():
@@ -331,9 +311,6 @@ def main():
 
     # 抓取完整内容
     entries = fetch_full_content(entries)
-
-    # 移除旧日报的 front-matter
-    strip_old_daily_frontmatter()
 
     # 生成 Markdown 文章
     markdown = generate_markdown(entries)

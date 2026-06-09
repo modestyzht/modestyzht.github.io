@@ -157,7 +157,7 @@ type: paper
 LLM 架构、训练、对齐与应用 {.section-desc}
 
 <div class="paper-grid">
-  <a href="/paper/papers/attention-is-all-you-need/" class="paper-card" style="--accent: #3498db;">
+  <a href="/paper/papers/attention-is-all-you-need.html" class="paper-card" style="--accent: #3498db;">
     <div class="paper-icon"><i class="fas fa-brain"></i></div>
     <div class="paper-card-content">
       <h3>Attention Is All You Need</h3>

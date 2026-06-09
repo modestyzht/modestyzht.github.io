@@ -147,7 +147,7 @@ aside: false
   </div>
 
   <div class="paper-section">
-    <h2><i class="fas fa-impact"></i> 影响与意义</h2>
+    <h2><i class="fas fa-bolt"></i> 影响与意义</h2>
     <p>
       Transformer 架构彻底改变了深度学习的格局：
     </p>
@@ -160,7 +160,7 @@ aside: false
   </div>
 
   <div class="paper-section" style="text-align: center; margin-top: 40px;">
-    <a href="https://arxiv.org/abs/1706.03762" target="_blank" class="paper-link">
+    <a href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer" class="paper-link">
       <i class="fas fa-external-link-alt"></i> 查看论文原文 (arXiv)
     </a>
   </div>

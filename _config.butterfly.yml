@@ -98,8 +98,8 @@ cover:
 
 # Replace Broken Images (替换无法显示的图片)
 error_img:
-  flink: /img/friend_404.gif
-  post_page: /img/404.jpg
+  flink: /img/glama.png
+  post_page: /img/glama.png
 
 # A simple 404 page
 error_404:
@@ -287,6 +287,11 @@ visitors:
   busuanzi_config:
     site_uv: true
     site_pv: true
+
+busuanzi:
+  site_uv: false
+  site_pv: false
+  page_pv: false
 
 
 # Time difference between publish date and now (网页运行时间)
@@ -923,7 +928,7 @@ inject:
     - <link rel="stylesheet" href="/css/custom.css">
     - <link rel="stylesheet" href="/css/runtime.css">
   bottom:
-    - <script src="https://cdnjs.cloudflare.com/ajax/libs/pangu/4.0.7/pangu.min.js"></script>
+    - <script src="/vendor/pangu/pangu.umd.js"></script>
     - <script> const initPangu = () => { if (typeof pangu !== 'undefined') { pangu.spacingPage(); } }; document.addEventListener('DOMContentLoaded', initPangu); document.addEventListener('pjax:complete', initPangu); </script>
     - <script src="/js/runtime.js"></script>
     - <script src="/js/tag-enhance.js"></script>
@@ -940,7 +945,7 @@ CDN:
   # The CDN provider of third party scripts (第三方 js 的 cdn 配置)
   # option: local/jsdelivr/unpkg/cdnjs/custom
   # when set it to local, you need to install hexo-butterfly-extjs
-  third_party_provider: jsdelivr
+  third_party_provider: local
 
   # Add version number to url, true or false
   version: false
@@ -971,8 +976,8 @@ CDN:
     # waline_js:
     # waline_css:
     # giscus:
-    # sharejs:
-    # sharejs_css:
+    sharejs: /vendor/sharejs/js/social-share.min.js
+    sharejs_css: /vendor/sharejs/css/share.min.css
     # mathjax:
     # katex:
     # katex_copytex:
@@ -993,7 +998,8 @@ CDN:
     # fireworks:
     # click_heart:
     # ClickShowText:
-    # fontawesome:
+    fontawesome: /vendor/fontawesome/css/all.min.css
+    egjs_infinitegrid: /vendor/infinitegrid/infinitegrid.min.js
     # flickr_justified_gallery_js:
     # flickr_justified_gallery_css:
     # aplayer_css:

@@ -4,9 +4,9 @@ db.json
 *.log
 node_modules/
 public/
+source/vendor/
 .deploy*/
 _multiconfig.yml
-package-lock.json
 yarn.lock
 
 # Python

@@ -1,39 +1,90 @@
-function updateRuntime() {
-  const createTime = new Date('2023-07-17T00:00:00').getTime();
-  const now = new Date().getTime();
-  let totalSeconds = Math.floor((now - createTime) / 1000);
-  const daysInYear = 365;
-  const years = Math.floor(totalSeconds / (daysInYear * 24 * 3600));
-  totalSeconds %= (daysInYear * 24 * 3600);
+(function () {
+  const SITE_START_AT = '2023-07-17T00:00:00+08:00';
+  let runtimeTimer = null;
 
-  const days = Math.floor(totalSeconds / (24 * 3600));
-  totalSeconds %= (24 * 3600);
+  function pad(num) {
+    return String(num).padStart(2, '0');
+  }
 
-  const hours = Math.floor(totalSeconds / 3600);
-  totalSeconds %= 3600;
+  function getElapsedParts() {
+    const startTime = new Date(SITE_START_AT).getTime();
+    const now = Date.now();
+    let totalSeconds = Math.max(0, Math.floor((now - startTime) / 1000));
 
-  const minutes = Math.floor(totalSeconds / 60);
-  const seconds = totalSeconds % 60;
+    const years = Math.floor(totalSeconds / (365 * 24 * 3600));
+    totalSeconds %= 365 * 24 * 3600;
 
-  const formatZero = (num) => num > 9 ? num : '0' + num;
+    const days = Math.floor(totalSeconds / (24 * 3600));
+    totalSeconds %= 24 * 3600;
 
-  const currentHour = new Date().getHours();
-  let statusHtml = "";
+    const hours = Math.floor(totalSeconds / 3600);
+    totalSeconds %= 3600;
 
-  if (currentHour >= 8 && currentHour < 22) {
-    statusHtml = "<span class='boardsign-text'>🌞 小窝营业中 — </span>";
+    const minutes = Math.floor(totalSeconds / 60);
+    const seconds = totalSeconds % 60;
+
+    return { years, days, hours, minutes, seconds };
+  }
+
+  function ensureRuntimeNode() {
+    const workboard = document.getElementById('workboard');
+    if (!workboard) return null;
+
+    let runtime = document.getElementById('runtime');
+    if (runtime) return runtime;
+
+    workboard.innerHTML = [
+      '<div id="runtime" class="footer-runtime" aria-live="polite">',
+      '  <span class="runtime-orb" aria-hidden="true"></span>',
+      '  <span class="boardsign-text"></span>',
+      '  <span class="runtime-divider" aria-hidden="true"></span>',
+      '  <span class="runtime-label">本站已运行</span>',
+      '  <span class="runtime-clock"></span>',
+      '</div>'
+    ].join('');
+
+    return document.getElementById('runtime');
+  }
+
+  function updateRuntime() {
+    const runtime = ensureRuntimeNode();
+    if (!runtime) return;
+
+    const now = new Date();
+    const currentHour = now.getHours();
+    const isOpen = currentHour >= 8 && currentHour < 22;
+    const elapsed = getElapsedParts();
+
+    runtime.classList.toggle('is-open', isOpen);
+    runtime.classList.toggle('is-resting', !isOpen);
+
+    const status = runtime.querySelector('.boardsign-text');
+    const clock = runtime.querySelector('.runtime-clock');
+
+    if (status) {
+      status.textContent = isOpen ? '小窝营业中' : '小窝休息中';
+    }
+
+    if (clock) {
+      clock.textContent = `${elapsed.years} 年 ${elapsed.days} 天 ${pad(elapsed.hours)}:${pad(elapsed.minutes)}:${pad(elapsed.seconds)}`;
+    }
+  }
+
+  function mountRuntime() {
+    updateRuntime();
+
+    if (runtimeTimer) {
+      clearInterval(runtimeTimer);
+    }
+
+    runtimeTimer = setInterval(updateRuntime, 1000);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', mountRuntime);
   } else {
-    statusHtml = "<span class='boardsign-text'>🌙 小窝打烊了 — </span>";
+    mountRuntime();
   }
 
-  const timeHtml = `已度过 ${years} 年 ${days} 天 ${formatZero(hours)} : ${formatZero(minutes)} : ${formatZero(seconds)}`;
-  const currentTimeHtml = `<div id='runtime'>${statusHtml}${timeHtml}</div>`;
-
-  const workboard = document.getElementById("workboard");
-  if (workboard) {
-    workboard.innerHTML = currentTimeHtml;
-  }
-}
-
-updateRuntime();
-setInterval(updateRuntime, 1000);
+  document.addEventListener('pjax:complete', mountRuntime);
+})();
