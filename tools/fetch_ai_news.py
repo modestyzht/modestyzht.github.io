@@ -81,6 +81,11 @@ def entry_brief(entry: dict, limit: int = 180) -> str:
     return shorten_text(source_text, limit) or "暂无摘要，建议展开查看原文信息。"
 
 
+def demote_markdown_headings(content: str) -> str:
+    """避免折叠详情里的原文标题进入页面 TOC"""
+    return re.sub(r'(?m)^(#{1,6})\s+(.+?)\s*$', r'**\2**', str(content or ""))
+
+
 def render_daily_styles() -> str:
     """生成日报内嵌样式，让折叠内容在主题中保持可读"""
     return """<style>
@@ -446,7 +451,7 @@ cover: /img/core/ai-daily-cover.png
         body += f'<p class="ai-daily-item-meta">来源：{source_html} | 语言：{lang_text} | <a href="{link_html}" target="_blank" rel="noopener noreferrer">原文链接</a></p>\n\n'
 
         if entry.get("content"):
-            body += entry["content"].strip()
+            body += demote_markdown_headings(entry["content"]).strip()
         elif entry.get("summary"):
             body += f"> {entry['summary']}\n\n"
             body += f"*（无法获取完整内容，请点击原文链接阅读）*\n"
