@@ -6,6 +6,7 @@ AI 新闻自动抓取脚本
 
 import feedparser
 import hashlib
+import html
 import json
 import os
 import re
@@ -44,6 +45,174 @@ def clean_html(text: str) -> str:
     text = re.sub(r'<[^>]+>', '', text)
     text = re.sub(r'\s+', ' ', text).strip()
     return text
+
+
+def escape_html(value: str) -> str:
+    """转义用于 HTML 片段的文本"""
+    return html.escape(str(value or ""), quote=True)
+
+
+def normalize_spaces(value: str) -> str:
+    """压缩空白，便于生成摘要和卡片文案"""
+    return re.sub(r'\s+', ' ', str(value or "")).strip()
+
+
+def strip_markdown(text: str) -> str:
+    """把抓取到的 Markdown 内容尽量转成纯文本摘要"""
+    text = str(text or "")
+    text = re.sub(r'```.*?```', ' ', text, flags=re.S)
+    text = re.sub(r'!\[[^\]]*\]\([^)]+\)', ' ', text)
+    text = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', text)
+    text = re.sub(r'[#>*_`~\-\|]+', ' ', text)
+    return clean_html(text)
+
+
+def shorten_text(text: str, limit: int = 180) -> str:
+    """生成固定长度以内的短摘要"""
+    text = normalize_spaces(text)
+    if len(text) <= limit:
+        return text
+    return text[:limit].rstrip(" ,，。.;；:：") + "..."
+
+
+def entry_brief(entry: dict, limit: int = 180) -> str:
+    """优先使用 RSS 摘要，缺失时从正文中提取速览摘要"""
+    source_text = entry.get("summary") or strip_markdown(entry.get("content", ""))
+    return shorten_text(source_text, limit) or "暂无摘要，建议展开查看原文信息。"
+
+
+def render_daily_styles() -> str:
+    """生成日报内嵌样式，让折叠内容在主题中保持可读"""
+    return """<style>
+.ai-daily-overview {
+  display: grid;
+  gap: 0.75rem;
+  margin: 1rem 0 2rem;
+}
+.ai-daily-card {
+  display: grid;
+  grid-template-columns: 3rem minmax(0, 1fr) auto;
+  gap: 0.75rem;
+  align-items: start;
+  padding: 0.85rem 1rem;
+  border: 1px solid rgba(71, 85, 105, 0.18);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.72);
+  color: inherit !important;
+  text-decoration: none !important;
+}
+.ai-daily-card:hover,
+.ai-daily-item:hover {
+  border-color: rgba(37, 99, 235, 0.42);
+}
+.ai-daily-index,
+.ai-daily-summary-index {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 999px;
+  background: rgba(37, 99, 235, 0.1);
+  color: #1d4ed8;
+  font-weight: 700;
+  font-size: 0.86rem;
+}
+.ai-daily-card-main {
+  min-width: 0;
+}
+.ai-daily-card-title,
+.ai-daily-summary-title {
+  display: block;
+  color: inherit;
+  font-weight: 700;
+  line-height: 1.45;
+}
+.ai-daily-card-summary {
+  display: block;
+  margin-top: 0.28rem;
+  color: #64748b;
+  line-height: 1.65;
+  font-size: 0.94rem;
+}
+.ai-daily-card-meta,
+.ai-daily-summary-meta {
+  color: #0f766e;
+  font-size: 0.84rem;
+  white-space: nowrap;
+}
+.ai-daily-item {
+  margin: 1rem 0;
+  padding: 0.85rem 1rem;
+  border: 1px solid rgba(71, 85, 105, 0.18);
+  border-radius: 8px;
+  background: rgba(248, 250, 252, 0.82);
+}
+.ai-daily-item summary {
+  display: grid;
+  grid-template-columns: 3rem minmax(0, 1fr) auto auto;
+  gap: 0.75rem;
+  align-items: center;
+  cursor: pointer;
+  list-style: none;
+}
+.ai-daily-item summary::-webkit-details-marker {
+  display: none;
+}
+.ai-daily-item summary::after {
+  content: "展开";
+  justify-self: end;
+  color: #b45309;
+  font-size: 0.84rem;
+  font-weight: 700;
+}
+.ai-daily-item[open] summary::after {
+  content: "收起";
+}
+.ai-daily-item-brief {
+  margin: 1rem 0;
+  padding: 0.75rem 0.9rem;
+  border-left: 3px solid #2563eb;
+  background: rgba(37, 99, 235, 0.06);
+  color: #475569;
+  line-height: 1.75;
+}
+.ai-daily-item-meta {
+  color: #64748b;
+  font-size: 0.92rem;
+}
+[data-theme="dark"] .ai-daily-card,
+[data-theme="dark"] .ai-daily-item {
+  border-color: rgba(148, 163, 184, 0.22);
+  background: rgba(15, 23, 42, 0.68);
+}
+[data-theme="dark"] .ai-daily-card-summary,
+[data-theme="dark"] .ai-daily-item-brief,
+[data-theme="dark"] .ai-daily-item-meta {
+  color: #cbd5e1;
+}
+[data-theme="dark"] .ai-daily-card-meta,
+[data-theme="dark"] .ai-daily-summary-meta {
+  color: #5eead4;
+}
+@media (max-width: 640px) {
+  .ai-daily-card {
+    grid-template-columns: 2.6rem minmax(0, 1fr);
+  }
+  .ai-daily-card-meta {
+    grid-column: 2;
+    justify-self: start;
+  }
+  .ai-daily-item summary {
+    grid-template-columns: 2.6rem minmax(0, 1fr) auto;
+  }
+  .ai-daily-summary-meta {
+    grid-column: 2;
+    justify-self: start;
+  }
+}
+</style>
+"""
 
 
 def extract_summary(text: str, source: str) -> str:
@@ -224,7 +393,7 @@ def fetch_full_content(entries: list) -> list:
 # ── Markdown 生成 ─────────────────────────────────────────────────────────────
 
 def generate_markdown(entries: list) -> str:
-    """生成一篇 Hexo 文章，包含每篇新闻的完整内容"""
+    """生成一篇 Hexo 文章：顶部速览，正文默认折叠"""
     today = datetime.now()
     date_str = today.strftime("%Y-%m-%d")
     title = f"AI 日报 - {date_str}"
@@ -241,30 +410,50 @@ cover: /img/core/ai-daily-cover.png
 """
 
     body = f"\n# {title}\n\n"
-    body += f"> 本文由脚本自动生成，共收录 {len(entries)} 条 AI 相关资讯。\n\n"
-
-    # 生成目录
-    body += "## 目录\n\n"
+    body += f"> 本文由脚本自动生成，共收录 {len(entries)} 条 AI 相关资讯。默认展示速览，展开后阅读完整内容。\n\n"
+    body += render_daily_styles()
+    body += "\n## 今日速览\n\n"
+    body += '<div class="ai-daily-overview">\n'
     for i, entry in enumerate(entries, 1):
-        body += f"{i}. [{entry['title']}](#{i})\n"
-    body += "\n---\n\n"
+        lang_text = "中文" if entry.get("lang") == "zh" else "英文"
+        brief = entry_brief(entry)
+        body += f'<a class="ai-daily-card" href="#news-{i}">\n'
+        body += f'  <span class="ai-daily-index">{i:02d}</span>\n'
+        body += '  <span class="ai-daily-card-main">\n'
+        body += f'    <span class="ai-daily-card-title">{escape_html(entry.get("title"))}</span>\n'
+        body += f'    <span class="ai-daily-card-summary">{escape_html(brief)}</span>\n'
+        body += '  </span>\n'
+        body += f'  <span class="ai-daily-card-meta">{escape_html(entry.get("source"))} / {lang_text}</span>\n'
+        body += '</a>\n'
+    body += '</div>\n\n'
 
-    # 生成每篇文章
+    body += "## 详细内容\n\n"
+
     for i, entry in enumerate(entries, 1):
-        lang_text = "中文" if entry["lang"] == "zh" else "英文"
-        body += f"<h2 id=\"{i}\">{i}. {entry['title']}</h2>\n\n"
-        body += f"**来源**: {entry['source']} | **语言**: {lang_text} | "
-        body += f"[原文链接]({entry['link']})\n\n"
+        lang_text = "中文" if entry.get("lang") == "zh" else "英文"
+        brief = entry_brief(entry)
+        title_html = escape_html(entry.get("title"))
+        source_html = escape_html(entry.get("source"))
+        link_html = escape_html(entry.get("link"))
+
+        body += f'<details class="ai-daily-item" id="news-{i}">\n'
+        body += '<summary>\n'
+        body += f'  <span class="ai-daily-summary-index">{i:02d}</span>\n'
+        body += f'  <span class="ai-daily-summary-title">{title_html}</span>\n'
+        body += f'  <span class="ai-daily-summary-meta">{source_html} / {lang_text}</span>\n'
+        body += '</summary>\n\n'
+        body += f'<p class="ai-daily-item-brief">{escape_html(brief)}</p>\n\n'
+        body += f'<p class="ai-daily-item-meta">来源：{source_html} | 语言：{lang_text} | <a href="{link_html}" target="_blank" rel="noopener noreferrer">原文链接</a></p>\n\n'
 
         if entry.get("content"):
-            body += entry["content"]
+            body += entry["content"].strip()
         elif entry.get("summary"):
             body += f"> {entry['summary']}\n\n"
             body += f"*（无法获取完整内容，请点击原文链接阅读）*\n"
         else:
             body += f"*（无法获取内容，请点击原文链接阅读）*\n"
 
-        body += "\n\n---\n\n"
+        body += "\n\n</details>\n\n"
 
     return front_matter + body
 

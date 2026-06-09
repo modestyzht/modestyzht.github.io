@@ -1,0 +1,2991 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-09T05:55:57.243Z",
+  "updateCadence": "weekly",
+  "source": "GitHub REST Search API + curated skill metadata",
+  "categories": [
+    {
+      "id": "design",
+      "name": "设计",
+      "icon": "fas fa-palette",
+      "description": "视觉设计、品牌、排版与界面重塑"
+    },
+    {
+      "id": "frontend",
+      "name": "前端",
+      "icon": "fas fa-code",
+      "description": "网页、组件、交互和全栈应用"
+    },
+    {
+      "id": "mobile",
+      "name": "移动端",
+      "icon": "fas fa-mobile-alt",
+      "description": "iOS、Android 与跨平台移动应用"
+    },
+    {
+      "id": "animation",
+      "name": "动画",
+      "icon": "fas fa-film",
+      "description": "GSAP、滚动触发和复杂动效"
+    },
+    {
+      "id": "documents",
+      "name": "文档",
+      "icon": "fas fa-file-alt",
+      "description": "Word、PDF、Excel、PPT 自动生成"
+    },
+    {
+      "id": "creative",
+      "name": "创作",
+      "icon": "fas fa-wand-magic-sparkles",
+      "description": "音乐、视频、图像和演示内容"
+    },
+    {
+      "id": "code",
+      "name": "代码工具",
+      "icon": "fas fa-code-branch",
+      "description": "审查、调试、安全和 API 开发"
+    }
+  ],
+  "skills": [
+    {
+      "id": "soft-skill",
+      "name": "soft-skill",
+      "command": "/soft-skill",
+      "category": "design",
+      "icon": "fas fa-paint-brush",
+      "accent": "#d94f48",
+      "description": "高端设计方法论 Skill，约束字体、间距、阴影、卡片结构和动效，减少常见 AI 设计默认味。",
+      "tags": [
+        "高端 UI",
+        "设计系统",
+        "排版"
+      ],
+      "tools": [
+        "Claude Code",
+        "Codex",
+        "Cursor"
+      ],
+      "repositories": [
+        {
+          "owner": "mattpocock",
+          "name": "skills",
+          "fullName": "mattpocock/skills",
+          "url": "https://github.com/mattpocock/skills",
+          "description": "Skills for Real Engineers. Straight from my .claude directory.",
+          "stars": 122078,
+          "forks": 10685,
+          "language": "Shell",
+          "topics": [],
+          "pushedAt": "2026-06-08T14:02:06Z",
+          "updatedAt": "2026-06-09T05:55:01Z"
+        }
+      ],
+      "features": [
+        "建立视觉层级",
+        "修正廉价渐变和卡片堆叠",
+        "统一间距、阴影和动效节奏"
+      ],
+      "useCases": [
+        "落地页视觉升级",
+        "SaaS 控制台打磨",
+        "品牌官网首屏重做"
+      ],
+      "keywords": [
+        "ui",
+        "agency",
+        "typography",
+        "premium",
+        "layout",
+        "视觉",
+        "高端"
+      ],
+      "primaryRepo": {
+        "owner": "mattpocock",
+        "name": "skills",
+        "fullName": "mattpocock/skills",
+        "url": "https://github.com/mattpocock/skills",
+        "description": "Skills for Real Engineers. Straight from my .claude directory.",
+        "stars": 122078,
+        "forks": 10685,
+        "language": "Shell",
+        "topics": [],
+        "pushedAt": "2026-06-08T14:02:06Z",
+        "updatedAt": "2026-06-09T05:55:01Z"
+      },
+      "stars": 122078,
+      "source": "curated"
+    },
+    {
+      "id": "redesign-skill",
+      "name": "redesign-skill",
+      "command": "/redesign-skill",
+      "category": "design",
+      "icon": "fas fa-magic",
+      "accent": "#8f5bd6",
+      "description": "网站升级 Skill，先审计现有界面，再在不破坏功能的前提下重做布局、层级和视觉语言。",
+      "tags": [
+        "网站升级",
+        "设计审计",
+        "UI 重构"
+      ],
+      "tools": [
+        "Claude Code",
+        "Codex",
+        "Cursor"
+      ],
+      "repositories": [
+        {
+          "owner": "affaan-m",
+          "name": "ECC",
+          "fullName": "affaan-m/ECC",
+          "url": "https://github.com/affaan-m/ECC",
+          "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+          "stars": 211096,
+          "forks": 32375,
+          "language": "JavaScript",
+          "topics": [
+            "ai-agents",
+            "anthropic",
+            "claude",
+            "claude-code",
+            "developer-tools",
+            "llm",
+            "mcp",
+            "productivity"
+          ],
+          "pushedAt": "2026-06-09T02:38:04Z",
+          "updatedAt": "2026-06-09T05:55:38Z"
+        }
+      ],
+      "features": [
+        "识别旧页面视觉问题",
+        "保留原交互和信息结构",
+        "输出可直接落地的 UI 改版"
+      ],
+      "useCases": [
+        "旧博客页面改版",
+        "管理后台视觉统一",
+        "组件库风格校正"
+      ],
+      "keywords": [
+        "redesign",
+        "audit",
+        "refactor",
+        "ui",
+        "重构",
+        "升级"
+      ],
+      "primaryRepo": {
+        "owner": "affaan-m",
+        "name": "ECC",
+        "fullName": "affaan-m/ECC",
+        "url": "https://github.com/affaan-m/ECC",
+        "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+        "stars": 211096,
+        "forks": 32375,
+        "language": "JavaScript",
+        "topics": [
+          "ai-agents",
+          "anthropic",
+          "claude",
+          "claude-code",
+          "developer-tools",
+          "llm",
+          "mcp",
+          "productivity"
+        ],
+        "pushedAt": "2026-06-09T02:38:04Z",
+        "updatedAt": "2026-06-09T05:55:38Z"
+      },
+      "stars": 211096,
+      "source": "curated"
+    },
+    {
+      "id": "minimalist-skill",
+      "name": "minimalist-skill",
+      "command": "/minimalist-skill",
+      "category": "design",
+      "icon": "fas fa-brush",
+      "accent": "#2f83c7",
+      "description": "极简主义设计 Skill，聚焦留白、字号层级、线条密度和克制的视觉表达。",
+      "tags": [
+        "极简",
+        "留白",
+        "排版"
+      ],
+      "tools": [
+        "Claude Code",
+        "Codex",
+        "Cursor"
+      ],
+      "repositories": [
+        {
+          "owner": "sickn33",
+          "name": "antigravity-awesome-skills",
+          "fullName": "sickn33/antigravity-awesome-skills",
+          "url": "https://github.com/sickn33/antigravity-awesome-skills",
+          "description": "Installable GitHub library of 1,500+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+          "stars": 40123,
+          "forks": 6495,
+          "language": "Python",
+          "topics": [
+            "agent-skills",
+            "agentic-skills",
+            "ai-agent-skills",
+            "ai-agents",
+            "ai-coding",
+            "ai-workflows",
+            "antigravity",
+            "antigravity-skills",
+            "claude-code",
+            "claude-code-skills",
+            "codex-cli",
+            "codex-skills",
+            "cursor",
+            "cursor-skills",
+            "developer-tools",
+            "gemini-cli",
+            "gemini-skills",
+            "kiro",
+            "mcp",
+            "skill-library"
+          ],
+          "pushedAt": "2026-06-08T08:37:35Z",
+          "updatedAt": "2026-06-09T05:37:30Z"
+        }
+      ],
+      "features": [
+        "压缩视觉噪音",
+        "建立清晰阅读节奏",
+        "用少量元素完成高级感表达"
+      ],
+      "useCases": [
+        "作品集",
+        "个人主页",
+        "信息型页面"
+      ],
+      "keywords": [
+        "minimal",
+        "minimalist",
+        "white space",
+        "clean",
+        "极简",
+        "留白"
+      ],
+      "primaryRepo": {
+        "owner": "sickn33",
+        "name": "antigravity-awesome-skills",
+        "fullName": "sickn33/antigravity-awesome-skills",
+        "url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "description": "Installable GitHub library of 1,500+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+        "stars": 40123,
+        "forks": 6495,
+        "language": "Python",
+        "topics": [
+          "agent-skills",
+          "agentic-skills",
+          "ai-agent-skills",
+          "ai-agents",
+          "ai-coding",
+          "ai-workflows",
+          "antigravity",
+          "antigravity-skills",
+          "claude-code",
+          "claude-code-skills",
+          "codex-cli",
+          "codex-skills",
+          "cursor",
+          "cursor-skills",
+          "developer-tools",
+          "gemini-cli",
+          "gemini-skills",
+          "kiro",
+          "mcp",
+          "skill-library"
+        ],
+        "pushedAt": "2026-06-08T08:37:35Z",
+        "updatedAt": "2026-06-09T05:37:30Z"
+      },
+      "stars": 40123,
+      "source": "curated"
+    },
+    {
+      "id": "brutalist-skill",
+      "name": "brutalist-skill",
+      "command": "/brutalist-skill",
+      "category": "design",
+      "icon": "fas fa-pen-nib",
+      "accent": "#d87830",
+      "description": "粗野主义设计 Skill，用大胆排版、高对比和原始结构制造强烈视觉张力。",
+      "tags": [
+        "粗野主义",
+        "大胆排版",
+        "艺术感"
+      ],
+      "tools": [
+        "Claude Code",
+        "Codex",
+        "Cursor"
+      ],
+      "repositories": [
+        {
+          "owner": "sickn33",
+          "name": "antigravity-awesome-skills",
+          "fullName": "sickn33/antigravity-awesome-skills",
+          "url": "https://github.com/sickn33/antigravity-awesome-skills",
+          "description": "Installable GitHub library of 1,500+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+          "stars": 40123,
+          "forks": 6495,
+          "language": "Python",
+          "topics": [
+            "agent-skills",
+            "agentic-skills",
+            "ai-agent-skills",
+            "ai-agents",
+            "ai-coding",
+            "ai-workflows",
+            "antigravity",
+            "antigravity-skills",
+            "claude-code",
+            "claude-code-skills",
+            "codex-cli",
+            "codex-skills",
+            "cursor",
+            "cursor-skills",
+            "developer-tools",
+            "gemini-cli",
+            "gemini-skills",
+            "kiro",
+            "mcp",
+            "skill-library"
+          ],
+          "pushedAt": "2026-06-08T08:37:35Z",
+          "updatedAt": "2026-06-09T05:37:30Z"
+        }
+      ],
+      "features": [
+        "大字号视觉锚点",
+        "高反差内容块",
+        "非常规但可读的版式"
+      ],
+      "useCases": [
+        "创意活动页",
+        "艺术家作品集",
+        "实验性网页"
+      ],
+      "keywords": [
+        "brutalist",
+        "bold",
+        "poster",
+        "contrast",
+        "粗野",
+        "艺术"
+      ],
+      "primaryRepo": {
+        "owner": "sickn33",
+        "name": "antigravity-awesome-skills",
+        "fullName": "sickn33/antigravity-awesome-skills",
+        "url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "description": "Installable GitHub library of 1,500+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+        "stars": 40123,
+        "forks": 6495,
+        "language": "Python",
+        "topics": [
+          "agent-skills",
+          "agentic-skills",
+          "ai-agent-skills",
+          "ai-agents",
+          "ai-coding",
+          "ai-workflows",
+          "antigravity",
+          "antigravity-skills",
+          "claude-code",
+          "claude-code-skills",
+          "codex-cli",
+          "codex-skills",
+          "cursor",
+          "cursor-skills",
+          "developer-tools",
+          "gemini-cli",
+          "gemini-skills",
+          "kiro",
+          "mcp",
+          "skill-library"
+        ],
+        "pushedAt": "2026-06-08T08:37:35Z",
+        "updatedAt": "2026-06-09T05:37:30Z"
+      },
+      "stars": 40123,
+      "source": "curated"
+    },
+    {
+      "id": "color-font-skill",
+      "name": "color-font-skill",
+      "command": "/color-font-skill",
+      "category": "design",
+      "icon": "fas fa-font",
+      "accent": "#168f7a",
+      "description": "色彩与字体 Skill，为品牌或页面提供配色、字体组合、层级和可读性建议。",
+      "tags": [
+        "配色",
+        "字体搭配",
+        "品牌调性"
+      ],
+      "tools": [
+        "Claude Code",
+        "Codex",
+        "Cursor"
+      ],
+      "repositories": [
+        {
+          "owner": "sickn33",
+          "name": "antigravity-awesome-skills",
+          "fullName": "sickn33/antigravity-awesome-skills",
+          "url": "https://github.com/sickn33/antigravity-awesome-skills",
+          "description": "Installable GitHub library of 1,500+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+          "stars": 40123,
+          "forks": 6495,
+          "language": "Python",
+          "topics": [
+            "agent-skills",
+            "agentic-skills",
+            "ai-agent-skills",
+            "ai-agents",
+            "ai-coding",
+            "ai-workflows",
+            "antigravity",
+            "antigravity-skills",
+            "claude-code",
+            "claude-code-skills",
+            "codex-cli",
+            "codex-skills",
+            "cursor",
+            "cursor-skills",
+            "developer-tools",
+            "gemini-cli",
+            "gemini-skills",
+            "kiro",
+            "mcp",
+            "skill-library"
+          ],
+          "pushedAt": "2026-06-08T08:37:35Z",
+          "updatedAt": "2026-06-09T05:37:30Z"
+        }
+      ],
+      "features": [
+        "生成配色系统",
+        "匹配中英文字体气质",
+        "检查对比度和品牌一致性"
+      ],
+      "useCases": [
+        "品牌站",
+        "产品页",
+        "内容型博客"
+      ],
+      "keywords": [
+        "color",
+        "font",
+        "palette",
+        "brand",
+        "配色",
+        "字体"
+      ],
+      "primaryRepo": {
+        "owner": "sickn33",
+        "name": "antigravity-awesome-skills",
+        "fullName": "sickn33/antigravity-awesome-skills",
+        "url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "description": "Installable GitHub library of 1,500+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+        "stars": 40123,
+        "forks": 6495,
+        "language": "Python",
+        "topics": [
+          "agent-skills",
+          "agentic-skills",
+          "ai-agent-skills",
+          "ai-agents",
+          "ai-coding",
+          "ai-workflows",
+          "antigravity",
+          "antigravity-skills",
+          "claude-code",
+          "claude-code-skills",
+          "codex-cli",
+          "codex-skills",
+          "cursor",
+          "cursor-skills",
+          "developer-tools",
+          "gemini-cli",
+          "gemini-skills",
+          "kiro",
+          "mcp",
+          "skill-library"
+        ],
+        "pushedAt": "2026-06-08T08:37:35Z",
+        "updatedAt": "2026-06-09T05:37:30Z"
+      },
+      "stars": 40123,
+      "source": "curated"
+    },
+    {
+      "id": "brandkit",
+      "name": "brandkit",
+      "command": "/brandkit",
+      "category": "design",
+      "icon": "fas fa-vector-square",
+      "accent": "#2ca66f",
+      "description": "品牌工具包 Skill，围绕品牌定位生成 Logo 方向、配色、字体、图标和组件风格。",
+      "tags": [
+        "品牌设计",
+        "Logo",
+        "VI 系统"
+      ],
+      "tools": [
+        "Claude Code",
+        "Codex",
+        "Cursor"
+      ],
+      "repositories": [
+        {
+          "owner": "nexu-io",
+          "name": "open-design",
+          "fullName": "nexu-io/open-design",
+          "url": "https://github.com/nexu-io/open-design",
+          "description": "🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs.",
+          "stars": 61875,
+          "forks": 6934,
+          "language": "TypeScript",
+          "topics": [
+            "agent-skills",
+            "ai-agents",
+            "ai-design",
+            "byok",
+            "claude-code-for-design",
+            "claude-design",
+            "codex-design",
+            "coding-agents",
+            "cursor-design",
+            "design-systems",
+            "design-tools",
+            "desktop-app",
+            "figma-alternative",
+            "generative-ai",
+            "hermes-agent",
+            "local-first",
+            "no-code",
+            "prototyping",
+            "ui-generator",
+            "vibe-coding"
+          ],
+          "pushedAt": "2026-06-09T05:53:34Z",
+          "updatedAt": "2026-06-09T05:55:24Z"
+        }
+      ],
+      "features": [
+        "品牌视觉方向",
+        "Logo 与图标风格",
+        "组件库基础变量"
+      ],
+      "useCases": [
+        "新产品品牌启动",
+        "个人 IP 视觉体系",
+        "活动视觉规范"
+      ],
+      "keywords": [
+        "brand",
+        "logo",
+        "identity",
+        "kit",
+        "品牌",
+        "视觉识别"
+      ],
+      "primaryRepo": {
+        "owner": "nexu-io",
+        "name": "open-design",
+        "fullName": "nexu-io/open-design",
+        "url": "https://github.com/nexu-io/open-design",
+        "description": "🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs.",
+        "stars": 61875,
+        "forks": 6934,
+        "language": "TypeScript",
+        "topics": [
+          "agent-skills",
+          "ai-agents",
+          "ai-design",
+          "byok",
+          "claude-code-for-design",
+          "claude-design",
+          "codex-design",
+          "coding-agents",
+          "cursor-design",
+          "design-systems",
+          "design-tools",
+          "desktop-app",
+          "figma-alternative",
+          "generative-ai",
+          "hermes-agent",
+          "local-first",
+          "no-code",
+          "prototyping",
+          "ui-generator",
+          "vibe-coding"
+        ],
+        "pushedAt": "2026-06-09T05:53:34Z",
+        "updatedAt": "2026-06-09T05:55:24Z"
+      },
+      "stars": 61875,
+      "source": "curated"
+    },
+    {
+      "id": "frontend-dev",
+      "name": "frontend-dev",
+      "command": "/frontend-dev",
+      "category": "frontend",
+      "icon": "fab fa-react",
+      "accent": "#2aa8c8",
+      "description": "前端开发 Skill，把需求转成完整页面、组件结构、响应式布局和必要动效。",
+      "tags": [
+        "React",
+        "动画",
+        "UI 设计",
+        "媒体生成"
+      ],
+      "tools": [
+        "Claude Code",
+        "Codex",
+        "Cursor",
+        "OpenCode"
+      ],
+      "repositories": [
+        {
+          "owner": "angelapaia",
+          "name": "frontend-design-engineer-skill",
+          "fullName": "angelapaia/frontend-design-engineer-skill",
+          "url": "https://github.com/angelapaia/frontend-design-engineer-skill",
+          "description": "Claude Code & Antigravity skill: Art Director + Senior Frontend Engineer that autonomously builds complete websites from a single phrase. Next.js, Tailwind CSS, GSAP, shadcn/ui. 8 visual directions, 60+ component catalog, WCAG accessibility.",
+          "stars": 4,
+          "forks": 1,
+          "language": "",
+          "topics": [],
+          "pushedAt": "2026-04-09T10:06:56Z",
+          "updatedAt": "2026-05-25T11:43:00Z"
+        }
+      ],
+      "features": [
+        "拆解页面组件",
+        "生成响应式布局",
+        "补齐交互状态和视觉资产"
+      ],
+      "useCases": [
+        "产品页面",
+        "工具型 Web App",
+        "高表现力 Demo"
+      ],
+      "keywords": [
+        "frontend",
+        "react",
+        "component",
+        "responsive",
+        "前端",
+        "网页"
+      ],
+      "primaryRepo": {
+        "owner": "angelapaia",
+        "name": "frontend-design-engineer-skill",
+        "fullName": "angelapaia/frontend-design-engineer-skill",
+        "url": "https://github.com/angelapaia/frontend-design-engineer-skill",
+        "description": "Claude Code & Antigravity skill: Art Director + Senior Frontend Engineer that autonomously builds complete websites from a single phrase. Next.js, Tailwind CSS, GSAP, shadcn/ui. 8 visual directions, 60+ component catalog, WCAG accessibility.",
+        "stars": 4,
+        "forks": 1,
+        "language": "",
+        "topics": [],
+        "pushedAt": "2026-04-09T10:06:56Z",
+        "updatedAt": "2026-05-25T11:43:00Z"
+      },
+      "stars": 4,
+      "source": "curated"
+    },
+    {
+      "id": "fullstack-dev",
+      "name": "fullstack-dev",
+      "command": "/fullstack-dev",
+      "category": "frontend",
+      "icon": "fab fa-node-js",
+      "accent": "#67a843",
+      "description": "全栈开发 Skill，覆盖前端、API、数据库、认证和部署前的工程结构。",
+      "tags": [
+        "Node.js",
+        "API",
+        "数据库",
+        "认证"
+      ],
+      "tools": [
+        "Claude Code",
+        "Codex",
+        "Cursor"
+      ],
+      "repositories": [
+        {
+          "owner": "viknesh20-20",
+          "name": "claude-code-tool-kit",
+          "fullName": "viknesh20-20/claude-code-tool-kit",
+          "url": "https://github.com/viknesh20-20/claude-code-tool-kit",
+          "description": "Production-ready Claude Code configuration. 12 original agents, 200+ slash-command skills, 45+ MCP servers, 14 plugins, design + 3D + WebGPU + GSAP + RAG tooling. One-command Node.js installer for premium websites, SaaS apps, AI agents. Free, MIT, stack-agnostic.",
+          "stars": 4,
+          "forks": 0,
+          "language": "JavaScript",
+          "topics": [
+            "agent-orchestration",
+            "ai-agents",
+            "ai-coding-assistant-tools",
+            "ai-development-toolkit",
+            "claude-ai-skills",
+            "claude-code",
+            "claude-code-agents",
+            "claude-code-skill",
+            "claude-code-skills",
+            "claude-plugins",
+            "claude-skills",
+            "design-system",
+            "devops-toolkit",
+            "llm-tools",
+            "mcp-servers",
+            "prompt-engineering",
+            "rag",
+            "threejs",
+            "webgpu"
+          ],
+          "pushedAt": "2026-05-02T19:03:58Z",
+          "updatedAt": "2026-05-27T13:57:05Z"
+        }
+      ],
+      "features": [
+        "设计 API 合同",
+        "规划数据模型",
+        "补齐认证与权限边界"
+      ],
+      "useCases": [
+        "MVP 快速搭建",
+        "内部管理系统",
+        "数据驱动 Web 应用"
+      ],
+      "keywords": [
+        "fullstack",
+        "api",
+        "database",
+        "auth",
+        "全栈",
+        "数据库"
+      ],
+      "primaryRepo": {
+        "owner": "viknesh20-20",
+        "name": "claude-code-tool-kit",
+        "fullName": "viknesh20-20/claude-code-tool-kit",
+        "url": "https://github.com/viknesh20-20/claude-code-tool-kit",
+        "description": "Production-ready Claude Code configuration. 12 original agents, 200+ slash-command skills, 45+ MCP servers, 14 plugins, design + 3D + WebGPU + GSAP + RAG tooling. One-command Node.js installer for premium websites, SaaS apps, AI agents. Free, MIT, stack-agnostic.",
+        "stars": 4,
+        "forks": 0,
+        "language": "JavaScript",
+        "topics": [
+          "agent-orchestration",
+          "ai-agents",
+          "ai-coding-assistant-tools",
+          "ai-development-toolkit",
+          "claude-ai-skills",
+          "claude-code",
+          "claude-code-agents",
+          "claude-code-skill",
+          "claude-code-skills",
+          "claude-plugins",
+          "claude-skills",
+          "design-system",
+          "devops-toolkit",
+          "llm-tools",
+          "mcp-servers",
+          "prompt-engineering",
+          "rag",
+          "threejs",
+          "webgpu"
+        ],
+        "pushedAt": "2026-05-02T19:03:58Z",
+        "updatedAt": "2026-05-27T13:57:05Z"
+      },
+      "stars": 4,
+      "source": "curated"
+    },
+    {
+      "id": "imagegen-frontend-web",
+      "name": "imagegen-frontend-web",
+      "command": "/imagegen-frontend-web",
+      "category": "frontend",
+      "icon": "fas fa-image",
+      "accent": "#4aa979",
+      "description": "Web 图像生成 Skill，为网页补齐 Hero、产品图、插图和内容配图。",
+      "tags": [
+        "图像生成",
+        "Web 配图",
+        "Hero 图"
+      ],
+      "tools": [
+        "Claude Code",
+        "Codex",
+        "Cursor"
+      ],
+      "repositories": [
+        {
+          "owner": "nexu-io",
+          "name": "open-design",
+          "fullName": "nexu-io/open-design",
+          "url": "https://github.com/nexu-io/open-design",
+          "description": "🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs.",
+          "stars": 61875,
+          "forks": 6934,
+          "language": "TypeScript",
+          "topics": [
+            "agent-skills",
+            "ai-agents",
+            "ai-design",
+            "byok",
+            "claude-code-for-design",
+            "claude-design",
+            "codex-design",
+            "coding-agents",
+            "cursor-design",
+            "design-systems",
+            "design-tools",
+            "desktop-app",
+            "figma-alternative",
+            "generative-ai",
+            "hermes-agent",
+            "local-first",
+            "no-code",
+            "prototyping",
+            "ui-generator",
+            "vibe-coding"
+          ],
+          "pushedAt": "2026-06-09T05:53:34Z",
+          "updatedAt": "2026-06-09T05:55:24Z"
+        }
+      ],
+      "features": [
+        "生成首屏视觉资产",
+        "匹配页面风格",
+        "输出可用于网页的图片提示"
+      ],
+      "useCases": [
+        "博客题图",
+        "产品展示图",
+        "活动页背景"
+      ],
+      "keywords": [
+        "image",
+        "hero",
+        "asset",
+        "illustration",
+        "图像",
+        "配图"
+      ],
+      "primaryRepo": {
+        "owner": "nexu-io",
+        "name": "open-design",
+        "fullName": "nexu-io/open-design",
+        "url": "https://github.com/nexu-io/open-design",
+        "description": "🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs.",
+        "stars": 61875,
+        "forks": 6934,
+        "language": "TypeScript",
+        "topics": [
+          "agent-skills",
+          "ai-agents",
+          "ai-design",
+          "byok",
+          "claude-code-for-design",
+          "claude-design",
+          "codex-design",
+          "coding-agents",
+          "cursor-design",
+          "design-systems",
+          "design-tools",
+          "desktop-app",
+          "figma-alternative",
+          "generative-ai",
+          "hermes-agent",
+          "local-first",
+          "no-code",
+          "prototyping",
+          "ui-generator",
+          "vibe-coding"
+        ],
+        "pushedAt": "2026-06-09T05:53:34Z",
+        "updatedAt": "2026-06-09T05:55:24Z"
+      },
+      "stars": 61875,
+      "source": "curated"
+    },
+    {
+      "id": "react-native-dev",
+      "name": "react-native-dev",
+      "command": "/react-native-dev",
+      "category": "mobile",
+      "icon": "fab fa-react",
+      "accent": "#269dc2",
+      "description": "React Native 移动开发 Skill，用 React 语法构建 iOS 和 Android 应用。",
+      "tags": [
+        "React Native",
+        "iOS",
+        "Android"
+      ],
+      "tools": [
+        "Claude Code",
+        "Codex",
+        "Cursor"
+      ],
+      "repositories": [
+        {
+          "owner": "sickn33",
+          "name": "antigravity-awesome-skills",
+          "fullName": "sickn33/antigravity-awesome-skills",
+          "url": "https://github.com/sickn33/antigravity-awesome-skills",
+          "description": "Installable GitHub library of 1,500+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+          "stars": 40123,
+          "forks": 6495,
+          "language": "Python",
+          "topics": [
+            "agent-skills",
+            "agentic-skills",
+            "ai-agent-skills",
+            "ai-agents",
+            "ai-coding",
+            "ai-workflows",
+            "antigravity",
+            "antigravity-skills",
+            "claude-code",
+            "claude-code-skills",
+            "codex-cli",
+            "codex-skills",
+            "cursor",
+            "cursor-skills",
+            "developer-tools",
+            "gemini-cli",
+            "gemini-skills",
+            "kiro",
+            "mcp",
+            "skill-library"
+          ],
+          "pushedAt": "2026-06-08T08:37:35Z",
+          "updatedAt": "2026-06-09T05:37:30Z"
+        }
+      ],
+      "features": [
+        "规划导航结构",
+        "拆分移动端组件",
+        "处理平台差异和原生模块"
+      ],
+      "useCases": [
+        "跨平台 App",
+        "移动端 MVP",
+        "已有 Web 能力迁移到 App"
+      ],
+      "keywords": [
+        "react native",
+        "mobile",
+        "ios",
+        "android",
+        "移动端",
+        "跨平台"
+      ],
+      "primaryRepo": {
+        "owner": "sickn33",
+        "name": "antigravity-awesome-skills",
+        "fullName": "sickn33/antigravity-awesome-skills",
+        "url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "description": "Installable GitHub library of 1,500+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+        "stars": 40123,
+        "forks": 6495,
+        "language": "Python",
+        "topics": [
+          "agent-skills",
+          "agentic-skills",
+          "ai-agent-skills",
+          "ai-agents",
+          "ai-coding",
+          "ai-workflows",
+          "antigravity",
+          "antigravity-skills",
+          "claude-code",
+          "claude-code-skills",
+          "codex-cli",
+          "codex-skills",
+          "cursor",
+          "cursor-skills",
+          "developer-tools",
+          "gemini-cli",
+          "gemini-skills",
+          "kiro",
+          "mcp",
+          "skill-library"
+        ],
+        "pushedAt": "2026-06-08T08:37:35Z",
+        "updatedAt": "2026-06-09T05:37:30Z"
+      },
+      "stars": 40123,
+      "source": "curated"
+    },
+    {
+      "id": "flutter-dev",
+      "name": "flutter-dev",
+      "command": "/flutter-dev",
+      "category": "mobile",
+      "icon": "fas fa-feather",
+      "accent": "#2278b5",
+      "description": "Flutter 移动开发 Skill，使用 Dart 和 Flutter 构建跨平台应用与精细 UI。",
+      "tags": [
+        "Flutter",
+        "Dart",
+        "Material Design"
+      ],
+      "tools": [
+        "Claude Code",
+        "Codex",
+        "Cursor"
+      ],
+      "repositories": [
+        {
+          "owner": "sickn33",
+          "name": "antigravity-awesome-skills",
+          "fullName": "sickn33/antigravity-awesome-skills",
+          "url": "https://github.com/sickn33/antigravity-awesome-skills",
+          "description": "Installable GitHub library of 1,500+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+          "stars": 40123,
+          "forks": 6495,
+          "language": "Python",
+          "topics": [
+            "agent-skills",
+            "agentic-skills",
+            "ai-agent-skills",
+            "ai-agents",
+            "ai-coding",
+            "ai-workflows",
+            "antigravity",
+            "antigravity-skills",
+            "claude-code",
+            "claude-code-skills",
+            "codex-cli",
+            "codex-skills",
+            "cursor",
+            "cursor-skills",
+            "developer-tools",
+            "gemini-cli",
+            "gemini-skills",
+            "kiro",
+            "mcp",
+            "skill-library"
+          ],
+          "pushedAt": "2026-06-08T08:37:35Z",
+          "updatedAt": "2026-06-09T05:37:30Z"
+        }
+      ],
+      "features": [
+        "搭建 Widget 层级",
+        "实现 Material 风格页面",
+        "处理状态管理和路由"
+      ],
+      "useCases": [
+        "跨端 App",
+        "原型验证",
+        "移动端 UI 快速复刻"
+      ],
+      "keywords": [
+        "flutter",
+        "dart",
+        "widget",
+        "material",
+        "移动开发"
+      ],
+      "primaryRepo": {
+        "owner": "sickn33",
+        "name": "antigravity-awesome-skills",
+        "fullName": "sickn33/antigravity-awesome-skills",
+        "url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "description": "Installable GitHub library of 1,500+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+        "stars": 40123,
+        "forks": 6495,
+        "language": "Python",
+        "topics": [
+          "agent-skills",
+          "agentic-skills",
+          "ai-agent-skills",
+          "ai-agents",
+          "ai-coding",
+          "ai-workflows",
+          "antigravity",
+          "antigravity-skills",
+          "claude-code",
+          "claude-code-skills",
+          "codex-cli",
+          "codex-skills",
+          "cursor",
+          "cursor-skills",
+          "developer-tools",
+          "gemini-cli",
+          "gemini-skills",
+          "kiro",
+          "mcp",
+          "skill-library"
+        ],
+        "pushedAt": "2026-06-08T08:37:35Z",
+        "updatedAt": "2026-06-09T05:37:30Z"
+      },
+      "stars": 40123,
+      "source": "curated"
+    },
+    {
+      "id": "ios-application-dev",
+      "name": "ios-application-dev",
+      "command": "/ios-application-dev",
+      "category": "mobile",
+      "icon": "fab fa-apple",
+      "accent": "#3878c9",
+      "description": "iOS 原生开发 Skill，面向 Swift、SwiftUI 和 Apple 生态原生能力。",
+      "tags": [
+        "Swift",
+        "SwiftUI",
+        "iOS"
+      ],
+      "tools": [
+        "Claude Code",
+        "Codex",
+        "Cursor"
+      ],
+      "repositories": [
+        {
+          "owner": "sickn33",
+          "name": "antigravity-awesome-skills",
+          "fullName": "sickn33/antigravity-awesome-skills",
+          "url": "https://github.com/sickn33/antigravity-awesome-skills",
+          "description": "Installable GitHub library of 1,500+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+          "stars": 40123,
+          "forks": 6495,
+          "language": "Python",
+          "topics": [
+            "agent-skills",
+            "agentic-skills",
+            "ai-agent-skills",
+            "ai-agents",
+            "ai-coding",
+            "ai-workflows",
+            "antigravity",
+            "antigravity-skills",
+            "claude-code",
+            "claude-code-skills",
+            "codex-cli",
+            "codex-skills",
+            "cursor",
+            "cursor-skills",
+            "developer-tools",
+            "gemini-cli",
+            "gemini-skills",
+            "kiro",
+            "mcp",
+            "skill-library"
+          ],
+          "pushedAt": "2026-06-08T08:37:35Z",
+          "updatedAt": "2026-06-09T05:37:30Z"
+        }
+      ],
+      "features": [
+        "SwiftUI 页面结构",
+        "原生权限和系统能力",
+        "App Store 风格交互"
+      ],
+      "useCases": [
+        "iPhone App",
+        "Apple 生态工具",
+        "SwiftUI 原型"
+      ],
+      "keywords": [
+        "ios",
+        "swift",
+        "swiftui",
+        "apple",
+        "原生"
+      ],
+      "primaryRepo": {
+        "owner": "sickn33",
+        "name": "antigravity-awesome-skills",
+        "fullName": "sickn33/antigravity-awesome-skills",
+        "url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "description": "Installable GitHub library of 1,500+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+        "stars": 40123,
+        "forks": 6495,
+        "language": "Python",
+        "topics": [
+          "agent-skills",
+          "agentic-skills",
+          "ai-agent-skills",
+          "ai-agents",
+          "ai-coding",
+          "ai-workflows",
+          "antigravity",
+          "antigravity-skills",
+          "claude-code",
+          "claude-code-skills",
+          "codex-cli",
+          "codex-skills",
+          "cursor",
+          "cursor-skills",
+          "developer-tools",
+          "gemini-cli",
+          "gemini-skills",
+          "kiro",
+          "mcp",
+          "skill-library"
+        ],
+        "pushedAt": "2026-06-08T08:37:35Z",
+        "updatedAt": "2026-06-09T05:37:30Z"
+      },
+      "stars": 40123,
+      "source": "curated"
+    },
+    {
+      "id": "android-native-dev",
+      "name": "android-native-dev",
+      "command": "/android-native-dev",
+      "category": "mobile",
+      "icon": "fab fa-android",
+      "accent": "#39a46f",
+      "description": "Android 原生开发 Skill，面向 Kotlin、Jetpack Compose 和现代 Android 应用。",
+      "tags": [
+        "Kotlin",
+        "Jetpack Compose",
+        "Android"
+      ],
+      "tools": [
+        "Claude Code",
+        "Codex",
+        "Cursor"
+      ],
+      "repositories": [
+        {
+          "owner": "sickn33",
+          "name": "antigravity-awesome-skills",
+          "fullName": "sickn33/antigravity-awesome-skills",
+          "url": "https://github.com/sickn33/antigravity-awesome-skills",
+          "description": "Installable GitHub library of 1,500+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+          "stars": 40123,
+          "forks": 6495,
+          "language": "Python",
+          "topics": [
+            "agent-skills",
+            "agentic-skills",
+            "ai-agent-skills",
+            "ai-agents",
+            "ai-coding",
+            "ai-workflows",
+            "antigravity",
+            "antigravity-skills",
+            "claude-code",
+            "claude-code-skills",
+            "codex-cli",
+            "codex-skills",
+            "cursor",
+            "cursor-skills",
+            "developer-tools",
+            "gemini-cli",
+            "gemini-skills",
+            "kiro",
+            "mcp",
+            "skill-library"
+          ],
+          "pushedAt": "2026-06-08T08:37:35Z",
+          "updatedAt": "2026-06-09T05:37:30Z"
+        }
+      ],
+      "features": [
+        "Compose 组件拆解",
+        "处理 Activity 和导航",
+        "接入 Android 原生能力"
+      ],
+      "useCases": [
+        "Android App",
+        "Material You 页面",
+        "移动端业务工具"
+      ],
+      "keywords": [
+        "android",
+        "kotlin",
+        "compose",
+        "原生",
+        "安卓"
+      ],
+      "primaryRepo": {
+        "owner": "sickn33",
+        "name": "antigravity-awesome-skills",
+        "fullName": "sickn33/antigravity-awesome-skills",
+        "url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "description": "Installable GitHub library of 1,500+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+        "stars": 40123,
+        "forks": 6495,
+        "language": "Python",
+        "topics": [
+          "agent-skills",
+          "agentic-skills",
+          "ai-agent-skills",
+          "ai-agents",
+          "ai-coding",
+          "ai-workflows",
+          "antigravity",
+          "antigravity-skills",
+          "claude-code",
+          "claude-code-skills",
+          "codex-cli",
+          "codex-skills",
+          "cursor",
+          "cursor-skills",
+          "developer-tools",
+          "gemini-cli",
+          "gemini-skills",
+          "kiro",
+          "mcp",
+          "skill-library"
+        ],
+        "pushedAt": "2026-06-08T08:37:35Z",
+        "updatedAt": "2026-06-09T05:37:30Z"
+      },
+      "stars": 40123,
+      "source": "curated"
+    },
+    {
+      "id": "gsap-core",
+      "name": "gsap-core",
+      "command": "/gsap-core",
+      "category": "animation",
+      "icon": "fas fa-play-circle",
+      "accent": "#71a832",
+      "description": "GSAP 核心动画 Skill，覆盖 Tween、Timeline、缓动函数和动画编排。",
+      "tags": [
+        "Tween",
+        "Timeline",
+        "缓动函数"
+      ],
+      "tools": [
+        "Claude Code",
+        "Codex",
+        "Cursor",
+        "OpenCode"
+      ],
+      "repositories": [
+        {
+          "owner": "viknesh20-20",
+          "name": "claude-code-tool-kit",
+          "fullName": "viknesh20-20/claude-code-tool-kit",
+          "url": "https://github.com/viknesh20-20/claude-code-tool-kit",
+          "description": "Production-ready Claude Code configuration. 12 original agents, 200+ slash-command skills, 45+ MCP servers, 14 plugins, design + 3D + WebGPU + GSAP + RAG tooling. One-command Node.js installer for premium websites, SaaS apps, AI agents. Free, MIT, stack-agnostic.",
+          "stars": 4,
+          "forks": 0,
+          "language": "JavaScript",
+          "topics": [
+            "agent-orchestration",
+            "ai-agents",
+            "ai-coding-assistant-tools",
+            "ai-development-toolkit",
+            "claude-ai-skills",
+            "claude-code",
+            "claude-code-agents",
+            "claude-code-skill",
+            "claude-code-skills",
+            "claude-plugins",
+            "claude-skills",
+            "design-system",
+            "devops-toolkit",
+            "llm-tools",
+            "mcp-servers",
+            "prompt-engineering",
+            "rag",
+            "threejs",
+            "webgpu"
+          ],
+          "pushedAt": "2026-05-02T19:03:58Z",
+          "updatedAt": "2026-05-27T13:57:05Z"
+        }
+      ],
+      "features": [
+        "拆解动画时间线",
+        "设置缓动和节奏",
+        "组织复杂入场与状态动效"
+      ],
+      "useCases": [
+        "产品展示动画",
+        "首屏入场",
+        "交互反馈动效"
+      ],
+      "keywords": [
+        "gsap",
+        "timeline",
+        "tween",
+        "animation",
+        "动画"
+      ],
+      "primaryRepo": {
+        "owner": "viknesh20-20",
+        "name": "claude-code-tool-kit",
+        "fullName": "viknesh20-20/claude-code-tool-kit",
+        "url": "https://github.com/viknesh20-20/claude-code-tool-kit",
+        "description": "Production-ready Claude Code configuration. 12 original agents, 200+ slash-command skills, 45+ MCP servers, 14 plugins, design + 3D + WebGPU + GSAP + RAG tooling. One-command Node.js installer for premium websites, SaaS apps, AI agents. Free, MIT, stack-agnostic.",
+        "stars": 4,
+        "forks": 0,
+        "language": "JavaScript",
+        "topics": [
+          "agent-orchestration",
+          "ai-agents",
+          "ai-coding-assistant-tools",
+          "ai-development-toolkit",
+          "claude-ai-skills",
+          "claude-code",
+          "claude-code-agents",
+          "claude-code-skill",
+          "claude-code-skills",
+          "claude-plugins",
+          "claude-skills",
+          "design-system",
+          "devops-toolkit",
+          "llm-tools",
+          "mcp-servers",
+          "prompt-engineering",
+          "rag",
+          "threejs",
+          "webgpu"
+        ],
+        "pushedAt": "2026-05-02T19:03:58Z",
+        "updatedAt": "2026-05-27T13:57:05Z"
+      },
+      "stars": 4,
+      "source": "curated"
+    },
+    {
+      "id": "gsap-scrolltrigger",
+      "name": "gsap-scrolltrigger",
+      "command": "/gsap-scrolltrigger",
+      "category": "animation",
+      "icon": "fas fa-arrows-alt",
+      "accent": "#469a4a",
+      "description": "GSAP 滚动触发 Skill，用滚动位置驱动视差、固定、进度条和章节切换。",
+      "tags": [
+        "ScrollTrigger",
+        "视差",
+        "滚动动画"
+      ],
+      "tools": [
+        "Claude Code",
+        "Codex",
+        "Cursor",
+        "OpenCode"
+      ],
+      "repositories": [
+        {
+          "owner": "viknesh20-20",
+          "name": "claude-code-tool-kit",
+          "fullName": "viknesh20-20/claude-code-tool-kit",
+          "url": "https://github.com/viknesh20-20/claude-code-tool-kit",
+          "description": "Production-ready Claude Code configuration. 12 original agents, 200+ slash-command skills, 45+ MCP servers, 14 plugins, design + 3D + WebGPU + GSAP + RAG tooling. One-command Node.js installer for premium websites, SaaS apps, AI agents. Free, MIT, stack-agnostic.",
+          "stars": 4,
+          "forks": 0,
+          "language": "JavaScript",
+          "topics": [
+            "agent-orchestration",
+            "ai-agents",
+            "ai-coding-assistant-tools",
+            "ai-development-toolkit",
+            "claude-ai-skills",
+            "claude-code",
+            "claude-code-agents",
+            "claude-code-skill",
+            "claude-code-skills",
+            "claude-plugins",
+            "claude-skills",
+            "design-system",
+            "devops-toolkit",
+            "llm-tools",
+            "mcp-servers",
+            "prompt-engineering",
+            "rag",
+            "threejs",
+            "webgpu"
+          ],
+          "pushedAt": "2026-05-02T19:03:58Z",
+          "updatedAt": "2026-05-27T13:57:05Z"
+        }
+      ],
+      "features": [
+        "滚动触发配置",
+        "Pin 固定场景",
+        "Scrub 进度驱动动画"
+      ],
+      "useCases": [
+        "长页叙事",
+        "产品故事页",
+        "滚动演示"
+      ],
+      "keywords": [
+        "scrolltrigger",
+        "scroll",
+        "parallax",
+        "pin",
+        "滚动"
+      ],
+      "primaryRepo": {
+        "owner": "viknesh20-20",
+        "name": "claude-code-tool-kit",
+        "fullName": "viknesh20-20/claude-code-tool-kit",
+        "url": "https://github.com/viknesh20-20/claude-code-tool-kit",
+        "description": "Production-ready Claude Code configuration. 12 original agents, 200+ slash-command skills, 45+ MCP servers, 14 plugins, design + 3D + WebGPU + GSAP + RAG tooling. One-command Node.js installer for premium websites, SaaS apps, AI agents. Free, MIT, stack-agnostic.",
+        "stars": 4,
+        "forks": 0,
+        "language": "JavaScript",
+        "topics": [
+          "agent-orchestration",
+          "ai-agents",
+          "ai-coding-assistant-tools",
+          "ai-development-toolkit",
+          "claude-ai-skills",
+          "claude-code",
+          "claude-code-agents",
+          "claude-code-skill",
+          "claude-code-skills",
+          "claude-plugins",
+          "claude-skills",
+          "design-system",
+          "devops-toolkit",
+          "llm-tools",
+          "mcp-servers",
+          "prompt-engineering",
+          "rag",
+          "threejs",
+          "webgpu"
+        ],
+        "pushedAt": "2026-05-02T19:03:58Z",
+        "updatedAt": "2026-05-27T13:57:05Z"
+      },
+      "stars": 4,
+      "source": "curated"
+    },
+    {
+      "id": "gsap-react",
+      "name": "gsap-react",
+      "command": "/gsap-react",
+      "category": "animation",
+      "icon": "fab fa-react",
+      "accent": "#55a761",
+      "description": "GSAP + React 集成 Skill，处理 refs、cleanup、SSR 兼容和组件生命周期。",
+      "tags": [
+        "React",
+        "useGSAP",
+        "Ref"
+      ],
+      "tools": [
+        "Claude Code",
+        "Codex",
+        "Cursor",
+        "OpenCode"
+      ],
+      "repositories": [
+        {
+          "owner": "Nyx-abu",
+          "name": "awwwards-ui-skill",
+          "fullName": "Nyx-abu/awwwards-ui-skill",
+          "url": "https://github.com/Nyx-abu/awwwards-ui-skill",
+          "description": "A skill that raises the design quality of AI-generated UIs. Teaches Antigravity, Claude Code and Codex to build with real design intent — motion, typography, color, accessibility — instead of generic slop.",
+          "stars": 7,
+          "forks": 0,
+          "language": "JavaScript",
+          "topics": [
+            "ai-agent",
+            "antigravity",
+            "awwwards",
+            "claude-skills",
+            "frontend",
+            "gsap",
+            "threejs",
+            "ui-design"
+          ],
+          "pushedAt": "2026-06-03T13:55:33Z",
+          "updatedAt": "2026-06-05T03:40:28Z"
+        }
+      ],
+      "features": [
+        "React 生命周期内初始化动画",
+        "避免重复绑定和内存泄漏",
+        "组件化动画复用"
+      ],
+      "useCases": [
+        "React 落地页",
+        "组件动效",
+        "Next.js 动画页面"
+      ],
+      "keywords": [
+        "gsap",
+        "react",
+        "usegsap",
+        "ref",
+        "cleanup"
+      ],
+      "primaryRepo": {
+        "owner": "Nyx-abu",
+        "name": "awwwards-ui-skill",
+        "fullName": "Nyx-abu/awwwards-ui-skill",
+        "url": "https://github.com/Nyx-abu/awwwards-ui-skill",
+        "description": "A skill that raises the design quality of AI-generated UIs. Teaches Antigravity, Claude Code and Codex to build with real design intent — motion, typography, color, accessibility — instead of generic slop.",
+        "stars": 7,
+        "forks": 0,
+        "language": "JavaScript",
+        "topics": [
+          "ai-agent",
+          "antigravity",
+          "awwwards",
+          "claude-skills",
+          "frontend",
+          "gsap",
+          "threejs",
+          "ui-design"
+        ],
+        "pushedAt": "2026-06-03T13:55:33Z",
+        "updatedAt": "2026-06-05T03:40:28Z"
+      },
+      "stars": 7,
+      "source": "curated"
+    },
+    {
+      "id": "minimax-docx",
+      "name": "minimax-docx",
+      "command": "/minimax-docx",
+      "category": "documents",
+      "icon": "fas fa-file-word",
+      "accent": "#3267a8",
+      "description": "Word 文档生成 Skill，创建带标题层级、表格、图片和样式的 .docx 文件。",
+      "tags": [
+        "Word",
+        "报告",
+        "文档自动化"
+      ],
+      "tools": [
+        "Claude Code",
+        "MiniMax CLI"
+      ],
+      "repositories": [
+        {
+          "owner": "sickn33",
+          "name": "antigravity-awesome-skills",
+          "fullName": "sickn33/antigravity-awesome-skills",
+          "url": "https://github.com/sickn33/antigravity-awesome-skills",
+          "description": "Installable GitHub library of 1,500+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+          "stars": 40123,
+          "forks": 6495,
+          "language": "Python",
+          "topics": [
+            "agent-skills",
+            "agentic-skills",
+            "ai-agent-skills",
+            "ai-agents",
+            "ai-coding",
+            "ai-workflows",
+            "antigravity",
+            "antigravity-skills",
+            "claude-code",
+            "claude-code-skills",
+            "codex-cli",
+            "codex-skills",
+            "cursor",
+            "cursor-skills",
+            "developer-tools",
+            "gemini-cli",
+            "gemini-skills",
+            "kiro",
+            "mcp",
+            "skill-library"
+          ],
+          "pushedAt": "2026-06-08T08:37:35Z",
+          "updatedAt": "2026-06-09T05:37:30Z"
+        }
+      ],
+      "features": [
+        "生成 Word 结构",
+        "处理表格与图片",
+        "统一页眉页脚和样式"
+      ],
+      "useCases": [
+        "读书报告",
+        "论文笔记",
+        "项目文档"
+      ],
+      "keywords": [
+        "docx",
+        "word",
+        "document",
+        "报告",
+        "文档"
+      ],
+      "primaryRepo": {
+        "owner": "sickn33",
+        "name": "antigravity-awesome-skills",
+        "fullName": "sickn33/antigravity-awesome-skills",
+        "url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "description": "Installable GitHub library of 1,500+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+        "stars": 40123,
+        "forks": 6495,
+        "language": "Python",
+        "topics": [
+          "agent-skills",
+          "agentic-skills",
+          "ai-agent-skills",
+          "ai-agents",
+          "ai-coding",
+          "ai-workflows",
+          "antigravity",
+          "antigravity-skills",
+          "claude-code",
+          "claude-code-skills",
+          "codex-cli",
+          "codex-skills",
+          "cursor",
+          "cursor-skills",
+          "developer-tools",
+          "gemini-cli",
+          "gemini-skills",
+          "kiro",
+          "mcp",
+          "skill-library"
+        ],
+        "pushedAt": "2026-06-08T08:37:35Z",
+        "updatedAt": "2026-06-09T05:37:30Z"
+      },
+      "stars": 40123,
+      "source": "curated"
+    },
+    {
+      "id": "minimax-pdf",
+      "name": "minimax-pdf",
+      "command": "/minimax-pdf",
+      "category": "documents",
+      "icon": "fas fa-file-pdf",
+      "accent": "#c13a33",
+      "description": "PDF 生成 Skill，面向高质量页面布局、字体、图表和打印输出。",
+      "tags": [
+        "PDF",
+        "排版",
+        "打印"
+      ],
+      "tools": [
+        "Claude Code",
+        "MiniMax CLI"
+      ],
+      "repositories": [
+        {
+          "owner": "sickn33",
+          "name": "antigravity-awesome-skills",
+          "fullName": "sickn33/antigravity-awesome-skills",
+          "url": "https://github.com/sickn33/antigravity-awesome-skills",
+          "description": "Installable GitHub library of 1,500+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+          "stars": 40123,
+          "forks": 6495,
+          "language": "Python",
+          "topics": [
+            "agent-skills",
+            "agentic-skills",
+            "ai-agent-skills",
+            "ai-agents",
+            "ai-coding",
+            "ai-workflows",
+            "antigravity",
+            "antigravity-skills",
+            "claude-code",
+            "claude-code-skills",
+            "codex-cli",
+            "codex-skills",
+            "cursor",
+            "cursor-skills",
+            "developer-tools",
+            "gemini-cli",
+            "gemini-skills",
+            "kiro",
+            "mcp",
+            "skill-library"
+          ],
+          "pushedAt": "2026-06-08T08:37:35Z",
+          "updatedAt": "2026-06-09T05:37:30Z"
+        }
+      ],
+      "features": [
+        "设置页面尺寸和边距",
+        "组织图文排版",
+        "输出可打印 PDF"
+      ],
+      "useCases": [
+        "作品集 PDF",
+        "学术资料",
+        "宣传册"
+      ],
+      "keywords": [
+        "pdf",
+        "print",
+        "layout",
+        "排版",
+        "打印"
+      ],
+      "primaryRepo": {
+        "owner": "sickn33",
+        "name": "antigravity-awesome-skills",
+        "fullName": "sickn33/antigravity-awesome-skills",
+        "url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "description": "Installable GitHub library of 1,500+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+        "stars": 40123,
+        "forks": 6495,
+        "language": "Python",
+        "topics": [
+          "agent-skills",
+          "agentic-skills",
+          "ai-agent-skills",
+          "ai-agents",
+          "ai-coding",
+          "ai-workflows",
+          "antigravity",
+          "antigravity-skills",
+          "claude-code",
+          "claude-code-skills",
+          "codex-cli",
+          "codex-skills",
+          "cursor",
+          "cursor-skills",
+          "developer-tools",
+          "gemini-cli",
+          "gemini-skills",
+          "kiro",
+          "mcp",
+          "skill-library"
+        ],
+        "pushedAt": "2026-06-08T08:37:35Z",
+        "updatedAt": "2026-06-09T05:37:30Z"
+      },
+      "stars": 40123,
+      "source": "curated"
+    },
+    {
+      "id": "minimax-xlsx",
+      "name": "minimax-xlsx",
+      "command": "/minimax-xlsx",
+      "category": "documents",
+      "icon": "fas fa-file-excel",
+      "accent": "#2f7e51",
+      "description": "Excel 表格生成 Skill，创建带公式、图表、数据验证和格式的工作簿。",
+      "tags": [
+        "Excel",
+        "数据分析",
+        "报表"
+      ],
+      "tools": [
+        "Claude Code",
+        "MiniMax CLI"
+      ],
+      "repositories": [
+        {
+          "owner": "sickn33",
+          "name": "antigravity-awesome-skills",
+          "fullName": "sickn33/antigravity-awesome-skills",
+          "url": "https://github.com/sickn33/antigravity-awesome-skills",
+          "description": "Installable GitHub library of 1,500+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+          "stars": 40123,
+          "forks": 6495,
+          "language": "Python",
+          "topics": [
+            "agent-skills",
+            "agentic-skills",
+            "ai-agent-skills",
+            "ai-agents",
+            "ai-coding",
+            "ai-workflows",
+            "antigravity",
+            "antigravity-skills",
+            "claude-code",
+            "claude-code-skills",
+            "codex-cli",
+            "codex-skills",
+            "cursor",
+            "cursor-skills",
+            "developer-tools",
+            "gemini-cli",
+            "gemini-skills",
+            "kiro",
+            "mcp",
+            "skill-library"
+          ],
+          "pushedAt": "2026-06-08T08:37:35Z",
+          "updatedAt": "2026-06-09T05:37:30Z"
+        }
+      ],
+      "features": [
+        "构建多表结构",
+        "生成公式和图表",
+        "设置数据验证和格式"
+      ],
+      "useCases": [
+        "数据报表",
+        "预算表",
+        "实验记录表"
+      ],
+      "keywords": [
+        "xlsx",
+        "excel",
+        "spreadsheet",
+        "formula",
+        "表格"
+      ],
+      "primaryRepo": {
+        "owner": "sickn33",
+        "name": "antigravity-awesome-skills",
+        "fullName": "sickn33/antigravity-awesome-skills",
+        "url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "description": "Installable GitHub library of 1,500+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+        "stars": 40123,
+        "forks": 6495,
+        "language": "Python",
+        "topics": [
+          "agent-skills",
+          "agentic-skills",
+          "ai-agent-skills",
+          "ai-agents",
+          "ai-coding",
+          "ai-workflows",
+          "antigravity",
+          "antigravity-skills",
+          "claude-code",
+          "claude-code-skills",
+          "codex-cli",
+          "codex-skills",
+          "cursor",
+          "cursor-skills",
+          "developer-tools",
+          "gemini-cli",
+          "gemini-skills",
+          "kiro",
+          "mcp",
+          "skill-library"
+        ],
+        "pushedAt": "2026-06-08T08:37:35Z",
+        "updatedAt": "2026-06-09T05:37:30Z"
+      },
+      "stars": 40123,
+      "source": "curated"
+    },
+    {
+      "id": "pptx-generator",
+      "name": "pptx-generator",
+      "command": "/pptx-generator",
+      "category": "documents",
+      "icon": "fas fa-file-powerpoint",
+      "accent": "#c85b32",
+      "description": "PPT 生成 Skill，围绕主题、节奏、图表和视觉风格生成幻灯片。",
+      "tags": [
+        "PPT",
+        "演示",
+        "幻灯片"
+      ],
+      "tools": [
+        "Claude Code",
+        "MiniMax CLI"
+      ],
+      "repositories": [
+        {
+          "owner": "sickn33",
+          "name": "antigravity-awesome-skills",
+          "fullName": "sickn33/antigravity-awesome-skills",
+          "url": "https://github.com/sickn33/antigravity-awesome-skills",
+          "description": "Installable GitHub library of 1,500+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+          "stars": 40123,
+          "forks": 6495,
+          "language": "Python",
+          "topics": [
+            "agent-skills",
+            "agentic-skills",
+            "ai-agent-skills",
+            "ai-agents",
+            "ai-coding",
+            "ai-workflows",
+            "antigravity",
+            "antigravity-skills",
+            "claude-code",
+            "claude-code-skills",
+            "codex-cli",
+            "codex-skills",
+            "cursor",
+            "cursor-skills",
+            "developer-tools",
+            "gemini-cli",
+            "gemini-skills",
+            "kiro",
+            "mcp",
+            "skill-library"
+          ],
+          "pushedAt": "2026-06-08T08:37:35Z",
+          "updatedAt": "2026-06-09T05:37:30Z"
+        }
+      ],
+      "features": [
+        "拆解演示结构",
+        "生成版式和图表",
+        "统一主题和视觉节奏"
+      ],
+      "useCases": [
+        "组会汇报",
+        "产品路演",
+        "课程课件"
+      ],
+      "keywords": [
+        "ppt",
+        "pptx",
+        "presentation",
+        "slides",
+        "演示"
+      ],
+      "primaryRepo": {
+        "owner": "sickn33",
+        "name": "antigravity-awesome-skills",
+        "fullName": "sickn33/antigravity-awesome-skills",
+        "url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "description": "Installable GitHub library of 1,500+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+        "stars": 40123,
+        "forks": 6495,
+        "language": "Python",
+        "topics": [
+          "agent-skills",
+          "agentic-skills",
+          "ai-agent-skills",
+          "ai-agents",
+          "ai-coding",
+          "ai-workflows",
+          "antigravity",
+          "antigravity-skills",
+          "claude-code",
+          "claude-code-skills",
+          "codex-cli",
+          "codex-skills",
+          "cursor",
+          "cursor-skills",
+          "developer-tools",
+          "gemini-cli",
+          "gemini-skills",
+          "kiro",
+          "mcp",
+          "skill-library"
+        ],
+        "pushedAt": "2026-06-08T08:37:35Z",
+        "updatedAt": "2026-06-09T05:37:30Z"
+      },
+      "stars": 40123,
+      "source": "curated"
+    },
+    {
+      "id": "minimax-music-gen",
+      "name": "minimax-music-gen",
+      "command": "/minimax-music-gen",
+      "category": "creative",
+      "icon": "fas fa-music",
+      "accent": "#d95858",
+      "description": "AI 音乐生成 Skill，根据文字描述生成不同风格、情绪和时长的音乐。",
+      "tags": [
+        "AI 作曲",
+        "多风格",
+        "背景音乐"
+      ],
+      "tools": [
+        "Claude Code",
+        "MiniMax CLI"
+      ],
+      "repositories": [
+        {
+          "owner": "lrzniu",
+          "name": "Minimax-skills-for-music-gen",
+          "fullName": "lrzniu/Minimax-skills-for-music-gen",
+          "url": "https://github.com/lrzniu/Minimax-skills-for-music-gen",
+          "description": "skills for Yorushika music generation using MiniMax API",
+          "stars": 1,
+          "forks": 0,
+          "language": "",
+          "topics": [],
+          "pushedAt": "2026-05-18T09:14:07Z",
+          "updatedAt": "2026-05-18T12:23:36Z"
+        },
+        {
+          "owner": "HZ6112",
+          "name": "minimax-music-skills-v2",
+          "fullName": "HZ6112/minimax-music-skills-v2",
+          "url": "https://github.com/HZ6112/minimax-music-skills-v2",
+          "description": "MiniMax Music Skills for Claude Code — mmx CLI edition (music-gen, playlist, buddy-sings)",
+          "stars": 1,
+          "forks": 0,
+          "language": "Python",
+          "topics": [],
+          "pushedAt": "2026-04-10T11:43:34Z",
+          "updatedAt": "2026-05-02T16:34:32Z"
+        }
+      ],
+      "features": [
+        "描述音乐风格和情绪",
+        "指定用途和长度",
+        "生成可复用的音乐提示"
+      ],
+      "useCases": [
+        "视频背景音乐",
+        "播客片头",
+        "短视频配乐"
+      ],
+      "keywords": [
+        "music",
+        "audio",
+        "minimax",
+        "song",
+        "音乐",
+        "作曲"
+      ],
+      "primaryRepo": {
+        "owner": "lrzniu",
+        "name": "Minimax-skills-for-music-gen",
+        "fullName": "lrzniu/Minimax-skills-for-music-gen",
+        "url": "https://github.com/lrzniu/Minimax-skills-for-music-gen",
+        "description": "skills for Yorushika music generation using MiniMax API",
+        "stars": 1,
+        "forks": 0,
+        "language": "",
+        "topics": [],
+        "pushedAt": "2026-05-18T09:14:07Z",
+        "updatedAt": "2026-05-18T12:23:36Z"
+      },
+      "stars": 1,
+      "source": "curated"
+    },
+    {
+      "id": "web-video-presentation",
+      "name": "web-video-presentation",
+      "command": "/web-video-presentation",
+      "category": "creative",
+      "icon": "fas fa-video",
+      "accent": "#9356b7",
+      "description": "网页视频演示 Skill，把文章或口播稿做成 16:9 点击推进的网页演示。",
+      "tags": [
+        "动态 PPT",
+        "口播",
+        "交互演示"
+      ],
+      "tools": [
+        "Claude Code",
+        "MiniMax CLI"
+      ],
+      "repositories": [
+        {
+          "owner": "sylvial928",
+          "name": "interactive-slides",
+          "fullName": "sylvial928/interactive-slides",
+          "url": "https://github.com/sylvial928/interactive-slides",
+          "description": "A Claude Code skill for creating interactive, animated web presentations — with curated style presets, brand kit support, visual style discovery, a structured 6-phase workflow, and one-click fully-editable PowerPoint export.",
+          "stars": 16,
+          "forks": 1,
+          "language": "",
+          "topics": [
+            "animations",
+            "claude-ai",
+            "claude-code",
+            "claude-code-skill",
+            "gsap",
+            "html-slides",
+            "interactive-presentation",
+            "presentation-tool",
+            "web-presentation"
+          ],
+          "pushedAt": "2026-03-05T08:22:51Z",
+          "updatedAt": "2026-05-16T22:13:33Z"
+        }
+      ],
+      "features": [
+        "切分口播节拍",
+        "生成交互式演示页面",
+        "可选合成口播音频"
+      ],
+      "useCases": [
+        "B 站录屏视频",
+        "课程讲解",
+        "产品发布演示"
+      ],
+      "keywords": [
+        "video",
+        "presentation",
+        "slides",
+        "web",
+        "口播",
+        "演示"
+      ],
+      "primaryRepo": {
+        "owner": "sylvial928",
+        "name": "interactive-slides",
+        "fullName": "sylvial928/interactive-slides",
+        "url": "https://github.com/sylvial928/interactive-slides",
+        "description": "A Claude Code skill for creating interactive, animated web presentations — with curated style presets, brand kit support, visual style discovery, a structured 6-phase workflow, and one-click fully-editable PowerPoint export.",
+        "stars": 16,
+        "forks": 1,
+        "language": "",
+        "topics": [
+          "animations",
+          "claude-ai",
+          "claude-code",
+          "claude-code-skill",
+          "gsap",
+          "html-slides",
+          "interactive-presentation",
+          "presentation-tool",
+          "web-presentation"
+        ],
+        "pushedAt": "2026-03-05T08:22:51Z",
+        "updatedAt": "2026-05-16T22:13:33Z"
+      },
+      "stars": 16,
+      "source": "curated"
+    },
+    {
+      "id": "image-to-code-skill",
+      "name": "image-to-code-skill",
+      "command": "/image-to-code-skill",
+      "category": "creative",
+      "icon": "fas fa-exchange-alt",
+      "accent": "#d78a31",
+      "description": "图像转代码 Skill，把设计稿、截图或参考图还原为 HTML/CSS 和响应式布局。",
+      "tags": [
+        "设计稿转代码",
+        "截图还原",
+        "响应式"
+      ],
+      "tools": [
+        "Claude Code",
+        "Codex",
+        "Cursor"
+      ],
+      "repositories": [
+        {
+          "owner": "voidmatcha",
+          "name": "ui-clone-skills",
+          "fullName": "voidmatcha/ui-clone-skills",
+          "url": "https://github.com/voidmatcha/ui-clone-skills",
+          "description": "Clone any website URL to React + Tailwind code — Claude Code & Codex plugin with visual-diff verification (AE/SSIM, GSAP/Framer Motion/Webflow IX2 extraction).",
+          "stars": 4,
+          "forks": 0,
+          "language": "Python",
+          "topics": [
+            "agent-browser",
+            "ai-agents",
+            "claude-code",
+            "claude-code-plugin",
+            "claude-code-skills",
+            "codex",
+            "codex-plugin",
+            "framer-motion",
+            "gsap",
+            "nextjs",
+            "react",
+            "reverse-engineering",
+            "screenshot-to-code",
+            "tailwind-v4",
+            "tailwindcss",
+            "ui-cloning",
+            "url-to-react",
+            "visual-regression",
+            "webflow",
+            "website-to-react"
+          ],
+          "pushedAt": "2026-06-07T05:09:49Z",
+          "updatedAt": "2026-05-31T14:00:31Z"
+        }
+      ],
+      "features": [
+        "识别截图布局",
+        "生成 HTML/CSS",
+        "补齐移动端适配"
+      ],
+      "useCases": [
+        "快速复刻 UI",
+        "设计稿落地",
+        "竞品页面分析"
+      ],
+      "keywords": [
+        "image to code",
+        "screenshot",
+        "html",
+        "css",
+        "截图",
+        "还原"
+      ],
+      "primaryRepo": {
+        "owner": "voidmatcha",
+        "name": "ui-clone-skills",
+        "fullName": "voidmatcha/ui-clone-skills",
+        "url": "https://github.com/voidmatcha/ui-clone-skills",
+        "description": "Clone any website URL to React + Tailwind code — Claude Code & Codex plugin with visual-diff verification (AE/SSIM, GSAP/Framer Motion/Webflow IX2 extraction).",
+        "stars": 4,
+        "forks": 0,
+        "language": "Python",
+        "topics": [
+          "agent-browser",
+          "ai-agents",
+          "claude-code",
+          "claude-code-plugin",
+          "claude-code-skills",
+          "codex",
+          "codex-plugin",
+          "framer-motion",
+          "gsap",
+          "nextjs",
+          "react",
+          "reverse-engineering",
+          "screenshot-to-code",
+          "tailwind-v4",
+          "tailwindcss",
+          "ui-cloning",
+          "url-to-react",
+          "visual-regression",
+          "webflow",
+          "website-to-react"
+        ],
+        "pushedAt": "2026-06-07T05:09:49Z",
+        "updatedAt": "2026-05-31T14:00:31Z"
+      },
+      "stars": 4,
+      "source": "curated"
+    },
+    {
+      "id": "gif-sticker-maker",
+      "name": "gif-sticker-maker",
+      "command": "/gif-sticker-maker",
+      "category": "creative",
+      "icon": "fas fa-film",
+      "accent": "#269aad",
+      "description": "GIF 表情包 Skill，制作动态贴纸、循环表情和社交媒体短动画。",
+      "tags": [
+        "GIF",
+        "表情包",
+        "动画"
+      ],
+      "tools": [
+        "Claude Code",
+        "Codex",
+        "Cursor"
+      ],
+      "repositories": [
+        {
+          "owner": "sickn33",
+          "name": "antigravity-awesome-skills",
+          "fullName": "sickn33/antigravity-awesome-skills",
+          "url": "https://github.com/sickn33/antigravity-awesome-skills",
+          "description": "Installable GitHub library of 1,500+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+          "stars": 40123,
+          "forks": 6495,
+          "language": "Python",
+          "topics": [
+            "agent-skills",
+            "agentic-skills",
+            "ai-agent-skills",
+            "ai-agents",
+            "ai-coding",
+            "ai-workflows",
+            "antigravity",
+            "antigravity-skills",
+            "claude-code",
+            "claude-code-skills",
+            "codex-cli",
+            "codex-skills",
+            "cursor",
+            "cursor-skills",
+            "developer-tools",
+            "gemini-cli",
+            "gemini-skills",
+            "kiro",
+            "mcp",
+            "skill-library"
+          ],
+          "pushedAt": "2026-06-08T08:37:35Z",
+          "updatedAt": "2026-06-09T05:37:30Z"
+        }
+      ],
+      "features": [
+        "规划循环动作",
+        "控制尺寸和透明背景",
+        "输出贴纸风格提示"
+      ],
+      "useCases": [
+        "聊天表情",
+        "社媒贴纸",
+        "产品动效素材"
+      ],
+      "keywords": [
+        "gif",
+        "sticker",
+        "animation",
+        "meme",
+        "表情包"
+      ],
+      "primaryRepo": {
+        "owner": "sickn33",
+        "name": "antigravity-awesome-skills",
+        "fullName": "sickn33/antigravity-awesome-skills",
+        "url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "description": "Installable GitHub library of 1,500+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+        "stars": 40123,
+        "forks": 6495,
+        "language": "Python",
+        "topics": [
+          "agent-skills",
+          "agentic-skills",
+          "ai-agent-skills",
+          "ai-agents",
+          "ai-coding",
+          "ai-workflows",
+          "antigravity",
+          "antigravity-skills",
+          "claude-code",
+          "claude-code-skills",
+          "codex-cli",
+          "codex-skills",
+          "cursor",
+          "cursor-skills",
+          "developer-tools",
+          "gemini-cli",
+          "gemini-skills",
+          "kiro",
+          "mcp",
+          "skill-library"
+        ],
+        "pushedAt": "2026-06-08T08:37:35Z",
+        "updatedAt": "2026-06-09T05:37:30Z"
+      },
+      "stars": 40123,
+      "source": "curated"
+    },
+    {
+      "id": "code-review",
+      "name": "code-review",
+      "command": "/code-review",
+      "category": "code",
+      "icon": "fas fa-check-double",
+      "accent": "#409a4d",
+      "description": "代码审查 Skill，审查当前 diff，发现正确性 bug、复用机会和效率问题。",
+      "tags": [
+        "Code Review",
+        "Bug 检测",
+        "代码质量"
+      ],
+      "tools": [
+        "Claude Code",
+        "Codex",
+        "Cursor",
+        "OpenCode"
+      ],
+      "repositories": [
+        {
+          "owner": "awesome-skills",
+          "name": "code-review-skill",
+          "fullName": "awesome-skills/code-review-skill",
+          "url": "https://github.com/awesome-skills/code-review-skill",
+          "description": "A comprehensive code review skill for Claude Code, covering React 19, Vue 3, Rust, TypeScript, TanStack Query v5, and more.",
+          "stars": 961,
+          "forks": 113,
+          "language": "HTML",
+          "topics": [],
+          "pushedAt": "2026-06-05T01:45:40Z",
+          "updatedAt": "2026-06-09T05:45:13Z"
+        }
+      ],
+      "features": [
+        "按严重程度列出问题",
+        "定位文件和行号",
+        "可选自动修复或 PR 评论"
+      ],
+      "useCases": [
+        "提交前自检",
+        "PR 审查",
+        "回归风险排查"
+      ],
+      "keywords": [
+        "review",
+        "diff",
+        "bug",
+        "quality",
+        "审查",
+        "代码质量"
+      ],
+      "primaryRepo": {
+        "owner": "awesome-skills",
+        "name": "code-review-skill",
+        "fullName": "awesome-skills/code-review-skill",
+        "url": "https://github.com/awesome-skills/code-review-skill",
+        "description": "A comprehensive code review skill for Claude Code, covering React 19, Vue 3, Rust, TypeScript, TanStack Query v5, and more.",
+        "stars": 961,
+        "forks": 113,
+        "language": "HTML",
+        "topics": [],
+        "pushedAt": "2026-06-05T01:45:40Z",
+        "updatedAt": "2026-06-09T05:45:13Z"
+      },
+      "stars": 961,
+      "source": "curated"
+    },
+    {
+      "id": "claude-api",
+      "name": "claude-api",
+      "command": "/claude-api",
+      "category": "code",
+      "icon": "fas fa-bug",
+      "accent": "#2c82c9",
+      "description": "Claude API 开发 Skill，辅助构建、调试和优化 Claude API 应用。",
+      "tags": [
+        "Claude API",
+        "SDK",
+        "Prompt Caching"
+      ],
+      "tools": [
+        "Claude Code",
+        "Anthropic SDK"
+      ],
+      "repositories": [
+        {
+          "owner": "anthropics",
+          "name": "claude-code",
+          "fullName": "anthropics/claude-code",
+          "url": "https://github.com/anthropics/claude-code",
+          "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+          "stars": 131161,
+          "forks": 21250,
+          "language": "Python",
+          "topics": [],
+          "pushedAt": "2026-06-08T21:57:18Z",
+          "updatedAt": "2026-06-09T05:53:07Z"
+        }
+      ],
+      "features": [
+        "设计 API 调用结构",
+        "接入工具调用",
+        "优化缓存、流式和错误处理"
+      ],
+      "useCases": [
+        "AI 应用集成",
+        "Agent 后端",
+        "SDK 示例修复"
+      ],
+      "keywords": [
+        "claude",
+        "api",
+        "sdk",
+        "tool use",
+        "prompt caching"
+      ],
+      "primaryRepo": {
+        "owner": "anthropics",
+        "name": "claude-code",
+        "fullName": "anthropics/claude-code",
+        "url": "https://github.com/anthropics/claude-code",
+        "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+        "stars": 131161,
+        "forks": 21250,
+        "language": "Python",
+        "topics": [],
+        "pushedAt": "2026-06-08T21:57:18Z",
+        "updatedAt": "2026-06-09T05:53:07Z"
+      },
+      "stars": 131161,
+      "source": "curated"
+    },
+    {
+      "id": "security-review",
+      "name": "security-review",
+      "command": "/security-review",
+      "category": "code",
+      "icon": "fas fa-shield-alt",
+      "accent": "#c75836",
+      "description": "安全审查 Skill，扫描当前变更中的注入、权限、密钥和常见 Web 安全风险。",
+      "tags": [
+        "安全审查",
+        "漏洞检测",
+        "OWASP"
+      ],
+      "tools": [
+        "Claude Code",
+        "Codex",
+        "Cursor",
+        "OpenCode"
+      ],
+      "repositories": [
+        {
+          "owner": "waybarrios",
+          "name": "opencode-power-pack",
+          "fullName": "waybarrios/opencode-power-pack",
+          "url": "https://github.com/waybarrios/opencode-power-pack",
+          "description": "Eleven Claude Code skills ported to OpenCode: code-review, security-review, feature-dev, frontend-design + 7 more. One config line, one plugin.",
+          "stars": 377,
+          "forks": 34,
+          "language": "JavaScript",
+          "topics": [
+            "ai-agents",
+            "anthropic",
+            "claude-code",
+            "code-review",
+            "developer-tools",
+            "llm-tools",
+            "opencode",
+            "plugin",
+            "security-audit",
+            "skills"
+          ],
+          "pushedAt": "2026-05-28T17:18:28Z",
+          "updatedAt": "2026-06-08T07:13:39Z"
+        }
+      ],
+      "features": [
+        "检测 OWASP 常见风险",
+        "识别敏感信息泄露",
+        "给出可执行修复建议"
+      ],
+      "useCases": [
+        "上线前安全检查",
+        "PR 安全门禁",
+        "第三方代码审计"
+      ],
+      "keywords": [
+        "security",
+        "owasp",
+        "vulnerability",
+        "secret",
+        "安全",
+        "漏洞"
+      ],
+      "primaryRepo": {
+        "owner": "waybarrios",
+        "name": "opencode-power-pack",
+        "fullName": "waybarrios/opencode-power-pack",
+        "url": "https://github.com/waybarrios/opencode-power-pack",
+        "description": "Eleven Claude Code skills ported to OpenCode: code-review, security-review, feature-dev, frontend-design + 7 more. One config line, one plugin.",
+        "stars": 377,
+        "forks": 34,
+        "language": "JavaScript",
+        "topics": [
+          "ai-agents",
+          "anthropic",
+          "claude-code",
+          "code-review",
+          "developer-tools",
+          "llm-tools",
+          "opencode",
+          "plugin",
+          "security-audit",
+          "skills"
+        ],
+        "pushedAt": "2026-05-28T17:18:28Z",
+        "updatedAt": "2026-06-08T07:13:39Z"
+      },
+      "stars": 377,
+      "source": "curated"
+    },
+    {
+      "id": "simplify",
+      "name": "simplify",
+      "command": "/simplify",
+      "category": "code",
+      "icon": "fas fa-compress-alt",
+      "accent": "#64748b",
+      "description": "代码简化 Skill，分析当前 diff 并应用更小、更清晰、更容易维护的实现。",
+      "tags": [
+        "代码简化",
+        "自动修复",
+        "重构"
+      ],
+      "tools": [
+        "Claude Code",
+        "Codex",
+        "Cursor",
+        "OpenCode"
+      ],
+      "repositories": [
+        {
+          "owner": "waybarrios",
+          "name": "opencode-power-pack",
+          "fullName": "waybarrios/opencode-power-pack",
+          "url": "https://github.com/waybarrios/opencode-power-pack",
+          "description": "Eleven Claude Code skills ported to OpenCode: code-review, security-review, feature-dev, frontend-design + 7 more. One config line, one plugin.",
+          "stars": 377,
+          "forks": 34,
+          "language": "JavaScript",
+          "topics": [
+            "ai-agents",
+            "anthropic",
+            "claude-code",
+            "code-review",
+            "developer-tools",
+            "llm-tools",
+            "opencode",
+            "plugin",
+            "security-audit",
+            "skills"
+          ],
+          "pushedAt": "2026-05-28T17:18:28Z",
+          "updatedAt": "2026-06-08T07:13:39Z"
+        }
+      ],
+      "features": [
+        "减少重复逻辑",
+        "压缩复杂分支",
+        "应用低风险重构"
+      ],
+      "useCases": [
+        "提交前整理",
+        "遗留代码瘦身",
+        "提高可维护性"
+      ],
+      "keywords": [
+        "simplify",
+        "refactor",
+        "cleanup",
+        "maintainability",
+        "简化",
+        "重构"
+      ],
+      "primaryRepo": {
+        "owner": "waybarrios",
+        "name": "opencode-power-pack",
+        "fullName": "waybarrios/opencode-power-pack",
+        "url": "https://github.com/waybarrios/opencode-power-pack",
+        "description": "Eleven Claude Code skills ported to OpenCode: code-review, security-review, feature-dev, frontend-design + 7 more. One config line, one plugin.",
+        "stars": 377,
+        "forks": 34,
+        "language": "JavaScript",
+        "topics": [
+          "ai-agents",
+          "anthropic",
+          "claude-code",
+          "code-review",
+          "developer-tools",
+          "llm-tools",
+          "opencode",
+          "plugin",
+          "security-audit",
+          "skills"
+        ],
+        "pushedAt": "2026-05-28T17:18:28Z",
+        "updatedAt": "2026-06-08T07:13:39Z"
+      },
+      "stars": 377,
+      "source": "curated"
+    }
+  ],
+  "githubLeaderboard": [
+    {
+      "id": "obra-superpowers",
+      "name": "superpowers",
+      "fullName": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "url": "https://github.com/obra/superpowers",
+      "stars": 221660,
+      "forks": 19722,
+      "language": "Shell",
+      "topics": [],
+      "pushedAt": "2026-06-09T05:14:56Z",
+      "updatedAt": "2026-06-09T05:55:52Z"
+    },
+    {
+      "id": "affaan-m-ecc",
+      "name": "ECC",
+      "fullName": "affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "url": "https://github.com/affaan-m/ECC",
+      "stars": 211097,
+      "forks": 32375,
+      "language": "JavaScript",
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "developer-tools",
+        "llm",
+        "mcp",
+        "productivity"
+      ],
+      "pushedAt": "2026-06-09T02:38:04Z",
+      "updatedAt": "2026-06-09T05:55:49Z"
+    },
+    {
+      "id": "multica-ai-andrej-karpathy-skills",
+      "name": "andrej-karpathy-skills",
+      "fullName": "multica-ai/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "stars": 171526,
+      "forks": 17505,
+      "language": "",
+      "topics": [],
+      "pushedAt": "2026-04-20T10:05:04Z",
+      "updatedAt": "2026-06-09T05:55:33Z"
+    },
+    {
+      "id": "anthropics-skills",
+      "name": "skills",
+      "fullName": "anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "url": "https://github.com/anthropics/skills",
+      "stars": 148191,
+      "forks": 17489,
+      "language": "Python",
+      "topics": [
+        "agent-skills"
+      ],
+      "pushedAt": "2026-06-07T20:21:35Z",
+      "updatedAt": "2026-06-09T05:55:43Z"
+    },
+    {
+      "id": "mattpocock-skills",
+      "name": "skills",
+      "fullName": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "url": "https://github.com/mattpocock/skills",
+      "stars": 122078,
+      "forks": 10685,
+      "language": "Shell",
+      "topics": [],
+      "pushedAt": "2026-06-08T14:02:06Z",
+      "updatedAt": "2026-06-09T05:55:01Z"
+    },
+    {
+      "id": "farion1231-cc-switch",
+      "name": "cc-switch",
+      "fullName": "farion1231/cc-switch",
+      "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io",
+      "url": "https://github.com/farion1231/cc-switch",
+      "stars": 95488,
+      "forks": 6266,
+      "language": "Rust",
+      "topics": [
+        "ai-tools",
+        "claude-code",
+        "codex",
+        "desktop-app",
+        "hermes",
+        "hermes-agent",
+        "mcp",
+        "minimax",
+        "omo",
+        "open-source",
+        "openclaw",
+        "openclaw-ui",
+        "opencode",
+        "provider-management",
+        "rust",
+        "skills",
+        "skills-management",
+        "tauri",
+        "typescript",
+        "wsl-support"
+      ],
+      "pushedAt": "2026-06-08T15:27:37Z",
+      "updatedAt": "2026-06-09T05:55:28Z"
+    },
+    {
+      "id": "nextlevelbuilder-ui-ux-pro-max-skill",
+      "name": "ui-ux-pro-max-skill",
+      "fullName": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "description": "An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms",
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "stars": 89063,
+      "forks": 9227,
+      "language": "Python",
+      "topics": [
+        "ai-skills",
+        "antigravity",
+        "claude",
+        "claude-code",
+        "codex",
+        "command-line",
+        "copilot",
+        "cursor-ai",
+        "html5",
+        "kiro",
+        "landing-page",
+        "mobile-ui",
+        "qoder",
+        "react",
+        "tailwindcss",
+        "trae",
+        "ui-design",
+        "uikit",
+        "windsurf-ai"
+      ],
+      "pushedAt": "2026-04-03T05:08:19Z",
+      "updatedAt": "2026-06-09T05:53:59Z"
+    },
+    {
+      "id": "thedotmack-claude-mem",
+      "name": "claude-mem",
+      "fullName": "thedotmack/claude-mem",
+      "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "stars": 81355,
+      "forks": 7011,
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "ai-memory",
+        "anthropic",
+        "artificial-intelligence",
+        "chromadb",
+        "claude",
+        "claude-agent-sdk",
+        "claude-agents",
+        "claude-code",
+        "claude-code-plugin",
+        "claude-skills",
+        "embeddings",
+        "long-term-memory",
+        "mem0",
+        "memory-engine",
+        "openmemory",
+        "rag",
+        "sqlite",
+        "supermemory"
+      ],
+      "pushedAt": "2026-06-09T05:50:18Z",
+      "updatedAt": "2026-06-09T05:50:23Z"
+    },
+    {
+      "id": "juliusbrussee-caveman",
+      "name": "caveman",
+      "fullName": "JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "stars": 70268,
+      "forks": 3955,
+      "language": "JavaScript",
+      "topics": [
+        "ai",
+        "anthropic",
+        "caveman",
+        "claude",
+        "claude-code",
+        "llm",
+        "meme",
+        "prompt-engineering",
+        "skill",
+        "tokens"
+      ],
+      "pushedAt": "2026-05-20T10:44:54Z",
+      "updatedAt": "2026-06-09T05:54:48Z"
+    }
+  ],
+  "counts": {
+    "skills": 28,
+    "categories": 7,
+    "repositories": 14,
+    "githubLeaderboard": 9
+  }
+}

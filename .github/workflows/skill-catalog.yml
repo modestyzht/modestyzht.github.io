@@ -1,0 +1,41 @@
+name: Skill Catalog Weekly Update
+
+on:
+  schedule:
+    # 每周一北京时间 08:15 更新 GitHub Skill 榜单
+    - cron: '15 0 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-skill-catalog:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Update skill catalog
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node tools/update-skill-catalog.js
+
+      - name: Check for changes
+        id: check
+        run: |
+          git diff --quiet source/data/skills-catalog.json || echo "has_changes=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push
+        if: steps.check.outputs.has_changes == 'true'
+        run: |
+          git config user.name "Skill Catalog Bot"
+          git config user.email "bot@modestyzht.github.io"
+          git add source/data/skills-catalog.json
+          git commit -m "Update skill catalog"
+          git push
