@@ -14,7 +14,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          persist-credentials: false
+          persist-credentials: true
+          fetch-depth: 0
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -32,3 +33,21 @@ jobs:
         with:
           branch: gh-pages # The branch the action should deploy to.
           folder: public # The folder the action should deploy.
+
+      - name: Sync public to main/docs (optional Pages source)
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          echo "Syncing public/ -> docs/ on main branch"
+          rm -rf docs || true
+          mkdir -p docs
+          cp -a public/. docs/ || true
+          git add docs
+          if git diff --cached --quiet; then
+            echo "No changes to docs"
+          else
+            git commit -m "chore: sync site public -> docs [skip ci]" || true
+            git push origin main || true
+          fi
