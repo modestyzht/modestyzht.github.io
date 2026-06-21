@@ -1,69 +1,85 @@
 {
-  "date": "2026-06-06",
-  "updated": "2026-06-06 00:27:22",
-  "count": 8,
+  "date": "2026-06-21",
+  "updated": "2026-06-21 09:36:56",
+  "count": 10,
   "items": [
     {
-      "title": "架构变更案例：面向演进式架构的实用方法",
-      "link": "https://www.infoq.cn/article/arLDulGp7TW4dAUaCMHB?utm_source=rss&utm_medium=article",
+      "title": "AI 大模型驱动银行信贷业务的全链路变革｜AICon上海",
+      "link": "https://www.infoq.cn/article/TbCYkGW0XrYuhSK1NE2p?utm_source=rss&utm_medium=article",
       "summary": "暂无摘要",
       "source": "InfoQ",
       "lang": "zh",
       "has_content": true
     },
     {
-      "title": "openJiuwen 社区又上新： JiuwenSwarm 给 Harness 装上「后训练」",
-      "link": "https://www.infoq.cn/article/lk4PwQKXhgPSlM7a8ACU?utm_source=rss&utm_medium=article",
+      "title": "平安人寿AI 神盾平台在金融生态中的智能风控实践｜AICon上海",
+      "link": "https://www.infoq.cn/article/AERuuccQmeDjcPldZqfG?utm_source=rss&utm_medium=article",
       "summary": "暂无摘要",
       "source": "InfoQ",
       "lang": "zh",
       "has_content": true
     },
     {
-      "title": "Y Combinator's CEO says he ships 37,000 lines of AI code per day",
-      "link": "https://www.fastcompany.com/91520702/y-combinator-garry-tan-agentic-ai-social-media",
+      "title": "Ratchet – BIOS flashing toolkit with a built-in MCP server for AI agents",
+      "link": "https://github.com/jackulau/ratchet",
+      "summary": "暂无摘要",
+      "source": "Hacker News",
+      "lang": "en",
+      "has_content": true
+    },
+    {
+      "title": "XRPentest: AI-powered security audit tool for VR/XR headsets",
+      "link": "https://xrpentest.com",
       "summary": "暂无摘要",
       "source": "Hacker News",
       "lang": "en",
       "has_content": false
     },
     {
-      "title": "Vibe Justice System – AI Courts convened in pursuit of correctness",
-      "link": "https://github.com/wlilley93/vibe-justice-system",
-      "summary": "暂无摘要",
-      "source": "Hacker News",
-      "lang": "en",
-      "has_content": true
-    },
-    {
-      "title": "New York lawmakers pass one-year ban on new data centers",
-      "link": "https://www.theverge.com/policy/944041/new-york-data-center-moratorium",
-      "summary": "The New York State legislature passed a one-year moratorium on new large data centers, the first statewide ban of its kind if Democratic Governor Kathy Hochul signs it into law. Lawmakers behind the bill say it's meant to give policymakers time to un",
+      "title": "The Atlantic created a searchable database of the music used to train AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/953183/the-atlantic-searchable-database-music-ai-training-data",
+      "summary": "Atlantic reporter Alex Reisner recently uncovered four datasets of music being used to train AI models and made them fully searchable for the public. Two of the sets are absolutely enormous at 12 million and 9 million tracks. The other two are much s",
       "source": "The Verge",
       "lang": "en",
       "has_content": true
     },
     {
-      "title": "This AI startup says it can tell if a script will make a hit film",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/943531/ai-script-quilty-simon-horsman-daniel-wood",
-      "summary": "When Quilty hit the industry trades earlier this year, the AI startup promised that its tool could accurately predict a film's success just by reading the script. When people actually got a chance to experiment with Quilty's product, though, they wer",
+      "title": "The film about Sam Altman has been dropped by Amazon MGM",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/952906/sam-altman-film-artificial-openai-amazon-mgm-dropped",
+      "summary": "Luca Guadagnino's film about OpenAI CEO Sam Altman, Artificial, has reportedly been dropped by Amazon MGM. The film, which stars Andrew Garfield and covers the rollercoaster five days in 2023 spanning Altman's termination and reinstatement as CEO, ha",
       "source": "The Verge",
       "lang": "en",
       "has_content": true
     },
     {
-      "title": "The Download: AI hacking beyond Mythos, and chatbots’ impact on our brains",
-      "link": "https://www.technologyreview.com/2026/06/05/1138452/the-download-ai-hacking-mythos-chatbots-brain-impacts/",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The Meta hack shows there’s more to AI security than Mythos On Monday, reports emerged that attacker",
+      "title": "The Download: AI bottleneck debates, and BCI trials take off",
+      "link": "https://www.technologyreview.com/2026/06/19/1139327/the-download-llms-bottleneck-breakthrough-bci-trials-take-off/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. A startup claims it broke through a bottleneck that’s holding back LLMs AI startup Subquadratic came",
       "source": "MIT Tech Review",
       "lang": "en",
       "has_content": true
     },
     {
-      "title": "Are AI chatbots making us lose control of our brains?",
-      "link": "https://www.technologyreview.com/2026/06/05/1138427/are-ai-chatbots-making-us-lose-control-of-our-brains/",
-      "summary": "This week I’ve been at SXSW London. There’s been music, film, and a lot—and I mean a lot—of talk about AI. I also had the opportunity to sit down with Gloria Mark, a psychologist at the University of California, Irvine, who has spent the last 30 year",
+      "title": "A startup claims it broke through a bottleneck that’s holding back LLMs",
+      "link": "https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/",
+      "summary": "Miami-based AI startup Subquadratic came out of stealth mode last month with a huge claim. It announced that it had solved a mathematical bottleneck that had been holding back large language models for almost a decade. The details were thin, and many",
       "source": "MIT Tech Review",
+      "lang": "en",
+      "has_content": true
+    },
+    {
+      "title": "Deontic Policies for Runtime Governance of Agentic AI Systems",
+      "link": "https://arxiv.org/abs/2606.19464",
+      "summary": "arXiv:2606.19464v1 Announce Type: new Abstract: Autonomous agentic AI systems driven by Large Language Models (LLMs) introduce a new class of security, privacy, and compliance challenges: an agent that can invoke tools, manipulate data, install softw",
+      "source": "ArXiv AI",
+      "lang": "en",
+      "has_content": true
+    },
+    {
+      "title": "Measuring Curriculum Alignment across Topical Coverage, Competency, and Cognitive Depth: A Longitudinal Framework Applied to CS2013 and CS2023",
+      "link": "https://arxiv.org/abs/2606.19469",
+      "summary": "arXiv:2606.19469v1 Announce Type: new Abstract: Undergraduate computer science is governed by international curricular guidelines revised about once a decade, yet programs lack a reliable, reproducible way to measure how completely they cover the cur",
+      "source": "ArXiv AI",
       "lang": "en",
       "has_content": true
     }
