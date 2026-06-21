@@ -6,12 +6,20 @@ on:
     - cron: '0 0 * * *'
   workflow_dispatch:  # 支持手动触发
 
+# 明确写入权限，确保 GITHUB_TOKEN 能 push
+permissions:
+  contents: write
+
 jobs:
   fetch-news:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          # 保留凭据以便后续 git push 使用 GITHUB_TOKEN
+          persist-credentials: true
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -24,9 +32,29 @@ jobs:
       - name: Fetch and generate AI news
         run: python tools/fetch_ai_news.py
 
+      - name: Show generated files (debug)
+        run: |
+          echo "PWD: $(pwd)"
+          echo "-- posts --"
+          ls -la source/_posts || true
+          echo "-- data --"
+          ls -la source/data || true
+          echo "-- news_history --"
+          cat tools/news_history.json || true
+
+      - name: Upload generated files (debug)
+        uses: actions/upload-artifact@v4
+        with:
+          name: ai-news-debug
+          path: |
+            source/_posts/ai-daily-*.md
+            source/data/latest-news.json
+            tools/news_history.json
+
       - name: Check for changes
         id: check
         run: |
+          git status --porcelain
           git diff --quiet source/_posts/ || echo "has_changes=true" >> $GITHUB_OUTPUT
 
       - name: Commit and push
@@ -35,5 +63,11 @@ jobs:
           git config user.name "AI News Bot"
           git config user.email "bot@modestyzht.github.io"
           git add source/_posts/ai-daily-*.md tools/news_history.json
-          git commit -m "AI Daily: $(date +%Y-%m-%d)"
-          git push
+          git commit -m "AI Daily: $(date +%Y-%m-%d)" || echo "No commit created"
+          echo "-- git status after commit --"
+          git status --porcelain
+          echo "-- last commit --"
+          git --no-pager log -1 --pretty=fuller || true
+          echo "-- git remote show origin --"
+          git remote -v || true
+          git push || (echo "git push failed" && git push origin HEAD)
