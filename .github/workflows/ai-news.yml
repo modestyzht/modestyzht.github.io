@@ -24,6 +24,25 @@ jobs:
       - name: Fetch and generate AI news
         run: python tools/fetch_ai_news.py
 
+      - name: Show generated files (debug)
+        run: |
+          echo "PWD: $(pwd)"
+          echo "-- posts --"
+          ls -la source/_posts || true
+          echo "-- data --"
+          ls -la source/data || true
+          echo "-- news_history --"
+          cat tools/news_history.json || true
+
+      - name: Upload generated files (debug)
+        uses: actions/upload-artifact@v4
+        with:
+          name: ai-news-debug
+          path: |
+            source/_posts/ai-daily-*.md
+            source/data/latest-news.json
+            tools/news_history.json
+
       - name: Check for changes
         id: check
         run: |
