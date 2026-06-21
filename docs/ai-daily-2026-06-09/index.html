@@ -1,0 +1,948 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>AI 日报 - 2026-06-09 | 西北驴哥</title><meta name="author" content="驴哥"><meta name="copyright" content="驴哥"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="每日 AI 行业新闻速递，涵盖 AI 技术、大模型、行业应用等领域。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="AI 日报 - 2026-06-09">
+<meta property="og:url" content="https://modestyzht.github.io/ai-daily-2026-06-09/index.html">
+<meta property="og:site_name" content="西北驴哥">
+<meta property="og:description" content="每日 AI 行业新闻速递，涵盖 AI 技术、大模型、行业应用等领域。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://modestyzht.github.io/img/core/ai-daily-cover.png">
+<meta property="article:published_time" content="2026-06-09T01:52:52.000Z">
+<meta property="article:modified_time" content="2026-06-21T02:29:09.355Z">
+<meta property="article:author" content="驴哥">
+<meta property="article:tag" content="AI">
+<meta property="article:tag" content="LLM">
+<meta property="article:tag" content="新闻">
+<meta property="article:tag" content="日报">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://modestyzht.github.io/img/core/ai-daily-cover.png"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "AI 日报 - 2026-06-09",
+  "url": "https://modestyzht.github.io/ai-daily-2026-06-09/",
+  "image": "https://modestyzht.github.io/img/core/ai-daily-cover.png",
+  "datePublished": "2026-06-09T01:52:52.000Z",
+  "dateModified": "2026-06-21T02:29:09.355Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "驴哥",
+      "url": "https://modestyzht.github.io"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/glama.png"><link rel="canonical" href="https://modestyzht.github.io/ai-daily-2026-06-09/index.html"><link rel="preconnect"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="/vendor/fontawesome/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: '/vendor/infinitegrid/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'AI 日报 - 2026-06-09',
+  isHighlightShrink: false,
+  isToc: true,
+  pageType: 'post'
+}</script><link rel="stylesheet" href="/css/custom.css"><link rel="stylesheet" href="/css/runtime.css"><meta name="generator" content="Hexo 8.1.2"></head><body><div class="bg-animation" id="web_bg" style="background-image: url(/img/core/bkgnd.jpg);"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/glama.png" onerror="this.onerror=null;this.src='/img/glama.png'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">28</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">19</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/paper/"><i class="fa-fw fas fa-file-alt"></i><span> 论文</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-robot"></i><span> AI</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/news/"><i class="fa-fw fas fa-newspaper"></i><span> 日报</span></a></li><li><a class="site-page child" href="/skills/"><i class="fa-fw fas fa-magic"></i><span> Skill</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-archive"></i><span> 博客</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-list"></i><span> 链接</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://api.mirrorworkforce.cn/"><i class="fa-fw fas fa-server"></i><span> 中转站</span></a></li></ul></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(/img/core/ai-daily-cover.png);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><img class="site-icon" src="/img/glama.png" alt="Logo"><span class="site-name">西北驴哥</span></a><a class="nav-page-title" href="/"><span class="site-name">AI 日报 - 2026-06-09</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首页</span></span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/paper/"><i class="fa-fw fas fa-file-alt"></i><span> 论文</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-robot"></i><span> AI</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/news/"><i class="fa-fw fas fa-newspaper"></i><span> 日报</span></a></li><li><a class="site-page child" href="/skills/"><i class="fa-fw fas fa-magic"></i><span> Skill</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-archive"></i><span> 博客</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-list"></i><span> 链接</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://api.mirrorworkforce.cn/"><i class="fa-fw fas fa-server"></i><span> 中转站</span></a></li></ul></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">AI 日报 - 2026-06-09</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2026-06-09T01:52:52.000Z" title="发表于 2026-06-09 01:52:52">2026-06-09</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2026-06-21T02:29:09.355Z" title="更新于 2026-06-21 02:29:09">2026-06-21</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/AI%E6%96%B0%E9%97%BB/">AI新闻</a></span></div><div class="meta-secondline"></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><h1 id="AI-日报-2026-06-09"><a href="#AI-日报-2026-06-09" class="headerlink" title="AI 日报 - 2026-06-09"></a>AI 日报 - 2026-06-09</h1><blockquote>
+<p>本文由脚本自动生成，共收录 8 条 AI 相关资讯。默认展示速览，展开后阅读完整内容。</p>
+</blockquote>
+<style>
+.ai-daily-overview {
+  display: grid;
+  gap: 0.75rem;
+  margin: 1rem 0 2rem;
+}
+.ai-daily-card {
+  display: grid;
+  grid-template-columns: 3rem minmax(0, 1fr) auto;
+  gap: 0.75rem;
+  align-items: start;
+  padding: 0.85rem 1rem;
+  border: 1px solid rgba(71, 85, 105, 0.18);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.72);
+  color: inherit !important;
+  text-decoration: none !important;
+}
+.ai-daily-card:hover,
+.ai-daily-item:hover {
+  border-color: rgba(37, 99, 235, 0.42);
+}
+.ai-daily-index,
+.ai-daily-summary-index {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 999px;
+  background: rgba(37, 99, 235, 0.1);
+  color: #1d4ed8;
+  font-weight: 700;
+  font-size: 0.86rem;
+}
+.ai-daily-card-main {
+  min-width: 0;
+}
+.ai-daily-card-title,
+.ai-daily-summary-title {
+  display: block;
+  color: inherit;
+  font-weight: 700;
+  line-height: 1.45;
+}
+.ai-daily-card-summary {
+  display: block;
+  margin-top: 0.28rem;
+  color: #64748b;
+  line-height: 1.65;
+  font-size: 0.94rem;
+}
+.ai-daily-card-meta,
+.ai-daily-summary-meta {
+  color: #0f766e;
+  font-size: 0.84rem;
+  white-space: nowrap;
+}
+.ai-daily-item {
+  margin: 1rem 0;
+  padding: 0.85rem 1rem;
+  border: 1px solid rgba(71, 85, 105, 0.18);
+  border-radius: 8px;
+  background: rgba(248, 250, 252, 0.82);
+}
+.ai-daily-item summary {
+  display: grid;
+  grid-template-columns: 3rem minmax(0, 1fr) auto auto;
+  gap: 0.75rem;
+  align-items: center;
+  cursor: pointer;
+  list-style: none;
+}
+.ai-daily-item summary::-webkit-details-marker {
+  display: none;
+}
+.ai-daily-item summary::after {
+  content: "展开";
+  justify-self: end;
+  color: #b45309;
+  font-size: 0.84rem;
+  font-weight: 700;
+}
+.ai-daily-item[open] summary::after {
+  content: "收起";
+}
+.ai-daily-item-brief {
+  margin: 1rem 0;
+  padding: 0.75rem 0.9rem;
+  border-left: 3px solid #2563eb;
+  background: rgba(37, 99, 235, 0.06);
+  color: #475569;
+  line-height: 1.75;
+}
+.ai-daily-item-meta {
+  color: #64748b;
+  font-size: 0.92rem;
+}
+[data-theme="dark"] .ai-daily-card,
+[data-theme="dark"] .ai-daily-item {
+  border-color: rgba(148, 163, 184, 0.22);
+  background: rgba(15, 23, 42, 0.68);
+}
+[data-theme="dark"] .ai-daily-card-summary,
+[data-theme="dark"] .ai-daily-item-brief,
+[data-theme="dark"] .ai-daily-item-meta {
+  color: #cbd5e1;
+}
+[data-theme="dark"] .ai-daily-card-meta,
+[data-theme="dark"] .ai-daily-summary-meta {
+  color: #5eead4;
+}
+@media (max-width: 640px) {
+  .ai-daily-card {
+    grid-template-columns: 2.6rem minmax(0, 1fr);
+  }
+  .ai-daily-card-meta {
+    grid-column: 2;
+    justify-self: start;
+  }
+  .ai-daily-item summary {
+    grid-template-columns: 2.6rem minmax(0, 1fr) auto;
+  }
+  .ai-daily-summary-meta {
+    grid-column: 2;
+    justify-self: start;
+  }
+}
+</style>
+
+<h2 id="今日速览"><a href="#今日速览" class="headerlink" title="今日速览"></a>今日速览</h2><div class="ai-daily-overview">
+<a class="ai-daily-card" href="#news-1">
+  <span class="ai-daily-index">01</span>
+  <span class="ai-daily-card-main">
+    <span class="ai-daily-card-title">Anthropic 被曝雇1000名人类工程师“培训”Claude Code，时薪280美元：AI 编程越进化越离不开真人兜底</span>
+    <span class="ai-daily-card-summary">据 Business Insider 报道，Anthropic 正在通过一个由约 1000 名人类软件工程师参与的项目，提升旗下 AI 编程工具 Claude Code 的表现。 该项目在数据标注公司 Snorkel AI 内部代号为 “Marlin”，核心目标并不是简单让模型“会写代码”，而是让 Claude Code 的回答更接近专业开发者的真实工作方式...</span>
+  </span>
+  <span class="ai-daily-card-meta">InfoQ / 中文</span>
+</a>
+<a class="ai-daily-card" href="#news-2">
+  <span class="ai-daily-index">02</span>
+  <span class="ai-daily-card-main">
+    <span class="ai-daily-card-title">BadHost 漏洞使 AI 代理、评估器和 LLM 网关面临风险</span>
+    <span class="ai-daily-card-summary">BadHost 是广泛使用的 Python Web 框架 Starlette 中一个高危的身份验证绕过漏洞。该框架每周的下载量达 3.25 亿次。该漏洞允许攻击者利用格式错误的 HTTP Host 头绕过基于路径的访问控制，从而访问敏感的 AI 代理基础设施及其他系统。 该漏洞由 Secwest 和 X41 D Sec 的安全研究人员所发现，只需在 Host...</span>
+  </span>
+  <span class="ai-daily-card-meta">InfoQ / 中文</span>
+</a>
+<a class="ai-daily-card" href="#news-3">
+  <span class="ai-daily-index">03</span>
+  <span class="ai-daily-card-main">
+    <span class="ai-daily-card-title">Apple is using AI to fix Safari’s extension problem</span>
+    <span class="ai-daily-card-summary">Tech AI News Apple is using AI to fix Safari’s extension problem Safari will invite users to ‘vibe code’ their own extensions. Safari will invite users to ‘vibe code’ their own ext...</span>
+  </span>
+  <span class="ai-daily-card-meta">The Verge / 英文</span>
+</a>
+<a class="ai-daily-card" href="#news-4">
+  <span class="ai-daily-index">04</span>
+  <span class="ai-daily-card-main">
+    <span class="ai-daily-card-title">OpenAI files for IPO, following Anthropic</span>
+    <span class="ai-daily-card-summary">AI News Anthropic OpenAI files for IPO, following Anthropic ﻿One of the most highly anticipated public offerings in history has moved one step closer to reality. ﻿One of the most h...</span>
+  </span>
+  <span class="ai-daily-card-meta">The Verge / 英文</span>
+</a>
+<a class="ai-daily-card" href="#news-5">
+  <span class="ai-daily-index">05</span>
+  <span class="ai-daily-card-main">
+    <span class="ai-daily-card-title">The Download: how the World Cup ball will fly and OpenAI’s “super app”</span>
+    <span class="ai-daily-card-summary">You need to enable JavaScript to view this site. Skip to Content This is today&#x27;s edition of The Download , our weekday newsletter that provides a daily dose of what&#x27;s going on in t...</span>
+  </span>
+  <span class="ai-daily-card-meta">MIT Tech Review / 英文</span>
+</a>
+<a class="ai-daily-card" href="#news-6">
+  <span class="ai-daily-index">06</span>
+  <span class="ai-daily-card-main">
+    <span class="ai-daily-card-title">Why this year’s World Cup ball may not fly as far</span>
+    <span class="ai-daily-card-summary">You need to enable JavaScript to view this site. Skip to Content Much is new about this month’s upcoming FIFA World Cup tournament, which will be held in the US, Canada, and Mexico...</span>
+  </span>
+  <span class="ai-daily-card-meta">MIT Tech Review / 英文</span>
+</a>
+<a class="ai-daily-card" href="#news-7">
+  <span class="ai-daily-index">07</span>
+  <span class="ai-daily-card-main">
+    <span class="ai-daily-card-title">Detecting and Mitigating Bias by Treating Fairness as a Symmetry Operation</span>
+    <span class="ai-daily-card-summary">Computer Science Artificial Intelligence arXiv:2606.06514 (cs) [Submitted on 2 Jun 2026] Title:Detecting and Mitigating Bias by Treating Fairness as a Symmetry Operation Authors:Ni...</span>
+  </span>
+  <span class="ai-daily-card-meta">ArXiv AI / 英文</span>
+</a>
+<a class="ai-daily-card" href="#news-8">
+  <span class="ai-daily-index">08</span>
+  <span class="ai-daily-card-main">
+    <span class="ai-daily-card-title">DiBS: Diffusion-Informed Branch Selection</span>
+    <span class="ai-daily-card-summary">Computer Science Artificial Intelligence arXiv:2606.06518 (cs) [Submitted on 2 Jun 2026] Title:DiBS: Diffusion Informed Branch Selection Authors:Bo Liu, Yuan Xie, Yuan Gao, Xiaolon...</span>
+  </span>
+  <span class="ai-daily-card-meta">ArXiv AI / 英文</span>
+</a>
+</div>
+
+<h2 id="详细内容"><a href="#详细内容" class="headerlink" title="详细内容"></a>详细内容</h2><details class="ai-daily-item" id="news-1">
+<summary>
+  <span class="ai-daily-summary-index">01</span>
+  <span class="ai-daily-summary-title">Anthropic 被曝雇1000名人类工程师“培训”Claude Code，时薪280美元：AI 编程越进化越离不开真人兜底</span>
+  <span class="ai-daily-summary-meta">InfoQ / 中文</span>
+</summary>
+
+<p class="ai-daily-item-brief">据 Business Insider 报道，Anthropic 正在通过一个由约 1000 名人类软件工程师参与的项目，提升旗下 AI 编程工具 Claude Code 的表现。 该项目在数据标注公司 Snorkel AI 内部代号为 “Marlin”，核心目标并不是简单让模型“会写代码”，而是让 Claude Code 的回答更接近专业开发者的真实工作方式...</p>
+
+<p class="ai-daily-item-meta">来源：InfoQ | 语言：中文 | <a href="https://www.infoq.cn/article/qamWWo56NVvksQUYQGNF?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener noreferrer">原文链接</a></p>
+
+<p>据 Business Insider 报道，Anthropic 正在通过一个由约 1000 名人类软件工程师参与的项目，提升旗下 AI 编程工具 Claude Code 的表现。</p>
+<p>该项目在数据标注公司 Snorkel AI 内部代号为 “Marlin”，核心目标并不是简单让模型“会写代码”，而是让 Claude Code 的回答更接近专业开发者的真实工作方式：代码更干净、更可靠，也更容易维护。</p>
+<p>这次曝光的 Marlin 项目，揭开了 Claude Code 能力迭代背后的另一层基础设施：不是单纯依赖模型自我进化，而是引入大量具备软件工程背景的人类承包商，对模型输出进行高质量反馈。</p>
+<p>根据报道，两名参与 Anthropic 项目的承包商表示，他们每完成一项创建提示词和审查代码的任务，可获得 280 美元报酬。每项任务通常耗时约一小时，但部分提交内容还需要与 Snorkel 的审核层进行多轮沟通。</p>
+<p>根据 Business Insider 查阅到的 Snorkel 项目指南，参与 Marlin 项目的自由职业者需要对两个不同模型生成的代码进行 A&#x2F;B 测试。他们会比较两组输出，选择自己更偏好的结果，并判断模型是否真正达到了提示词要求的细节程度。一名承包商称，该项目本质上是在训练 Claude Code 写出更简化、更易维护的代码。</p>
+<p>从任务设计看，Marlin 更像是在模拟真实开发场景，而不是传统意义上的低门槛数据标注。承包商会从包含数千个代码仓库的列表中选择 GitHub 仓库，创建一个类似真实开发流程中的 PR，例如新增功能、修复漏洞或重构代码。随后，他们还需要编写提示词，说明希望模型完成什么任务。</p>
+<p>在一项任务中，承包商要求模型重新组织系统存储和处理“执行元数据”（execution metadata）的方式。该任务的重点不是改变产品功能，而是在不影响实际运行逻辑的前提下，让代码结构更清晰、更方便开发者后续维护。</p>
+<p>在另一项任务中，模型被要求完成一项安全修复，涉及开源机器学习平台 MLflow 在加载部分模型时下载 Python 软件包的方式。任务说明要求承包商从正确性、安全性、可靠性和可维护性角度评估代码，并确保修复方案既能阻止命令注入攻击，又不会误伤合法的白名单 pip 选项。</p>
+<p>这意味着，Claude Code 的提升并不只是靠“写得更多”，而是靠专业工程师不断告诉模型：什么样的代码才算能进生产环境，什么样的修改只是表面可用，什么样的实现会在长期维护、安全边界和工程协作中留下隐患。</p>
+<p>据悉，目前 Marlin 项目仍在进行中，参与评估的承包商也并不知道自己正在测试的是哪个版本的模型。</p>
+<p>值得注意的是，这也反映出了数据标注行业的结构性变化。过去，AI 数据工作往往被视为低门槛、重复性劳动；但随着模型能力提升，训练数据本身正在变得更加专业化。Snorkel 由斯坦福研究人员创办，公司会与拥有高等学位或同等经验的人合作，包括博士、医学博士和法学博士等，顶级专家每周收入可超过 3000 美元，其客户包括 Google、Mistral 和 Anthropic 等。除 Snorkel 外，Scale AI、Mercor 等平台也在为软件工程师提供最高每小时 110 美元的报酬。</p>
+<p><strong>越复杂、Claude Code 错越多，靠人救？</strong><br>Claude Code 正在被 Anthropic 推向更复杂的工程场景，但用户反馈也显示，这类 AI 编程工具距离稳定承担复杂工程任务仍有距离。</p>
+<p>作为一个完全用 AI 写出来的编程工具，Claude Code 官方仓库里的用户反馈几乎每天都在刷新。近期就有用户称，自 2 月更新后，Claude Code 在复杂工程任务中的表现明显退化，已经“无法被信任用于复杂工程工作”。该 issue 已被关闭，但内容提供了一份非常详细的用户侧实测报告。</p>
+<p>提交者称，Claude Code 会忽视指令、声称采用“最简单修复”，但结果错误、执行与要求相反的操作，并在没有真正完成任务的情况下宣称完成。</p>
+<p>提交者表示，他们拥有一个高度稳定、复杂度较高的工程环境，并分析了从 1 月到 3 月的大量 Claude Code 会话日志。报告称，对 6852 个 Claude Code 会话文件、17871 个 thinking blocks 以及 234760 次工具调用的定量分析显示，所谓“thinking content redaction”的推出，与复杂、长会话工程工作流中的质量退化高度相关。</p>
+<p>其认为，当模型的思考深度下降时，它的工作模式会从“先研究、再修改”转向“先编辑、少研究”，进而导致多步骤研究、项目约定遵循、谨慎代码修改等能力下降。</p>
+<p>数据显示，Claude Code 在修改代码前的阅读行为明显减少。在表现较好的阶段，模型每次编辑前平均有 6.6 次文件读取；而在退化阶段，这一数据降至 2.0，相当于修改前研究量减少约 70%。这让模型更容易做出“没读就改”的操作。该用户认为，这会导致模型破坏周边代码、违反文件级约定、把新代码插入注释块中间，或者重复实现文件中已经存在的逻辑。</p>
+<p>除了代码修改方式变粗糙，用户还记录了更多行为层面的异常。例如，模型出现更多推理循环，输出中频繁出现“等等”“实际上”“让我重新考虑”等自我修正；“simplest”一类表达出现频率上升，被用户解读为模型开始倾向于选择最低成本方案，而不是正确方案；模型也更容易提前停止、请求许可，或者把问题归因于“已有问题”“已知限制”。</p>
+<p>这种质量下降的反馈并不是偶然。4 月，一位自称过去四个月几乎每天大量使用 Claude Code 的用户表示，近期体验明显变差。过去，处理网站、落地页等任务时，Claude Code 可以产出不错结果；现在则经常需要反复解释需求，甚至在模型开始执行明显错误的方向时，不得不立刻中止。</p>
+<p>该用户提到，Claude Code 频繁出现“做错后道歉”的情况，而自己的提示词、工作类型和使用方式并没有变化。后来问题严重到，他在用 Claude Code 构建内容后，还需要转向 Codex 对其结果进行事实核查。 此外，Claude Code 还出现了忘记一些基础工作流程、执行任务时突然停止等问题。</p>
+<p>这反映了 Claude Code 乃至整个 AI 编程工具的关键矛盾：越深入复杂工程场景，就越不能只追求“快”和“会改代码”，而必须具备长期上下文理解、工程约定遵循、多文件推理等。要知道，开发者对工作流级别的可靠性下降是很敏感的。</p>
+<p>因此，Anthropic 引入约 1000 名人类软件工程师，实际上是在用专业工程实践为 Claude Code 补课，用资深开发者的判断标准来弥补当前能力的不足。</p>
+<p>颇具讽刺意味的一点是，从“vibe coding”走向“工程化 coding”过程中，我们越想让 AI 像高级软件工程师一样工作，似乎就越需要大量真正的软件工程师参与训练。</p>
+<p><strong>AI 带来“代码过剩”：有人拒绝，有人审慎治理</strong><br>去年 3 月，Anthropic CEO Dario Amodei 曾预测，未来 3—6 个月，AI 可能写出 90% 的代码；12 个月后，AI 甚至可能几乎写出全部代码。这也是 Anthropic 发力编程的很大现实动力。</p>
+<p>有段时间，“AI 代码占比”一度成为科技公司展示 AI 化程度的新指标。</p>
+<p>谷歌是最典型的案例。2024 年第三季度财报电话会上，谷歌 CEO Sundar Pichai 表示，公司超过四分之一的新代码由 AI 生成，随后再由工程师审查和接受。而到了今年 4 月，Pichai 又表示，谷歌 75% 的新代码已经由 AI 生成。</p>
+<p>相比大公司，创业公司对 AI 编程的接受程度更激进。此前有报道称，YC 管理合伙人 Jared Friedman 表示，在 W25 批次中，约四分之一创业公司的代码库有 95% 由 AI 生成。这在当时还引发了大量开发者质疑。</p>
+<p>而 Anthropic 在今天发布文章《这 When AI builds itself》指出，在 AI 发展史上，模型研发过去主要由人类驱动；但在 Anthropic 内部，越来越多 AI 开发工作已经交给 AI 系统完成，这正在显著加快公司的研发速度。</p>
+<p>根据其披露的数据，截至 2026 年 5 月，Anthropic 合并进生产代码库的代码中，超过 80% 由 Claude 编写；而在 Claude Code 于 2025 年 2 月发布研究预览版之前，这一比例还只是个位数。</p>
+<p>此外，截至 2026 年第二季度，其典型工程师每天合并的代码量已经达到 2024 年的 8 倍。 不过，Anthropic 承认，代码行数并不是完美的生产力指标，因为它更强调数量而非质量。因此，“8 倍代码量”很可能高估了真实生产力提升。但 Anthropic 认为，这至少证明了内部研发速度正在显著加快。</p>
+<p>无论如何，在 Claude Code、Codex 等工具推动下，AI 编程工具已经席卷海内外。而随着 AI 代码越来越多，如何做好 AI 代码治理则成为社区的头等大事。</p>
+<p>对此，认为 AI 已经接近人类水平的 Anthropic，并没有提及过相关信息，仅仅是在博文中呼吁建立可验证的减速或暂停机制。</p>
+<p>现在，开源社区在各自探索对 AI 代码的处理方式。</p>
+<p>有些社区做法比较简单：开源编程语言 Zig 明确禁止提交 AI 辅助生成的代码，包括大模型生成的内容和大模型改写、编辑、构思或调试过的内容。简单来说，就是不要把 AI 带进来。</p>
+<p>Zig 总裁 Andrew Kelley 将 AI 辅助贡献称为“基本都是垃圾”。“有人给我们发来的贡献没有任何价值。它们甚至是负价值，因为它们占用了团队的代码审查时间。”</p>
+<p>在 Kelley 看来，这些 AI 编程者更像是“路过式贡献者”：他们可能会提交一两个 pull request，但永远不会真正加入核心团队。他表示，如果他说只接受“好的”AI PR，那么审查者就必须逐一判断每个提交是否合格。“但如果我说一律不接受，那这个政策就非常容易执行。”</p>
+<p>虽然 Zig 规模相对较小，但它已经产生了超出体量的影响。例如，Bun 就是用 Zig 创建的，而 Bun 后来被 Anthropic 收购。Zig 的 AI 禁令随后也在 Bun 与 Zig 之间引发了一些争议。</p>
+<p>Kelley 表示，对 Zig 来说，“导师制”本身就是项目核心使命的一部分，因此 AI 生成的贡献反而会适得其反。“我们都在努力让自己成为更好的程序员。那些发送 AI PR 的人，并不会帮助实现这个目标。”</p>
+<p>另一方面，Linux 社区则已经开始探索 AI 工具如何更加规范。</p>
+<p>此前官方发布的《AI Coding Assistants》指导文件，给 AI 参与严肃开源基础设施开发提供了一套清晰边界。文件明确，AI 工具可以辅助 Linux 内核开发，但相关贡献必须严格遵守内核现有开发流程、许可证要求和补丁提交规范。</p>
+<p>根据文档，所有使用 AI 辅助提交到 Linux 内核的代码，仍然必须遵循标准内核开发流程，包括内核开发流程指南、Linux 内核编码风格，以及补丁提交规范。</p>
+<p>在许可证方面，文档明确要求，所有贡献都必须符合 Linux 内核的许可规则，即代码必须与 GPL-2.0-only 兼容，并使用合适的 SPDX 许可证标识。</p>
+<p>最关键的规定出现在 Signed-off-by 和 DCO 部分。Linux 内核文档明确写道，AI agent 不得添加 Signed-off-by 标签。原因是，只有人类才能在法律意义上认证 Developer Certificate of Origin，也就是 DCO。人类提交者必须审查所有 AI 生成代码，确保其符合许可要求，并添加自己的 Signed-off-by 标签，对贡献承担全部责任。</p>
+<p>这条规定直接划清了 AI 编程助手在开源贡献中的责任边界：AI 可以写代码、改代码、辅助分析，但不能成为法律责任主体。真正提交补丁的人类开发者，仍然是代码来源、许可证合规、质量和后续维护责任的承担者。</p>
+<p>文档同时要求，当 AI 工具参与内核开发时，应当通过 Assisted-by 标签进行归因，以便追踪 AI 在开发流程中的作用。推荐格式为：</p>
+<p><code>Assisted-by: AGENT_NAME:MODEL_VERSION [TOOL1] [TOOL2]</code></p>
+<p>其中，AGENT_NAME 指 AI 工具或框架名称，MODEL_VERSION 指具体模型版本，后面可以列出使用过的专业分析工具，例如 coccinelle、sparse、smatch、clang-tidy 等。但 git、gcc、make、编辑器等基础开发工具不需要列入。文档给出的示例是：</p>
+<p><code>Assisted-by: Claude:claude-3-opus coccinelle sparse</code></p>
+<p>可以看出，相比直接拒绝 AI 辅助贡献，Linux 采取的是更工程化的治理方式：允许使用，但必须透明披露；可以辅助，但不能签署；可以生成代码，但人类必须 review、作证并承担责任。</p>
+<p>在 AI 编程野蛮生长一段时间后，现在人类工程师依然重要。</p>
+<p><strong>大厂实践：AI 审代码，而不是替人类负责</strong><br>除了开源社区，大厂也在探索如何把 AI 放进软件交付流程。</p>
+<p>Cloudflare 在今年 4 月 20 日发布博客披露，公司已在内部 CI&#x2F;CD 流程中部署一套 AI 代码审查系统。工程师提交 merge request 后，系统会自动启动七个专门化 AI reviewer，对代码进行初步审查，并根据风险等级决定批准、评论或阻止合并。</p>
+<p>Cloudflare 称，该系统已内部运行约一个月，覆盖 5169 个代码仓库，完成 131246 次审查，涉及 48095 个 merge request。平均每个 MR 被审查 2.7 次，审查完成时间中位数为 3 分 39 秒。平均每次审查成本为 1.19 美元，P99 成本为 4.45 美元。</p>
+<p>Cloudflare 在博客里提到，有效的 AI 审查不仅要告诉模型“看什么”，更要明确告诉它“不要看什么”。例如，安全 reviewer 只标记可利用或具体危险的问题，如注入漏洞、认证&#x2F;授权绕过、硬编码密钥、不安全加密用法、缺失输入验证等；但不标记理论风险、无关旧代码问题或泛泛的“建议使用某个库”。</p>
+<p>Cloudflare 为 AI 审查结果设置了明确决策规则：如果没有问题或只有轻微建议，系统会批准；如果存在警告（Warning）但没有生产风险，可以带评论批准；如果多个警告交织形成风险模式，系统会撤销机器人批准；如果出现严重（Critical）问题或生产安全风险，系统会 提出修改请求（Request changes），从而阻止合并。</p>
+<p>但是，Cloudflare 也保留了人工“break glass”通道。人类 reviewer 可以通过评论 break glass 强制批准，用于紧急 hotfix 或避免被模型服务故障卡住发布。系统会在 telemetry 中记录这类覆盖行为。</p>
+<p>Cloudflare 明确表示，这套 AI code review 系统还不能替代人类 reviewer。AI 在架构判断、跨系统影响、复杂并发问题和大型重构方面仍有明显限制。</p>
+<p>例如，AI 能看到 diff 和周边代码，但不一定理解系统为什么这样设计；它可以发现 API 合约变化，却无法确认所有下游消费者是否已更新；它能看到缺少锁，但未必能推断完整死锁路径。</p>
+<p>因此，Cloudflare 对 AI 代码审查的定位不是取代人类，而是自动化第一轮、重复性、跨领域的初筛：让 AI 先发现明显 bug、安全风险、性能问题、文档遗漏和内部规范冲突，再由人类处理更复杂的架构判断和责任决策。</p>
+<p>不过，值得注意的是，Anthropic 认为，随着人类代码和 AI 代码质量趋近，人类可能会逐渐停止亲手写代码，转向主要审查 AI 写出的代码。但如果人类无法像 Claude 生成代码那样快速审查代码，人类 review 就会成为 AI 研发的新瓶颈。</p>
+<p>另外，为控制成本，Cloudflare 将 MR 分为 trivial、lite 和 full 三档。trivial 适用于 10 行以内、文件数不超过 20 个的小改动；lite 适用于 100 行以内、文件数不超过 20 个的改动；full 则适用于超过 100 行、超过 50 个文件，或涉及安全敏感路径的改动。任何触及 auth&#x2F;、crypto&#x2F; 或安全相关文件的改动，都会触发 full review。</p>
+<p>模型选择也按任务复杂度分层：Claude Opus 4.7 和 GPT-5.4 主要用于最复杂的 coordinator；Claude Sonnet 4.6 和 GPT-5.3 Codex 用于代码质量、安全、性能等重型 reviewer；Kimi K2.5 用于文档、发布、AGENTS.md 等偏文本和轻量任务。</p>
+<p>一个月内，这套系统处理了约 1200 亿 token，其中大部分是 cache reads。Cloudflare 称，系统缓存命中率达到 85.7%，相比按完整输入 token 计价，节省了估计五位数美元成本。</p>
+<p>从 Cloudflare 的实践可以看出，对于 AI 编程工具，具备更可靠、生产级标准的工程能力，会成为下一阶段的重要竞争力。</p>
+<p>参考链接：</p>
+<p><a target="_blank" rel="noopener" href="https://www.businessinsider.com/anthropic-improve-claude-code-snorkel-data-training-contractors-2026-6">https://www.businessinsider.com/anthropic-improve-claude-code-snorkel-data-training-contractors-2026-6</a></p>
+<p><a target="_blank" rel="noopener" href="https://github.com/anthropics/claude-code/issues/42634">https://github.com/anthropics/claude-code/issues/42634</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.businessinsider.com/zig-programming-language-ai-rules-2026-5?utm_source=chatgpt.com">https://www.businessinsider.com/zig-programming-language-ai-rules-2026-5?utm_source=chatgpt.com</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.cloudflare.com/ai-code-review/?utm_source=chatgpt.com">https://blog.cloudflare.com/ai-code-review/?utm_source=chatgpt.com</a></p>
+<p><a target="_blank" rel="noopener" href="https://docs.kernel.org/process/coding-assistants.html?utm_source=chatgpt.com">https://docs.kernel.org/process/coding-assistants.html?utm_source=chatgpt.com</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.anthropic.com/institute/recursive-self-improvement">https://www.anthropic.com/institute/recursive-self-improvement</a></p>
+</details>
+
+<details class="ai-daily-item" id="news-2">
+<summary>
+  <span class="ai-daily-summary-index">02</span>
+  <span class="ai-daily-summary-title">BadHost 漏洞使 AI 代理、评估器和 LLM 网关面临风险</span>
+  <span class="ai-daily-summary-meta">InfoQ / 中文</span>
+</summary>
+
+<p class="ai-daily-item-brief">BadHost 是广泛使用的 Python Web 框架 Starlette 中一个高危的身份验证绕过漏洞。该框架每周的下载量达 3.25 亿次。该漏洞允许攻击者利用格式错误的 HTTP Host 头绕过基于路径的访问控制，从而访问敏感的 AI 代理基础设施及其他系统。 该漏洞由 Secwest 和 X41 D Sec 的安全研究人员所发现，只需在 Host...</p>
+
+<p class="ai-daily-item-meta">来源：InfoQ | 语言：中文 | <a href="https://www.infoq.cn/article/ufuicrEKl9GWMWheTEJ5?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener noreferrer">原文链接</a></p>
+
+<p><a target="_blank" rel="noopener" href="https://www.cve.org/CVERecord?id=CVE-2026-48710">BadHost</a> 是广泛使用的 Python Web 框架 Starlette 中一个高危的身份验证绕过漏洞。该框架每周的下载量达 3.25 亿次。该漏洞允许攻击者利用格式错误的 HTTP Host 头绕过基于路径的访问控制，从而访问敏感的 AI 代理基础设施及其他系统。</p>
+<p>该漏洞由 <a target="_blank" rel="noopener" href="https://www.secwest.net/starlette">Secwest</a> 和 <a target="_blank" rel="noopener" href="https://www.x41-dsec.de/lab/advisories/x41-2026-002-starlette/">X41 D-Sec</a> 的安全研究人员所发现，只需在 Host 头中加入 &#x2F;、? 或 # 字符即可轻松利用该漏洞：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -i -H &#x27;Host: foo&#x27;  http://target/admin    # 403，拒绝访问curl -i -H &#x27;Host: foo?&#x27; http://target/admin    # 200，成功返回</span><br></pre></td></tr></table></figure>
+
+<p>复制代码</p>
+<blockquote>
+<p>Starlette 通过将 HTTP Host 头与请求路径拼接起来，并对结果进行重新解析，从而重建 request.url。在重建之前，它不会根据 RFC 9112 &#x2F; RFC 3986 语法对 Host 值进行验证。包含 &#x2F;、? 或 # 的 Host 头会在重新解析时改变路径、查询和片段的边界，因此， request.url.path 将不再与 ASGI 服务器实际接收并用于路由的路径相匹配。</p>
+</blockquote>
+<p>尽管该漏洞被评定为 6.5 分（中等风险），但研究人员认为，这一评分“低估了其下游影响”，并且指出，该漏洞应被视为“严重”级别，因为它影响所有下游用户：</p>
+<blockquote>
+<p>X41 的分析发现，在多个流行的开源项目中，其中间件会根据 request.url 来决定与安全相关的操作，并且已经证实，这个单字符的原始参数可以引发身份验证绕过、SSRF 以及远程代码执行等漏洞。</p>
+</blockquote>
+<p>这一严重性还体现在：该漏洞是在对 vLLM 进行源代码审计时发现的，这表明“从 Starlette 漏洞到 LLM 服务原语的路径并非理论上的，而是实际发现的路径”。更糟糕的是，受影响的 AI 服务通常部署在内部网络、实验室子网和 LLM 研究环境中，这些环境缺乏生产系统中常见的反向代理保护，导致它们直接暴露在 BadHost 的攻击之下。</p>
+<p>MCP 服务器面临着特别高的风险，正如研究人员所指出的那样：“MCP 规范要求使用未经身份验证的 OAuth 发现端点，这为攻击者提供了可靠的利用途径”。</p>
+<p>值得注意的是，Claude Mythos 未能发现该漏洞，但它在 <a target="_blank" rel="noopener" href="https://www.infoq.com/news/2026/04/anthropic-claude-mythos/">Glasswing 项目</a>中识别出了超过 10000 个漏洞。对此，研究人员指出：</p>
+<blockquote>
+<p>CVE-2026-48710 并非某个文件或某个存储库中的漏洞。它涉及三个独立的层：ASGI 服务器传递原始的 Host 头，Starlette 在构建 URL 时信任该头，而中间件作者则认为 request.url.path 在身份验证决策中是安全的。每个组件在孤立状态下均行为正常。该漏洞仅在它们相互交互时才会显现。</p>
+</blockquote>
+<p>在 Hacker News 上，ostif-derek <a target="_blank" rel="noopener" href="https://news.ycombinator.com/item?id=48277453">警告</a>说：</p>
+<blockquote>
+<p>这可真是个大麻烦。将其评定为“中等”严重性，低估了它对数千个下游项目和数十亿次安装造成的冲击。大家必须尽快打补丁。我通常反对那种“给漏洞起名字、设计标志、建网站”的做法，但这次正因为将其评为“中等”严重性，导致补丁部署率很低。</p>
+</blockquote>
+<p>用户 acdha 承认该漏洞带来的风险，同时也在此次讨论中提出了更为细致的观点：</p>
+<blockquote>
+<p>我认为，单就这一点来看确实相当严重，但如果你没有将 Starlette&#x2F;FastAPI 直接暴露在互联网上，情况就会大大缓解。如果你使用了 CDN、负载均衡器&#x2F; API 网关或前端 Web 服务器，那么你的服务很可能已经得到保护，因为这些攻击依赖于 DNS 中的无效字符（在前两种情况下，这些字符很可能需要匹配成功后才能将流量路由到正确的客户）。</p>
+</blockquote>
+<p>在 Starlette 1.0.1 版本中，该漏洞已经得到及时修复。你可登录 <a target="_blank" rel="noopener" href="https://badhost.org/">badhost.org</a> 免费使用在线扫描工具。</p>
+<p>原文链接：<a target="_blank" rel="noopener" href="https://www.infoq.com/news/2026/06/badhost-ai-systems-vulnerability/">https://www.infoq.com/news/2026/06/badhost-ai-systems-vulnerability/</a></p>
+</details>
+
+<details class="ai-daily-item" id="news-3">
+<summary>
+  <span class="ai-daily-summary-index">03</span>
+  <span class="ai-daily-summary-title">Apple is using AI to fix Safari’s extension problem</span>
+  <span class="ai-daily-summary-meta">The Verge / 英文</span>
+</summary>
+
+<p class="ai-daily-item-brief">Tech AI News Apple is using AI to fix Safari’s extension problem Safari will invite users to ‘vibe code’ their own extensions. Safari will invite users to ‘vibe code’ their own ext...</p>
+
+<p class="ai-daily-item-meta">来源：The Verge | 语言：英文 | <a href="https://www.theverge.com/tech/946345/apple-safari-ai-update-extensions" target="_blank" rel="noopener noreferrer">原文链接</a></p>
+
+<ul>
+<li>Tech</li>
+<li>AI</li>
+<li>News</li>
+</ul>
+<p><strong>Apple is using AI to fix Safari’s extension problem</strong><br>Safari will invite users to ‘vibe-code’ their own extensions.</p>
+<p>Safari will invite users to ‘vibe-code’ their own extensions.</p>
+<p>by  Emma Roth</p>
+<p>Jun 8, 2026, 10:14 PM UTC</p>
+<ul>
+<li>Link</li>
+<li>Share</li>
+<li>Gift</li>
+</ul>
+<p>If you buy something from a Verge link, Vox Media may earn a commission. <a target="_blank" rel="noopener" href="https://www.theverge.com/ethics-statement">See our ethics statement.</a></p>
+<p>Image: Apple</p>
+<p>[Part Of</p>
+<p>WWDC 2026: All the news from Apple’s developers conference</p>
+<p>see all updates](&#x2F;tech&#x2F;944110&#x2F;wwdc-2026-news-announcements)</p>
+<p>Emma Roth is a news writer who covers the streaming wars, consumer tech, crypto, social media, and much more. Previously, she was a writer and editor at MUO.</p>
+<p>Apple is trying to solve one of Safari’s biggest weaknesses with AI. Safari has long lacked the robust library of extensions that its rivals have, mainly due to the stringent development <a target="_blank" rel="noopener" href="https://www.howtogeek.com/safari-is-missing-your-favorite-extensions/">requirements from Apple</a>. But now, Apple is inviting users to essentially vibe-code their own extensions.</p>
+<p>In <a target="_blank" rel="noopener" href="https://www.youtube.com/live/hF8swzNR1-o?si=pyW3ZLK2JdHK1ecm&t=3242">a demo shared by Apple</a>, the company showed how you can ask Safari to create an extension by describing it. “Save and track cooking recipes from around the web,” the prompt said. “Click the toolbar button to see your saved recipes and add notes to each.” From there, Safari used Apple Intelligence to generate a “Recipe Keeper” extension that’s supposed to do just that.</p>
+<p><em>Apple’s demo showed a vibe-coded “Recipe Keeper” extension.</em></p>
+<p> Image: Apple</p>
+<p>If the feature actually works, it could help fill the gap left by the Google Chrome and Mozilla Firefox extensions not available on Safari. It should also appeal to those building an <a href="/tech/928905/vibe-code-personal-software-revolution">arsenal of personal software</a> for themselves with AI.</p>
+<p>Safari is playing catch-up with rival browsers in other areas as well. Over the past couple of years, Chrome, Edge, and Firefox have quickly snapped up new AI features, while Safari has largely lagged behind as Apple slowly fed AI into its products. Until now, Safari’s AI toolset has been slim compared to competitors, as it has just offered <a target="_blank" rel="noopener" href="https://support.apple.com/guide/safari/get-highlights-ibrwea8ef50c/mac">AI summaries of webpages</a> through a Highlights feature.</p>
+<p>Aside from an extension-making feature, Apple revealed a new AI-powered feature for Safari that will automatically sort your tabs into categories based on what’s in them. That means Safari might organize all of your tabs related to the new running shoes you’re shopping for in a group called “sneakers.”</p>
+<p>Google <a href="/2024/1/23/24047843/google-chrome-browser-ai-organize-tabs-themes">rolled out a similar feature for Chrome</a> in 2024, which you could use to right-click a tab and select an “organize” feature to automatically group similar ones. But it looks like Google may have discontinued this feature, as its <a target="_blank" rel="noopener" href="https://support.google.com/chrome?p=auto_tab_group">dedicated webpage</a> redirects you to a Google support page, and I can’t seem to find it in my settings menu. Edge can similarly <a target="_blank" rel="noopener" href="https://www.microsoft.com/en-us/edge/features/tab-groups?form=MT0160">group tabs based on relevance</a>, while Firefox can <a target="_blank" rel="noopener" href="https://support.mozilla.org/en-US/kb/firefox-ai-controls#:~:text=AI%2Denhanced%20tab%20groups%3A%20When%20you%20create%20a%20tab%20group%2C%20we%20use%20generative%20ML%20to%20understand%20the%20tab%20titles%20and%20suggest%20a%20name%20for%20the%20group.%20We%20use%20generative%20AI%20to%20understand%20what%20other%20tabs%20are%20open%20and%20suggest%20related%20tabs%20be%20added%20to%20the%20group.%20Both%20help%20you%20better%20organize%20your%20tabs.%20Learn%20more.">generate tab group names</a> using AI.</p>
+<p><em>You can use “Notify Me” to alert you to a product restock or price change.</em></p>
+<p> Image: Apple</p>
+<p>Apple is adding another familiar feature to Safari as well: the ability to change compromised passwords on your behalf. With the update, Apple’s Passwords app uses Safari and Apple Intelligence to navigate to a website, sign in, and update your account’s passwords. It’s a feature <a href="/news/670208/google-chrome-passwords-auto-update-io-2025">Google first announced for Chrome last year</a>, though it’s only available on “supported websites,” <a target="_blank" rel="noopener" href="https://go.skimresources.com/?id=1025X1701640&xs=1&url=https://www.google.com/chrome/ai-innovations/%23:~:text=When%2520Chrome%2520detects,on%2520supported%2520sites">according to the company</a>.</p>
+<p>Safari is getting a new “Notify Me” feature, too, which you can use to track changes to a website. Several third-party tools already do this, but Apple is differentiating itself by allowing you to describe the kind of change you’re looking for, like a product restock or price drop, so you won’t get notified over every small change.</p>
+<p>As competitors rush to add AI-powered browsing features, Apple is being a lot more selective about the kinds of tools it’s adding to Safari. Most AI-powered features <a href="/tech/837287/ai-browsers-comet-chatgpt-atlas-edge-copilot-chrome-gemini">just aren’t there yet</a>, and it seems like Apple is taking a slower approach to make sure the kinds of tools embedded have been proven to work.</p>
+<p><strong>Follow topics and authors</strong> from this story to see more like this in your personalized homepage feed and to receive email updates.</p>
+<ul>
+<li>Emma Roth</li>
+<li>AI</li>
+<li>Apple</li>
+<li>News</li>
+<li>Tech</li>
+<li>Web</li>
+<li>WWDC 2026</li>
+</ul>
+<p><strong>More in: <a href="/tech/944110/wwdc-2026-news-announcements">WWDC 2026: All the news from Apple’s developers conference</a></strong><br><a href="/tech/946548/gee-i-wonder-what-this-might-point-to">Gee, I wonder what this might point to?</a></p>
+<p>Jay PetersTwo hours ago</p>
+<p><a href="/tech/946446/apples-screen-time-updates-are-too-little-too-late">Apple’s Screen Time updates are too little, too late</a></p>
+<p>Jennifer Pattison TuohyTwo hours ago</p>
+<p><a href="/tech/946391/apple-ios-27-developer-beta-1-wwdc-2026-5-things">5 things I already love from the iOS 27 beta</a></p>
+<p>Jay PetersTwo hours ago</p>
+<p><strong>Most Popular</strong><br>Most Popular</p>
+<ol>
+<li><a href="/tech/945693/apple-wwdc-2026-biggest-announcements-ios-27">Apple WWDC 2026: the 7 biggest announcements</a></li>
+<li><a href="/tech/942572/wwdc-2026-live-blog-ios27-macos27-watchos27-ipados27-visionos27-siri-apple-intelligence">WWDC 2026 live blog: On the ground at Apple’s keynote</a></li>
+<li><a href="/tech/941202/apple-ios-27-wwdc-2026">Apple announces iOS 27</a></li>
+<li><a href="/news/945359/microsoft-xbox-25th-anniversary-console-controller-release-date">Microsoft’s Xbox 25th anniversary console comes in translucent green</a></li>
+<li><a href="/tech/942416/apple-siri-ai-update-wwdc">Apple announces Siri AI and its next generation of Apple Intelligence</a></li>
+</ol>
+<p><strong>The Verge Daily</strong><br>A free daily digest of the news that matters most.</p>
+<p>Email (required)</p>
+<p>Sign Up</p>
+<p>By submitting your email, you agree to our <a target="_blank" rel="noopener" href="https://www.voxmedia.com/legal/terms-of-use">Terms</a> and <a target="_blank" rel="noopener" href="https://www.voxmedia.com/legal/privacy-notice">Privacy Notice</a>. This site is protected by reCAPTCHA and the Google <a target="_blank" rel="noopener" href="https://policies.google.com/privacy">Privacy Policy</a> and <a target="_blank" rel="noopener" href="https://policies.google.com/terms">Terms of Service</a> apply.</p>
+<p>[Advertiser Content From</p>
+<p>This is the title for the native ad](&#x2F;)</p>
+</details>
+
+<details class="ai-daily-item" id="news-4">
+<summary>
+  <span class="ai-daily-summary-index">04</span>
+  <span class="ai-daily-summary-title">OpenAI files for IPO, following Anthropic</span>
+  <span class="ai-daily-summary-meta">The Verge / 英文</span>
+</summary>
+
+<p class="ai-daily-item-brief">AI News Anthropic OpenAI files for IPO, following Anthropic ﻿One of the most highly anticipated public offerings in history has moved one step closer to reality. ﻿One of the most h...</p>
+
+<p class="ai-daily-item-meta">来源：The Verge | 语言：英文 | <a href="https://www.theverge.com/ai-artificial-intelligence/946335/openai-ipo-s-1-confidential" target="_blank" rel="noopener noreferrer">原文链接</a></p>
+
+<ul>
+<li>AI</li>
+<li>News</li>
+<li>Anthropic</li>
+</ul>
+<p><strong>OpenAI files for IPO, following Anthropic</strong><br>﻿One of the most highly anticipated public offerings in history has moved one step closer to reality.</p>
+<p>﻿One of the most highly anticipated public offerings in history has moved one step closer to reality.</p>
+<p>by  Hayden Field</p>
+<p>Jun 8, 2026, 9:38 PM UTC</p>
+<ul>
+<li>Link</li>
+<li>Share</li>
+<li>Gift</li>
+</ul>
+<p>If you buy something from a Verge link, Vox Media may earn a commission. <a target="_blank" rel="noopener" href="https://www.theverge.com/ethics-statement">See our ethics statement.</a></p>
+<p>Image: The Verge</p>
+<p>Hayden Field is The Verge’s senior AI reporter. An AI beat reporter for more than five years, her work has also appeared in CNBC, MIT Technology Review, Wired UK, and other outlets.</p>
+<p>OpenAI on Monday checked off a preliminary step in the IPO race that it and rival Anthropic have been competing in for the better part of a year: The company announced it has confidentially submitted a Form S-1 with the US Securities and Exchange Commission, following <a href="/ai-artificial-intelligence/941016/anthropic-has-officially-filed-to-go-public">Anthropic’s decision to do the same</a> on June 1st.</p>
+<p>The confidential filing means that certain details normally available through the form — such as executive compensation figures, potential risks to a company’s business, and more financials — aren’t yet public.</p>
+<p>As of Anthropic’s most recent fundraise, it’s <a target="_blank" rel="noopener" href="https://go.skimresources.com/?id=1025X1701640&xs=1&url=https://www.morningstar.com/stocks/anthropic-bests-openai-valuation-race-hitting-965b">being called</a> the world’s most valuable startup, with a post-money valuation of $965 billion that surpassed OpenAI’s latest $852 billion post-money valuation.</p>
+<p>OpenAI has been preparing to go public for months, but <a target="_blank" rel="noopener" href="https://www.wsj.com/tech/ai/openai-misses-key-revenue-user-targets-in-high-stakes-sprint-toward-ipo-94a95273?st=AiGMqm&reflink=desktopwebshare_permalink">reports</a> have surfaced that certain executives, namely CFO Sarah Friar, haven’t been as gung-ho about the fast-tracked IPO as CEO Sam Altman, due to missed revenue targets and user growth numbers, and concerns that OpenAI won’t be able to pay for all its compute spending commitments. The company had initially said it was planning to spend $1.4 trillion on compute infrastructure, which Altman seemed to <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=Gnl833wXRz0">become defensive about</a> when publicly questioned on it. In February, though, OpenAI <a target="_blank" rel="noopener" href="https://www.cnbc.com/2026/02/20/openai-resets-spend-expectations-targets-around-600-billion-by-2030.html">adjusted</a> that figure, telling investors it plans to spend $600 billion on compute by 2030.</p>
+<p>The news also comes weeks after the jury reached a verdict in the high-profile <a href="/tech/917225/sam-altman-elon-musk-openai-lawsuit"><em>Musk v. Altman</em> trial</a>, and ahead of Musk-owned SpaceX’s planned June 12 IPO. SpaceX’s public debut is currently set to raise $80 billion and become the biggest IPO of all time. OpenAI’s own debut will be very publicly compared to that of SpaceX, especially since SpaceX acquired OpenAI competitor xAI <em>and</em> signed a deal with Anthropic, with Anthropic paying $15 billion a year to use SpaceX data centers.</p>
+<p><strong>Follow topics and authors</strong> from this story to see more like this in your personalized homepage feed and to receive email updates.</p>
+<ul>
+<li>Hayden Field</li>
+<li>AI</li>
+<li>Anthropic</li>
+<li>News</li>
+<li>OpenAI</li>
+</ul>
+<p><strong>Most Popular</strong><br>Most Popular</p>
+<ol>
+<li><a href="/tech/945693/apple-wwdc-2026-biggest-announcements-ios-27">Apple WWDC 2026: the 7 biggest announcements</a></li>
+<li><a href="/tech/942572/wwdc-2026-live-blog-ios27-macos27-watchos27-ipados27-visionos27-siri-apple-intelligence">WWDC 2026 live blog: On the ground at Apple’s keynote</a></li>
+<li><a href="/tech/941202/apple-ios-27-wwdc-2026">Apple announces iOS 27</a></li>
+<li><a href="/news/945359/microsoft-xbox-25th-anniversary-console-controller-release-date">Microsoft’s Xbox 25th anniversary console comes in translucent green</a></li>
+<li><a href="/tech/942416/apple-siri-ai-update-wwdc">Apple announces Siri AI and its next generation of Apple Intelligence</a></li>
+</ol>
+<p><strong>The Verge Daily</strong><br>A free daily digest of the news that matters most.</p>
+<p>Email (required)</p>
+<p>Sign Up</p>
+<p>By submitting your email, you agree to our <a target="_blank" rel="noopener" href="https://www.voxmedia.com/legal/terms-of-use">Terms</a> and <a target="_blank" rel="noopener" href="https://www.voxmedia.com/legal/privacy-notice">Privacy Notice</a>. This site is protected by reCAPTCHA and the Google <a target="_blank" rel="noopener" href="https://policies.google.com/privacy">Privacy Policy</a> and <a target="_blank" rel="noopener" href="https://policies.google.com/terms">Terms of Service</a> apply.</p>
+<p>[Advertiser Content From</p>
+<p>This is the title for the native ad](&#x2F;)</p>
+</details>
+
+<details class="ai-daily-item" id="news-5">
+<summary>
+  <span class="ai-daily-summary-index">05</span>
+  <span class="ai-daily-summary-title">The Download: how the World Cup ball will fly and OpenAI’s “super app”</span>
+  <span class="ai-daily-summary-meta">MIT Tech Review / 英文</span>
+</summary>
+
+<p class="ai-daily-item-brief">You need to enable JavaScript to view this site. Skip to Content This is today&#x27;s edition of The Download , our weekday newsletter that provides a daily dose of what&#x27;s going on in t...</p>
+
+<p class="ai-daily-item-meta">来源：MIT Tech Review | 语言：英文 | <a href="https://www.technologyreview.com/2026/06/08/1138485/the-download-world-cup-ball-openai-super-app/" target="_blank" rel="noopener noreferrer">原文链接</a></p>
+
+<p>You need to enable JavaScript to view this site.</p>
+<p><a href="#content">Skip to Content</a></p>
+<p><em>This is today’s edition of</em> <a target="_blank" rel="noopener" href="https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289"><em>The Download</em></a>, <em>our weekday newsletter that provides a daily dose of what’s going on in the world of technology.</em></p>
+<p><strong><strong>Why this year’s World Cup ball may not fly as far</strong></strong><br>Much is new about this month’s FIFA World Cup tournament. It hosts more teams than ever before. It’s the first to occur in three different host countries.</p>
+<p>And, like every World Cup for over half a century, it will employ a football with a brand-new design.</p>
+<p>Through wind-tunnel experiments, researchers found that long-distance kicks with Adidas’s new Trionda ball might not travel as far as they did in the past. The payoff is a more predictable flight path, something players have not always enjoyed from World Cup balls.</p>
+<p><a target="_blank" rel="noopener" href="https://www.technologyreview.com/2026/06/08/1138470/why-this-years-world-cup-ball-may-not-fly-as-far/?utm_source=the_download&utm_medium=email&utm_campaign=the_download.unpaid.engagement&utm_term=*%7CSUBCLASS%7C*&utm_content=*%7CDATE:m-d-Y%7C*">Find out how a few grooves and seams can change the way the game is played</a>.</p>
+<p><em>—Jenna Ahart</em></p>
+<p><strong>The must-reads</strong></p>
+<p><em>I’ve combed the internet to find you today’s most fun&#x2F;important&#x2F;scary&#x2F;fascinating stories about technology.</em></p>
+<p><strong>1 OpenAI plans to turn ChatGPT into a ‘super app’ before its IPO</strong>The revamp would combine coding tools and AI agents. (<a target="_blank" rel="noopener" href="https://www.ft.com/content/ca0f5f5e-fb9a-41a0-a2a9-0127e15b7db9?syn-25a6b1a6=1">Financial Times</a> $)<br><em>+ The super app ambitions first emerged last year.</em> (<a target="_blank" rel="noopener" href="https://www.fastcompany.com/91417700/openai-true-ambition-super-app">Fast Company</a>)<br><em>+ OpenAI is also building a fully automated researcher.</em> (<a target="_blank" rel="noopener" href="https://www.technologyreview.com/2026/03/20/1134438/openai-is-throwing-everything-into-building-a-fully-automated-researcher/?utm_source=the_download&utm_medium=email&utm_campaign=the_download.unpaid.engagement&utm_term=*%7CSUBCLASS%7C*&utm_content=*%7CDATE:m-d-Y%7C*">MIT Technology Review</a>)</p>
+<p><strong>2 Trump wants the US government to take a stake in AI companies</strong><br>He will meet AI leaders to discuss the plan. (<a target="_blank" rel="noopener" href="https://www.bbc.co.uk/news/articles/c98r8r7dz5no">BBC</a>)<br><em>+ Which would create “a partnership with the American public.”</em> (<a target="_blank" rel="noopener" href="https://www.reuters.com/business/trump-says-his-team-will-look-into-us-taking-stake-ai-companies-2026-06-05/">Reuters</a> $)<br><em>+ He wants a slice of the AI boom.</em> (<a target="_blank" rel="noopener" href="https://www.axios.com/2026/06/08/trump-bernie-sanders-ai">Axios</a>)</p>
+<p><strong>3 Google has agreed to pay SpaceX $30 billion for AI computing power</strong>The $920 million-a-month contract runs through June 2029. (<a target="_blank" rel="noopener" href="https://www.nytimes.com/2026/06/05/technology/spacex-google-deal.html">NYT</a> $)<br><em>+ Google will use about 110,000 Nvidia GPUs owned by SpaceX.</em> (<a target="_blank" rel="noopener" href="https://www.cnbc.com/2026/06/05/google-to-pay-spacex-920-million-a-month-for-xai-compute-capacity.html">CNBC</a>)<br><em>+ It comes days after Anthropic struck a SpaceX data center deal.</em> (<a target="_blank" rel="noopener" href="https://www.wsj.com/tech/ai/anthropic-inks-deal-to-use-all-of-spacexs-colossus-1-compute-capacity-56a7e2a1">WSJ</a> $)</p>
+<p><strong>4 AI is set to make everyday life more expensive</strong><br>Its insatiable thirst for resources is likely to push up inflation. (<a target="_blank" rel="noopener" href="https://www.washingtonpost.com/technology/2026/06/06/inflation-is-being-driven-up-by-huge-investment-artificial-intelligence/">WP</a> $)<br><em>+ We did the math on AI’s energy footprint.</em> (<a target="_blank" rel="noopener" href="https://www.technologyreview.com/2025/05/20/1116327/ai-energy-usage-climate-footprint-big-tech/?utm_source=the_download&utm_medium=email&utm_campaign=the_download.unpaid.engagement&utm_term=*%7CSUBCLASS%7C*&utm_content=*%7CDATE:m-d-Y%7C*">MIT Technology Review</a>)</p>
+<p><strong>5 Europe is accelerating its withdrawal from US Big Tech</strong>New analysis reveals dozens of moves to alternative providers. (<a target="_blank" rel="noopener" href="https://www.wired.com/story/all-the-ways-europe-is-ditching-american-technology/">Wired</a> $) <em>+ Last week, the EU launched a “made in Europe” drive.</em> (<a target="_blank" rel="noopener" href="https://www.reuters.com/business/eu-targets-big-tech-dependence-with-made-in-europe-drive-2026-06-03/">Reuters</a> $)</p>
+<p><strong>6 ICE plans to give local police a new facial recognition app</strong>It would allow them to verify a person’s immigration status. (<a target="_blank" rel="noopener" href="https://www.404media.co/ices-plan-to-let-cops-around-the-country-scan-faces-to-verify-immigration-status/">404 Media</a>)<br><em>+ Is the Pentagon allowed to surveil Americans with AI?</em> (<a target="_blank" rel="noopener" href="https://www.technologyreview.com/2026/03/06/1134012/is-the-pentagon-allowed-to-surveil-americans-with-ai/?utm_source=the_download&utm_medium=email&utm_campaign=the_download.unpaid.engagement&utm_term=*%7CSUBCLASS%7C*&utm_content=*%7CDATE:m-d-Y%7C*">MIT Technology Review</a>)</p>
+<p><strong>7 Silicon Valley’s lure is fading for India’s tech talent</strong><br>Due to Trump’s immigration policies and AI-driven layoffs. (<a target="_blank" rel="noopener" href="https://restofworld.org/2026/silicon-valley-status/">Rest of World</a>)</p>
+<p><strong>8 ‘Recursive self-improvement’ has sparked fears of AI escaping control</strong><br>Nobody is sure about the consequences of RSI. (<a target="_blank" rel="noopener" href="https://www.economist.com/science-and-technology/2026/06/07/will-artificial-intelligence-soon-escape-human-control">The Economist</a> $)<br><em>+ Here are five ways that AI is learning to improve itself.</em> (<a target="_blank" rel="noopener" href="https://www.technologyreview.com/2025/08/06/1121193/five-ways-that-ai-is-learning-to-improve-itself/?utm_source=the_download&utm_medium=email&utm_campaign=the_download.unpaid.engagement&utm_term=*%7CSUBCLASS%7C*&utm_content=*%7CDATE:m-d-Y%7C*">MIT Technology Review</a>)</p>
+<p><strong>9 Gene-edited embryos are getting closer, but a key safety gap remains</strong><br>Current techniques still fail to edit every cell. (<a target="_blank" rel="noopener" href="https://www.newscientist.com/article/2529355-are-we-getting-to-the-point-where-its-safe-to-gene-edit-babies/">New Scientist</a> $)<br><em>+ “Base-edited baby” is one of our 10 Breakthrough Technologies for 2026.</em> (<a target="_blank" rel="noopener" href="https://www.technologyreview.com/2026/01/12/1129999/gene-editing-base-edited-baby-personalized-drugs-2026-breakthrough-technology/?utm_source=the_download&utm_medium=email&utm_campaign=the_download.unpaid.engagement&utm_term=*%7CSUBCLASS%7C*&utm_content=*%7CDATE:m-d-Y%7C*">MIT Technology Review</a>)</p>
+<p><strong>10 NASA astronauts will wear high-tech Prada underwear on their moon trips</strong>Ventilation tubes are knitted into the garments. (<a target="_blank" rel="noopener" href="https://www.theverge.com/design/945540/nasa-axiom-space-prada-lcvg-spacesuit-moon-artemis">The Verge</a>)</p>
+<p><strong>Quote of the day</strong></p>
+<p><strong><strong>“Chat is dead.”</strong></strong><br>—A senior OpenAI employee tells <a target="_blank" rel="noopener" href="https://www.ft.com/content/ca0f5f5e-fb9a-41a0-a2a9-0127e15b7db9?syn-25a6b1a6=1">the Financial Times</a> why the company is shifting focus from chatbots to AI agents.</p>
+<p><strong>One More Thing</strong></p>
+<p>BETH HOECKEL</p>
+<p><strong><strong>How AI is helping historians better understand our past</strong></strong><br>The digitization of historical records is making it possible to study the past in new ways. Historians are now using machine learning—particularly deep neural networks—to analyze everything from centuries-old astronomy textbooks to ancient Greek inscriptions.</p>
+<p>The technology is helping researchers uncover new patterns in the historical record. But it also introduces risks, including the possibility that machine learning will slip bias or outright falsifications into our understanding of the past.</p>
+<p><a target="_blank" rel="noopener" href="https://www.technologyreview.com/2023/04/11/1071104/ai-helping-historians-analyze-past/?utm_source=the_download&utm_medium=email&utm_campaign=the_download.unpaid.engagement&utm_term=*%7CSUBCLASS%7C*&utm_content=*%7CDATE:m-d-Y%7C">Read the full story on how AI is transforming the study of history.</a></p>
+<p><em>—Moira Donovan</em></p>
+<p><strong>We can still have nice things</strong></p>
+<p><em>A place for comfort, fun, and distraction to brighten up your day. (Got any ideas?</em> <a href="mailto:&#x74;&#104;&#111;&#109;&#97;&#115;&#x2e;&#x6d;&#x61;&#99;&#97;&#117;&#108;&#x61;&#x79;&#64;&#x74;&#101;&#x63;&#104;&#x6e;&#x6f;&#108;&#111;&#x67;&#121;&#114;&#101;&#118;&#105;&#x65;&#119;&#46;&#99;&#111;&#x6d;"><em>Drop me a line</em></a><em>.)</em></p>
+<ul>
+<li>Take a <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=dEMEhWnUOB0&">tour of extinct everyday objects</a> to travel back to pre-smartphone life.  </li>
+<li>This <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=2ZkxyoqdHHw&utm_source=chatgpt.com">a cappella cover of “I Want To Know What Love Is”</a></li>
+</ul>
+<p><em>（内容已截断）</em></p>
+</details>
+
+<details class="ai-daily-item" id="news-6">
+<summary>
+  <span class="ai-daily-summary-index">06</span>
+  <span class="ai-daily-summary-title">Why this year’s World Cup ball may not fly as far</span>
+  <span class="ai-daily-summary-meta">MIT Tech Review / 英文</span>
+</summary>
+
+<p class="ai-daily-item-brief">You need to enable JavaScript to view this site. Skip to Content Much is new about this month’s upcoming FIFA World Cup tournament, which will be held in the US, Canada, and Mexico...</p>
+
+<p class="ai-daily-item-meta">来源：MIT Tech Review | 语言：英文 | <a href="https://www.technologyreview.com/2026/06/08/1138470/why-this-years-world-cup-ball-may-not-fly-as-far/" target="_blank" rel="noopener noreferrer">原文链接</a></p>
+
+<p>You need to enable JavaScript to view this site.</p>
+<p><a href="#content">Skip to Content</a></p>
+<p>Much is new about this month’s upcoming FIFA World Cup tournament, which will be held in the US, Canada, and Mexico. It hosts more teams than ever before. It’s the first to occur in three different host countries. And, like predecessor cups for over half a century, it will employ a soccer ball with a brand-new design.</p>
+<p>One group of researchers that has been testing the physics of World Cup balls for the past 20 years <a target="_blank" rel="noopener" href="https://www.mdpi.com/2076-3417/16/6/2808">recently studied</a> this new entry, called the Trionda. Made by Adidas, the Trionda features four red, green, and blue panels textured with deep grooves and maple leaf, green eagle, and star emblems to represent the three host countries. Through wind-tunnel experiments, the research team found that this ball improves over previous versions in some ways, but long-distance kicks might not go as far as they did in the past.</p>
+<p>“The simple picture is that Trionda may very slightly punish extreme distance, but it should reward clean technique and predictable flight,” says team member John Eric Goff, who researches sports physics and is an incoming professor of engineering practice at Purdue University. “Goalkeepers, defenders hitting long passes, and long-range shooters are where I would look first for visible differences.”</p>
+<p><a target="_blank" rel="noopener" href="https://wp.technologyreview.com/wp-content/uploads/2026/06/wind-test.mov"></a></p>
+<p>Researchers used a wind tunnel to study the Trionda ball at the University of Tsukuba.</p>
+<p>TAKESHI ASAI, SUNGCHAN HONG, AND RICHONG LIU</p>
+<p>Adidas has been <a target="_blank" rel="noopener" href="https://www.adidas.com/us/blog/the-complete-history-of-adidas-world-cup-match-balls">designing new balls</a> for each World Cup since the 1970s. Some of the design changes in the first few decades were aesthetic: The 1986 ball featured graphics inspired by Aztec temples for the Mexico tournament, and 1994’s had space graphics in honor of the moon landing’s 25th anniversary. There were some structural differences too, such as upgraded foam cores and improved water resistance. But by and large, the balls used the same design of 32 pentagonal panels stitched together.</p>
+<p>That changed in the 2006 World Cup in Germany, when Adidas introduced the +Teamgeist ball. It featured just 14 curved panels, which were thermally bonded together rather than stitched. The design helped keep moisture out so the ball wouldn’t grow heavier throughout the game, Goff says. It was around this time that he started studying soccer balls. In the years since then, he and his colleagues have followed the transformations as Adidas has released balls with different surface textures and even fewer panels—design changes significant enough to affect game play.</p>
+<p><strong><strong>In-flight motion</strong></strong><br>Goff discovered early on that by analyzing a ball’s trajectory data, he could derive its drag coefficient—a number that determines the air resistance it experiences midflight at a given speed. Shortly after, he began working with a team in Japan to analyze how the World Cup ball’s in-flight behavior changes with each new design.</p>
+<p>The experiments, carried out at the University of Tsukuba in Japan, have been purposely consistent over the years because “maintaining continuity is important for comparing new data with historical data sets,” says Takeshi Asai, a professor therewho works on the experiments. They entail attaching the ball to a metal rod connected to an instrument called a force balance, which measures aerodynamic forces such as drag and lift as the ball is exposed to the same wind speeds it would experience in a real soccer game—seven to 35 meters per second.</p>
+<p>The team tests the ball in different orientations, “but you can only do a few because the Trionda ball is $170,” Goff says, and each new test effectively destroys it. The experiments show the team how the drag coefficient changes with speed, and Goff then writes code to simulate the ball’s overall trajectory as it flies through the air.</p>
+<p>The team’s analysis has shown how recent World Cup balls evolved since the eight-panel Jabulani ball for the 2010 event. The Jabulani faced much criticism from players—particularly goalkeepers, who said it had a deceptive trajectory that “dipped wickedly,” as one player told the <em>Guardian</em>.</p>
+<p>ALAMY</p>
+<p>ADOBE STOCK</p>
+<p>TAKESHI ASAI, SUNGCHAN HONG, RICHONG LIU</p>
+<p>The 2010 Jabulani ball (left) had eight panels and a smooth texture that translated into unpredictable performance. Later balls, like the 2014 Brazuca (center) and this year’s Trionda (right), have fewer panels but more roughness.</p>
+<p>The ball had one key flaw: It was too smooth. Even though its drag coefficient was relatively low at high speeds, once the ball slowed to a certain point the coefficient would ratchet up, causing it to lose speed quite fast and behave as the 2010 players complained. This sudden transition—called the drag crisis—occurs at higher speeds for smoother balls, but with added texture like seams and grooves, the transition can be avoided until a ball reaches lower speeds. This allows the ball to travel farther and generally behave in a more predictable way during typical play.</p>
+<p>“It’s the same reason why golf balls have dimples and baseballs have those nice 108 double stitches. If those rough features of those balls were not there, you would not get anywhere near the kind of distance when those balls are thrown or hit that you see now,” Goff says. “There has to be some kind of a roughness on the ball to move this transition to a smaller speed.”</p>
+<p><strong><strong>New grooves</strong></strong><br>Subsequent designs have been able to push the drag crisis to lower speeds, according to the analysis by Goff and his colleagues. The Brazuca ball used in 2014, for instance, has only six panels, but their total seam length is much longer, adding to the surface’s roughness. And this year’s Trionda ball contains just four panels, but each panel also has three deep grooves for more texture.</p>
+<p>There’s a trade-off to this roughness, though. While Goff and his colleagues found that the Trionda ball experiences the drag crisis at the slowest speed since 2010, its drag coefficient is also <em>higher</em> than that of the other balls at high speeds. That means that even though the most dramatic change doesn’t happen until the ball is moving quite slowly, the ball will still slow down faster than its recent predecessors during the faster portion of its flight. So the trajectories of long kicks may be a few meters shorter, Goff says. Adidas did not respond to a request for comment.</p>
+<p>Fortunately, players in the upcoming World Cup should already be familiar with these added nuances, as they’ve had access to the new ball for at least a few months. The ball, Goff notes, is quite similar to Nike’s Flight ball in design, so players who’ve spent more time with that ball may have an added advantage.</p>
+<p>Meanwhile, Goff continues sending the group’s papers to his colleagues FIFA and Adidas in hope of providing some new insights, and he’s been sent balls by Adidas in the past. Adidas does perform its own unpublished tests of each new ball. The <em>New York Times</em> <a target="_blank" rel="noopener" href="https://www.nytimes.com/athletic/6684748/2025/10/02/trionda-adidas-world-cup-ball/">reported last year</a> that the Trionda’s 3.5-year testing process included robotics designed to kick the ball at specific speeds as well as testing in seven of the 16 host locations.</p>
+<p>But as Goff sees it, soccer is “the world’s most popular sport, [this is] its most important tournament, and the most important piece of equipment in that tournament is this ball right here,” indicating the the Trionda ball that he had on camera with him during our Zoom call. “I think they’re interested in what some external testing looks like.”</p>
+<p><strong>Keep Reading</strong><br><strong>Most Popular</strong><br><a target="_blank" rel="noopener" href="https://www.technologyreview.com/2026/04/13/1135675/want-to-understand-the-current-state-of-ai-check-out-these-charts/">### Want to understand the current state of AI? Check out these charts.</a></p>
+<p>According to Stanford’s 2026 AI Index, AI is sprint</p>
+<p><em>（内容已截断）</em></p>
+</details>
+
+<details class="ai-daily-item" id="news-7">
+<summary>
+  <span class="ai-daily-summary-index">07</span>
+  <span class="ai-daily-summary-title">Detecting and Mitigating Bias by Treating Fairness as a Symmetry Operation</span>
+  <span class="ai-daily-summary-meta">ArXiv AI / 英文</span>
+</summary>
+
+<p class="ai-daily-item-brief">Computer Science Artificial Intelligence arXiv:2606.06514 (cs) [Submitted on 2 Jun 2026] Title:Detecting and Mitigating Bias by Treating Fairness as a Symmetry Operation Authors:Ni...</p>
+
+<p class="ai-daily-item-meta">来源：ArXiv AI | 语言：英文 | <a href="https://arxiv.org/abs/2606.06514" target="_blank" rel="noopener noreferrer">原文链接</a></p>
+
+<p><strong>Computer Science &gt; Artificial Intelligence</strong><br><strong>arXiv:2606.06514</strong> (cs)</p>
+<p>[Submitted on 2 Jun 2026]</p>
+<p><strong>Title:Detecting and Mitigating Bias by Treating Fairness as a Symmetry Operation</strong><br>Authors:<a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=Singh,+N">Nishit Singh</a></p>
+<p>View a PDF of the paper titled Detecting and Mitigating Bias by Treating Fairness as a Symmetry Operation, by Nishit Singh</p>
+<p><a href="/pdf/2606.06514">View PDF</a><br><a target="_blank" rel="noopener" href="https://arxiv.org/html/2606.06514v1">HTML (experimental)</a></p>
+<blockquote>
+<p>Abstract:Machine learning systems deployed in high stakes socioeconomic settings routinely display bias. We formalize bias as a symmetry breaking operation: a classifier is fair if its outputs remain invariant under the counterfactual operation of switching a sensitive attribute, with merit features held fixed. We implement loss based regularization as a symmetry restoring mechanism and evaluate the framework on four synthetic datasets with varying levels of noise, correlation, and bias. The framework achieves upwards of 90% violation reduction, with accuracy costs around 5%. This framework does not require causal graph knowledge, is computationally lightweight, and generalizes to any sensitive attribute definable as a bit-flip, making it suitable for contexts where local sources of discrimination remain absent from mainstream benchmarks.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Comments:</td>
+<td>8 pages, 7 figures</td>
+</tr>
+<tr>
+<td>Subjects:</td>
+<td>Artificial Intelligence (cs.AI); Machine Learning (cs.LG)</td>
+</tr>
+<tr>
+<td>Cite as:</td>
+<td><a target="_blank" rel="noopener" href="https://arxiv.org/abs/2606.06514">arXiv:2606.06514</a> [cs.AI]</td>
+</tr>
+<tr>
+<td></td>
+<td>(or  <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2606.06514v1">arXiv:2606.06514v1</a> [cs.AI] for this version)</td>
+</tr>
+<tr>
+<td></td>
+<td><a target="_blank" rel="noopener" href="https://doi.org/10.48550/arXiv.2606.06514">https://doi.org/10.48550/arXiv.2606.06514</a> Focus to learn more  arXiv-issued DOI via DataCite</td>
+</tr>
+</tbody></table>
+<p><strong>Submission history</strong><br>From: Nishit Singh [<a href="/show-email/90a11a08/2606.06514">view email</a>]<br> <strong>[v1]</strong><br>Tue, 2 Jun 2026 09:42:54 UTC (1,832 KB)</p>
+<p>Full-text links:</p>
+<p><strong>Access Paper:</strong><br>View a PDF of the paper titled Detecting and Mitigating Bias by Treating Fairness as a Symmetry Operation, by Nishit Singh</p>
+<ul>
+<li><a href="/pdf/2606.06514">View PDF</a></li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/html/2606.06514v1">HTML (experimental)</a></li>
+<li><a href="/src/2606.06514">TeX Source</a></li>
+</ul>
+<p><a target="_blank" rel="noopener" href="http://creativecommons.org/licenses/by/4.0/" title="Rights to this article">view license</a></p>
+<p><strong>Current browse context:</strong><br>cs.AI</p>
+<p><a href="/prevnext?id=2606.06514&function=prev&context=cs.AI" title="previous in cs.AI (accesskey p)">&lt; prev</a><br>  |  <br><a href="/prevnext?id=2606.06514&function=next&context=cs.AI" title="next in cs.AI (accesskey n)">next &gt;</a></p>
+<p><a href="/list/cs.AI/new">new</a><br> |<br><a href="/list/cs.AI/recent">recent</a><br> | <a href="/list/cs.AI/2026-06">2026-06</a></p>
+<p>Change to browse by:</p>
+<p><a href="/abs/2606.06514?context=cs">cs</a><br><a href="/abs/2606.06514?context=cs.LG">cs.LG</a></p>
+<p><strong>References &amp; Citations</strong></p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://ui.adsabs.harvard.edu/abs/arXiv:2606.06514">NASA ADS</a></li>
+<li><a target="_blank" rel="noopener" href="https://scholar.google.com/scholar_lookup?arxiv_id=2606.06514">Google Scholar</a></li>
+<li><a target="_blank" rel="noopener" href="https://api.semanticscholar.org/arXiv:2606.06514">Semantic Scholar</a></li>
+</ul>
+<p>export BibTeX citation<br>Loading…</p>
+<p><strong>BibTeX formatted citation</strong><br>×</p>
+<p>loading…</p>
+<p>Data provided by:</p>
+<p><strong>Bookmark</strong><br>Bibliographic Tools</p>
+<p><strong>Bibliographic and Citation Tools</strong><br>Bibliographic Explorer Toggle</p>
+<p>Bibliographic Explorer <em>(<a target="_blank" rel="noopener" href="https://info.arxiv.org/labs/showcase.html#arxiv-bibliographic-explorer">What is the Explorer?</a>)</em></p>
+<p>Connected Papers Toggle</p>
+<p>Connected Papers <em>(<a target="_blank" rel="noopener" href="https://www.connectedpapers.com/about">What is Connected Papers?</a>)</em></p>
+<p>Litmaps Toggle</p>
+<p>Litmaps <em>(<a target="_blank" rel="noopener" href="https://www.litmaps.co/">What is Litmaps?</a>)</em></p>
+<p>scite.ai Toggle</p>
+<p>scite Smart Citations <em>(<a target="_blank" rel="noopener" href="https://www.scite.ai/">What are Smart Citations?</a>)</em></p>
+<p>Code, Data, Media</p>
+<p><strong>Code, Data and Media Associated with this Article</strong><br>alphaXiv Toggle</p>
+<p>alphaXiv <em>(<a target="_blank" rel="noopener" href="https://alphaxiv.org/">What is alphaXiv?</a>)</em></p>
+<p>Links to Code Toggle</p>
+<p>CatalyzeX Code Finder for Papers <em>(<a target="_blank" rel="noopener" href="https://www.catalyzex.com/">What is CatalyzeX?</a>)</em></p>
+<p>DagsHub Toggle</p>
+<p>DagsHub <em>(<a target="_blank" rel="noopener" href="https://dagshub.com/">What is DagsHub?</a>)</em></p>
+<p>GotitPub Toggle</p>
+<p>Gotit.pub <em>(<a target="_blank" rel="noopener" href="http://gotit.pub/faq">What is GotitPub?</a>)</em></p>
+<p>Huggingface Toggle</p>
+<p>Hugging Face <em>(<a target="_blank" rel="noopener" href="https://huggingface.co/huggingface">What is Huggingface?</a>)</em></p>
+<p>ScienceCast Toggle</p>
+<p>ScienceCast <em>(<a target="_blank" rel="noopener" href="https://sciencecast.org/welcome">What is ScienceCast?</a>)</em></p>
+<p>Demos</p>
+<p><strong>Demos</strong><br>Replicate Toggle</p>
+<p>Replicate <em>(<a target="_blank" rel="noopener" href="https://replicate.com/docs/arxiv/about">What is Replicate?</a>)</em></p>
+<p>Spaces Toggle</p>
+<p>Hugging Face Spaces <em>(<a target="_blank" rel="noopener" href="https://huggingface.co/docs/hub/spaces">What is Spaces?</a>)</em></p>
+<p>Spaces Toggle</p>
+<p>TXYZ.AI <em>(<a target="_blank" rel="noopener" href="https://txyz.ai/">What is TXYZ.AI?</a>)</em></p>
+<p>Related Papers</p>
+<p><strong>Recommenders and Search Tools</strong><br>Link to Influence Flower</p>
+<p>Influence Flower <em>(<a target="_blank" rel="noopener" href="https://influencemap.cmlab.dev/">What are Influence Flowers?</a>)</em></p>
+<p>Core recommender toggle</p>
+<p>CORE Recommender <em>(<a target="_blank" rel="noopener" href="https://core.ac.uk/services/recommender">What is CORE?</a>)</em></p>
+<ul>
+<li>Author</li>
+<li>Venue</li>
+<li>Institution</li>
+<li>Topic</li>
+</ul>
+<p>About arXivLabs</p>
+<p><strong>arXivLabs: experimental projects with community collaborators</strong><br>arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.</p>
+<p>Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.</p>
+<p>Have an idea for a project that will add value for arXiv’s community? <a target="_blank" rel="noopener" href="https://info.arxiv.org/labs/index.html"><strong>Learn more about arXivLabs</strong></a>.</p>
+<p><a href="/auth/show-endorsers/2606.06514">Which authors of this paper are endorsers?</a> |<br><a href="javascript:setMathjaxCookie()">Disable MathJax</a> (<a target="_blank" rel="noopener" href="https://info.arxiv.org/help/mathjax.html">What is MathJax?</a>)</p>
+</details>
+
+<details class="ai-daily-item" id="news-8">
+<summary>
+  <span class="ai-daily-summary-index">08</span>
+  <span class="ai-daily-summary-title">DiBS: Diffusion-Informed Branch Selection</span>
+  <span class="ai-daily-summary-meta">ArXiv AI / 英文</span>
+</summary>
+
+<p class="ai-daily-item-brief">Computer Science Artificial Intelligence arXiv:2606.06518 (cs) [Submitted on 2 Jun 2026] Title:DiBS: Diffusion Informed Branch Selection Authors:Bo Liu, Yuan Xie, Yuan Gao, Xiaolon...</p>
+
+<p class="ai-daily-item-meta">来源：ArXiv AI | 语言：英文 | <a href="https://arxiv.org/abs/2606.06518" target="_blank" rel="noopener noreferrer">原文链接</a></p>
+
+<p><strong>Computer Science &gt; Artificial Intelligence</strong><br><strong>arXiv:2606.06518</strong> (cs)</p>
+<p>[Submitted on 2 Jun 2026]</p>
+<p><strong>Title:DiBS: Diffusion-Informed Branch Selection</strong><br>Authors:<a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=Liu,+B">Bo Liu</a>, <a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=Xie,+Y">Yuan Xie</a>, <a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=Gao,+Y">Yuan Gao</a>, <a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=Luo,+X">Xiaolong Luo</a>, <a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=Ye,+P">Peng Ye</a>, <a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=Chen,+T">Tao Chen</a>, <a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=Han,+F">Fujun Han</a></p>
+<p>View a PDF of the paper titled DiBS: Diffusion-Informed Branch Selection, by Bo Liu and 6 other authors</p>
+<p><a href="/pdf/2606.06518">View PDF</a><br><a target="_blank" rel="noopener" href="https://arxiv.org/html/2606.06518v1">HTML (experimental)</a></p>
+<blockquote>
+<p>Abstract:Sudoku is a representative constraint satisfaction problem that requires global structural reasoning under strict discrete constraints. The existing works of solving Sudoku mainly focus on two dominant approaches, i.e., traditional heuristic and deep learning solver. However, they suffer from two complementary limitations: learning-based solvers lack hard correctness guarantees, while complete symbolic solvers are still prone to long-tail search. To address these shortcomings, we propose a novel diffusion model-guided approach, termed as DiBS, for the branch selection search process. Specifically, DiBS keeps the symbolic solver complete and uses the diffusion model as a branch-ordering guide. The core method is ranking candidate values under the current partial assignment and lightweight consistency signal. Furthermore, we provide an in-depth theoretical proof to reveal how it works and why it works. Experiments on the challenging Royle 17-clue Sudoku benchmark show that our DiBS substantially reduces search cost relative to strong heuristic baselines, especially in nodes, backtracks, and long-tail percentiles. Besides, these results confirm that learned global guidance is effective on hard instances where branch-order mistakes are most expensive. All codes are available at <a target="_blank" rel="noopener" href="https://github.com/shanxierdan/DiBS">this https URL</a>.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Comments:</td>
+<td>12 pages, 6 figures, 3 tables</td>
+</tr>
+<tr>
+<td>Subjects:</td>
+<td>Artificial Intelligence (cs.AI); Machine Learning (cs.LG)</td>
+</tr>
+<tr>
+<td>Cite as:</td>
+<td><a target="_blank" rel="noopener" href="https://arxiv.org/abs/2606.06518">arXiv:2606.06518</a> [cs.AI]</td>
+</tr>
+<tr>
+<td></td>
+<td>(or  <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2606.06518v1">arXiv:2606.06518v1</a> [cs.AI] for this version)</td>
+</tr>
+<tr>
+<td></td>
+<td><a target="_blank" rel="noopener" href="https://doi.org/10.48550/arXiv.2606.06518">https://doi.org/10.48550/arXiv.2606.06518</a> Focus to learn more  arXiv-issued DOI via DataCite</td>
+</tr>
+</tbody></table>
+<p><strong>Submission history</strong><br>From: Fujun Han [<a href="/show-email/ad9fa7d7/2606.06518">view email</a>]<br> <strong>[v1]</strong><br>Tue, 2 Jun 2026 14:19:51 UTC (2,135 KB)</p>
+<p>Full-text links:</p>
+<p><strong>Access Paper:</strong><br>View a PDF of the paper titled DiBS: Diffusion-Informed Branch Selection, by Bo Liu and 6 other authors</p>
+<ul>
+<li><a href="/pdf/2606.06518">View PDF</a></li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/html/2606.06518v1">HTML (experimental)</a></li>
+<li><a href="/src/2606.06518">TeX Source</a></li>
+</ul>
+<p><a target="_blank" rel="noopener" href="http://arxiv.org/licenses/nonexclusive-distrib/1.0/" title="Rights to this article">view license</a></p>
+<p><strong>Current browse context:</strong><br>cs.AI</p>
+<p><a href="/prevnext?id=2606.06518&function=prev&context=cs.AI" title="previous in cs.AI (accesskey p)">&lt; prev</a><br>  |  <br><a href="/prevnext?id=2606.06518&function=next&context=cs.AI" title="next in cs.AI (accesskey n)">next &gt;</a></p>
+<p><a href="/list/cs.AI/new">new</a><br> |<br><a href="/list/cs.AI/recent">recent</a><br> | <a href="/list/cs.AI/2026-06">2026-06</a></p>
+<p>Change to browse by:</p>
+<p><a href="/abs/2606.06518?context=cs">cs</a><br><a href="/abs/2606.06518?context=cs.LG">cs.LG</a></p>
+<p><strong>References &amp; Citations</strong></p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://ui.adsabs.harvard.edu/abs/arXiv:2606.06518">NASA ADS</a></li>
+<li><a target="_blank" rel="noopener" href="https://scholar.google.com/scholar_lookup?arxiv_id=2606.06518">Google Scholar</a></li>
+<li><a target="_blank" rel="noopener" href="https://api.semanticscholar.org/arXiv:2606.06518">Semantic Scholar</a></li>
+</ul>
+<p>export BibTeX citation<br>Loading…</p>
+<p><strong>BibTeX formatted citation</strong><br>×</p>
+<p>loading…</p>
+<p>Data provided by:</p>
+<p><strong>Bookmark</strong><br>Bibliographic Tools</p>
+<p><strong>Bibliographic and Citation Tools</strong><br>Bibliographic Explorer Toggle</p>
+<p>Bibliographic Explorer <em>(<a target="_blank" rel="noopener" href="https://info.arxiv.org/labs/showcase.html#arxiv-bibliographic-explorer">What is the Explorer?</a>)</em></p>
+<p>Connected Papers Toggle</p>
+<p>Connected Papers <em>(<a target="_blank" rel="noopener" href="https://www.connectedpapers.com/about">What is Connected Papers?</a>)</em></p>
+<p>Litmaps Toggle</p>
+<p>Litmaps <em>(<a target="_blank" rel="noopener" href="https://www.litmaps.co/">What is Litmaps?</a>)</em></p>
+<p>scite.ai Toggle</p>
+<p>scite Smart Citations <em>(<a target="_blank" rel="noopener" href="https://www.scite.ai/">What are Smart Citations?</a>)</em></p>
+<p>Code, Data, Media</p>
+<p><strong>Code, Data and Media Associated with this Article</strong><br>alphaXiv Toggle</p>
+<p>alphaXiv <em>(<a target="_blank" rel="noopener" href="https://alphaxiv.org/">What is alphaXiv?</a>)</em></p>
+<p>Links to Code Toggle</p>
+<p>CatalyzeX Code Finder for Papers <em>(<a target="_blank" rel="noopener" href="https://www.catalyzex.com/">What is CatalyzeX?</a>)</em></p>
+<p>DagsHub Toggle</p>
+<p>DagsHub <em>(<a target="_blank" rel="noopener" href="https://dagshub.com/">What is DagsHub?</a>)</em></p>
+<p>GotitPub Toggle</p>
+<p>Gotit.pub <em>(<a target="_blank" rel="noopener" href="http://gotit.pub/faq">What is GotitPub?</a>)</em></p>
+<p>Huggingface Toggle</p>
+<p>Hugging Face <em>(<a target="_blank" rel="noopener" href="https://huggingface.co/huggingface">What is Huggingface?</a>)</em></p>
+<p>ScienceCast Toggle</p>
+<p>ScienceCast <em>(<a target="_blank" rel="noopener" href="https://sciencecast.org/welcome">What is ScienceCast?</a>)</em></p>
+<p>Demos</p>
+<p><strong>Demos</strong><br>Replicate Toggle</p>
+<p>Replicate <em>(<a target="_blank" rel="noopener" href="https://replicate.com/docs/arxiv/about">What is Replicate?</a>)</em></p>
+<p>Spaces Toggle</p>
+<p>Hugging Face Spaces <em>(<a target="_blank" rel="noopener" href="https://huggingface.co/docs/hub/spaces">What is Spaces?</a>)</em></p>
+<p>Spaces Toggle</p>
+<p>TXYZ.AI <em>(<a target="_blank" rel="noopener" href="https://txyz.ai/">What is TXYZ.AI?</a>)</em></p>
+<p>Related Papers</p>
+<p><strong>Recommenders and Search Tools</strong><br>Link to Influence Flower</p>
+<p>Influence Flower <em>(<a target="_blank" rel="noopener" href="https://influencemap.cmlab.dev/">What are Influence Flowers?</a>)</em></p>
+<p>Core recommender toggle</p>
+<p>CORE Recommender <em>(<a target="_blank" rel="noopener" href="https://core.ac.uk/services/recommender">What is CORE?</a>)</em></p>
+<ul>
+<li>Author</li>
+<li>Venue</li>
+<li>Institution</li>
+<li>Topic</li>
+</ul>
+<p>About arXivLabs</p>
+<p><strong>arXivLabs: experimental projects with community collaborators</strong><br>arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.</p>
+<p>Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.</p>
+<p>Have an idea for a project that will add value for arXiv’s community? <a target="_blank" rel="noopener" href="https://info.arxiv.org/labs/index.html"><strong>Learn more about arXivLabs</strong></a>.</p>
+<p><a href="/auth/show-endorsers/2606.06518">Which authors of this paper are endorsers?</a> |<br><a href="javascript:setMathjaxCookie()">Disable MathJax</a> (<a target="_blank" rel="noopener" href="https://info.arxiv.org/help/mathjax.html">What is MathJax?</a>)</p>
+</details>
+
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://modestyzht.github.io">驴哥</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://modestyzht.github.io/ai-daily-2026-06-09/">https://modestyzht.github.io/ai-daily-2026-06-09/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="https://modestyzht.github.io" target="_blank">西北驴哥</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/AI/">AI</a><a class="post-meta__tags" href="/tags/%E6%96%B0%E9%97%BB/">新闻</a><a class="post-meta__tags" href="/tags/%E6%97%A5%E6%8A%A5/">日报</a><a class="post-meta__tags" href="/tags/LLM/">LLM</a></div><div class="post-share"><div class="social-share" data-image="/img/core/ai-daily-cover.png" data-sites="facebook,x,wechat,weibo,qq"></div><link rel="stylesheet" href="/vendor/sharejs/css/share.min.css" media="print" onload="this.media='all'"><script src="/vendor/sharejs/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related" href="/ai-daily-2026-06-21/" title="AI 日报 - 2026-06-21"><img class="cover" src="/img/core/ai-daily-cover.png" onerror="onerror=null;src='/img/glama.png'" alt="cover of previous post"><div class="info"><div class="info-1"><div class="info-item-1">上一篇</div><div class="info-item-2">AI 日报 - 2026-06-21</div></div><div class="info-2"><div class="info-item-1">每日 AI 行业新闻速递，涵盖 AI 技术、大模型、行业应用等领域。</div></div></div></a><a class="pagination-related" href="/FloatingBall-WPF%E6%A1%8C%E9%9D%A2%E6%82%AC%E6%B5%AE%E7%90%83-Vibe-Coding%E5%AE%9E%E6%88%98/" title="用 Vibe Coding 做一个 WPF 桌面悬浮球：FloatingBall 完整开发复盘"><img class="cover" src="/img/posts/floatingball-vibecoding-cover.png" onerror="onerror=null;src='/img/glama.png'" alt="cover of next post"><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">用 Vibe Coding 做一个 WPF 桌面悬浮球：FloatingBall 完整开发复盘</div></div><div class="info-2"><div class="info-item-1">用 Vibe Coding 做一个 WPF 桌面悬浮球：FloatingBall 完整开发复盘 这篇文章记录一个 Windows 桌面小工具 FloatingBall 的完整开发过程：从最初的 48px 悬浮球，到菜单动画、贴边回收、设置窗口、托盘、热重载，再到最后推送 GitHub。项目地址：https://github.com/modestyzht/FloatingBall     一、为什么要做 FloatingBall我平时会频繁在几类工具之间切换：命令行、AI 编程工具、网页工具、桌面小应用。它们都不难打开，但每次都要去开始菜单、任务栏、浏览器收藏夹里找，动作很碎，也很容易打断当前思路。 所以最初的需求很简单： 我想要一个始终在桌面边缘待命的小球，点一下就展开常用工具，用完以后自己收回去。 最后做出来的 FloatingBall 是一个 Windows 原生桌面悬浮球启动器。它不是 Electron，也不是网页套壳，而是用 C# &#x2F; .NET 8 &#x2F; WPF 做的轻量工具。 二、最终效果现在这个版本已经可以日常使用：  桌面常驻一个 48px 悬浮球...</div></div></div></a></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/ai-daily-2026-06-05/" title="AI 日报 - 2026-06-05"><img class="cover" src="/img/core/ai-daily-cover.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-06-05</div><div class="info-item-2">AI 日报 - 2026-06-05</div></div><div class="info-2"><div class="info-item-1">每日 AI 行业新闻速递，涵盖 AI 技术、大模型、行业应用等领域。</div></div></div></a><a class="pagination-related" href="/ai-daily-2026-06-21/" title="AI 日报 - 2026-06-21"><img class="cover" src="/img/core/ai-daily-cover.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-06-21</div><div class="info-item-2">AI 日报 - 2026-06-21</div></div><div class="info-2"><div class="info-item-1">每日 AI 行业新闻速递，涵盖 AI 技术、大模型、行业应用等领域。</div></div></div></a><a class="pagination-related" href="/ai-daily-2026-06-08/" title="AI 日报 - 2026-06-08"><img class="cover" src="/img/core/ai-daily-cover.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-06-08</div><div class="info-item-2">AI 日报 - 2026-06-08</div></div><div class="info-2"><div class="info-item-1">每日 AI 行业新闻速递，涵盖 AI 技术、大模型、行业应用等领域。</div></div></div></a><a class="pagination-related" href="/ai-daily-2026-06-07/" title="AI 日报 - 2026-06-07"><img class="cover" src="/img/core/ai-daily-cover.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-06-07</div><div class="info-item-2">AI 日报 - 2026-06-07</div></div><div class="info-2"><div class="info-item-1">每日 AI 行业新闻速递，涵盖 AI 技术、大模型、行业应用等领域。</div></div></div></a><a class="pagination-related" href="/ai-daily-2026-06-06/" title="AI 日报 - 2026-06-06"><img class="cover" src="/img/core/ai-daily-cover.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-06-06</div><div class="info-item-2">AI 日报 - 2026-06-06</div></div><div class="info-2"><div class="info-item-1">每日 AI 行业新闻速递，涵盖 AI 技术、大模型、行业应用等领域。</div></div></div></a></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/glama.png" onerror="this.onerror=null;this.src='/img/glama.png'" alt="avatar"/></div><div class="author-info-name">驴哥</div><div class="author-info-description"></div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">28</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">19</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/modestyzht/modestyzht.github.io"><i class="fa-solid fa-dinosaur"></i><span>跟俺来！（码仓）</span></a><div class="card-info-social-icons"><a class="social-icon" href="https://github.com/modestyzht/modestyzht.github.io" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="mailto:2855935354@qq.com" target="_blank" title="QQ邮箱"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a><a class="social-icon" href="https://space.bilibili.com/1089540568" target="_blank" title="哔哩哔哩"><i class="fab fa-bilibili" style="color: #FB7299;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">正在折腾 AI 智慧农业与 Vibe Coding，一起探索 AI 的无限可能 ✨</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#AI-%E6%97%A5%E6%8A%A5-2026-06-09"><span class="toc-number">1.</span> <span class="toc-text">AI 日报 - 2026-06-09</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%8A%E6%97%A5%E9%80%9F%E8%A7%88"><span class="toc-number">1.1.</span> <span class="toc-text">今日速览</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AF%A6%E7%BB%86%E5%86%85%E5%AE%B9"><span class="toc-number">1.2.</span> <span class="toc-text">详细内容</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/ai-daily-2026-06-21/" title="AI 日报 - 2026-06-21"><img src="/img/core/ai-daily-cover.png" onerror="this.onerror=null;this.src='/img/glama.png'" alt="AI 日报 - 2026-06-21"/></a><div class="content"><a class="title" href="/ai-daily-2026-06-21/" title="AI 日报 - 2026-06-21">AI 日报 - 2026-06-21</a><time datetime="2026-06-21T02:27:59.000Z" title="发表于 2026-06-21 02:27:59">2026-06-21</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/FloatingBall-WPF%E6%A1%8C%E9%9D%A2%E6%82%AC%E6%B5%AE%E7%90%83-Vibe-Coding%E5%AE%9E%E6%88%98/" title="用 Vibe Coding 做一个 WPF 桌面悬浮球：FloatingBall 完整开发复盘"><img src="/img/posts/floatingball-vibecoding-cover.png" onerror="this.onerror=null;this.src='/img/glama.png'" alt="用 Vibe Coding 做一个 WPF 桌面悬浮球：FloatingBall 完整开发复盘"/></a><div class="content"><a class="title" href="/FloatingBall-WPF%E6%A1%8C%E9%9D%A2%E6%82%AC%E6%B5%AE%E7%90%83-Vibe-Coding%E5%AE%9E%E6%88%98/" title="用 Vibe Coding 做一个 WPF 桌面悬浮球：FloatingBall 完整开发复盘">用 Vibe Coding 做一个 WPF 桌面悬浮球：FloatingBall 完整开发复盘</a><time datetime="2026-06-09T00:00:00.000Z" title="发表于 2026-06-09 00:00:00">2026-06-09</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/%E5%9F%BA%E7%A1%80%E7%AF%87-%E9%9B%B6%E5%9F%BA%E7%A1%80Vibe-Coding%E5%85%A5%E9%97%A8/" title="零基础 Vibe Coding 入门：用 TRAE 亲手做出你的第一个应用"><img src="/img/vibe-coding/%E5%9F%BA%E7%A1%80%E7%AF%87/page2_1.jpeg" onerror="this.onerror=null;this.src='/img/glama.png'" alt="零基础 Vibe Coding 入门：用 TRAE 亲手做出你的第一个应用"/></a><div class="content"><a class="title" href="/%E5%9F%BA%E7%A1%80%E7%AF%87-%E9%9B%B6%E5%9F%BA%E7%A1%80Vibe-Coding%E5%85%A5%E9%97%A8/" title="零基础 Vibe Coding 入门：用 TRAE 亲手做出你的第一个应用">零基础 Vibe Coding 入门：用 TRAE 亲手做出你的第一个应用</a><time datetime="2026-06-05T00:00:00.000Z" title="发表于 2026-06-05 00:00:00">2026-06-05</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/%E6%8A%80%E5%B7%A7%E7%AF%87-%E6%A8%A1%E5%9D%97%E5%8C%96PRD%E6%96%B9%E6%B3%95/" title="Vibe Coding 技巧：模块化 PRD 方法，让 AI 写出不崩的项目"><img src="/img/vibe-coding/page01.png" onerror="this.onerror=null;this.src='/img/glama.png'" alt="Vibe Coding 技巧：模块化 PRD 方法，让 AI 写出不崩的项目"/></a><div class="content"><a class="title" href="/%E6%8A%80%E5%B7%A7%E7%AF%87-%E6%A8%A1%E5%9D%97%E5%8C%96PRD%E6%96%B9%E6%B3%95/" title="Vibe Coding 技巧：模块化 PRD 方法，让 AI 写出不崩的项目">Vibe Coding 技巧：模块化 PRD 方法，让 AI 写出不崩的项目</a><time datetime="2026-06-05T00:00:00.000Z" title="发表于 2026-06-05 00:00:00">2026-06-05</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/%E7%90%86%E8%AE%BA%E7%AF%87-Vibe-Coding%E7%9A%84%E6%95%B0%E5%AD%A6%E5%AF%86%E7%A0%81/" title="Vibe Coding 的数学密码：为什么自然语言能写代码？"><img src="/img/vibe-coding/%E7%90%86%E8%AE%BA%E7%AF%87/%E7%90%86%E8%AE%BA.png" onerror="this.onerror=null;this.src='/img/glama.png'" alt="Vibe Coding 的数学密码：为什么自然语言能写代码？"/></a><div class="content"><a class="title" href="/%E7%90%86%E8%AE%BA%E7%AF%87-Vibe-Coding%E7%9A%84%E6%95%B0%E5%AD%A6%E5%AF%86%E7%A0%81/" title="Vibe Coding 的数学密码：为什么自然语言能写代码？">Vibe Coding 的数学密码：为什么自然语言能写代码？</a><time datetime="2026-06-05T00:00:00.000Z" title="发表于 2026-06-05 00:00:00">2026-06-05</time></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2023 - 2026 By 驴哥</span></div><div class="footer_custom_text"><div id="workboard"></div></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><div class="js-pjax"></div><script src="/vendor/pangu/pangu.umd.js"></script><script> const initPangu = () => { if (typeof pangu !== 'undefined') { pangu.spacingPage(); } }; document.addEventListener('DOMContentLoaded', initPangu); document.addEventListener('pjax:complete', initPangu); </script><script src="/js/runtime.js"></script><script src="/js/tag-enhance.js"></script></div></body></html>

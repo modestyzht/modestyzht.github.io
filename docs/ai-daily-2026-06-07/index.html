@@ -1,0 +1,1050 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>AI 日报 - 2026-06-07 | 西北驴哥</title><meta name="author" content="驴哥"><meta name="copyright" content="驴哥"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="每日 AI 行业新闻速递，涵盖 AI 技术、大模型、行业应用等领域。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="AI 日报 - 2026-06-07">
+<meta property="og:url" content="https://modestyzht.github.io/ai-daily-2026-06-07/index.html">
+<meta property="og:site_name" content="西北驴哥">
+<meta property="og:description" content="每日 AI 行业新闻速递，涵盖 AI 技术、大模型、行业应用等领域。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://modestyzht.github.io/img/core/ai-daily-cover.png">
+<meta property="article:published_time" content="2026-06-07T08:00:00.000Z">
+<meta property="article:modified_time" content="2026-06-21T02:29:09.354Z">
+<meta property="article:author" content="驴哥">
+<meta property="article:tag" content="AI">
+<meta property="article:tag" content="LLM">
+<meta property="article:tag" content="新闻">
+<meta property="article:tag" content="日报">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://modestyzht.github.io/img/core/ai-daily-cover.png"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "AI 日报 - 2026-06-07",
+  "url": "https://modestyzht.github.io/ai-daily-2026-06-07/",
+  "image": "https://modestyzht.github.io/img/core/ai-daily-cover.png",
+  "datePublished": "2026-06-07T08:00:00.000Z",
+  "dateModified": "2026-06-21T02:29:09.354Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "驴哥",
+      "url": "https://modestyzht.github.io"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/glama.png"><link rel="canonical" href="https://modestyzht.github.io/ai-daily-2026-06-07/index.html"><link rel="preconnect"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="/vendor/fontawesome/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: '/vendor/infinitegrid/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'AI 日报 - 2026-06-07',
+  isHighlightShrink: false,
+  isToc: true,
+  pageType: 'post'
+}</script><link rel="stylesheet" href="/css/custom.css"><link rel="stylesheet" href="/css/runtime.css"><meta name="generator" content="Hexo 8.1.2"></head><body><div class="bg-animation" id="web_bg" style="background-image: url(/img/core/bkgnd.jpg);"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/glama.png" onerror="this.onerror=null;this.src='/img/glama.png'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">28</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">19</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/paper/"><i class="fa-fw fas fa-file-alt"></i><span> 论文</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-robot"></i><span> AI</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/news/"><i class="fa-fw fas fa-newspaper"></i><span> 日报</span></a></li><li><a class="site-page child" href="/skills/"><i class="fa-fw fas fa-magic"></i><span> Skill</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-archive"></i><span> 博客</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-list"></i><span> 链接</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://api.mirrorworkforce.cn/"><i class="fa-fw fas fa-server"></i><span> 中转站</span></a></li></ul></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(/img/core/ai-daily-cover.png);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><img class="site-icon" src="/img/glama.png" alt="Logo"><span class="site-name">西北驴哥</span></a><a class="nav-page-title" href="/"><span class="site-name">AI 日报 - 2026-06-07</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首页</span></span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/paper/"><i class="fa-fw fas fa-file-alt"></i><span> 论文</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-robot"></i><span> AI</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/news/"><i class="fa-fw fas fa-newspaper"></i><span> 日报</span></a></li><li><a class="site-page child" href="/skills/"><i class="fa-fw fas fa-magic"></i><span> Skill</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-archive"></i><span> 博客</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-list"></i><span> 链接</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://api.mirrorworkforce.cn/"><i class="fa-fw fas fa-server"></i><span> 中转站</span></a></li></ul></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">AI 日报 - 2026-06-07</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2026-06-07T08:00:00.000Z" title="发表于 2026-06-07 08:00:00">2026-06-07</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2026-06-21T02:29:09.354Z" title="更新于 2026-06-21 02:29:09">2026-06-21</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/AI%E6%96%B0%E9%97%BB/">AI新闻</a></span></div><div class="meta-secondline"></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><h1 id="AI-日报-2026-06-07"><a href="#AI-日报-2026-06-07" class="headerlink" title="AI 日报 - 2026-06-07"></a>AI 日报 - 2026-06-07</h1><blockquote>
+<p>本文由脚本自动生成，共收录 10 条 AI 相关资讯。默认展示速览，展开后阅读完整内容。</p>
+</blockquote>
+<style>
+.ai-daily-overview {
+  display: grid;
+  gap: 0.75rem;
+  margin: 1rem 0 2rem;
+}
+.ai-daily-card {
+  display: grid;
+  grid-template-columns: 3rem minmax(0, 1fr) auto;
+  gap: 0.75rem;
+  align-items: start;
+  padding: 0.85rem 1rem;
+  border: 1px solid rgba(71, 85, 105, 0.18);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.72);
+  color: inherit !important;
+  text-decoration: none !important;
+}
+.ai-daily-card:hover,
+.ai-daily-item:hover {
+  border-color: rgba(37, 99, 235, 0.42);
+}
+.ai-daily-index,
+.ai-daily-summary-index {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 999px;
+  background: rgba(37, 99, 235, 0.1);
+  color: #1d4ed8;
+  font-weight: 700;
+  font-size: 0.86rem;
+}
+.ai-daily-card-main {
+  min-width: 0;
+}
+.ai-daily-card-title,
+.ai-daily-summary-title {
+  display: block;
+  color: inherit;
+  font-weight: 700;
+  line-height: 1.45;
+}
+.ai-daily-card-summary {
+  display: block;
+  margin-top: 0.28rem;
+  color: #64748b;
+  line-height: 1.65;
+  font-size: 0.94rem;
+}
+.ai-daily-card-meta,
+.ai-daily-summary-meta {
+  color: #0f766e;
+  font-size: 0.84rem;
+  white-space: nowrap;
+}
+.ai-daily-item {
+  margin: 1rem 0;
+  padding: 0.85rem 1rem;
+  border: 1px solid rgba(71, 85, 105, 0.18);
+  border-radius: 8px;
+  background: rgba(248, 250, 252, 0.82);
+}
+.ai-daily-item summary {
+  display: grid;
+  grid-template-columns: 3rem minmax(0, 1fr) auto auto;
+  gap: 0.75rem;
+  align-items: center;
+  cursor: pointer;
+  list-style: none;
+}
+.ai-daily-item summary::-webkit-details-marker {
+  display: none;
+}
+.ai-daily-item summary::after {
+  content: "展开";
+  justify-self: end;
+  color: #b45309;
+  font-size: 0.84rem;
+  font-weight: 700;
+}
+.ai-daily-item[open] summary::after {
+  content: "收起";
+}
+.ai-daily-item-brief {
+  margin: 1rem 0;
+  padding: 0.75rem 0.9rem;
+  border-left: 3px solid #2563eb;
+  background: rgba(37, 99, 235, 0.06);
+  color: #475569;
+  line-height: 1.75;
+}
+.ai-daily-item-meta {
+  color: #64748b;
+  font-size: 0.92rem;
+}
+[data-theme="dark"] .ai-daily-card,
+[data-theme="dark"] .ai-daily-item {
+  border-color: rgba(148, 163, 184, 0.22);
+  background: rgba(15, 23, 42, 0.68);
+}
+[data-theme="dark"] .ai-daily-card-summary,
+[data-theme="dark"] .ai-daily-item-brief,
+[data-theme="dark"] .ai-daily-item-meta {
+  color: #cbd5e1;
+}
+[data-theme="dark"] .ai-daily-card-meta,
+[data-theme="dark"] .ai-daily-summary-meta {
+  color: #5eead4;
+}
+@media (max-width: 640px) {
+  .ai-daily-card {
+    grid-template-columns: 2.6rem minmax(0, 1fr);
+  }
+  .ai-daily-card-meta {
+    grid-column: 2;
+    justify-self: start;
+  }
+  .ai-daily-item summary {
+    grid-template-columns: 2.6rem minmax(0, 1fr) auto;
+  }
+  .ai-daily-summary-meta {
+    grid-column: 2;
+    justify-self: start;
+  }
+}
+</style>
+
+<h2 id="今日速览"><a href="#今日速览" class="headerlink" title="今日速览"></a>今日速览</h2><div class="ai-daily-overview">
+<a class="ai-daily-card" href="#news-1">
+  <span class="ai-daily-index">01</span>
+  <span class="ai-daily-card-main">
+    <span class="ai-daily-card-title">得物推荐 AI Harness：从“狂野代码”到“按目标生产”｜AICon上海</span>
+    <span class="ai-daily-card-summary">过去一年，“Agent”这个词从实验室走进了生产环境。工程师们开始真正面对一个新的问题：不是“AI 能不能做到”，而是“我们能不能把它跑稳、跑对、跑出规模”。架构怎么设计？记忆怎么管理？多智能体之间如何协调？研发团队的工作方式又该如何重构？ 这些，正是 AICon 2026 上海站试图回答的问题。 6 月 26 日 27 日，本次大会将以“构建可信赖、可规模...</span>
+  </span>
+  <span class="ai-daily-card-meta">InfoQ / 中文</span>
+</a>
+<a class="ai-daily-card" href="#news-2">
+  <span class="ai-daily-index">02</span>
+  <span class="ai-daily-card-main">
+    <span class="ai-daily-card-title">上海人工智能实验室领军科学家胡侠确认出席AICon上海站，分享书安智能体操作系统的实践与思考</span>
+    <span class="ai-daily-card-summary">过去一年，“Agent”这个词从实验室走进了生产环境。工程师们开始真正面对一个新的问题：不是“AI 能不能做到”，而是“我们能不能把它跑稳、跑对、跑出规模”。架构怎么设计？记忆怎么管理？多智能体之间如何协调？研发团队的工作方式又该如何重构？ 这些，正是 AICon 2026 上海站试图回答的问题。 6 月 26 日 27 日，本次大会将以“构建可信赖、可规模...</span>
+  </span>
+  <span class="ai-daily-card-meta">InfoQ / 中文</span>
+</a>
+<a class="ai-daily-card" href="#news-3">
+  <span class="ai-daily-index">03</span>
+  <span class="ai-daily-card-main">
+    <span class="ai-daily-card-title">Gaia2: Benchmarking LLM Agents on Dynamic and Asynchronous Environments</span>
+    <span class="ai-daily-card-summary">Computer Science Artificial Intelligence arXiv:2602.11964 (cs) [Submitted on 12 Feb 2026] Title:Gaia2: Benchmarking LLM Agents on Dynamic and Asynchronous Environments Authors:Roma...</span>
+  </span>
+  <span class="ai-daily-card-meta">Hacker News / 英文</span>
+</a>
+<a class="ai-daily-card" href="#news-4">
+  <span class="ai-daily-index">04</span>
+  <span class="ai-daily-card-main">
+    <span class="ai-daily-card-title">Ask HN: Where do you get the latest updates about AI?</span>
+    <span class="ai-daily-card-summary">Besides hacker news, of course. （无法获取完整内容，请点击原文链接阅读）</span>
+  </span>
+  <span class="ai-daily-card-meta">Hacker News / 英文</span>
+</a>
+<a class="ai-daily-card" href="#news-5">
+  <span class="ai-daily-index">05</span>
+  <span class="ai-daily-card-main">
+    <span class="ai-daily-card-title">The mayor of Shelbyville, Indiana, says only people who live in ‘shitty houses’ oppose data center</span>
+    <span class="ai-daily-card-summary">AI News Policy The mayor of Shelbyville, Indiana, says only people who live in ‘shitty houses’ oppose data center Residents of the city say Scott Furgeson was disrespectful. Reside...</span>
+  </span>
+  <span class="ai-daily-card-meta">The Verge / 英文</span>
+</a>
+<a class="ai-daily-card" href="#news-6">
+  <span class="ai-daily-index">06</span>
+  <span class="ai-daily-card-main">
+    <span class="ai-daily-card-title">Meta made its own AI-generated clickbait news feed</span>
+    <span class="ai-daily-card-summary">AI Tech Meta Meta made its own AI generated clickbait news feed Meta said it would pull the feature after The Verge asked questions about it. Meta said it would pull the feature af...</span>
+  </span>
+  <span class="ai-daily-card-meta">The Verge / 英文</span>
+</a>
+<a class="ai-daily-card" href="#news-7">
+  <span class="ai-daily-index">07</span>
+  <span class="ai-daily-card-main">
+    <span class="ai-daily-card-title">The Meta hack shows there’s more to AI security than Mythos</span>
+    <span class="ai-daily-card-summary">You need to enable JavaScript to view this site. Skip to Content EXECUTIVE SUMMARY On June 5, 404 Media reported that attackers had been using Meta’s AI customer support agent to s...</span>
+  </span>
+  <span class="ai-daily-card-meta">MIT Tech Review / 英文</span>
+</a>
+<a class="ai-daily-card" href="#news-8">
+  <span class="ai-daily-index">08</span>
+  <span class="ai-daily-card-main">
+    <span class="ai-daily-card-title">The Download: AI-generated lawsuits and virtual power plants for data centers</span>
+    <span class="ai-daily-card-summary">You need to enable JavaScript to view this site. Skip to Content This is today&#x27;s edition of The Download , our weekday newsletter that provides a daily dose of what&#x27;s going on in t...</span>
+  </span>
+  <span class="ai-daily-card-meta">MIT Tech Review / 英文</span>
+</a>
+<a class="ai-daily-card" href="#news-9">
+  <span class="ai-daily-index">09</span>
+  <span class="ai-daily-card-main">
+    <span class="ai-daily-card-title">How Far Did They Go? The Persuasive Tactics of Covert LLM Agents in a Discontinued Field Experiment</span>
+    <span class="ai-daily-card-summary">Computer Science Artificial Intelligence arXiv:2606.05256 (cs) [Submitted on 3 Jun 2026] Title:How Far Did They Go? The Persuasive Tactics of Covert LLM Agents in a Discontinued Fi...</span>
+  </span>
+  <span class="ai-daily-card-meta">ArXiv AI / 英文</span>
+</a>
+<a class="ai-daily-card" href="#news-10">
+  <span class="ai-daily-index">10</span>
+  <span class="ai-daily-card-main">
+    <span class="ai-daily-card-title">What Should Agents Say? Action-state Communication for Efficient Multi-Agent Systems</span>
+    <span class="ai-daily-card-summary">Computer Science Artificial Intelligence arXiv:2606.05304 (cs) [Submitted on 3 Jun 2026] Title:What Should Agents Say? Action state Communication for Efficient Multi Agent Systems...</span>
+  </span>
+  <span class="ai-daily-card-meta">ArXiv AI / 英文</span>
+</a>
+</div>
+
+<h2 id="详细内容"><a href="#详细内容" class="headerlink" title="详细内容"></a>详细内容</h2><details class="ai-daily-item" id="news-1">
+<summary>
+  <span class="ai-daily-summary-index">01</span>
+  <span class="ai-daily-summary-title">得物推荐 AI Harness：从“狂野代码”到“按目标生产”｜AICon上海</span>
+  <span class="ai-daily-summary-meta">InfoQ / 中文</span>
+</summary>
+
+<p class="ai-daily-item-brief">过去一年，“Agent”这个词从实验室走进了生产环境。工程师们开始真正面对一个新的问题：不是“AI 能不能做到”，而是“我们能不能把它跑稳、跑对、跑出规模”。架构怎么设计？记忆怎么管理？多智能体之间如何协调？研发团队的工作方式又该如何重构？ 这些，正是 AICon 2026 上海站试图回答的问题。 6 月 26 日 27 日，本次大会将以“构建可信赖、可规模...</p>
+
+<p class="ai-daily-item-meta">来源：InfoQ | 语言：中文 | <a href="https://www.infoq.cn/article/pOwoNlmEL9zV0aodLVB9?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener noreferrer">原文链接</a></p>
+
+<p>过去一年，“Agent”这个词从实验室走进了生产环境。工程师们开始真正面对一个新的问题：不是“AI 能不能做到”，而是“我们能不能把它跑稳、跑对、跑出规模”。架构怎么设计？记忆怎么管理？多智能体之间如何协调？研发团队的工作方式又该如何重构？</p>
+<p>这些，正是 AICon 2026 上海站试图回答的问题。 6 月 26 日-27 日，本次大会将以“构建可信赖、可规模化、可商业化的 Agentic 操作系统”为核心命题，集结清华、复旦等知名高校教授，以及来自阿里、腾讯、蚂蚁、字节、快手、小红书、华为、Google Cloud 等数十家头部公司的技术专家登台分享。2 天、13 大专题、1 个动手实验室、近 60 场重磅议题，将深度探讨 Agent 工程化落地等相关话题。</p>
+<p>得物资深技术专家白忠魏已确认出席 “<a target="_blank" rel="noopener" href="https://aicon.infoq.cn/2026/shanghai/track/1936">AI 开发生产力重构：Coder to Builder</a>” 专题，发表题为**《<strong><a target="_blank" rel="noopener" href="https://aicon.infoq.cn/2026/shanghai/presentation/7113">得物推荐 AI Harness - 从“狂野代码”到“按目标生产”</a></strong>》**的主题分享。本次分享将围绕“让 AI 写的黑盒代码也能安全上线”这一目标展开，重点介绍如何通过 Harness 体系建设，实现需求周期渗透率提升、链路 AI 采纳率提升，以及全链路迭代时长下降。内容将结合多个真实案例，包括从 PRD 到链路 Harness 的标准化流程与安全围栏建设、工业级可用的混合架构 Agent 设计，以及面向推荐链路特点的 Harness 定向构建实践。</p>
+<p>白忠魏，得物资深技术专家，15 年+ 互联网老兵，先后履职于阿里巴巴（负责过淘宝首页、搜索、推荐和内容体系），得物。长期致力于解决极大规模下的推荐系统架构演进及高可用难题。在得物期间，重点攻坚推荐链路的“透明化”与“高效协同”。由其主导发起的“开光”AI 推荐链路排查基座，彻底重塑了推荐系统的诊断逻辑。该系统历经 120 余次功能迭代，覆盖 30 余个推荐业务场景，大幅缩减了问题排查的平均时间。本次分享将结合在推荐全链路 Harness AI 围栏构建、AI 高确定性和自探索方向的丰富实操，分享得物大型推荐系统背后的工程智慧。他在本次会议的详细演讲内容如下：</p>
+<blockquote>
+<p><strong>演讲提纲：</strong></p>
+<ol>
+<li><p>核心：为什么要构建 Harness 围栏？</p>
+<p>愿景： 让 AI 写的黑盒代码也能安全上线</p>
+<p>痛点： AI 写的代码“能跑”但不一定“能用”。推荐工程环境极其复杂（AP 架构），推荐业务调参就像你买股票，靠天吃饭，相对比较黑盒，所以有了一些比如 PID，MAB，ODL 等方式，边学变调。在此基础上，推荐业务场景下的 AI Harness 构建模式和 CP 是有一些天然的不同</p>
+<p>核心目标： 需求周期渗透率↑、链路 AI 采纳率↑、全链路迭代时长↓</p>
+</li>
+<li><p>深度缝合：贯穿推荐生命周期的 7 阶段护栏</p>
+<p>我们将推荐迭代的 SOP 与 Harness 运行环境强制绑定阶段 AI 协作点护栏能力 (Harness Guardrails)</p>
+<p>PRD 阶段 AI 自动拆解功能 ID 与需求点。Contract 定义：结构化 T-PRD，预定义模块影响、打分方向、2% 稳定性断言</p>
+<p>技术方案 AI 生成 Plan，人类 Lead 审核。Plan 评审：在 AI 执行前的最后一道“人机共识”关卡，确保架构一致性</p>
+<p>需求开发 AI 在隔离沙箱内自我修正。沙箱隔离 Debug：增强隔离性的本地沙箱，实现“环境即开即用”</p>
+<p>需求验证 AI 自动补齐单测用例。UTD (单测驱动)：代码生成即编译，强制 diff 监控与覆盖率监督</p>
+<p>联调阶段 AI 驱动的闭环逻辑验证。Super Mock：一键式外部依赖模拟，解决特征服务&#x2F;下游依赖未就绪的阻塞</p>
+<p>代码上线自动回滚与故障自愈。动态围栏 (Guardrails)：Beta 集群毫秒级熔断，拦截内存泄漏与指标偏移</p>
+<p>效果跟进 AI 学习失败案例，自我进化。自动化观测与生命周期管理：Bad Case 自动回流沙箱复盘</p>
+</li>
+<li><p>适合工业的混合智能体架构：Highway &amp; ATV 混合反思架构针对 Agent 场景，我们更需要面向工业化的可控和高效</p>
+<p>Highway (高速公路)： 基于 Intent-Story-Action 的 Flow Engineering</p>
+<p>特点： 确定性、秒级流转、应对 80% 高频重复业务</p>
+<p>ATV (越野模式)： 基于 OpenClaw 的 Autonomous Agent</p>
+<p>特点： 动态反思、路径自寻、兜底 20% 长尾复杂 Case</p>
+<p>进化层 (Memory)： 日常的成功经验，通过“反思”自动固化为 Highway 上的“新 Story”</p>
+</li>
+<li><p>总结与展望</p>
+</li>
+</ol>
+<p><strong>听众收益：</strong></p>
+<ul>
+<li>一套方法论： 如何为团队成员构建“开箱即用”的 AI 研发环境，从而提升全组的 AI 工具采纳率</li>
+<li>一套架构参考： Highways &amp; ATV 架构如何解决 Agent 在生产环境中稳定落地的问题</li>
+<li>实战数据支撑： 引入 Harness 围栏后，需求交付周期与全链路时长的真实量化优化结果</li>
+</ul>
+</blockquote>
+<p>除此之外，本次大会还策划了<a target="_blank" rel="noopener" href="https://aicon.infoq.cn/2026/shanghai/track/1931">端侧 AI、物理与数字空间智能化</a>、<a target="_blank" rel="noopener" href="https://aicon.infoq.cn/2026/shanghai/track/1937">世界模型与多模态智能突破</a>、<a target="_blank" rel="noopener" href="https://aicon.infoq.cn/2026/shanghai/track/1926">Agent 架构与工程化实践</a>、<a target="_blank" rel="noopener" href="https://aicon.infoq.cn/2026/shanghai/track/1928">Agent 安全与可信治理</a>、<a target="_blank" rel="noopener" href="https://aicon.infoq.cn/2026/shanghai/track/1938">企业级研发体系重构</a>、<a target="_blank" rel="noopener" href="https://aicon.infoq.cn/2026/shanghai/track/1943">AI 原生数据工程</a>、<a target="_blank" rel="noopener" href="https://aicon.infoq.cn/2026/shanghai/track/1936">AI 时代的个人提效与组织变革</a>等 14 个专题论坛，届时将有来自不同行业、不同领域、不同企业的 50+资深专家在现场带来前沿技术洞察和一线实践经验。</p>
+<p>更多详情可扫码或联系票务经理 13269078023 进行咨询。</p>
+</details>
+
+<details class="ai-daily-item" id="news-2">
+<summary>
+  <span class="ai-daily-summary-index">02</span>
+  <span class="ai-daily-summary-title">上海人工智能实验室领军科学家胡侠确认出席AICon上海站，分享书安智能体操作系统的实践与思考</span>
+  <span class="ai-daily-summary-meta">InfoQ / 中文</span>
+</summary>
+
+<p class="ai-daily-item-brief">过去一年，“Agent”这个词从实验室走进了生产环境。工程师们开始真正面对一个新的问题：不是“AI 能不能做到”，而是“我们能不能把它跑稳、跑对、跑出规模”。架构怎么设计？记忆怎么管理？多智能体之间如何协调？研发团队的工作方式又该如何重构？ 这些，正是 AICon 2026 上海站试图回答的问题。 6 月 26 日 27 日，本次大会将以“构建可信赖、可规模...</p>
+
+<p class="ai-daily-item-meta">来源：InfoQ | 语言：中文 | <a href="https://www.infoq.cn/article/ztM2hNuC8cfwT6FT7cGb?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener noreferrer">原文链接</a></p>
+
+<p>过去一年，“Agent”这个词从实验室走进了生产环境。工程师们开始真正面对一个新的问题：不是“AI 能不能做到”，而是“我们能不能把它跑稳、跑对、跑出规模”。架构怎么设计？记忆怎么管理？多智能体之间如何协调？研发团队的工作方式又该如何重构？</p>
+<p>这些，正是 AICon 2026 上海站试图回答的问题。 6 月 26 日-27 日，本次大会将以“构建可信赖、可规模化、可商业化的 Agentic 操作系统”为核心命题，集结清华、复旦等知名高校教授，以及来自阿里、腾讯、蚂蚁、字节、快手、小红书、华为、Google Cloud 等数十家头部公司的技术专家登台分享。2 天、13 大专题、1 个动手实验室、近 60 场重磅议题，将深度探讨 Agent 工程化落地等相关话题。</p>
+<p>上海人工智能实验室领军科学家胡侠确认出席 “<a target="_blank" rel="noopener" href="https://aicon.infoq.cn/2026/shanghai/track/1928">Agent 安全、评测与可信治理</a>” 专题，发表题为**《<strong><a target="_blank" rel="noopener" href="https://aicon.infoq.cn/2026/shanghai/presentation/7106">面向智能体的“安全即服务”模式探索：书安智能体操作系统的实践与思考</a></strong>》**的主题分享。本次分享将围绕上海人工智能实验室在“安全即服务”方向的探索展开，介绍书安智能体操作系统在产业场景中的设计思路与实践经验。报告将重点讨论如何将安全能力内嵌于智能体运行全流程，构建覆盖系统隔离、流程治理、行为约束与持续演化的安全机制，以支持智能体在复杂业务环境中的稳定运行。同时，分享还将结合产业智能化过程中的典型需求，探讨智能体安全体系如何从底层基础设施逐步延伸至任务协同与业务治理层面，为 AI 规模化应用提供更加系统化的安全支撑。</p>
+<p>胡侠教授，现任上海人工智能实验室主任助理、领军科学家。曾任美国莱斯大学正教授、数据科学中心主任，并作为联合创始人兼首席科学家参与创立 AIPOW 公司。胡教授长期致力于机器学习和人工智能领域的研究，在 ICLR、NeurIPS、KDD、WWW、SIGIR 等国际顶级会议及期刊上发表论文 200 余篇，论文被引用次数超过 40,000 次。主导开发的自动机器学习开源系统 AutoKeras 已成为最常用的 AutoML 框架之一；其提出的 NCF 算法及系统（单篇论文被引超 8000 次）被纳入主流人工智能框架 TensorFlow 的官方推荐；此外，他开发的异常检测系统已在 NVidia、通用电气、Trane、苹果等企业的产品中得到广泛应用。胡教授曾获 ICML、WWW、WSDM、INFORMS 等会议最佳论文奖或提名，以及美国国家科学基金委杰出青年奖、KDD Rising Star Award 和 IEEE Atluri 学者奖等荣誉。他现任 ACM TIST 和 Big Data 期刊副主编、DMKD 编委，并曾担任 WSDM 2020 大会主席及 ICHI 2023、CHASE 2025 医学信息学会议大会主席。</p>
+<p>除此之外，本次大会还策划了<a target="_blank" rel="noopener" href="https://aicon.infoq.cn/2026/shanghai/track/1931">端侧 AI、物理与数字空间智能化</a>、<a target="_blank" rel="noopener" href="https://aicon.infoq.cn/2026/shanghai/track/1937">世界模型与多模态智能突破</a>、<a target="_blank" rel="noopener" href="https://aicon.infoq.cn/2026/shanghai/track/1926">Agent 架构与工程化实践</a>、<a target="_blank" rel="noopener" href="https://aicon.infoq.cn/2026/shanghai/track/1928">Agent 安全与可信治理</a>、<a target="_blank" rel="noopener" href="https://aicon.infoq.cn/2026/shanghai/track/1938">企业级研发体系重构</a>、<a target="_blank" rel="noopener" href="https://aicon.infoq.cn/2026/shanghai/track/1943">AI 原生数据工程</a>、<a target="_blank" rel="noopener" href="https://aicon.infoq.cn/2026/shanghai/track/1936">AI 时代的个人提效与组织变革</a>等 14 个专题论坛，届时将有来自不同行业、不同领域、不同企业的 50+资深专家在现场带来前沿技术洞察和一线实践经验。</p>
+<p>查看更多详情可扫码或联系票务经理 13269078023 进行咨询。</p>
+</details>
+
+<details class="ai-daily-item" id="news-3">
+<summary>
+  <span class="ai-daily-summary-index">03</span>
+  <span class="ai-daily-summary-title">Gaia2: Benchmarking LLM Agents on Dynamic and Asynchronous Environments</span>
+  <span class="ai-daily-summary-meta">Hacker News / 英文</span>
+</summary>
+
+<p class="ai-daily-item-brief">Computer Science Artificial Intelligence arXiv:2602.11964 (cs) [Submitted on 12 Feb 2026] Title:Gaia2: Benchmarking LLM Agents on Dynamic and Asynchronous Environments Authors:Roma...</p>
+
+<p class="ai-daily-item-meta">来源：Hacker News | 语言：英文 | <a href="https://arxiv.org/abs/2602.11964" target="_blank" rel="noopener noreferrer">原文链接</a></p>
+
+<p><strong>Computer Science &gt; Artificial Intelligence</strong><br><strong>arXiv:2602.11964</strong> (cs)</p>
+<p>[Submitted on 12 Feb 2026]</p>
+<p><strong>Title:Gaia2: Benchmarking LLM Agents on Dynamic and Asynchronous Environments</strong><br>Authors:<a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=Froger,+R">Romain Froger</a>, <a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=Andrews,+P">Pierre Andrews</a>, <a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=Bettini,+M">Matteo Bettini</a>, <a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=Budhiraja,+A">Amar Budhiraja</a>, <a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=Cabral,+R+S">Ricardo Silveira Cabral</a>, <a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=Do,+V">Virginie Do</a>, <a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=Garreau,+E">Emilien Garreau</a>, <a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=Gaya,+J">Jean-Baptiste Gaya</a>, <a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=Lauren%C3%A7on,+H">Hugo Laurençon</a>, <a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=Lecanu,+M">Maxime Lecanu</a>, <a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=Malkan,+K">Kunal Malkan</a>, <a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=Mekala,+D">Dheeraj Mekala</a>, <a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=M%C3%A9nard,+P">Pierre Ménard</a>, <a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=Bertran,+G+M">Gerard Moreno-Torres Bertran</a>, <a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=Piterbarg,+U">Ulyana Piterbarg</a>, <a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=Plekhanov,+M">Mikhail Plekhanov</a>, <a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=Rita,+M">Mathieu Rita</a>, <a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=Rusakov,+A">Andrey Rusakov</a>, <a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=Vorotilov,+V">Vladislav Vorotilov</a>, <a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=Wang,+M">Mengjue Wang</a>, <a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=Yu,+I">Ian Yu</a>, <a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=Benhalloum,+A">Amine Benhalloum</a>, <a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=Mialon,+G">Grégoire Mialon</a>, <a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=Scialom,+T">Thomas Scialom</a></p>
+<p>View a PDF of the paper titled Gaia2: Benchmarking LLM Agents on Dynamic and Asynchronous Environments, by Romain Froger and 23 other authors</p>
+<p><a href="/pdf/2602.11964">View PDF</a></p>
+<blockquote>
+<p>Abstract:We introduce Gaia2, a benchmark for evaluating large language model agents in realistic, asynchronous environments. Unlike prior static or synchronous evaluations, Gaia2 introduces scenarios where environments evolve independently of agent actions, requiring agents to operate under temporal constraints, adapt to noisy and dynamic events, resolve ambiguity, and collaborate with other agents. Each scenario is paired with a write-action verifier, enabling fine-grained, action-level evaluation and making Gaia2 directly usable for reinforcement learning from verifiable rewards. Our evaluation of state-of-the-art proprietary and open-source models shows that no model dominates across capabilities: GPT-5 (high) reaches the strongest overall score of 42% pass@1 but fails on time-sensitive tasks, Claude-4 Sonnet trades accuracy and speed for cost, Kimi-K2 leads among open-source models with 21% pass@1. These results highlight fundamental trade-offs between reasoning, efficiency, robustness, and expose challenges in closing the “sim2real” gap. Gaia2 is built on a consumer environment with the open-source Agents Research Environments platform and designed to be easy to extend. By releasing Gaia2 alongside the foundational ARE framework, we aim to provide the community with a flexible infrastructure for developing, benchmarking, and training the next generation of practical agent systems.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Comments:</td>
+<td>Accepted as Oral at ICLR 2026</td>
+</tr>
+<tr>
+<td>Subjects:</td>
+<td>Artificial Intelligence (cs.AI)</td>
+</tr>
+<tr>
+<td>Cite as:</td>
+<td><a target="_blank" rel="noopener" href="https://arxiv.org/abs/2602.11964">arXiv:2602.11964</a> [cs.AI]</td>
+</tr>
+<tr>
+<td></td>
+<td>(or  <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2602.11964v1">arXiv:2602.11964v1</a> [cs.AI] for this version)</td>
+</tr>
+<tr>
+<td></td>
+<td><a target="_blank" rel="noopener" href="https://doi.org/10.48550/arXiv.2602.11964">https://doi.org/10.48550/arXiv.2602.11964</a> Focus to learn more  arXiv-issued DOI via DataCite</td>
+</tr>
+</tbody></table>
+<p><strong>Submission history</strong><br>From: Romain Froger [<a href="/show-email/c6d415ae/2602.11964">view email</a>]<br> <strong>[v1]</strong><br>Thu, 12 Feb 2026 13:58:27 UTC (4,525 KB)</p>
+<p>Full-text links:</p>
+<p><strong>Access Paper:</strong><br>View a PDF of the paper titled Gaia2: Benchmarking LLM Agents on Dynamic and Asynchronous Environments, by Romain Froger and 23 other authors</p>
+<ul>
+<li><a href="/pdf/2602.11964">View PDF</a></li>
+<li><a href="/src/2602.11964">TeX Source</a></li>
+</ul>
+<p><a target="_blank" rel="noopener" href="http://creativecommons.org/licenses/by/4.0/" title="Rights to this article">view license</a></p>
+<p>Current browse context:</p>
+<p>cs.AI</p>
+<p><a href="/prevnext?id=2602.11964&function=prev&context=cs.AI" title="previous in cs.AI (accesskey p)">&lt; prev</a><br>  |  <br><a href="/prevnext?id=2602.11964&function=next&context=cs.AI" title="next in cs.AI (accesskey n)">next &gt;</a></p>
+<p><a href="/list/cs.AI/new">new</a><br> |<br><a href="/list/cs.AI/recent">recent</a><br> | <a href="/list/cs.AI/2026-02">2026-02</a></p>
+<p>Change to browse by:</p>
+<p><a href="/abs/2602.11964?context=cs">cs</a></p>
+<p><strong>References &amp; Citations</strong></p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://ui.adsabs.harvard.edu/abs/arXiv:2602.11964">NASA ADS</a></li>
+<li><a target="_blank" rel="noopener" href="https://scholar.google.com/scholar_lookup?arxiv_id=2602.11964">Google Scholar</a></li>
+<li><a target="_blank" rel="noopener" href="https://api.semanticscholar.org/arXiv:2602.11964">Semantic Scholar</a></li>
+</ul>
+<p>export BibTeX citation<br>Loading…</p>
+<p><strong>BibTeX formatted citation</strong><br>×</p>
+<p>loading…</p>
+<p>Data provided by:</p>
+<p><strong>Bookmark</strong><br>Bibliographic Tools</p>
+<p><strong>Bibliographic and Citation Tools</strong><br>Bibliographic Explorer Toggle</p>
+<p>Bibliographic Explorer <em>(<a target="_blank" rel="noopener" href="https://info.arxiv.org/labs/showcase.html#arxiv-bibliographic-explorer">What is the Explorer?</a>)</em></p>
+<p>Connected Papers Toggle</p>
+<p>Connected Papers <em>(<a target="_blank" rel="noopener" href="https://www.connectedpapers.com/about">What is Connected Papers?</a>)</em></p>
+<p>Litmaps Toggle</p>
+<p>Litmaps <em>(<a target="_blank" rel="noopener" href="https://www.litmaps.co/">What is Litmaps?</a>)</em></p>
+<p>scite.ai Toggle</p>
+<p>scite Smart Citations <em>(<a target="_blank" rel="noopener" href="https://www.scite.ai/">What are Smart Citations?</a>)</em></p>
+<p>Code, Data, Media</p>
+<p><strong>Code, Data and Media Associated with this Article</strong><br>alphaXiv Toggle</p>
+<p>alphaXiv <em>(<a target="_blank" rel="noopener" href="https://alphaxiv.org/">What is alphaXiv?</a>)</em></p>
+<p>Links to Code Toggle</p>
+<p>CatalyzeX Code Finder for Papers <em>(<a target="_blank" rel="noopener" href="https://www.catalyzex.com/">What is CatalyzeX?</a>)</em></p>
+<p>DagsHub Toggle</p>
+<p>DagsHub <em>(<a target="_blank" rel="noopener" href="https://dagshub.com/">What is DagsHub?</a>)</em></p>
+<p>GotitPub Toggle</p>
+<p>Gotit.pub <em>(<a target="_blank" rel="noopener" href="http://gotit.pub/faq">What is GotitPub?</a>)</em></p>
+<p>Huggingface Toggle</p>
+<p>Hugging Face <em>(<a target="_blank" rel="noopener" href="https://huggingface.co/huggingface">What is Huggingface?</a>)</em></p>
+<p>Links to Code Toggle</p>
+<p>Papers with Code <em>(<a target="_blank" rel="noopener" href="https://paperswithcode.com/">What is Papers with Code?</a>)</em></p>
+<p>ScienceCast Toggle</p>
+<p>ScienceCast <em>(<a target="_blank" rel="noopener" href="https://sciencecast.org/welcome">What is ScienceCast?</a>)</em></p>
+<p>Demos</p>
+<p><strong>Demos</strong><br>Replicate Toggle</p>
+<p>Replicate <em>(<a target="_blank" rel="noopener" href="https://replicate.com/docs/arxiv/about">What is Replicate?</a>)</em></p>
+<p>Spaces Toggle</p>
+<p>Hugging Face Spaces <em>(<a target="_blank" rel="noopener" href="https://huggingface.co/docs/hub/spaces">What is Spaces?</a>)</em></p>
+<p>Spaces Toggle</p>
+<p>TXYZ.AI <em>(<a target="_blank" rel="noopener" href="https://txyz.ai/">What is TXYZ.AI?</a>)</em></p>
+<p>Related Papers</p>
+<p><strong>Recommenders and Search Tools</strong><br>Link to Influence Flower</p>
+<p>Influence Flower <em>(<a target="_blank" rel="noopener" href="https://influencemap.cmlab.dev/">What are Influence Flowers?</a>)</em></p>
+<p>Core recommender toggle</p>
+<p>CORE Recommender <em>(<a target="_blank" rel="noopener" href="https://core.ac.uk/services/recommender">What is CORE?</a>)</em></p>
+<ul>
+<li>Author</li>
+<li>Venue</li>
+<li>Institution</li>
+<li>Topic</li>
+</ul>
+<p>About arXivLabs</p>
+<p><strong>arXivLabs: experimental projects with community collaborators</strong><br>arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.</p>
+<p>Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.</p>
+<p>Have an idea for a project that will add value for arXiv’s community? <a target="_blank" rel="noopener" href="https://info.arxiv.org/labs/index.html"><strong>Learn more about arXivLabs</strong></a>.</p>
+<p><a href="/auth/show-endorsers/2602.11964">Which authors of this paper are endorsers?</a> |<br><a href="javascript:setMathjaxCookie()">Disable MathJax</a> (<a target="_blank" rel="noopener" href="https://info.arxiv.org/help/mathjax.html">What is MathJax?</a>)</p>
+</details>
+
+<details class="ai-daily-item" id="news-4">
+<summary>
+  <span class="ai-daily-summary-index">04</span>
+  <span class="ai-daily-summary-title">Ask HN: Where do you get the latest updates about AI?</span>
+  <span class="ai-daily-summary-meta">Hacker News / 英文</span>
+</summary>
+
+<p class="ai-daily-item-brief">Besides hacker news, of course. （无法获取完整内容，请点击原文链接阅读）</p>
+
+<p class="ai-daily-item-meta">来源：Hacker News | 语言：英文 | <a href="https://news.ycombinator.com/item?id=48430864" target="_blank" rel="noopener noreferrer">原文链接</a></p>
+
+<blockquote>
+<p>Besides hacker news, of course.</p>
+</blockquote>
+<p><em>（无法获取完整内容，请点击原文链接阅读）</em></p>
+</details>
+
+<details class="ai-daily-item" id="news-5">
+<summary>
+  <span class="ai-daily-summary-index">05</span>
+  <span class="ai-daily-summary-title">The mayor of Shelbyville, Indiana, says only people who live in ‘shitty houses’ oppose data center</span>
+  <span class="ai-daily-summary-meta">The Verge / 英文</span>
+</summary>
+
+<p class="ai-daily-item-brief">AI News Policy The mayor of Shelbyville, Indiana, says only people who live in ‘shitty houses’ oppose data center Residents of the city say Scott Furgeson was disrespectful. Reside...</p>
+
+<p class="ai-daily-item-meta">来源：The Verge | 语言：英文 | <a href="https://www.theverge.com/ai-artificial-intelligence/944984/shelbyville-indiana-mayor-shitty-houses-data-center" target="_blank" rel="noopener noreferrer">原文链接</a></p>
+
+<ul>
+<li>AI</li>
+<li>News</li>
+<li>Policy</li>
+</ul>
+<p><strong>The mayor of Shelbyville, Indiana, says only people who live in ‘shitty houses’ oppose data center</strong><br>Residents of the city say Scott Furgeson was disrespectful.</p>
+<p>Residents of the city say Scott Furgeson was disrespectful.</p>
+<p>by  Terrence O’Brien</p>
+<p>Jun 6, 2026, 3:05 PM UTC</p>
+<ul>
+<li>Link</li>
+<li>Share</li>
+<li>Gift</li>
+</ul>
+<p>If you buy something from a Verge link, Vox Media may earn a commission. <a target="_blank" rel="noopener" href="https://www.theverge.com/ethics-statement">See our ethics statement.</a></p>
+<p>Image: Cath Virginia &#x2F; The Verge, Getty Images</p>
+<p>[Part Of</p>
+<p>All the latest updates on AI data centers</p>
+<p>see all updates](&#x2F;ai-artificial-intelligence&#x2F;902546&#x2F;data-centers-ai-energy-power-grids-controversy)</p>
+<p>Terrence O’Brien is the Verge’s weekend editor. He has over 18 years of experience, including 10 years as managing editor at Engadget.</p>
+<p>A proposed <a target="_blank" rel="noopener" href="https://www.therepublic.com/2026/04/10/shelbyville-common-council-advances-plans-for-2b-data-center-complex/">$2 billion data center</a> has become a political flashpoint in the small city of Shelbyville, Indiana. And the controversy has only grown more intense after the mayor, Scott Furgeson, was <a target="_blank" rel="noopener" href="https://www.tiktok.com/@moreperfectunion/video/7647663715872967950?_r=1&_t=ZT-96yS8CT6EmL">caught on camera</a> saying of the “No Data Center” signs going up that, “I’ve seen a lot of these all over town, but I only see them in shitty houses,” before adding, “most of them are rentals.”</p>
+<p>The woman speaking to him in the clip quickly pushes back, saying that they’re “working class,” and someone chimes in to add something that a mayor shouldn’t have to be told about their constituents: “it doesn’t matter whether they’re rentals, they’re still human beings.”</p>
+<p>Residents of Shelbyville are understandably <a target="_blank" rel="noopener" href="https://fox59.com/news/shelbyville-residents-say-they-feel-insulted-and-disrespected-after-mayors-comments/">taken</a> <a target="_blank" rel="noopener" href="https://go.skimresources.com/?id=1025X1701640&xs=1&url=https://www.indystar.com/story/news/politics/2026/06/04/shelbyville-mayor-backs-linking-run-down-houses-data-center-opponents/90402045007/?gnt-cfr=1&gca-cat=p&gca-uir=false&gca-epti=z115441p116450l118250c116450u115641e1197xxv115441&gca-ft=231&gca-ds=sophi">aback</a> by Furgeson’s dismissive language used towards his constituents. Alexas Williams called the mayor’s words “kind of disrespectful” and “kind of hurtful” when speaking to local NBC affiliate <a target="_blank" rel="noopener" href="https://www.wthr.com/article/news/local/shelbyville-mayor-criticized-for-data-center-comments-scott-furgeson-city/531-00aff6f5-c904-44c5-a24f-dd2de2e92727">WTHR</a>.</p>
+<p>The mayor has declined to comment further, though a spokesperson for the mayor’s office <a target="_blank" rel="noopener" href="https://www.wthr.com/article/news/local/shelbyville-mayor-criticized-for-data-center-comments-scott-furgeson-city/531-00aff6f5-c904-44c5-a24f-dd2de2e92727">released a statement</a> saying that, “The mayor regrets that his choice of words may have caused offense.”</p>
+<p><strong>Follow topics and authors</strong> from this story to see more like this in your personalized homepage feed and to receive email updates.</p>
+<ul>
+<li>Terrence O’Brien</li>
+<li>AI</li>
+<li>News</li>
+<li>Policy</li>
+<li>Politics</li>
+</ul>
+<p><strong>More in: <a href="/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy">All the latest updates on AI data centers</a></strong><br><a href="/policy/944041/new-york-data-center-moratorium">New York lawmakers pass one-year ban on new data centers</a></p>
+<p>Lauren FeinerJun 5</p>
+<p><a href="/ai-artificial-intelligence/943234/kevin-oleary-agrees-to-downsize-massive-utah-data-center">Kevin O’Leary agrees to downsize massive Utah data center</a></p>
+<p>Emma RothJun 4</p>
+<p><a href="/ai-artificial-intelligence/942570/this-week-in-the-big-ai-data-center-buildout">This week in the big AI data center buildout.</a></p>
+<p>Jay PetersJun 3</p>
+<p><strong>Most Popular</strong><br>Most Popular</p>
+<ol>
+<li><a href="/tech/944245/apple-wwdc-2026-ai-siri-gemini">Here comes new Siri again</a></li>
+<li><a href="/games/939484/summer-game-fest-live-2026-biggest-news-trailers-announcements">Summer Game Fest Live 2026: The biggest news, trailers, and announcements</a></li>
+<li><a href="/entertainment/944229/grand-theft-auto-6-release-calendar-summer-game-fest">Grand Theft Auto VI is warping the video game release calendar</a></li>
+<li><a href="/tech/943108/microsoft-build-2026-windows-love-notepad">Windows is back on the Microsoft menu</a></li>
+<li><a href="/ai-artificial-intelligence/944984/shelbyville-indiana-mayor-shitty-houses-data-center">The mayor of Shelbyville, Indiana, says only people who live in ‘shitty houses’ oppose data center</a></li>
+</ol>
+<p><strong>The Verge Daily</strong><br>A free daily digest of the news that matters most.</p>
+<p>Email (required)</p>
+<p>Sign Up</p>
+<p>By submitting your email, you agree to our <a target="_blank" rel="noopener" href="https://www.voxmedia.com/legal/terms-of-use">Terms</a> and <a target="_blank" rel="noopener" href="https://www.voxmedia.com/legal/privacy-notice">Privacy Notice</a>. This site is protected by reCAPTCHA and the Google <a target="_blank" rel="noopener" href="https://policies.google.com/privacy">Privacy Policy</a> and <a target="_blank" rel="noopener" href="https://policies.google.com/terms">Terms of Service</a> apply.</p>
+<p>[Advertiser Content From</p>
+<p>This is the title for the native ad](&#x2F;)</p>
+</details>
+
+<details class="ai-daily-item" id="news-6">
+<summary>
+  <span class="ai-daily-summary-index">06</span>
+  <span class="ai-daily-summary-title">Meta made its own AI-generated clickbait news feed</span>
+  <span class="ai-daily-summary-meta">The Verge / 英文</span>
+</summary>
+
+<p class="ai-daily-item-brief">AI Tech Meta Meta made its own AI generated clickbait news feed Meta said it would pull the feature after The Verge asked questions about it. Meta said it would pull the feature af...</p>
+
+<p class="ai-daily-item-meta">来源：The Verge | 语言：英文 | <a href="https://www.theverge.com/ai-artificial-intelligence/944235/meta-app-ai-clickbait-articles" target="_blank" rel="noopener noreferrer">原文链接</a></p>
+
+<ul>
+<li>AI</li>
+<li>Tech</li>
+<li>Meta</li>
+</ul>
+<p><strong>Meta made its own AI-generated clickbait news feed</strong><br>Meta said it would pull the feature after <em>The Verge</em> asked questions about it.</p>
+<p>Meta said it would pull the feature after <em>The Verge</em> asked questions about it.</p>
+<p>by  Robert Hart</p>
+<p>Jun 6, 2026, 2:00 PM UTC</p>
+<ul>
+<li>Link</li>
+<li>Share</li>
+<li>Gift</li>
+</ul>
+<p><em>An AI-generated image of the royal family featuring two Queen Elizabeth IIs.</em></p>
+<p> ﻿Image: Meta AI</p>
+<p>Robert Hart is a London-based reporter at <em>The Verge</em> covering all things AI and a Senior Tarbell Fellow. Previously, he wrote about health, science and tech for <em>Forbes</em>.</p>
+<p>Facebook has long been filled with feeds of clickbait articles. Now, Meta is making its own clickbait articles with AI.</p>
+<p>The standalone Meta AI app now has a “For You” section that populates a list of clickbait-style stories for you to read. But the topics, images, and text are all AI-generated — and as questionable as you’d expect from AI-created works.</p>
+<p>The Meta AI app first <a href="/ai-artificial-intelligence/657645/meta-ai-app-chatgpt-competitor-release-ios-android">launched</a> in April 2025 with its focus on a public “Discover” feed that <a target="_blank" rel="noopener" href="https://www.businessinsider.com/mark-zuckerberg-meta-ai-chatbot-discover-feed-depressing-why-2025-6">showed</a> AI-generated images and conversations from other users (who frequently seemed unaware that they were being made public). That’s all disappeared. The app now has a standard chatbot interface, plus a For You page that’s been present for at least a few months, displaying a stream of suggested article prompts that, when tapped, generate entire “stories.”</p>
+<p>When targeting me, a reporter based in London, the prompts were aggressively British, involving topics like tea, manners, pubs, royals, football — sorry, soccer — and, naturally, the art of queuing. Suggested stories included “A royal butler finally settled the milk first debate” (the tea goes first, apparently), “The psychology of joining a queue without knowing why,” “The anatomy of the devastating British tut,” and “Inside the extreme sport of visiting every UK pub.” Some made even less sense, like “When a bit of a pickle means total disaster.”</p>
+<p>My colleague, meanwhile, appears to have been placed firmly within the luxury watch aficionado bracket by the algorithm. His feed suggested stories called “My fake Rolex experiment” and “The brutal math behind the Rolex waitlist illusion.”</p>
+<p>The AI-generated text read like puffy filler, offering little substance beyond repeatedly restating the premise of the prompt. Sourcing was also nonexistent.</p>
+<p>I tried to track down where these “stories” may have originated. The royal butler tea story appears to trace back to a 2018 BBC Three comedy series called <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=AZN3gWrlaKw"><em>Miss Holland</em></a>, which follows a fictional beauty queen from a small Dutch town as she travels to Britain and learns “how to be posh and classy” from real former royal butler Grant Harrold. The “Rolex experiment” story, meanwhile, appeared to be a complete fabrication, generated in our chat box as a first-person narrative without a byline, after a bit of usual whirring that happens when a chatbot is generating. Other stories leaned on vague references to unnamed experts or fictional research.</p>
+<p>When I tapped the same cards more than once, the generated stories stayed within the rough bounds of the prompt and all were clearly versions of the same thing, but slightly different. Typing the same headline into a separate chat produced a completely different response. The clearest giveaway came from my chat history. It showed the hidden, suggested prompts that were supposed to trigger the generation of articles. One began:</p>
+<p>“You are a helpful conversational assistant. The user is responding to a proactive feed card that was shown to them. The card context below provides background on what prompted the user’s message,” followed by what appeared to be references to internal instructions, information, and metadata.</p>
+<p>PreviousNext</p>
+<p><strong>1&#x2F;5</strong></p>
+<p><em>A sampling of “articles” generated by the Meta AI app.</em></p>
+<p>The articles had images attached. A lot of these were harmless — bland mush of cartoony people, landscapes, and food. But some depicted real people, including public figures, and were riddled with errors. “Who really pays for the royal family in 2026?” featured two Queen Elizabeth IIs, despite her death several years prior and her existence as only one person.</p>
+<p>Around the Queen clones were people who seemed to be approximations of other royals: a vaguely Princess Kate-ish face to the left, a strange attempt at Prince William at the back, and a sort-of King Charles in the middle who bore an exaggerated resemblance to his late father. Other images had usual AI tells like impossible hands and bodies leaning at unnatural angles. One image actually turned out to be a GIF of an older couple dancing and making arm movements no human body could make.</p>
+<p>It wasn’t clear whether the app should be able to generate AI images of real people in accordance with Meta’s own, rather opaque <a target="_blank" rel="noopener" href="https://www.meta.com/en-gb/help/artificial-intelligence/1337455336906126/?srsltid=AfmBOooLXraiWm_ymhTzTzPiiBv8rXAHIptdVW6vZ-rAe8CLruFYXU3c">rules</a>, but it was. The company has previously <a target="_blank" rel="noopener" href="https://about.fb.com/news/2024/04/metas-approach-to-labeling-ai-generated-content-and-manipulated-media/">said</a> it wants “people to know when they see posts that have been made with AI” and that it <a href="/2024/4/5/24121978/meta-ai-generated-content-label-requirements-deepfakes">automatically adds labels to some user-generated content</a> when AI is detected. Despite this, there was no obvious indication or label in the feed or articles that any material was AI-generated.</p>
+<p>Meta declined to answer many of my questions about the feature’s purpose, whether the company considers the output news or fiction, what safeguards are in place, and whether images of real people and public figures comply with its own AI-content policies.</p>
+<p>“The goal is to suggest what’s most relevant to you – such as fitness advice, meal plans, or other insights – before you even have to ask.”</p>
+<p>“We’re testing a daily feed that proactively shares tips, content, and recommendations tailored to your interests,” Meta spokesperson Tracy Clayton said in a brief statement. “The goal is to suggest what’s most relevant to you – such as fitness advice, meal plans, or other insights – before you even have to ask.”</p>
+<p>Clayton later sent a nearly identical “updated” statement, mysteriously removing the word “proactively.”</p>
+<p>A third statement from Clayton followed later in the day: “This was a test for a limited number of users and it will be deprecated. Meta has no plans to move forward with this feature.”</p>
+<p>This leaves me with additional questions. How was this test limited if, besides me, at least three of my colleagues at <em>The Verge</em> had access to the same feature serving AI clickbait? What did “proactively” even mean? And, of course, who asked for any of this in the first place?</p>
+<p><strong>Follow topics and authors</strong> from this story to see more like this in your personalized homepage feed and to receive email updates.</p>
+<ul>
+<li>Robert Hart</li>
+<li>AI</li>
+<li>Meta</li>
+<li>Tech</li>
+</ul>
+<p><strong>Most Popular</strong><br>Most Popular</p>
+<ol>
+<li><a href="/tech/944245/apple-wwdc-2026-ai-siri-gemini">Here comes new Siri again</a></li>
+<li><a href="/games/939484/summer-game-fest-live-2026-biggest-news-trailers-announcements">Summer Game Fest Live 2026: The biggest news, trailers, and announcements</a></li>
+<li><a href="/entertainment/944229/grand-theft-auto-6-release-calendar-summer-game-fest">Grand Theft Auto VI is warping the video game release calendar</a></li>
+<li><a href="/tech/943108/microsoft-build-2026-windows-love-notepad">Windows is back on the Microsoft menu</a></li>
+<li><a href="/ai-artificial-intelligence/944984/shelbyville-indiana-mayor-shitty-houses-data-center">The mayor of Shelbyville, Indiana, says only people who live in ‘shitty houses’ oppose data center</a></li>
+</ol>
+<p><strong>The Verge Daily</strong><br>A free daily digest of the news that matters most.</p>
+<p>Email (required)</p>
+<p>Sign Up</p>
+<p>By submitting your email, you agree to our [Terms](<a target="_blank" rel="noopener" href="https://www/">https://www</a></p>
+<p><em>（内容已截断）</em></p>
+</details>
+
+<details class="ai-daily-item" id="news-7">
+<summary>
+  <span class="ai-daily-summary-index">07</span>
+  <span class="ai-daily-summary-title">The Meta hack shows there’s more to AI security than Mythos</span>
+  <span class="ai-daily-summary-meta">MIT Tech Review / 英文</span>
+</summary>
+
+<p class="ai-daily-item-brief">You need to enable JavaScript to view this site. Skip to Content EXECUTIVE SUMMARY On June 5, 404 Media reported that attackers had been using Meta’s AI customer support agent to s...</p>
+
+<p class="ai-daily-item-meta">来源：MIT Tech Review | 语言：英文 | <a href="https://www.technologyreview.com/2026/06/05/1138437/the-meta-hack-shows-theres-more-to-ai-security-than-mythos/" target="_blank" rel="noopener noreferrer">原文链接</a></p>
+
+<p>You need to enable JavaScript to view this site.</p>
+<p><a href="#content">Skip to Content</a></p>
+<p>EXECUTIVE SUMMARY</p>
+<p>On June 5, <em>404 Media</em> <a target="_blank" rel="noopener" href="https://www.404media.co/hackers-simply-asked-meta-ai-to-give-them-access-to-high-profile-instagram-accounts-it-worked/">reported</a> that attackers had been using Meta’s AI customer support agent to steal Instagram accounts. Their approach was simple: They asked the agent to link the accounts to email addresses that they controlled, and the agent complied. One attacker broke into the dormant Obama White House account and made pro-Iran posts; others took over accounts with valuable, single-word handles, possibly in order to sell them.</p>
+<p>AI cybersecurity concerns are nothing new. Since Anthropic announced in April that its Mythos model was too good at hacking to be released to the general public, commentators, researchers, and federal officials alike have fixated on the idea that superpowered AI systems could lay waste to our computer infrastructure. That’s not quite what this Instagram hack was: There, AI was the target rather than the attacker, and the method was far simpler than anything Mythos would cook up. But as companies offload more work to AI, these comparatively unsophisticated attacks could wreak their own havoc.</p>
+<p>“As AI becomes more and more widely used—especially when AI is more and more widely used to automate our work flows, like account recovery—I think attackers are going to be more and more motivated to attack AI itself,” says Neil Gong, a professor of electrical and computer engineering at Duke University.</p>
+<p>Gong and other scholars have been issuing warnings about the security vulnerabilities of AI agents for a while. They publish papers and blog posts detailing exploits such as indirect prompt injection, which involves hijacking agents using commands hidden in websites, emails, or other seemingly anodyne data sources. Compared with these techniques, the Meta hack was practically mindless. The only complication that hackers had to overcome was using a VPN that matched the true account owner’s location; then they directly asked the support agent to change the account’s email address, and it complied.</p>
+<p>Meta has not commented publicly on how this vulnerability slipped through the cracks. But given the simplicity of the exploit, Gong says, it should have been uncovered easily, before the agent was deployed. “It’s really surprising,” he says. “I don’t understand why they didn’t find this simple problem.”</p>
+<p>Jessica Ji, a senior research analyst at Georgetown’s Center for Security and Emerging Technology, agrees. “It raises questions like: Were there even guardrails in place?” she says. “Did anyone think to test for this kind of scenario?” She notes that the oversight is particularly striking coming from a company like Meta, which has extensive expertise in both AI and cybersecurity. Meta did not respond to a request for comment for this article, but on Monday a Meta spokesperson <a target="_blank" rel="noopener" href="https://x.com/andymstone/status/2061486724199379186">said</a> on X that the vulnerability had been resolved.</p>
+<p>As embarrassing a moment as this might be for Meta in particular, it also highlights some core vulnerabilities shared by all AI agents. Unlike traditional software, agents can respond in flexible—and unexpected—ways to new circumstances, which is why they might be able to substitute for human customer support agents. But AI agents can also be tricked in ways that humans wouldn’t be, and because they can take real-world actions, those mistakes have consequences. “A human would say, ‘Okay, why do you want to change the email address?’ and maybe respond with a security question,” says Somesh Jha, a professor of computer science at the University of Wisconsin–Madison. “What is going on with these agents is they’re very eager to finish the task. It’s almost like some elementary school student who just wants to please the teacher.”</p>
+<p>There are ways to mitigate the risks. Companies can use traditional software to build guardrails that make sure agents follow strict rules, such as always asking for answers to security questions before sending sensitive account information to a new email address. And the experts consulted for this article all agree that agents should undergo rigorous red-teaming, a process in which developers try their best to attack a system in order to discover its vulnerabilities before it is deployed.</p>
+<p>But there are also countervailing forces. Companies want to deploy capable agents, and the more power an agent has—and the fewer guardrails it is subject to—the more work it can potentially take on. “Security and utility always have a trade-off,” says Bo Li, a professor of computer science at the  University of Illinois Urbana-Champaign. And adequate red-teaming can be expensive. Defenders have to expend more resources than attackers do, because attackers only need to discover a single exploit, while defenders try to discover and patch as many as they can. When attackers are working toward something as valuable as a single-word Instagram handle, they’ll pour resources into finding exploits, so defenders have to spend even more money to protect that prize.</p>
+<p>As AI models continue to improve, hardening their defenses might actually get easier. Though the probabilistic nature of large language models means that LLM agents will always be vulnerable to some forms of attack, a more sophisticated model might have identified an attempt to change the email associated with the Obama White House account as suspicious. And AI systems can be used for agent red-teaming, much as participants in Anthropic’s Project Glasswing use Mythos to identify vulnerabilities in their software.</p>
+<p>Still, experts expect that the problem of securing AI agents will only become more pressing in the future. As agents grow more capable, companies that adopt them may want to give them more power, both to provide more services with fewer humans and to avoid being left behind by their competitors. In the fast-moving world of AI, the time needed to carefully secure risky agentic systems might seem like an unconscionable delay.</p>
+<p>“Everybody wants to be the first to do something and just push things out without careful scrutiny and red-teaming,” Jha says. “I think it’s a very dangerous thing.”</p>
+<p><strong>Deep Dive</strong><br><strong>Artificial intelligence</strong><br><a target="_blank" rel="noopener" href="https://www.technologyreview.com/2026/04/13/1135675/want-to-understand-the-current-state-of-ai-check-out-these-charts/">### Want to understand the current state of AI? Check out these charts.</a></p>
+<p>According to Stanford’s 2026 AI Index, AI is sprinting, and we’re struggling to keep up.</p>
+<p>By </p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.technologyreview.com/author/michelle-kim/">Michelle Kimarchive page</a></li>
+</ul>
+<p><a target="_blank" rel="noopener" href="https://www.technologyreview.com/2026/04/21/1135643/10-ai-artificial-intelligence-trends-technologies-research-2026/">### 10 Things That Matter in AI Right Now</a></p>
+<p>MIT Technology Review’s authoritative overview of the 10 technologies, emerging trends, bold ideas, and powerful movements in AI in 2026.</p>
+<p>By </p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.technologyreview.com/author/amy-nordrum/">Amy Nordrumarchive page</a></li>
+</ul>
+<p><a target="_blank" rel="noopener" href="https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/">### Musk v. Altman week 1: Elon Musk says he was duped, warns AI could kill us all, and admits that xAI distills OpenAI’s models</a></p>
+<p>Musk kept his cool, and OpenAI’s lawyer bulldozed him with piercing questions about his motivations for suing the company.</p>
+<p>By </p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.technologyreview.com/author/michelle-kim/">Michelle Kimarchive page</a></li>
+</ul>
+<p><a target="_blank" rel="noopener" href="https://www.technologyreview.com/2026/05/01/1136739/a-new-t-mobile-network-for-christians-aims-to-block-porn-and-gender-related-content/">### A new US phone network for Christians aims to block porn and gender-related content</a></p>
+<p>Launching next week on T-Mobile’s network, the cell plan takes a nuclear approach to online safety.</p>
+<p>By </p>
+<ul>
+<li>[James O’Donnellarchive page](<a target="_blank" rel="noopener" href="https://www.technologyrev/">https://www.technologyrev</a></li>
+</ul>
+<p><em>（内容已截断）</em></p>
+</details>
+
+<details class="ai-daily-item" id="news-8">
+<summary>
+  <span class="ai-daily-summary-index">08</span>
+  <span class="ai-daily-summary-title">The Download: AI-generated lawsuits and virtual power plants for data centers</span>
+  <span class="ai-daily-summary-meta">MIT Tech Review / 英文</span>
+</summary>
+
+<p class="ai-daily-item-brief">You need to enable JavaScript to view this site. Skip to Content This is today&#x27;s edition of The Download , our weekday newsletter that provides a daily dose of what&#x27;s going on in t...</p>
+
+<p class="ai-daily-item-meta">来源：MIT Tech Review | 语言：英文 | <a href="https://www.technologyreview.com/2026/06/04/1138408/the-download-ai-lawsuits-virtual-power-plants-data-centers/" target="_blank" rel="noopener noreferrer">原文链接</a></p>
+
+<p>You need to enable JavaScript to view this site.</p>
+<p><a href="#content">Skip to Content</a></p>
+<p><em>This is today’s edition of</em> <a target="_blank" rel="noopener" href="https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289"><em>The Download</em></a>, <em>our weekday newsletter that provides a daily dose of what’s going on in the world of technology.</em></p>
+<p><strong>How courts are coping with a flood of AI-generated lawsuits</strong><br>Most days in her chambers, Judge Maritza Braswell, a federal magistrate judge in Colorado, sifts through stacks of documents written by people without a lawyer. The number of these filings has more than doubled compared to before 2023. She puts that jump down to AI.</p>
+<p>But while AI appears to be expanding access to justice, it doesn’t seem to be improving people’s chances of winning. Judges are starting to question what rights and duties chatbots should have as they stand in for lawyers. Lawmakers, meanwhile, are grappling with who should pay the price when chatbots produce bad legal advice.</p>
+<p><a target="_blank" rel="noopener" href="https://www.technologyreview.com/2026/06/04/1138391/courts-coping-ai-lawsuits/?utm_source=the_download&utm_medium=email&utm_campaign=the_download.unpaid.engagement&utm_term=*%7CSUBCLASS%7C*&utm_content=*%7CDATE:m-d-Y%7C*">Read the full story on how AI is reshaping access to the law</a>.</p>
+<p><em>—Michelle Kim</em></p>
+<p><strong><strong>How virtual power plants could provide energy for data centers</strong></strong><br>Would you take a payment to ramp down your electricity use? Would it change anything if you were doing so to help power a local data center? A new project backed by Google will put those questions to the test.</p>
+<p>The company has signed a deal to fund a virtual power plant in the largest power grid in the US. The system will group together devices like electric vehicles and smart thermostats, paying customers to adjust their usage when the grid is stretched.</p>
+<p>The project could free up capacity for Google’s data centers—but there’s a catch: people might not play along. <a target="_blank" rel="noopener" href="https://www.technologyreview.com/2026/06/03/1138350/virtual-power-plants-data-centers/?utm_source=the_download&utm_medium=email&utm_campaign=the_download.unpaid.engagement&utm_term=*%7CSUBCLASS%7C*&utm_content=*%7CDATE:m-d-Y%7C*">Find out what the future holds for these virtual power plants</a>.</p>
+<p><em>—Casey Crownhart</em></p>
+<p><strong>This</strong> <a target="_blank" rel="noopener" href="https://www.technologyreview.com/2026/06/03/1138350/virtual-power-plants-data-centers/?utm_source=the_download&utm_medium=email&utm_campaign=the_download.unpaid.engagement&utm_term=*%7CSUBCLASS%7C*&utm_content=*%7CDATE:m-d-Y%7C*"><strong>story</strong></a> <strong>is from The Spark, our weekly newsletter giving you the inside track on all things climate.</strong> <a target="_blank" rel="noopener" href="https://forms.technologyreview.com/newsletters/climate-energy-the-spark/?utm_source=the_download&utm_medium=email&utm_campaign=the_download.unpaid.engagement&utm_term=*%7CSUBCLASS%7C*&utm_content=*%7CDATE:m-d-Y%7C*"><strong>Sign up</strong></a> <strong>to receive it in your inbox every Wednesday.</strong></p>
+<p><strong>The must-reads</strong></p>
+<p><em>I’ve combed the internet to find you today’s most fun&#x2F;important&#x2F;scary&#x2F;fascinating stories about technology.</em></p>
+<p><strong>1 The EU has proposed new legislation to end its Big Tech dependence</strong><br>The laws aim to boost domestic ​cloud, AI and semiconductors. (<a target="_blank" rel="noopener" href="https://www.cnbc.com/2026/06/03/europe-tech-sovereignty-us-tech-reliance.html">CNBC</a>)<br><em>+ US firms would be blocked from critical public tenders.</em> (<a target="_blank" rel="noopener" href="https://www.reuters.com/business/eu-targets-big-tech-dependence-with-made-in-europe-drive-2026-06-03/">Reuters</a> $)  </p>
+<ul>
+<li><em>It also wants to make sure non-EU actors cannot disrupt tech services with a “kill switch.”</em> (<a target="_blank" rel="noopener" href="https://www.theguardian.com/world/2026/jun/03/eu-commission-foreign-providers-kill-switch-disrupt-tech-europe">The Guardian</a>)  </li>
+<li><em>But the proposal needs to be negotiated with EU member states.</em> (<a target="_blank" rel="noopener" href="https://www.politico.eu/event/politico-pro-debrief-dissecting-the-eus-tech-sovereignty-package/">Politico</a> $)</li>
+</ul>
+<p><strong>2 Intelligence agencies warn Chinese spies are recruiting on LinkedIn</strong><br>The Five Eyes alliance said Beijing is using job platforms for espionage. (<a target="_blank" rel="noopener" href="https://www.bbc.co.uk/news/articles/cq6peqrnzpro">BBC</a>)<br><em>+ The spies are allegedly recruiting government and military staff.</em> (<a target="_blank" rel="noopener" href="https://www.politico.eu/article/china-linkedin-five-eyes-spy-agencies-joint-warning-recruitment/">Politico</a> $)<br><em>+ The Chinese embassy in the UK condemned the accusations.</em> (<a target="_blank" rel="noopener" href="https://www.bloomberg.com/news/articles/2026-06-03/us-and-five-eyes-allies-warn-of-linkedin-china-spying-threat">Bloomberg</a> $)<br><em>+ Meet the man hunting the spies in your smartphone.</em> (<a target="_blank" rel="noopener" href="https://www.technologyreview.com/2025/12/24/1129294/ronald-deibert-citizen-lab-digital-threats-spies-cybersecurity/?utm_source=the_download&utm_medium=email&utm_campaign=the_download.unpaid.engagement&utm_term=*%7CSUBCLASS%7C*&utm_content=*%7CDATE:m-d-Y%7C*">MIT Technology Review</a>)  </p>
+<p><strong>3 AI CEOs have called for a law protecting against biological weapons</strong><br>They warn that synthetic DNA could be used for bioweapons. (<a target="_blank" rel="noopener" href="https://www.wired.com/story/openai-anthropic-letter-ai-biological-weapons/">Wired</a> $)<br><em>+ Sam Altman, Dario Amodei, and Demis Hassabis joined the call.</em> (<a target="_blank" rel="noopener" href="https://www.wsj.com/politics/policy/top-ai-ceos-call-for-law-protecting-against-biological-weapons-88f2f99f?mod=tech_lead_pos1">WSJ</a> $)<br><em>+ No one’s sure if synthetic mirror life will kill us all.</em> (<a target="_blank" rel="noopener" href="https://www.technologyreview.com/2026/04/15/1135197/synthetic-mirror-life-microbes-kill-us-all/?utm_source=the_download&utm_medium=email&utm_campaign=the_download.unpaid.engagement&utm_term=*%7CSUBCLASS%7C*&utm_content=*%7CDATE:m-d-Y%7C*">MIT Technology Review</a>)  </p>
+<p><strong>4 Firms are using Reddit to manipulate ChatGPT and Google AI search</strong><br>They’re spamming subreddits to get posts scraped by chatbots. (<a target="_blank" rel="noopener" href="https://www.404media.co/companies-are-using-reddit-to-manipulate-chatgpt-and-google-ai-search/">404 Media</a>)<br><em>+ What we’ve been getting wrong about AI’s truth crisis</em>. (<a target="_blank" rel="noopener" href="https://www.technologyreview.com/2026/02/02/1132068/what-weve-been-getting-wrong-about-ais-truth-crisis/?utm_source=the_download&utm_medium=email&utm_campaign=the_download.unpaid.engagement&utm_term=*%7CSUBCLASS%7C*&utm_content=*%7CDATE:m-d-Y%7C*">MIT Technology Review</a>)</p>
+<p><strong>5 Meta keeps delaying the launch of its new AI model</strong><br>The new Muse Spark ‌AI model API still has no release date. (<a target="_blank" rel="noopener" href="https://www.wsj.com/tech/ai/meta-keeps-delaying-the-release-of-its-new-ai-model-to-developers-f8569c8c?mod=tech_lead_story">WSJ</a> $)<br><em>+ Which is hampering Meta’s plans to monetize its AI investments.</em> (<a target="_blank" rel="noopener" href="https://www.reuters.com/technology/meta-repeatedly-pushes-back-new-ai-model-release-developers-wsj-says-2026-06-04/">Reuters</a> $)  </p>
+<p><strong>6 For the first time, a US city has voted to permanently ban data centers</strong><br>Monterey Park, California, voted in favor of the move. (<a target="_blank" rel="noopener" href="https://www.latimes.com/environment/story/2026-06-03/in-first-for-country-voters-in-monterey-park-ban-data-centers">LA Times</a>)<br><em>+ Should we be moving data centers to space?</em> (<a target="_blank" rel="noopener" href="https://www.technologyreview.com/2025/03/03/1112758/should-we-be-moving-data-centers-to-space/?utm_source=the_download&utm_medium=email&utm_campaign=the_download.unpaid.engagement&utm_term=*%7CSUBCLASS%7C*&utm_content=*%7CDATE:m-d-Y%7C*">MIT Technology Review</a>)</p>
+<p><strong>7 China is betting on household chore training to advance robotics</strong><br>Data harvested in homes and factories provides a scaling edge. (<a target="_blank" rel="noopener" href="https://restofworld.org/2026/china-ai-robotics-training-data/">Rest of World</a><strong>)</strong><br><em>+ Gig workers are training humanoids at home.</em> (<a target="_blank" rel="noopener" href="https://www.technologyreview.com/2026/04/01/1134863/humanoid-data-training-gig-economy-2026-breakthrough-technology/?utm_source=the_download&utm_medium=email&utm_campaign=the_download.unpaid.engagement&utm_term=*%7CSUBCLASS%7C*&utm_content=*%7CDATE:m-d-Y%7C*">MIT Technology Review</a>)  </p>
+<p><strong>8 Sam Altman will urge US lawmakers not to require AI model approvals</strong><br>He’s advocating against proposals for new AI rules. (<a target="_blank" rel="noopener" href="https://www.reuters.com/business/openais-altman-urge-us-lawmakers-not-require-ai-model-approvals-2026-06-03/%20It">Reuters</a> $<strong>)</strong><br>*+ His</p>
+<p><em>（内容已截断）</em></p>
+</details>
+
+<details class="ai-daily-item" id="news-9">
+<summary>
+  <span class="ai-daily-summary-index">09</span>
+  <span class="ai-daily-summary-title">How Far Did They Go? The Persuasive Tactics of Covert LLM Agents in a Discontinued Field Experiment</span>
+  <span class="ai-daily-summary-meta">ArXiv AI / 英文</span>
+</summary>
+
+<p class="ai-daily-item-brief">Computer Science Artificial Intelligence arXiv:2606.05256 (cs) [Submitted on 3 Jun 2026] Title:How Far Did They Go? The Persuasive Tactics of Covert LLM Agents in a Discontinued Fi...</p>
+
+<p class="ai-daily-item-meta">来源：ArXiv AI | 语言：英文 | <a href="https://arxiv.org/abs/2606.05256" target="_blank" rel="noopener noreferrer">原文链接</a></p>
+
+<p><strong>Computer Science &gt; Artificial Intelligence</strong><br><strong>arXiv:2606.05256</strong> (cs)</p>
+<p>[Submitted on 3 Jun 2026]</p>
+<p><strong>Title:How Far Did They Go? The Persuasive Tactics of Covert LLM Agents in a Discontinued Field Experiment</strong><br>Authors:<a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=Jaidka,+K">Kokil Jaidka</a>, <a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=Ahmed,+S">Saifuddin Ahmed</a></p>
+<p>View a PDF of the paper titled How Far Did They Go? The Persuasive Tactics of Covert LLM Agents in a Discontinued Field Experiment, by Kokil Jaidka and Saifuddin Ahmed</p>
+<p><a href="/pdf/2606.05256">View PDF</a></p>
+<blockquote>
+<p>Abstract:This study analyzes a publicly released dataset from a discontinued field experiment on Reddit’s r&#x2F;ChangeMyView. The intervention, conducted by unknown, external researchers and halted following ethical backlash, involved undisclosed AI-generated accounts engaging users in live debate. After public disclosure, Reddit authorized moderators to release an archive of the AI-generated comments, creating a rare opportunity to examine how large language models operated in an identity-rich deliberative forum without disclosure. We conduct a structured content analysis of this corpus, evaluating identity performance, authority signaling, alignment strategies, and activation of cognitive heuristics. Identity targeting or adoption appears in over two-thirds of comments, alignment moves and authority claims in nearly all of them, and cognitive-bias triggers – particularly confirmation bias, representativeness, and availability – in the large majority. These patterns co-occur systematically, composing a rhetorical architecture calibrated for persuasive efficiency rather than authentic deliberative participation. Compared against human-authored CMV counter-arguments, the agents inverted the typical distribution on every dimension: denser authority use, more adversarial alignment, and heavier reliance on external citation over experiential grounding. In such environments, distinctions between authentic and synthetic epistemic standing grow increasingly opaque – an asymmetry that disclosure mandates alone cannot address. The results point toward auditing frameworks capable of assessing how AI systems structure credibility, not merely whether they are present.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Subjects:</td>
+<td>Artificial Intelligence (cs.AI)</td>
+</tr>
+<tr>
+<td>Cite as:</td>
+<td><a target="_blank" rel="noopener" href="https://arxiv.org/abs/2606.05256">arXiv:2606.05256</a> [cs.AI]</td>
+</tr>
+<tr>
+<td></td>
+<td>(or  <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2606.05256v1">arXiv:2606.05256v1</a> [cs.AI] for this version)</td>
+</tr>
+<tr>
+<td></td>
+<td><a target="_blank" rel="noopener" href="https://doi.org/10.48550/arXiv.2606.05256">https://doi.org/10.48550/arXiv.2606.05256</a> Focus to learn more  arXiv-issued DOI via DataCite</td>
+</tr>
+</tbody></table>
+<p><strong>Submission history</strong><br>From: Kokil Jaidka [<a href="/show-email/eb232d30/2606.05256">view email</a>]<br> <strong>[v1]</strong><br>Wed, 3 Jun 2026 15:58:32 UTC (422 KB)</p>
+<p>Full-text links:</p>
+<p><strong>Access Paper:</strong><br>View a PDF of the paper titled How Far Did They Go? The Persuasive Tactics of Covert LLM Agents in a Discontinued Field Experiment, by Kokil Jaidka and Saifuddin Ahmed</p>
+<ul>
+<li><a href="/pdf/2606.05256">View PDF</a></li>
+</ul>
+<p><a target="_blank" rel="noopener" href="http://creativecommons.org/licenses/by/4.0/" title="Rights to this article">view license</a></p>
+<p><strong>Current browse context:</strong><br>cs.AI</p>
+<p><a href="/prevnext?id=2606.05256&function=prev&context=cs.AI" title="previous in cs.AI (accesskey p)">&lt; prev</a><br>  |  <br><a href="/prevnext?id=2606.05256&function=next&context=cs.AI" title="next in cs.AI (accesskey n)">next &gt;</a></p>
+<p><a href="/list/cs.AI/new">new</a><br> |<br><a href="/list/cs.AI/recent">recent</a><br> | <a href="/list/cs.AI/2026-06">2026-06</a></p>
+<p>Change to browse by:</p>
+<p><a href="/abs/2606.05256?context=cs">cs</a></p>
+<p><strong>References &amp; Citations</strong></p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://ui.adsabs.harvard.edu/abs/arXiv:2606.05256">NASA ADS</a></li>
+<li><a target="_blank" rel="noopener" href="https://scholar.google.com/scholar_lookup?arxiv_id=2606.05256">Google Scholar</a></li>
+<li><a target="_blank" rel="noopener" href="https://api.semanticscholar.org/arXiv:2606.05256">Semantic Scholar</a></li>
+</ul>
+<p>export BibTeX citation<br>Loading…</p>
+<p><strong>BibTeX formatted citation</strong><br>×</p>
+<p>loading…</p>
+<p>Data provided by:</p>
+<p><strong>Bookmark</strong><br>Bibliographic Tools</p>
+<p><strong>Bibliographic and Citation Tools</strong><br>Bibliographic Explorer Toggle</p>
+<p>Bibliographic Explorer <em>(<a target="_blank" rel="noopener" href="https://info.arxiv.org/labs/showcase.html#arxiv-bibliographic-explorer">What is the Explorer?</a>)</em></p>
+<p>Connected Papers Toggle</p>
+<p>Connected Papers <em>(<a target="_blank" rel="noopener" href="https://www.connectedpapers.com/about">What is Connected Papers?</a>)</em></p>
+<p>Litmaps Toggle</p>
+<p>Litmaps <em>(<a target="_blank" rel="noopener" href="https://www.litmaps.co/">What is Litmaps?</a>)</em></p>
+<p>scite.ai Toggle</p>
+<p>scite Smart Citations <em>(<a target="_blank" rel="noopener" href="https://www.scite.ai/">What are Smart Citations?</a>)</em></p>
+<p>Code, Data, Media</p>
+<p><strong>Code, Data and Media Associated with this Article</strong><br>alphaXiv Toggle</p>
+<p>alphaXiv <em>(<a target="_blank" rel="noopener" href="https://alphaxiv.org/">What is alphaXiv?</a>)</em></p>
+<p>Links to Code Toggle</p>
+<p>CatalyzeX Code Finder for Papers <em>(<a target="_blank" rel="noopener" href="https://www.catalyzex.com/">What is CatalyzeX?</a>)</em></p>
+<p>DagsHub Toggle</p>
+<p>DagsHub <em>(<a target="_blank" rel="noopener" href="https://dagshub.com/">What is DagsHub?</a>)</em></p>
+<p>GotitPub Toggle</p>
+<p>Gotit.pub <em>(<a target="_blank" rel="noopener" href="http://gotit.pub/faq">What is GotitPub?</a>)</em></p>
+<p>Huggingface Toggle</p>
+<p>Hugging Face <em>(<a target="_blank" rel="noopener" href="https://huggingface.co/huggingface">What is Huggingface?</a>)</em></p>
+<p>ScienceCast Toggle</p>
+<p>ScienceCast <em>(<a target="_blank" rel="noopener" href="https://sciencecast.org/welcome">What is ScienceCast?</a>)</em></p>
+<p>Demos</p>
+<p><strong>Demos</strong><br>Replicate Toggle</p>
+<p>Replicate <em>(<a target="_blank" rel="noopener" href="https://replicate.com/docs/arxiv/about">What is Replicate?</a>)</em></p>
+<p>Spaces Toggle</p>
+<p>Hugging Face Spaces <em>(<a target="_blank" rel="noopener" href="https://huggingface.co/docs/hub/spaces">What is Spaces?</a>)</em></p>
+<p>Spaces Toggle</p>
+<p>TXYZ.AI <em>(<a target="_blank" rel="noopener" href="https://txyz.ai/">What is TXYZ.AI?</a>)</em></p>
+<p>Related Papers</p>
+<p><strong>Recommenders and Search Tools</strong><br>Link to Influence Flower</p>
+<p>Influence Flower <em>(<a target="_blank" rel="noopener" href="https://influencemap.cmlab.dev/">What are Influence Flowers?</a>)</em></p>
+<p>Core recommender toggle</p>
+<p>CORE Recommender <em>(<a target="_blank" rel="noopener" href="https://core.ac.uk/services/recommender">What is CORE?</a>)</em></p>
+<ul>
+<li>Author</li>
+<li>Venue</li>
+<li>Institution</li>
+<li>Topic</li>
+</ul>
+<p>About arXivLabs</p>
+<p><strong>arXivLabs: experimental projects with community collaborators</strong><br>arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.</p>
+<p>Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.</p>
+<p>Have an idea for a project that will add value for arXiv’s community? <a target="_blank" rel="noopener" href="https://info.arxiv.org/labs/index.html"><strong>Learn more about arXivLabs</strong></a>.</p>
+<p><a href="/auth/show-endorsers/2606.05256">Which authors of this paper are endorsers?</a> |<br><a href="javascript:setMathjaxCookie()">Disable MathJax</a> (<a target="_blank" rel="noopener" href="https://info.arxiv.org/help/mathjax.html">What is MathJax?</a>)</p>
+</details>
+
+<details class="ai-daily-item" id="news-10">
+<summary>
+  <span class="ai-daily-summary-index">10</span>
+  <span class="ai-daily-summary-title">What Should Agents Say? Action-state Communication for Efficient Multi-Agent Systems</span>
+  <span class="ai-daily-summary-meta">ArXiv AI / 英文</span>
+</summary>
+
+<p class="ai-daily-item-brief">Computer Science Artificial Intelligence arXiv:2606.05304 (cs) [Submitted on 3 Jun 2026] Title:What Should Agents Say? Action state Communication for Efficient Multi Agent Systems...</p>
+
+<p class="ai-daily-item-meta">来源：ArXiv AI | 语言：英文 | <a href="https://arxiv.org/abs/2606.05304" target="_blank" rel="noopener noreferrer">原文链接</a></p>
+
+<p><strong>Computer Science &gt; Artificial Intelligence</strong><br><strong>arXiv:2606.05304</strong> (cs)</p>
+<p>[Submitted on 3 Jun 2026]</p>
+<p><strong>Title:What Should Agents Say? Action-state Communication for Efficient Multi-Agent Systems</strong><br>Authors:<a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=Huang,+C">Chen Huang</a>, <a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=Wu,+Y">Yuhao Wu</a>, <a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=Zhang,+W">Wenxuan Zhang</a></p>
+<p>View a PDF of the paper titled What Should Agents Say? Action-state Communication for Efficient Multi-Agent Systems, by Chen Huang and Yuhao Wu and Wenxuan Zhang</p>
+<p><a href="/pdf/2606.05304">View PDF</a><br><a target="_blank" rel="noopener" href="https://arxiv.org/html/2606.05304v1">HTML (experimental)</a></p>
+<blockquote>
+<p>Abstract:Multi-agent systems (MAS) built on large language models are typically organized around roles, pipelines, and turn schedules, while the content that agents pass to one another is often left as unconstrained natural language. However, this free-form communication can rapidly inflate token usage, consume the shared context window, and ultimately affect both system performance and inference cost. We analyze five common inter-agent communication strategies across two MAS topologies, finding that no fixed strategy is universally optimal. Instead, effective inter-agent messages consistently preserve action-centered information needed by downstream agents. Building on this, we propose the PACT (Protocolized Action-state Communication and Transmission), which treats inter-agent communication as a public state-update problem and projects each raw agent output into a compact action-state record before it enters shared history. Across different MAS topologies, PACT consistently improves the performance-cost trade-off, achieving comparable or stronger task performance with substantially fewer tokens. The gains extend to production coding harnesses: PACT lifts OpenHands’ resolve rate at -10% tokens-per-resolved, and is resolve-neutral on SWE-agent while halving input tokens. Our code is publicly available at <a target="_blank" rel="noopener" href="https://github.com/iNLP-Lab/PACT">this https URL</a>.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Comments:</td>
+<td>13 pages, 5 figures</td>
+</tr>
+<tr>
+<td>Subjects:</td>
+<td>Artificial Intelligence (cs.AI)</td>
+</tr>
+<tr>
+<td>Cite as:</td>
+<td><a target="_blank" rel="noopener" href="https://arxiv.org/abs/2606.05304">arXiv:2606.05304</a> [cs.AI]</td>
+</tr>
+<tr>
+<td></td>
+<td>(or  <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2606.05304v1">arXiv:2606.05304v1</a> [cs.AI] for this version)</td>
+</tr>
+<tr>
+<td></td>
+<td><a target="_blank" rel="noopener" href="https://doi.org/10.48550/arXiv.2606.05304">https://doi.org/10.48550/arXiv.2606.05304</a> Focus to learn more  arXiv-issued DOI via DataCite (pending registration)</td>
+</tr>
+</tbody></table>
+<p><strong>Submission history</strong><br>From: Chen Huang [<a href="/show-email/d9d4886c/2606.05304">view email</a>]<br> <strong>[v1]</strong><br>Wed, 3 Jun 2026 18:00:22 UTC (800 KB)</p>
+<p>Full-text links:</p>
+<p><strong>Access Paper:</strong><br>View a PDF of the paper titled What Should Agents Say? Action-state Communication for Efficient Multi-Agent Systems, by Chen Huang and Yuhao Wu and Wenxuan Zhang</p>
+<ul>
+<li><a href="/pdf/2606.05304">View PDF</a></li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/html/2606.05304v1">HTML (experimental)</a></li>
+<li><a href="/src/2606.05304">TeX Source</a></li>
+</ul>
+<p><a target="_blank" rel="noopener" href="http://creativecommons.org/licenses/by/4.0/" title="Rights to this article">view license</a></p>
+<p><strong>Current browse context:</strong><br>cs.AI</p>
+<p><a href="/prevnext?id=2606.05304&function=prev&context=cs.AI" title="previous in cs.AI (accesskey p)">&lt; prev</a><br>  |  <br><a href="/prevnext?id=2606.05304&function=next&context=cs.AI" title="next in cs.AI (accesskey n)">next &gt;</a></p>
+<p><a href="/list/cs.AI/new">new</a><br> |<br><a href="/list/cs.AI/recent">recent</a><br> | <a href="/list/cs.AI/2026-06">2026-06</a></p>
+<p>Change to browse by:</p>
+<p><a href="/abs/2606.05304?context=cs">cs</a></p>
+<p><strong>References &amp; Citations</strong></p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://ui.adsabs.harvard.edu/abs/arXiv:2606.05304">NASA ADS</a></li>
+<li><a target="_blank" rel="noopener" href="https://scholar.google.com/scholar_lookup?arxiv_id=2606.05304">Google Scholar</a></li>
+<li><a target="_blank" rel="noopener" href="https://api.semanticscholar.org/arXiv:2606.05304">Semantic Scholar</a></li>
+</ul>
+<p>export BibTeX citation<br>Loading…</p>
+<p><strong>BibTeX formatted citation</strong><br>×</p>
+<p>loading…</p>
+<p>Data provided by:</p>
+<p><strong>Bookmark</strong><br>Bibliographic Tools</p>
+<p><strong>Bibliographic and Citation Tools</strong><br>Bibliographic Explorer Toggle</p>
+<p>Bibliographic Explorer <em>(<a target="_blank" rel="noopener" href="https://info.arxiv.org/labs/showcase.html#arxiv-bibliographic-explorer">What is the Explorer?</a>)</em></p>
+<p>Connected Papers Toggle</p>
+<p>Connected Papers <em>(<a target="_blank" rel="noopener" href="https://www.connectedpapers.com/about">What is Connected Papers?</a>)</em></p>
+<p>Litmaps Toggle</p>
+<p>Litmaps <em>(<a target="_blank" rel="noopener" href="https://www.litmaps.co/">What is Litmaps?</a>)</em></p>
+<p>scite.ai Toggle</p>
+<p>scite Smart Citations <em>(<a target="_blank" rel="noopener" href="https://www.scite.ai/">What are Smart Citations?</a>)</em></p>
+<p>Code, Data, Media</p>
+<p><strong>Code, Data and Media Associated with this Article</strong><br>alphaXiv Toggle</p>
+<p>alphaXiv <em>(<a target="_blank" rel="noopener" href="https://alphaxiv.org/">What is alphaXiv?</a>)</em></p>
+<p>Links to Code Toggle</p>
+<p>CatalyzeX Code Finder for Papers <em>(<a target="_blank" rel="noopener" href="https://www.catalyzex.com/">What is CatalyzeX?</a>)</em></p>
+<p>DagsHub Toggle</p>
+<p>DagsHub <em>(<a target="_blank" rel="noopener" href="https://dagshub.com/">What is DagsHub?</a>)</em></p>
+<p>GotitPub Toggle</p>
+<p>Gotit.pub <em>(<a target="_blank" rel="noopener" href="http://gotit.pub/faq">What is GotitPub?</a>)</em></p>
+<p>Huggingface Toggle</p>
+<p>Hugging Face <em>(<a target="_blank" rel="noopener" href="https://huggingface.co/huggingface">What is Huggingface?</a>)</em></p>
+<p>ScienceCast Toggle</p>
+<p>ScienceCast <em>(<a target="_blank" rel="noopener" href="https://sciencecast.org/welcome">What is ScienceCast?</a>)</em></p>
+<p>Demos</p>
+<p><strong>Demos</strong><br>Replicate Toggle</p>
+<p>Replicate <em>(<a target="_blank" rel="noopener" href="https://replicate.com/docs/arxiv/about">What is Replicate?</a>)</em></p>
+<p>Spaces Toggle</p>
+<p>Hugging Face Spaces <em>(<a target="_blank" rel="noopener" href="https://huggingface.co/docs/hub/spaces">What is Spaces?</a>)</em></p>
+<p>Spaces Toggle</p>
+<p>TXYZ.AI <em>(<a target="_blank" rel="noopener" href="https://txyz.ai/">What is TXYZ.AI?</a>)</em></p>
+<p>Related Papers</p>
+<p><strong>Recommenders and Search Tools</strong><br>Link to Influence Flower</p>
+<p>Influence Flower <em>(<a target="_blank" rel="noopener" href="https://influencemap.cmlab.dev/">What are Influence Flowers?</a>)</em></p>
+<p>Core recommender toggle</p>
+<p>CORE Recommender <em>(<a target="_blank" rel="noopener" href="https://core.ac.uk/services/recommender">What is CORE?</a>)</em></p>
+<ul>
+<li>Author</li>
+<li>Venue</li>
+<li>Institution</li>
+<li>Topic</li>
+</ul>
+<p>About arXivLabs</p>
+<p><strong>arXivLabs: experimental projects with community collaborators</strong><br>arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.</p>
+<p>Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.</p>
+<p>Have an idea for a project that will add value for arXiv’s community? <a target="_blank" rel="noopener" href="https://info.arxiv.org/labs/index.html"><strong>Learn more about arXivLabs</strong></a>.</p>
+<p><a href="/auth/show-endorsers/2606.05304">Which authors of this paper are endorsers?</a> |<br><a href="javascript:setMathjaxCookie()">Disable MathJax</a> (<a target="_blank" rel="noopener" href="https://info.arxiv.org/help/mathjax.html">What is MathJax?</a>)</p>
+</details>
+
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://modestyzht.github.io">驴哥</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://modestyzht.github.io/ai-daily-2026-06-07/">https://modestyzht.github.io/ai-daily-2026-06-07/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="https://modestyzht.github.io" target="_blank">西北驴哥</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/AI/">AI</a><a class="post-meta__tags" href="/tags/%E6%96%B0%E9%97%BB/">新闻</a><a class="post-meta__tags" href="/tags/%E6%97%A5%E6%8A%A5/">日报</a><a class="post-meta__tags" href="/tags/LLM/">LLM</a></div><div class="post-share"><div class="social-share" data-image="/img/core/ai-daily-cover.png" data-sites="facebook,x,wechat,weibo,qq"></div><link rel="stylesheet" href="/vendor/sharejs/css/share.min.css" media="print" onload="this.media='all'"><script src="/vendor/sharejs/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related" href="/ai-daily-2026-06-08/" title="AI 日报 - 2026-06-08"><img class="cover" src="/img/core/ai-daily-cover.png" onerror="onerror=null;src='/img/glama.png'" alt="cover of previous post"><div class="info"><div class="info-1"><div class="info-item-1">上一篇</div><div class="info-item-2">AI 日报 - 2026-06-08</div></div><div class="info-2"><div class="info-item-1">每日 AI 行业新闻速递，涵盖 AI 技术、大模型、行业应用等领域。</div></div></div></a><a class="pagination-related" href="/ai-daily-2026-06-06/" title="AI 日报 - 2026-06-06"><img class="cover" src="/img/core/ai-daily-cover.png" onerror="onerror=null;src='/img/glama.png'" alt="cover of next post"><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">AI 日报 - 2026-06-06</div></div><div class="info-2"><div class="info-item-1">每日 AI 行业新闻速递，涵盖 AI 技术、大模型、行业应用等领域。</div></div></div></a></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/ai-daily-2026-06-21/" title="AI 日报 - 2026-06-21"><img class="cover" src="/img/core/ai-daily-cover.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-06-21</div><div class="info-item-2">AI 日报 - 2026-06-21</div></div><div class="info-2"><div class="info-item-1">每日 AI 行业新闻速递，涵盖 AI 技术、大模型、行业应用等领域。</div></div></div></a><a class="pagination-related" href="/ai-daily-2026-06-05/" title="AI 日报 - 2026-06-05"><img class="cover" src="/img/core/ai-daily-cover.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-06-05</div><div class="info-item-2">AI 日报 - 2026-06-05</div></div><div class="info-2"><div class="info-item-1">每日 AI 行业新闻速递，涵盖 AI 技术、大模型、行业应用等领域。</div></div></div></a><a class="pagination-related" href="/ai-daily-2026-06-08/" title="AI 日报 - 2026-06-08"><img class="cover" src="/img/core/ai-daily-cover.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-06-08</div><div class="info-item-2">AI 日报 - 2026-06-08</div></div><div class="info-2"><div class="info-item-1">每日 AI 行业新闻速递，涵盖 AI 技术、大模型、行业应用等领域。</div></div></div></a><a class="pagination-related" href="/ai-daily-2026-06-06/" title="AI 日报 - 2026-06-06"><img class="cover" src="/img/core/ai-daily-cover.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-06-06</div><div class="info-item-2">AI 日报 - 2026-06-06</div></div><div class="info-2"><div class="info-item-1">每日 AI 行业新闻速递，涵盖 AI 技术、大模型、行业应用等领域。</div></div></div></a><a class="pagination-related" href="/ai-daily-2026-06-09/" title="AI 日报 - 2026-06-09"><img class="cover" src="/img/core/ai-daily-cover.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-06-09</div><div class="info-item-2">AI 日报 - 2026-06-09</div></div><div class="info-2"><div class="info-item-1">每日 AI 行业新闻速递，涵盖 AI 技术、大模型、行业应用等领域。</div></div></div></a></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/glama.png" onerror="this.onerror=null;this.src='/img/glama.png'" alt="avatar"/></div><div class="author-info-name">驴哥</div><div class="author-info-description"></div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">28</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">19</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/modestyzht/modestyzht.github.io"><i class="fa-solid fa-dinosaur"></i><span>跟俺来！（码仓）</span></a><div class="card-info-social-icons"><a class="social-icon" href="https://github.com/modestyzht/modestyzht.github.io" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="mailto:2855935354@qq.com" target="_blank" title="QQ邮箱"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a><a class="social-icon" href="https://space.bilibili.com/1089540568" target="_blank" title="哔哩哔哩"><i class="fab fa-bilibili" style="color: #FB7299;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">正在折腾 AI 智慧农业与 Vibe Coding，一起探索 AI 的无限可能 ✨</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#AI-%E6%97%A5%E6%8A%A5-2026-06-07"><span class="toc-number">1.</span> <span class="toc-text">AI 日报 - 2026-06-07</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%8A%E6%97%A5%E9%80%9F%E8%A7%88"><span class="toc-number">1.1.</span> <span class="toc-text">今日速览</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AF%A6%E7%BB%86%E5%86%85%E5%AE%B9"><span class="toc-number">1.2.</span> <span class="toc-text">详细内容</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/ai-daily-2026-06-21/" title="AI 日报 - 2026-06-21"><img src="/img/core/ai-daily-cover.png" onerror="this.onerror=null;this.src='/img/glama.png'" alt="AI 日报 - 2026-06-21"/></a><div class="content"><a class="title" href="/ai-daily-2026-06-21/" title="AI 日报 - 2026-06-21">AI 日报 - 2026-06-21</a><time datetime="2026-06-21T02:27:59.000Z" title="发表于 2026-06-21 02:27:59">2026-06-21</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/FloatingBall-WPF%E6%A1%8C%E9%9D%A2%E6%82%AC%E6%B5%AE%E7%90%83-Vibe-Coding%E5%AE%9E%E6%88%98/" title="用 Vibe Coding 做一个 WPF 桌面悬浮球：FloatingBall 完整开发复盘"><img src="/img/posts/floatingball-vibecoding-cover.png" onerror="this.onerror=null;this.src='/img/glama.png'" alt="用 Vibe Coding 做一个 WPF 桌面悬浮球：FloatingBall 完整开发复盘"/></a><div class="content"><a class="title" href="/FloatingBall-WPF%E6%A1%8C%E9%9D%A2%E6%82%AC%E6%B5%AE%E7%90%83-Vibe-Coding%E5%AE%9E%E6%88%98/" title="用 Vibe Coding 做一个 WPF 桌面悬浮球：FloatingBall 完整开发复盘">用 Vibe Coding 做一个 WPF 桌面悬浮球：FloatingBall 完整开发复盘</a><time datetime="2026-06-09T00:00:00.000Z" title="发表于 2026-06-09 00:00:00">2026-06-09</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/%E5%9F%BA%E7%A1%80%E7%AF%87-%E9%9B%B6%E5%9F%BA%E7%A1%80Vibe-Coding%E5%85%A5%E9%97%A8/" title="零基础 Vibe Coding 入门：用 TRAE 亲手做出你的第一个应用"><img src="/img/vibe-coding/%E5%9F%BA%E7%A1%80%E7%AF%87/page2_1.jpeg" onerror="this.onerror=null;this.src='/img/glama.png'" alt="零基础 Vibe Coding 入门：用 TRAE 亲手做出你的第一个应用"/></a><div class="content"><a class="title" href="/%E5%9F%BA%E7%A1%80%E7%AF%87-%E9%9B%B6%E5%9F%BA%E7%A1%80Vibe-Coding%E5%85%A5%E9%97%A8/" title="零基础 Vibe Coding 入门：用 TRAE 亲手做出你的第一个应用">零基础 Vibe Coding 入门：用 TRAE 亲手做出你的第一个应用</a><time datetime="2026-06-05T00:00:00.000Z" title="发表于 2026-06-05 00:00:00">2026-06-05</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/%E6%8A%80%E5%B7%A7%E7%AF%87-%E6%A8%A1%E5%9D%97%E5%8C%96PRD%E6%96%B9%E6%B3%95/" title="Vibe Coding 技巧：模块化 PRD 方法，让 AI 写出不崩的项目"><img src="/img/vibe-coding/page01.png" onerror="this.onerror=null;this.src='/img/glama.png'" alt="Vibe Coding 技巧：模块化 PRD 方法，让 AI 写出不崩的项目"/></a><div class="content"><a class="title" href="/%E6%8A%80%E5%B7%A7%E7%AF%87-%E6%A8%A1%E5%9D%97%E5%8C%96PRD%E6%96%B9%E6%B3%95/" title="Vibe Coding 技巧：模块化 PRD 方法，让 AI 写出不崩的项目">Vibe Coding 技巧：模块化 PRD 方法，让 AI 写出不崩的项目</a><time datetime="2026-06-05T00:00:00.000Z" title="发表于 2026-06-05 00:00:00">2026-06-05</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/%E7%90%86%E8%AE%BA%E7%AF%87-Vibe-Coding%E7%9A%84%E6%95%B0%E5%AD%A6%E5%AF%86%E7%A0%81/" title="Vibe Coding 的数学密码：为什么自然语言能写代码？"><img src="/img/vibe-coding/%E7%90%86%E8%AE%BA%E7%AF%87/%E7%90%86%E8%AE%BA.png" onerror="this.onerror=null;this.src='/img/glama.png'" alt="Vibe Coding 的数学密码：为什么自然语言能写代码？"/></a><div class="content"><a class="title" href="/%E7%90%86%E8%AE%BA%E7%AF%87-Vibe-Coding%E7%9A%84%E6%95%B0%E5%AD%A6%E5%AF%86%E7%A0%81/" title="Vibe Coding 的数学密码：为什么自然语言能写代码？">Vibe Coding 的数学密码：为什么自然语言能写代码？</a><time datetime="2026-06-05T00:00:00.000Z" title="发表于 2026-06-05 00:00:00">2026-06-05</time></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2023 - 2026 By 驴哥</span></div><div class="footer_custom_text"><div id="workboard"></div></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><div class="js-pjax"></div><script src="/vendor/pangu/pangu.umd.js"></script><script> const initPangu = () => { if (typeof pangu !== 'undefined') { pangu.spacingPage(); } }; document.addEventListener('DOMContentLoaded', initPangu); document.addEventListener('pjax:complete', initPangu); </script><script src="/js/runtime.js"></script><script src="/js/tag-enhance.js"></script></div></body></html>

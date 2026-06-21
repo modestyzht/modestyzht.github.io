@@ -1,0 +1,1174 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>AI 日报 - 2026-06-06 | 西北驴哥</title><meta name="author" content="驴哥"><meta name="copyright" content="驴哥"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="每日 AI 行业新闻速递，涵盖 AI 技术、大模型、行业应用等领域。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="AI 日报 - 2026-06-06">
+<meta property="og:url" content="https://modestyzht.github.io/ai-daily-2026-06-06/index.html">
+<meta property="og:site_name" content="西北驴哥">
+<meta property="og:description" content="每日 AI 行业新闻速递，涵盖 AI 技术、大模型、行业应用等领域。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://modestyzht.github.io/img/core/ai-daily-cover.png">
+<meta property="article:published_time" content="2026-06-06T08:00:00.000Z">
+<meta property="article:modified_time" content="2026-06-21T02:29:09.354Z">
+<meta property="article:author" content="驴哥">
+<meta property="article:tag" content="AI">
+<meta property="article:tag" content="LLM">
+<meta property="article:tag" content="新闻">
+<meta property="article:tag" content="日报">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://modestyzht.github.io/img/core/ai-daily-cover.png"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "AI 日报 - 2026-06-06",
+  "url": "https://modestyzht.github.io/ai-daily-2026-06-06/",
+  "image": "https://modestyzht.github.io/img/core/ai-daily-cover.png",
+  "datePublished": "2026-06-06T08:00:00.000Z",
+  "dateModified": "2026-06-21T02:29:09.354Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "驴哥",
+      "url": "https://modestyzht.github.io"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/glama.png"><link rel="canonical" href="https://modestyzht.github.io/ai-daily-2026-06-06/index.html"><link rel="preconnect"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="/vendor/fontawesome/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: '/vendor/infinitegrid/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'AI 日报 - 2026-06-06',
+  isHighlightShrink: false,
+  isToc: true,
+  pageType: 'post'
+}</script><link rel="stylesheet" href="/css/custom.css"><link rel="stylesheet" href="/css/runtime.css"><meta name="generator" content="Hexo 8.1.2"></head><body><div class="bg-animation" id="web_bg" style="background-image: url(/img/core/bkgnd.jpg);"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/glama.png" onerror="this.onerror=null;this.src='/img/glama.png'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">28</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">19</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/paper/"><i class="fa-fw fas fa-file-alt"></i><span> 论文</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-robot"></i><span> AI</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/news/"><i class="fa-fw fas fa-newspaper"></i><span> 日报</span></a></li><li><a class="site-page child" href="/skills/"><i class="fa-fw fas fa-magic"></i><span> Skill</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-archive"></i><span> 博客</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-list"></i><span> 链接</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://api.mirrorworkforce.cn/"><i class="fa-fw fas fa-server"></i><span> 中转站</span></a></li></ul></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(/img/core/ai-daily-cover.png);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><img class="site-icon" src="/img/glama.png" alt="Logo"><span class="site-name">西北驴哥</span></a><a class="nav-page-title" href="/"><span class="site-name">AI 日报 - 2026-06-06</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首页</span></span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/paper/"><i class="fa-fw fas fa-file-alt"></i><span> 论文</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-robot"></i><span> AI</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/news/"><i class="fa-fw fas fa-newspaper"></i><span> 日报</span></a></li><li><a class="site-page child" href="/skills/"><i class="fa-fw fas fa-magic"></i><span> Skill</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-archive"></i><span> 博客</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-list"></i><span> 链接</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://api.mirrorworkforce.cn/"><i class="fa-fw fas fa-server"></i><span> 中转站</span></a></li></ul></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">AI 日报 - 2026-06-06</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2026-06-06T08:00:00.000Z" title="发表于 2026-06-06 08:00:00">2026-06-06</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2026-06-21T02:29:09.354Z" title="更新于 2026-06-21 02:29:09">2026-06-21</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/AI%E6%96%B0%E9%97%BB/">AI新闻</a></span></div><div class="meta-secondline"></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><h1 id="AI-日报-2026-06-06"><a href="#AI-日报-2026-06-06" class="headerlink" title="AI 日报 - 2026-06-06"></a>AI 日报 - 2026-06-06</h1><blockquote>
+<p>本文由脚本自动生成，共收录 10 条 AI 相关资讯。默认展示速览，展开后阅读完整内容。</p>
+</blockquote>
+<style>
+.ai-daily-overview {
+  display: grid;
+  gap: 0.75rem;
+  margin: 1rem 0 2rem;
+}
+.ai-daily-card {
+  display: grid;
+  grid-template-columns: 3rem minmax(0, 1fr) auto;
+  gap: 0.75rem;
+  align-items: start;
+  padding: 0.85rem 1rem;
+  border: 1px solid rgba(71, 85, 105, 0.18);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.72);
+  color: inherit !important;
+  text-decoration: none !important;
+}
+.ai-daily-card:hover,
+.ai-daily-item:hover {
+  border-color: rgba(37, 99, 235, 0.42);
+}
+.ai-daily-index,
+.ai-daily-summary-index {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 999px;
+  background: rgba(37, 99, 235, 0.1);
+  color: #1d4ed8;
+  font-weight: 700;
+  font-size: 0.86rem;
+}
+.ai-daily-card-main {
+  min-width: 0;
+}
+.ai-daily-card-title,
+.ai-daily-summary-title {
+  display: block;
+  color: inherit;
+  font-weight: 700;
+  line-height: 1.45;
+}
+.ai-daily-card-summary {
+  display: block;
+  margin-top: 0.28rem;
+  color: #64748b;
+  line-height: 1.65;
+  font-size: 0.94rem;
+}
+.ai-daily-card-meta,
+.ai-daily-summary-meta {
+  color: #0f766e;
+  font-size: 0.84rem;
+  white-space: nowrap;
+}
+.ai-daily-item {
+  margin: 1rem 0;
+  padding: 0.85rem 1rem;
+  border: 1px solid rgba(71, 85, 105, 0.18);
+  border-radius: 8px;
+  background: rgba(248, 250, 252, 0.82);
+}
+.ai-daily-item summary {
+  display: grid;
+  grid-template-columns: 3rem minmax(0, 1fr) auto auto;
+  gap: 0.75rem;
+  align-items: center;
+  cursor: pointer;
+  list-style: none;
+}
+.ai-daily-item summary::-webkit-details-marker {
+  display: none;
+}
+.ai-daily-item summary::after {
+  content: "展开";
+  justify-self: end;
+  color: #b45309;
+  font-size: 0.84rem;
+  font-weight: 700;
+}
+.ai-daily-item[open] summary::after {
+  content: "收起";
+}
+.ai-daily-item-brief {
+  margin: 1rem 0;
+  padding: 0.75rem 0.9rem;
+  border-left: 3px solid #2563eb;
+  background: rgba(37, 99, 235, 0.06);
+  color: #475569;
+  line-height: 1.75;
+}
+.ai-daily-item-meta {
+  color: #64748b;
+  font-size: 0.92rem;
+}
+[data-theme="dark"] .ai-daily-card,
+[data-theme="dark"] .ai-daily-item {
+  border-color: rgba(148, 163, 184, 0.22);
+  background: rgba(15, 23, 42, 0.68);
+}
+[data-theme="dark"] .ai-daily-card-summary,
+[data-theme="dark"] .ai-daily-item-brief,
+[data-theme="dark"] .ai-daily-item-meta {
+  color: #cbd5e1;
+}
+[data-theme="dark"] .ai-daily-card-meta,
+[data-theme="dark"] .ai-daily-summary-meta {
+  color: #5eead4;
+}
+@media (max-width: 640px) {
+  .ai-daily-card {
+    grid-template-columns: 2.6rem minmax(0, 1fr);
+  }
+  .ai-daily-card-meta {
+    grid-column: 2;
+    justify-self: start;
+  }
+  .ai-daily-item summary {
+    grid-template-columns: 2.6rem minmax(0, 1fr) auto;
+  }
+  .ai-daily-summary-meta {
+    grid-column: 2;
+    justify-self: start;
+  }
+}
+</style>
+
+<h2 id="今日速览"><a href="#今日速览" class="headerlink" title="今日速览"></a>今日速览</h2><div class="ai-daily-overview">
+<a class="ai-daily-card" href="#news-1">
+  <span class="ai-daily-index">01</span>
+  <span class="ai-daily-card-main">
+    <span class="ai-daily-card-title">Next.js 16.2 发布：开发提速 4 倍、渲染性能优化，新增深度适配 AI 智能体的开发工具</span>
+    <span class="ai-daily-card-summary">Vercel 近日发布 Next.js 16.2，开源 React 框架的最新版本，带来了性能提升、更好的调试体验、面向 AI 智能体的新工具，以及超过 200 项 Turbopack 相关修复与改进。 本次发布的核心亮点是速度。Vercel 官方数据显示， next dev 启动速度提升了约 400%，在默认应用中比 Next.js 16.1 快约 87%...</span>
+  </span>
+  <span class="ai-daily-card-meta">InfoQ / 中文</span>
+</a>
+<a class="ai-daily-card" href="#news-2">
+  <span class="ai-daily-index">02</span>
+  <span class="ai-daily-card-main">
+    <span class="ai-daily-card-title">我在 Snowflake 2026 AI Summit 看到的：企业 AI 的下一站，不是模型，而是AI经营系统</span>
+    <span class="ai-daily-card-summary">这两天在 Snowflake AI Summit 现场，我最大的感受是： 企业 AI 的叙事正在发生一次明显转向。 过去一年多，大家谈 AI，最容易谈到的是模型。哪个模型更强，谁的推理能力更好，谁的多模态更领先，谁的编程能力更强。这些当然重要，但如果站在企业经营的角度，只看模型已经不够了。 因为模型正在快速普及，也在快速迭代。企业真正的难题，不是“有没有一个...</span>
+  </span>
+  <span class="ai-daily-card-meta">InfoQ / 中文</span>
+</a>
+<a class="ai-daily-card" href="#news-3">
+  <span class="ai-daily-index">03</span>
+  <span class="ai-daily-card-main">
+    <span class="ai-daily-card-title">Why sophrosyne, an ancient Greek virtue, matters more than ever in the age of AI</span>
+    <span class="ai-daily-card-summary">Sophrosyne is a constellation of characteristics that includes moderation, reflectiveness and self knowledge. PM Images/DigitalVision via Getty Images Texting while driving. Bullyi...</span>
+  </span>
+  <span class="ai-daily-card-meta">Hacker News / 英文</span>
+</a>
+<a class="ai-daily-card" href="#news-4">
+  <span class="ai-daily-index">04</span>
+  <span class="ai-daily-card-main">
+    <span class="ai-daily-card-title">Rethinking the Value of Generated Tests for LLM Software Engineering Agents</span>
+    <span class="ai-daily-card-summary">Computer Science Software Engineering arXiv:2602.07900 (cs) Submitted on 8 Feb 2026 ([v1), last revised 9 Apr 2026 (this version, v2)] Title:Rethinking the Value of Agent Generated...</span>
+  </span>
+  <span class="ai-daily-card-meta">Hacker News / 英文</span>
+</a>
+<a class="ai-daily-card" href="#news-5">
+  <span class="ai-daily-index">05</span>
+  <span class="ai-daily-card-main">
+    <span class="ai-daily-card-title">This is your laptop… on AI</span>
+    <span class="ai-daily-card-summary">Podcasts AI Gadgets This is your laptop… on AI On The Vergecast: Nvidia’s plan to reboot your PC, Apple’s smart glasses, and the first week of our new daily format. On The Vergecas...</span>
+  </span>
+  <span class="ai-daily-card-meta">The Verge / 英文</span>
+</a>
+<a class="ai-daily-card" href="#news-6">
+  <span class="ai-daily-index">06</span>
+  <span class="ai-daily-card-main">
+    <span class="ai-daily-card-title">Let us filter AI slop, you cowards</span>
+    <span class="ai-daily-card-summary">AI Report Tech Let us filter AI slop, you cowards Online platforms could prove whether AI labels work by giving us a filter option, but then they’d have to face reality. by Jess We...</span>
+  </span>
+  <span class="ai-daily-card-meta">The Verge / 英文</span>
+</a>
+<a class="ai-daily-card" href="#news-7">
+  <span class="ai-daily-index">07</span>
+  <span class="ai-daily-card-main">
+    <span class="ai-daily-card-title">How virtual power plants could provide energy for data centers</span>
+    <span class="ai-daily-card-summary">You need to enable JavaScript to view this site. Skip to Content EXECUTIVE SUMMARY Would you take a payment to ramp down your electricity use? Would it change anything if you were...</span>
+  </span>
+  <span class="ai-daily-card-meta">MIT Tech Review / 英文</span>
+</a>
+<a class="ai-daily-card" href="#news-8">
+  <span class="ai-daily-index">08</span>
+  <span class="ai-daily-card-main">
+    <span class="ai-daily-card-title">The Download: Trump’s new AI order, and smart glasses for warfare</span>
+    <span class="ai-daily-card-summary">You need to enable JavaScript to view this site. Skip to Content This is today&#x27;s edition of The Download , our weekday newsletter that provides a daily dose of what&#x27;s going on in t...</span>
+  </span>
+  <span class="ai-daily-card-meta">MIT Tech Review / 英文</span>
+</a>
+<a class="ai-daily-card" href="#news-9">
+  <span class="ai-daily-index">09</span>
+  <span class="ai-daily-card-main">
+    <span class="ai-daily-card-title">Toward Pre-Deployment Assurance for Enterprise AI Agents: Ontology-Grounded Simulation and Trust Certification</span>
+    <span class="ai-daily-card-summary">Computer Science Artificial Intelligence arXiv:2606.04037 (cs) Submitted on 2 Jun 2026 ([v1), last revised 4 Jun 2026 (this version, v2)] Title:Toward Pre Deployment Assurance for...</span>
+  </span>
+  <span class="ai-daily-card-meta">ArXiv AI / 英文</span>
+</a>
+<a class="ai-daily-card" href="#news-10">
+  <span class="ai-daily-index">10</span>
+  <span class="ai-daily-card-main">
+    <span class="ai-daily-card-title">Stumbling Into AI Emotional Dependence: How Routine AI Interactions Reshape Human Connection</span>
+    <span class="ai-daily-card-summary">Computer Science Artificial Intelligence arXiv:2606.04150 (cs) [Submitted on 2 Jun 2026] Title:Stumbling Into AI Emotional Dependence: How Routine AI Interactions Reshape Human Con...</span>
+  </span>
+  <span class="ai-daily-card-meta">ArXiv AI / 英文</span>
+</a>
+</div>
+
+<h2 id="详细内容"><a href="#详细内容" class="headerlink" title="详细内容"></a>详细内容</h2><details class="ai-daily-item" id="news-1">
+<summary>
+  <span class="ai-daily-summary-index">01</span>
+  <span class="ai-daily-summary-title">Next.js 16.2 发布：开发提速 4 倍、渲染性能优化，新增深度适配 AI 智能体的开发工具</span>
+  <span class="ai-daily-summary-meta">InfoQ / 中文</span>
+</summary>
+
+<p class="ai-daily-item-brief">Vercel 近日发布 Next.js 16.2，开源 React 框架的最新版本，带来了性能提升、更好的调试体验、面向 AI 智能体的新工具，以及超过 200 项 Turbopack 相关修复与改进。 本次发布的核心亮点是速度。Vercel 官方数据显示， next dev 启动速度提升了约 400%，在默认应用中比 Next.js 16.1 快约 87%...</p>
+
+<p class="ai-daily-item-meta">来源：InfoQ | 语言：中文 | <a href="https://www.infoq.cn/article/NWjH4oTh0j4HsxJsCRaf?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener noreferrer">原文链接</a></p>
+
+<p>Vercel 近日<a target="_blank" rel="noopener" href="https://x.com/nextjs/status/2037186404116291603">发布 Next.js 16.2</a>，开源 React 框架的最新版本，带来了性能提升、更好的调试体验、面向 AI 智能体的新工具，以及<a target="_blank" rel="noopener" href="https://nextjs.org/blog/next-16-2">超过 200 项 Turbopack 相关修复与改进</a>。</p>
+<p>本次发布的核心亮点是速度。Vercel 官方数据显示，<code>next dev</code> 启动速度提升了约 400%，在默认应用中比 Next.js 16.1 快约 87%，本地服务器几乎在启动瞬间即准备就绪。渲染速度也提升了约 50%。这一提升源于一项已贡献给 React 的改动：通过将 V8 中反复跨 C++ 与 JavaScript 边界的 <code>JSON.parse</code> 恢复函数回调替换为先执行普通 <code>JSON.parse</code> 再在纯 JavaScript 中进行递归遍历的方式，使 Server Components 的载荷反序列化速度最高提升 350%。在实际应用中，这意味着根据载荷大小不同，<a target="_blank" rel="noopener" href="https://nextjs.org/blog/next-16-2">HTML 渲染速度可提升 25% 至 60%</a>。</p>
+<p>在 Next.js 16 中被设为默认打包工具的 Turbopack 现已默认开启 Server Fast Refresh。它不再清空整条导入链的 require 缓存，只重新加载发生改动的模块。据 Vercel 测试，<a target="_blank" rel="noopener" href="https://nextjs.org/blog/next-16-2-turbopack">应用刷新速度因此提升 67% 至 100%，编译速度提升 400% 至 900%</a>。新版本还新增了三项能力：JavaScript 文件的子资源完整性（Subresource Integrity）支持、适配解构写法动态导入的 Tree Shaking，以及 <code>postcss.config.ts</code> 配置文件支持。</p>
+<p>16.2 版本的很大一部分更新聚焦于 AI 辅助开发。<code>create-next-app</code> 脚手架会自动生成一个 <code>AGENTS.md</code> 文件，<code>next</code> 包也内置了对应版本的 Markdown 格式文档，方便编码智能体在本地调用正确的 API。浏览器错误现在默认会转发到终端，可通过 <code>logging.browserToTerminal</code> 进行配置。此外，实验性的 <code>@vercel/next-browser</code> CLI 支持智能体在终端查看正在运行的项目。</p>
+<p>业界评论总体偏向正面。在 <a target="_blank" rel="noopener" href="https://community.vercel.com/t/next-js-16-2-for-dummies-our-thoughts-on-the-latest/36817">Vercel 社区的一篇总结帖</a>中，<a target="_blank" rel="noopener" href="https://roboto.studio/blog/nextjs-16-2-for-dummies">Roboto Studio</a> 的 Jono 实测开发启动速度提升约 80%，<code>ImageResponse</code> 生成速度提升了 2 至 20 倍，并报告称在约五分钟内完成了两个应用的升级，没有出现重大变更或配置更新。</p>
+<p>在 <a target="_blank" rel="noopener" href="https://www.reddit.com/r/webdev/comments/1s1upkh/nextjs_162_ai_improvements/">Reddit</a> 上，一位用户对流式改进发表了评论：</p>
+<blockquote>
+<p>流式改进很实用。对我来说，Next.js AI 相关功能最大的痛点在于连接中断时无法妥善处理分段响应。我很想知道 16.2 是否解决了这个问题，还是仍然需要我们自己处理重连逻辑。</p>
+</blockquote>
+<p>仍在使用 Next.js 15 的团队可以通过运行官方 codemod <code>npx @next/codemod@canary upgrade latest</code> 完成迁移，这个工具会更新配置、把重命名的 <code>middleware</code> 适配为 <code>proxy</code> 规范写法，并移除已进入稳定状态的 API 的 <code>unstable_</code> 前缀。Next.js 16 要求 Node.js 20.9 或更高版本、TypeScript 5.1 或更高版本，<a target="_blank" rel="noopener" href="https://nextjs.org/docs/app/guides/upgrading/version-16">升级指南</a>中记录了向全异步请求 API（如 <code>cookies</code>、<code>headers</code> 和 <code>params</code>）迁移的相关细节。</p>
+<p>在与 Remix、Astro 等同类 React 框架的竞争中，Next.js 继续凭借其紧密的 Vercel 集成、日益完善的 AI 编码智能体原生支持保持着差异化优势。</p>
+<p>Next.js 是由 Vercel 开发和维护的开源 React 框架，支持服务端渲染、静态站点生成和客户端渲染，被广泛应用于大型生产网站，并对 React Server Components 和 Turbopack 提供了一流的支持。</p>
+<p>查看英文原文：<a target="_blank" rel="noopener" href="https://www.infoq.com/news/2026/06/nextjs-6-2/">https://www.infoq.com/news/2026/06/nextjs-6-2/</a></p>
+</details>
+
+<details class="ai-daily-item" id="news-2">
+<summary>
+  <span class="ai-daily-summary-index">02</span>
+  <span class="ai-daily-summary-title">我在 Snowflake 2026 AI Summit 看到的：企业 AI 的下一站，不是模型，而是AI经营系统</span>
+  <span class="ai-daily-summary-meta">InfoQ / 中文</span>
+</summary>
+
+<p class="ai-daily-item-brief">这两天在 Snowflake AI Summit 现场，我最大的感受是： 企业 AI 的叙事正在发生一次明显转向。 过去一年多，大家谈 AI，最容易谈到的是模型。哪个模型更强，谁的推理能力更好，谁的多模态更领先，谁的编程能力更强。这些当然重要，但如果站在企业经营的角度，只看模型已经不够了。 因为模型正在快速普及，也在快速迭代。企业真正的难题，不是“有没有一个...</p>
+
+<p class="ai-daily-item-meta">来源：InfoQ | 语言：中文 | <a href="https://www.infoq.cn/article/RE86F1fQONUr9Uf1fSTQ?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener noreferrer">原文链接</a></p>
+
+<p>这两天在 Snowflake AI Summit 现场，我最大的感受是：<strong>企业 AI 的叙事正在发生一次明显转向。</strong></p>
+<p>过去一年多，大家谈 AI，最容易谈到的是模型。哪个模型更强，谁的推理能力更好，谁的多模态更领先，谁的编程能力更强。这些当然重要，但如果站在企业经营的角度，只看模型已经不够了。</p>
+<p>因为模型正在快速普及，也在快速迭代。企业真正的难题，不是“有没有一个大模型”，而是：</p>
+<ul>
+<li>企业自己的数据在哪里？</li>
+<li>业务语义和指标口径是否清楚？</li>
+<li>AI 能不能安全地访问数据？</li>
+<li>Agent 进入企业后，身份、权限和边界如何定义？</li>
+<li>AI 生成的洞察，能不能进入流程、行动和增长结果？</li>
+<li>组织里的人，是否真的准备好和 AI 一起工作？</li>
+</ul>
+<p>这次 Snowflake Summit 给我的启发，不是简单地看到一个数据云公司在发布 AI 产品，而是看到企业 AI 正在从“模型竞争”进入“系统工程”阶段。</p>
+<p>我把这两天的观察总结成一句话：</p>
+<blockquote>
+<p><strong>企业 AI 的下一站，不是多买一个模型，也不是多上一个聊天框，而是把数据、治理、Agent、工作流和组织能力，重新组织成一套可运营的经营系统。</strong></p>
+</blockquote>
+<p><strong>模型会越来越强，但企业壁垒不在模型本身</strong><br>在硅谷参加这样的大会，很容易感受到一个趋势：模型能力还会继续快速提升，但企业对模型的使用方式，已经开始<strong>从“崇拜某一个模型”走向“把模型作为可替换的基础能力</strong>”。</p>
+<p>不同模型会在不同任务上各有优势。有的更适合编程，有的更适合多模态，有的更适合复杂推理，有的产品体验更好。开发者和企业用户会越来越现实：谁能完成任务，谁的上下文更顺，谁的工具链更稳定，就用谁。</p>
+<p>这意味着，企业不应该把自己的长期能力绑定在某一个模型账号上。</p>
+<p>真正值得建设的是模型之上的系统：数据、上下文、业务语义、任务拆解、结果验证、权限治理和行动闭环。</p>
+<p>如果这些东西没有建立起来，模型再强，也只能停留在问答和 demo。反过来，如果企业拥有清晰的数据底座、业务对象、语义层和工作流，模型就可以不断替换和升级，但企业自己的智能系统会持续沉淀。</p>
+<p><strong>所以我越来越相信：AI 时代，企业的护城河不是“我用了哪个模型”，而是“我有没有把模型组织进自己的业务系统”。</strong></p>
+<p><strong>企业 AI 最终还是跑在数据上</strong><br>Snowflake 这次大会最清晰的信号，是它正在从传统意义上的数据仓库，走向一个更完整的 AI Data Cloud。</p>
+<p>这背后的逻辑很简单：<strong>企业 AI 不可能脱离企业数据而存在。</strong></p>
+<p>企业里的数据不是整齐地放在一个地方。它分散在业务系统、数据仓库、报表、文档、会议、邮件、客户记录、销售线索、合同、交付反馈和社媒内容里。它既有结构化数据，也有半结构化和非结构化数据；既有历史数据，也有实时业务动作；既有公开信息，也有高度敏感的内部数据。</p>
+<p>如果这些数据没有被组织起来，AI 就很难真正进入业务。</p>
+<p>很多企业过去做智能问数，容易把问题理解成 Text-to-SQL，好像只要让大模型把自然语言翻译成 SQL，就能解决经营分析问题。但真正难的不是写 SQL，而是：</p>
+<ul>
+<li>指标口径是不是统一？</li>
+<li>业务对象是不是定义清楚？</li>
+<li>数据来源是否可信？</li>
+<li>权限边界是否明确？</li>
+<li>不同部门对同一个指标的理解是否一致？</li>
+<li>AI 给出的答案，能否被业务负责人信任？</li>
+</ul>
+<p>这也是我在 Snowflake 现场反复感受到的：<strong>AI 落地最后一定会回到数据、语义和治理</strong>。</p>
+<p>没有语义层，Agent 只能会聊天；有了实体、关系、指标口径、来源映射和权限边界，Agent 才可能真正进入业务分析、归因、预测和行动。</p>
+<p>这也让我更加确认我们做 EntVerse、Navi、EnlightAI 的方向。企业不是缺一个新的聊天入口，而是缺一套能把对象、关系、指标、来源、权限、行动和反馈组织起来的 Company Context。</p>
+<p><strong>治理和信任，正在从后台能力变成前台条件</strong><br>这次 Snowflake 产品路线里，我特别关注到一个变化：治理不再只是 IT 后台能力，而是企业 AI 能不能真正落地的前台条件。</p>
+<p>过去谈数据治理，很多人觉得这是后台工作，是 IT、数据团队、合规部门的事情。但当 Agent 开始进入企业，治理就变成了每个业务负责人都必须关心的问题。</p>
+<p>因为<strong>企业不能只问：这个 Agent 能不能回答问题？</strong></p>
+<p><strong>企业还必须问：</strong></p>
+<ul>
+<li>它是谁？</li>
+<li>它代表谁在行动？</li>
+<li>它能看哪些数据？</li>
+<li>它能不能把数据移动到外部系统？</li>
+<li>它能不能自动发邮件、改报价、提交审批？</li>
+<li>哪些动作必须经过二次确认？</li>
+<li>出错之后，责任和日志在哪里？</li>
+</ul>
+<p>如果这些问题没有答案，AI 就很难从个人效率工具进入企业核心流程。</p>
+<p>这也是为什么我觉得“Trust &amp; Governance”会成为企业 AI 的关键词。Agent 进入企业，不只是技术问题，更是身份、权限、审计、流程和组织信任的问题。</p>
+<p>未来企业不会只有员工账号、系统账号，还会有大量数字员工和 Agent 身份。每一个 Agent 都需要边界，需要授权，需要可追踪，也需要被纳入企业治理体系。</p>
+<p>这对中国企业尤其重要。因为中国企业对私有化、安全、数据边界和权限管控非常敏感。如果我们不能把 AI 讲成一套可信、可治理、可审计的经营系统，而只是讲一个强大的工具，客户很难放心把核心业务交给它。</p>
+<p><strong>AI 入口会从聊天框，走向个人工作引擎</strong><br>这次大会还有一个让我印象很深的趋势：<strong>企业 AI 的入口正在从 Chatbox 走向 Personal work engine。</strong></p>
+<p>过去很多 AI 产品的入口是一个聊天框。你问，它答。你让它写，它生成。这个阶段很重要，因为它让 AI 变得可用、可感知、可普及。</p>
+<p>但这不是企业 AI 的终点。</p>
+<p>真正进入工作场景后，AI 需要理解你的上下文，知道你负责什么业务，知道你正在跟进哪些客户，知道你所在组织的目标和优先级，能够连接你的工具，能够定时完成任务，能够生成可协作的 artifact，并且把结果带回业务流程。</p>
+<p><strong>也就是说，AI 不只是“回答你”，而是“和你一起工作”。</strong></p>
+<p>这就是个人工作引擎的价值。</p>
+<p>一个销售负责人，不需要每天重新告诉 AI 自己负责哪些客户；一个市场负责人，不需要每次重新解释品牌、渠道、素材和目标；一个 CEO，也不应该每天从零开始问“公司现在怎么样”。AI 应该理解企业经营上下文，主动帮助人发现风险、推进事项、形成判断、沉淀行动。</p>
+<p>这也是 Navi 的方向：不是做一个问答机器人，而是做一个经营助手。它要理解经营对象，知道客户、商机、产品、交付、专项之间的关系；它要知道哪些是事实，哪些是判断，哪些是风险，哪些需要人去行动；它还要能把行动和反馈写回企业上下文，让组织持续学习。</p>
+<p><strong>企业 AI 的入口，最终会从聊天框，变成每个人身边的工作系统。</strong></p>
+<p><strong>从工具到组织：Agentic Enterprise 才是真正的分水岭</strong><br>这两天除了 Snowflake 官方 Keynote，我还和极客邦、安克创新等同行做了几场很有价值的对谈。<strong>其中一个共识非常强：AI 对企业的影响，不是工具层面的，而是组织层面的。</strong></p>
+<p>我把这个变化称为 Agentic Enterprise。</p>
+<p>**什么叫 Agentic Enterprise？**不是企业里有几个员工在用 AI，也不是某个部门做了几个智能体 demo，而是数字员工开始成为组织中的正式生产力单元。</p>
+<p>一旦你把数字员工当作组织成员，就必然带来一系列问题：</p>
+<ul>
+<li>它向谁汇报？</li>
+<li>它和真人如何协作？</li>
+<li>它能承担什么任务？</li>
+<li>它的结果如何验收？</li>
+<li>它的经验如何沉淀？</li>
+<li>它是否会改变组织流程和岗位边界？</li>
+</ul>
+<p>所以 AI 组织升级不是“采购 AI 工具”，而是组织范式变化。</p>
+<p>工业时代的组织像流水线。每个人负责一个环节，流程层层传递，管理依赖层级和汇报。但 AI 时代，一个人借助多个 Agent，可以完成过去多个角色共同完成的事情。人的能力边界被打开，协作链路被压缩，很多流程会被重新组合。</p>
+<p>这让我很认同安克创新 CIO Neil 提出的“蜂巢式组织”想象：未来组织会由大量更小、更端到端的小团队组成。每个小团队围绕一个目标闭环，借助 AI 完成洞察、定义、执行、复盘和优化。它们之间不是完全无序，而是通过企业大脑和动态管理网络保持协同。</p>
+<p><strong>从流水线到蜂巢，这可能是 AI 时代组织进化的一个重要方向。</strong></p>
+<p><strong>老板必须亲自下场，组织才能真正转型</strong><br>很多企业谈 AI 转型，第一反应是让 IT 部门研究工具，让业务部门试用产品，让员工参加培训。</p>
+<p>这些都需要，但还不够。</p>
+<p>我越来越觉得，AI 转型的第一责任人必须是老板。尤其是企业的一把手，必须亲自下场。</p>
+<p>原因很简单：如果老板没有亲身体验过 AI 带来的生产力跃迁，他很难真正相信这件事，也很难推动组织做结构性改变。</p>
+<p>我自己有一个很强的体感。多年没有写代码之后，我重新借助 Coding Agent 上手 Build。过去可能需要一个团队做半年到一年的东西，现在几天就能搭出核心版本。那个瞬间带来的冲击，不是听别人讲一百遍能替代的。</p>
+<p><strong>所以我总结了一个方法：Build、Learn、Lead、Being led。</strong></p>
+<p>**第一，Build。**老板要亲自做，亲自体验 AI 如何改变生产力；</p>
+<p>**第二，Learn。**AI 是一个巨大的知识系统，管理者要学会向它学习，学习战略、组织、流程、技术和行业经验；</p>
+<p>**第三，Lead。**大模型没有企业自己的价值观和战略意志，老板必须用自己的愿景、价值观和战略去引导它；</p>
+<p>**第四，Being led。**在具体问题上，也要学会被 AI 引导。不是所有细节都由老板控制，真正的管理能力，是知道什么时候坚持自己的判断，什么时候相信系统给出的建议。</p>
+<p>如果老板不亲自下场，AI 很容易停留在局部试点；如果老板亲自下场，它才可能变成组织升级。</p>
+<p><strong>不要等数据治理完成，再开始 AI</strong><br>这次和几位同行讨论时，我们反复谈到一个中国企业常见误区：先把数据治理全部做好，再开始做 AI。</p>
+<p>这个逻辑看起来稳妥，但在 AI 时代可能会错过窗口。</p>
+<p>因为数据治理不是一个抽象目标。真正有效的数据治理，应该从业务问题出发。</p>
+<p>企业不应该先问“我要不要做一套完整数据治理工程”，而应该先问：</p>
+<ul>
+<li>我最想提升哪个业务结果？</li>
+<li>哪个流程最值得被 AI 改造？</li>
+<li>哪个岗位最适合先变成超级个体？</li>
+<li>哪类客户、商机、内容、交付或供应链数据最能产生价值？</li>
+</ul>
+<p>从场景出发，AI 目标会倒逼数据治理。你要让 AI 回答经营问题，就必须定义指标；你要让 Agent 推进客户，就必须沉淀客户上下文；你要让 AI 参与销售，就必须连接线索、内容、触点和转化；你要让 AI 做供应链决策，就必须梳理商品、库存、渠道和需求。</p>
+<p>所以正确路径不是“等数据治理完成再做 AI”，而是“一边做 AI，一边治理数据，一边沉淀组织能力”。</p>
+<p>这对中国企业反而是机会。过去数字化、数据化、智能化可能是分阶段完成的；今天，AI 让企业有机会把这些事情压缩到同一个业务改造过程中。</p>
+<p><strong>中国路径不是复制 Snowflake，而是把 AI 扎进真实产业</strong><br>这次美国行，我一直在思考一个问题：<strong>中国会不会出现自己的 Snowflake？</strong></p>
+<p>如果只是简单复制 Snowflake 的产品形态，我觉得答案未必乐观。中国的软件市场、上云环境、采购体系、客单价、私有化习惯和生态开放程度，都和美国不一样。</p>
+<p>但这不代表中国没有机会。</p>
+<p>恰恰相反，中国 AI 企业的机会可能在另一条路径上。</p>
+<p>Snowflake 值得我们学习的，不只是某个产品，而是三件事：</p>
+<p>第一，产品完成度。不是只有概念，而是每个概念后面都有产品、Demo、案例和生态；</p>
+<p>第二，讲故事能力。能把复杂技术讲成客户听得懂的业务语言；</p>
+<p>第三，生态连接。通过开放接口、合作伙伴和平台能力，让更多企业围绕它形成系统。</p>
+<p><strong>但中国真正的独特优势，在于产业场景。</strong></p>
+<p>中国有极其丰富的消费场景，有完整的工业链，有深厚的供应链，有大量正在全球化的制造、品牌和零售企业。AI 如果只停留在 Chatbox，价值有限；但如果能进入研发、供应链、销售、渠道、门店、客服、经营分析和品牌增长，它就可能变成新的生产力系统。</p>
+<p>所以我认为，中国路径不是复制一个轻 SaaS 或 Data Cloud，而是学习世界级公司的产品完成度、生态能力和表达方式，然后把 AI 扎进真实产业，扎进行业数据，扎进业务流程。</p>
+<p>未来中国可能会出现伟大的 AI 公司，但它未必长得像美国 SaaS。它可能更重、更行业化、更贴近供应链和经营结果。</p>
+<p><strong>数说故事要做的，不只是数据和 AI 能力，而是 AI 增长系统</strong><br>回到数说故事，我们长期做的事情，是把外部世界的数据、消费者声音、品牌内容、行业信号、销售线索和业务结果组织起来，帮助企业做增长决策。AI 时代，这件事不但没有变弱，反而更重要。</p>
+<p>因为模型越强，越需要高质量的企业上下文；Agent 越多，越需要统一的对象、关系、权限和行动闭环；企业越想用 AI 提效，越需要把数据、内容、洞察、销售和经营结果连接起来。</p>
+<p>这就是我们说 Social to Sales，帮助客户从消费者认知到拿到生意结果，并在此过程中利用我们的 AI 能力（EntVerse+Navi+EnlightAI）来帮助我们的客户构建属于他自己的连续经营系统，进入 Agentic Enterprise 时代。</p>
+<p>Social to Sales 不是简单做社媒洞察，而是把内容、品牌、消费者信号和销售增长连接起来。</p>
+<p>EntVerse 不是一个知识库，而是企业经营世界模型，把客户、产品、商机、交付、专项、风险、行动和指标组织起来。</p>
+<p>Navi 不是聊天机器人，而是经营助手，帮助管理者理解经营状态、识别风险、推进动作、沉淀反馈。</p>
+<p>EnlightAI 也不是单一 Agent 平台，而是让企业能够配置、运行、调度和治理数字员工。</p>
+<p><strong>这些方向共同指向一件事：AI 不只是让企业多一个工具，而是让企业重新组织增长。</strong></p>
+<p><strong>结语：企业 AI 的深水区，已经来了</strong><br>这两天在 Snowflake Summit，我看到的是一个非常清晰的转折。</p>
+<p><strong>AI 正在从模型演示进入企业深水区。</strong></p>
+<p>在浅水区，大家比的是模型能力、Demo 效果和单点效率；到了深水区，比的是数据底座、语义层、治理信任、工作流、组织能力和业务结果。</p>
+<p><strong>这对中国企业来说既是挑战，也是机会。</strong></p>
+<p>挑战在于，不能再把 AI 当成一个工具采购问题。机会在于，中国有丰富的产业场景、快速的业务迭代、强大的供应链和大量愿意增长的企业家。</p>
+<p>谁能更快把 AI 从聊天框带进业务流程，谁能更快让老板亲自下场、员工成为超级个体、组织建立企业大脑，谁就可能在下一轮竞争里跑出来。</p>
+<p>我带着问题来到 Snowflake Summit：全球数据与 AI 公司，正在如何把 AI 做进企业业务？Agentic Enterprise 到底是概念，还是现实？中国企业的机会，是复制硅谷，还是走出自己的路径？</p>
+<p>现在我的答案更清楚了：</p>
+<p><strong>企业 AI 的下一站，不是模型，而是经营系统；不是工具升级，而是组织进化；不是复制硅谷，而是把 AI 扎进真实产业，扎进真实业务，扎进真实增长。</strong></p>
+<p>这也是数说故事接下来要继续做的事情。</p>
+<p><strong>作者简介</strong><br>徐亚波（Arber Xu），数说故事（DataStory）创始人兼 CEO。加拿大西蒙弗雷泽大学计算科学博士，前中山大学人民教师，20 年+专注在大数据和 AI 领域的数据科学家。</p>
+<p>🔍阅读原文：<a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/Yy-SuXKLkBikYRMtrxJMyQ" title="xxx">https://mp.weixin.qq.com/s/Yy-SuXKLkBikYRMtrxJMyQ</a></p>
+</details>
+
+<details class="ai-daily-item" id="news-3">
+<summary>
+  <span class="ai-daily-summary-index">03</span>
+  <span class="ai-daily-summary-title">Why sophrosyne, an ancient Greek virtue, matters more than ever in the age of AI</span>
+  <span class="ai-daily-summary-meta">Hacker News / 英文</span>
+</summary>
+
+<p class="ai-daily-item-brief">Sophrosyne is a constellation of characteristics that includes moderation, reflectiveness and self knowledge. PM Images/DigitalVision via Getty Images Texting while driving. Bullyi...</p>
+
+<p class="ai-daily-item-meta">来源：Hacker News | 语言：英文 | <a href="https://theconversation.com/why-sophrosyne-an-ancient-greek-virtue-matters-more-than-ever-in-the-age-of-ai-282665" target="_blank" rel="noopener noreferrer">原文链接</a></p>
+
+<p>Sophrosyne is a constellation of characteristics that includes moderation, reflectiveness and self-knowledge.<br><a target="_blank" rel="noopener" href="https://www.gettyimages.com/detail/photo/mental-balance-brain-on-scale-royalty-free-image/2201143176?phrase=good%20judgment&searchscope=image,film&adppopup=true">PM Images&#x2F;DigitalVision via Getty Images</a></p>
+<p>Texting while driving. Bullying people on social media. Buying into the latest conspiracy theory. Passing off AI-generated work as your own.</p>
+<p>That may seem like a random list of 21st-century vices. But I’d argue they’re all examples of the loss of one particular virtue: sophrosyne.</p>
+<p><a target="_blank" rel="noopener" href="https://www.sjc.edu/continuing-conversation/sophrosyne-search-moderation">An ancient Greek concept</a>, sophrosyne – <a target="_blank" rel="noopener" href="https://www.dictionary.com/browse/sophrosyne">pronounced “suh-fros-uh-nee</a>” – is what we might call “sound-mindedness” today. It’s a constellation of characteristics, including moderation, reflectiveness <a target="_blank" rel="noopener" href="https://theconversation.com/the-good-life-requires-two-things-self-knowledge-and-friends-you-cant-have-one-without-the-other-277935">and self-knowledge</a>. They’re found in the kind of person who can respect and trust herself, and be respected and trusted by others.</p>
+<p>As <a target="_blank" rel="noopener" href="https://thephilosophicalsalon.com/author/rossreed/">a philosopher</a> and <a target="_blank" rel="noopener" href="https://www.psychologytoday.com/us/therapists/ross-channing-reed-salem-mo/819017">philosophical counselor</a>, <a target="_blank" rel="noopener" href="https://sites.mst.edu/reed/">I research</a> the <a target="_blank" rel="noopener" href="https://www.bloomsbury.com/us/precarity-trauma-addiction-and-love-in-philosophical-counseling-9781666934373/">connection between virtue and happiness</a>. In particular, I’ve noticed a connection between sophrosyne and eudaimonia, <a target="_blank" rel="noopener" href="https://bigthink.com/thinking/how-to-measure-happiness-hedonia-vs-eudaimonia/">the Greek philosophical concept for happiness</a>, or living well.</p>
+<p><strong>Harmony of the soul</strong><br>For the Greeks, <a target="_blank" rel="noopener" href="https://www.jstor.org/stable/10.7591/j.cttq4533">sophrosyne represented excellence of character, moderation and self-control</a>. It was connected to <a target="_blank" rel="noopener" href="https://theconversation.com/making-good-choices-when-life-gets-messy-practical-wisdom-relies-on-human-judgment-not-rules-271928">phronesis, or practical wisdom</a>, and stood in marked contrast with hubris: excessive pride, dangerous overconfidence and lack of self-insight. Heraclitus, a philosopher who lived around 500 B.C.E., taught that <a target="_blank" rel="noopener" href="https://dn721607.ca.archive.org/0/items/tradition-books/Heraclitus%20-%20Fragments.pdf">sophrosyne was the most important virtue</a> of all.</p>
+<p>Plato, who taught a century later, <a target="_blank" rel="noopener" href="https://www.platonicfoundation.org/translation/charmides/">discussed sophrosyne</a> as the ability to know oneself – and to <a target="_blank" rel="noopener" href="https://www.platonicfoundation.org/translation/apology/">know when you don’t know something</a>. In “<a target="_blank" rel="noopener" href="https://www.platonicfoundation.org/translation/republic/republic-book-4/">Republic</a>,” he likened sophrosyne to a harmony or friendship between the three parts of the soul: reason, spirit and bodily desires.</p>
+<p><strong>At the center of ‘The School of Athens,’ by Raphael, stand Plato and his student, Aristotle.</strong><br><a target="_blank" rel="noopener" href="https://commons.wikimedia.org/wiki/File:Sanzio_01_Plato_Aristotle.jpg">Wikimedia Commons</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.gutenberg.org/files/8438/8438-h/8438-h.htm#chap02">Plato’s student Aristotle</a> argued that sophrosyne <a target="_blank" rel="noopener" href="https://ia600704.us.archive.org/26/items/aristotle-entire-collected-writings/Aristotle/On%20Rhetoric%20%5Btrans.%20Kennedy%5D/Aristotle%20-%20On%20Rhetoric%20%28Oxford%2C%202007%29.pdf">allows people to strike a balance</a> <a target="_blank" rel="noopener" href="https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0054:book=3:chapter=10:section=1">between self-indulgence and self-denial</a> – like someone who tries to get <a target="_blank" rel="noopener" href="https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0054:book=3:chapter=11:section=8">the right amount of physical exercise</a>, neither too much nor too little. Aristotle taught that it was a virtue <a target="_blank" rel="noopener" href="https://www.gutenberg.org/files/8438/8438-h/8438-h.htm#chap02">developed through practice</a>, just like training for a sport or learning to play a musical instrument.</p>
+<p>Sound-mindedness, in short, is not inborn but must be learned.</p>
+<p><strong>Discipline and discernment</strong><br>I believe sophrosyne is still essential for the good life, <a target="_blank" rel="noopener" href="https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0054:book=1:chapter=7:section=5">the life of eudaimonia</a> – happiness and human flourishing. It’s not a transitory feeling, but a sense of being your best self. This involves a kind of satisfaction that is not possible without self-knowledge and self-control.</p>
+<p>What’s more, it requires the ability to discriminate between the good and the bad, the true and the false – capacities that are not inborn, but learned through steady practice. Without sophrosyne, it may not be possible to discern what is good for yourself or others. And even if you could, without sophrosyne you might <a target="_blank" rel="noopener" href="https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0054:book=9:chapter=8:section=6">lack the will</a> to follow through.</p>
+<p>If anything, these qualities might be even more important with the rise of artificial intelligence and social media. In my counseling practice, I’ve worked with people like “Brian,” an idealist who wanted truth and justice to win out over evil and oppression.</p>
+<p>The problem was that he didn’t know how to vet his sources. As the COVID-19 pandemic raged, Brian fell down a conspiracy theory rabbit hole. He was certain that the condensation left in airplanes’ wake were “chemtrails,” <a target="_blank" rel="noopener" href="https://theconversation.com/why-the-chemtrail-conspiracy-theory-lingers-and-grows-and-why-tucker-carlson-is-talking-about-it-269770">a government brainwashing plot</a>, and fumed against the “New World Order.” Thinking he knew it all, he was no longer open to reasoned dialogue.</p>
+<p>Sound-mindedness helps us keep perspective in the sea of information online.<br><a target="_blank" rel="noopener" href="https://www.gettyimages.com/detail/news-photo/man-laying-on-bed-at-late-night-in-a-dark-room-checking-his-news-photo/498439227?adppopup=true">Artur Debat&#x2F;Moment Mobile via Getty Images</a></p>
+<p>But if Brian is an example of the loss of sophrosyne, another person I worked with, “Lee,” shows how we can develop it. Lee spent quite a bit of time on social media, but she began to wonder how it was affecting her. She slowed down, took more breaks and started paying more attention to what her mind was doing and to how she was feeling.</p>
+<p>As Lee became more self-aware, she realized she was wasting her time. She no longer connected to the reasons she had used social media in the first place. “Consuming social media was making me uneasy. It was like pigging out on junk food,” she told me. “Now I read more books, prepare food and walk during the time I had been spending on social media.”</p>
+<p><strong>Ripple effect</strong><br>For the Greeks, sophrosyne was an ideal second to none. In the 1960s, though, Plato scholars <a target="_blank" rel="noopener" href="https://muse.jhu.edu/book/46363/">Edith Hamilton and Huntington Cairns</a> lamented that it was no longer “among our ideals.” That seems all the more true today – and the wider consequences are easy to see.</p>
+<p>First, there’s the <a target="_blank" rel="noopener" href="https://www.apa.org/monitor/2025/03/conflict-zones-incivility">increase in incivility</a>, in all its 21st-century forms – from <a target="_blank" rel="noopener" href="https://www.salon.com/2024/01/14/road-rage-increase/">road rage</a> <a target="_blank" rel="noopener" href="https://cyberbullying.org/2025-cyberbullying-data">to cyberbullying</a>. After the isolation of the pandemic, there’s even a new term for general social incivility: “<a target="_blank" rel="noopener" href="https://www.forbes.com/sites/tracybrower/2023/01/29/social-jetlag-how-to-recover-and-reconnect/">social jet lag</a>.”</p>
+<p>The decline of sophrosyne can also lead to <a target="_blank" rel="noopener" href="https://www.addictioncenter.com/behavioral-addictions/screen-addiction/">screen addiction</a>, <a target="_blank" rel="noopener" href="https://brainmindsociety.org/posts/are-attention-spans-actually-decreasing">diminished attention span</a> and <a target="_blank" rel="noopener" href="https://stolenfocusbook.com/">ability to focus</a> – factors that can, in turn, undermine civility. Civility takes sustained awareness of oneself and others.</p>
+<p>The consequences go beyond our friends, families and co-wor</p>
+<p><em>（内容已截断）</em></p>
+</details>
+
+<details class="ai-daily-item" id="news-4">
+<summary>
+  <span class="ai-daily-summary-index">04</span>
+  <span class="ai-daily-summary-title">Rethinking the Value of Generated Tests for LLM Software Engineering Agents</span>
+  <span class="ai-daily-summary-meta">Hacker News / 英文</span>
+</summary>
+
+<p class="ai-daily-item-brief">Computer Science Software Engineering arXiv:2602.07900 (cs) Submitted on 8 Feb 2026 ([v1), last revised 9 Apr 2026 (this version, v2)] Title:Rethinking the Value of Agent Generated...</p>
+
+<p class="ai-daily-item-meta">来源：Hacker News | 语言：英文 | <a href="https://arxiv.org/abs/2602.07900" target="_blank" rel="noopener noreferrer">原文链接</a></p>
+
+<p><strong>Computer Science &gt; Software Engineering</strong><br><strong>arXiv:2602.07900</strong> (cs)</p>
+<p>[Submitted on 8 Feb 2026 (<a target="_blank" rel="noopener" href="https://arxiv.org/abs/2602.07900v1">v1</a>), last revised 9 Apr 2026 (this version, v2)]</p>
+<p><strong>Title:Rethinking the Value of Agent-Generated Tests for LLM-Based Software Engineering Agents</strong><br>Authors:<a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=Chen,+Z">Zhi Chen</a>, <a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=Sun,+Z">Zhensu Sun</a>, <a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=Shi,+Y">Yuling Shi</a>, <a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=Peng,+C">Chao Peng</a>, <a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=Gu,+X">Xiaodong Gu</a>, <a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=Lo,+D">David Lo</a>, <a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=Jiang,+L">Lingxiao Jiang</a></p>
+<p>View a PDF of the paper titled Rethinking the Value of Agent-Generated Tests for LLM-Based Software Engineering Agents, by Zhi Chen and 6 other authors</p>
+<p><a href="/pdf/2602.07900">View PDF</a><br><a target="_blank" rel="noopener" href="https://arxiv.org/html/2602.07900v2">HTML (experimental)</a></p>
+<blockquote>
+<p>Abstract:Large Language Model (LLM) code agents increasingly resolve repository-level issues by iteratively editing code, invoking tools, and validating candidate patches. In these workflows, agents often write tests on the fly, but the value of this behavior remains unclear. For example, GPT-5.2 writes almost no new tests yet achieves performance comparable to top-ranking <a target="_blank" rel="noopener" href="http://agents.this/">this http URL</a> raises a central question: do such tests meaningfully improve issue resolution, or do they mainly mimic a familiar software-development practice while consuming interaction budget?</p>
+<p>To better understand the role of agent-written tests, we analyze trajectories produced by six strong LLMs on SWE-bench Verified. Our results show that test writing is common, but resolved and unresolved tasks within the same model exhibit similar test-writing frequencies. When tests are written, they mainly serve as observational feedback channels, with value-revealing print statements appearing much more often than assertion-based checks. Based on these insights, we perform a prompt-intervention study by revising the prompts used with four models to either increase or reduce test writing. The results suggest that prompt-induced changes in the volume of agent-written tests do not significantly change final outcomes in this setting. Taken together, these results suggest that current agent-written testing practices reshape process and cost more than final task outcomes.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Subjects:</td>
+<td>Software Engineering (cs.SE); Artificial Intelligence (cs.AI)</td>
+</tr>
+<tr>
+<td>Cite as:</td>
+<td><a target="_blank" rel="noopener" href="https://arxiv.org/abs/2602.07900">arXiv:2602.07900</a> [cs.SE]</td>
+</tr>
+<tr>
+<td></td>
+<td>(or  <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2602.07900v2">arXiv:2602.07900v2</a> [cs.SE] for this version)</td>
+</tr>
+<tr>
+<td></td>
+<td><a target="_blank" rel="noopener" href="https://doi.org/10.48550/arXiv.2602.07900">https://doi.org/10.48550/arXiv.2602.07900</a> Focus to learn more  arXiv-issued DOI via DataCite</td>
+</tr>
+</tbody></table>
+<p><strong>Submission history</strong><br>From: Zhi Chen [<a href="/show-email/c1d11f2e/2602.07900">view email</a>]<br> <strong><a href="/abs/2602.07900v1">[v1]</a></strong><br>Sun, 8 Feb 2026 10:26:31 UTC (372 KB)</p>
+<p>Full-text links:</p>
+<p><strong>Access Paper:</strong><br>View a PDF of the paper titled Rethinking the Value of Agent-Generated Tests for LLM-Based Software Engineering Agents, by Zhi Chen and 6 other authors</p>
+<ul>
+<li><a href="/pdf/2602.07900">View PDF</a></li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/html/2602.07900v2">HTML (experimental)</a></li>
+<li><a href="/src/2602.07900">TeX Source</a></li>
+</ul>
+<p><a target="_blank" rel="noopener" href="http://creativecommons.org/licenses/by/4.0/" title="Rights to this article">view license</a></p>
+<p><strong>Current browse context:</strong><br>cs.SE</p>
+<p><a href="/prevnext?id=2602.07900&function=prev&context=cs.SE" title="previous in cs.SE (accesskey p)">&lt; prev</a><br>  |  <br><a href="/prevnext?id=2602.07900&function=next&context=cs.SE" title="next in cs.SE (accesskey n)">next &gt;</a></p>
+<p><a href="/list/cs.SE/new">new</a><br> |<br><a href="/list/cs.SE/recent">recent</a><br> | <a href="/list/cs.SE/2026-02">2026-02</a></p>
+<p>Change to browse by:</p>
+<p><a href="/abs/2602.07900?context=cs">cs</a><br><a href="/abs/2602.07900?context=cs.AI">cs.AI</a></p>
+<p><strong>References &amp; Citations</strong></p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://ui.adsabs.harvard.edu/abs/arXiv:2602.07900">NASA ADS</a></li>
+<li><a target="_blank" rel="noopener" href="https://scholar.google.com/scholar_lookup?arxiv_id=2602.07900">Google Scholar</a></li>
+<li><a target="_blank" rel="noopener" href="https://api.semanticscholar.org/arXiv:2602.07900">Semantic Scholar</a></li>
+</ul>
+<p>export BibTeX citation<br>Loading…</p>
+<p><strong>BibTeX formatted citation</strong><br>×</p>
+<p>loading…</p>
+<p>Data provided by:</p>
+<p><strong>Bookmark</strong><br>Bibliographic Tools</p>
+<p><strong>Bibliographic and Citation Tools</strong><br>Bibliographic Explorer Toggle</p>
+<p>Bibliographic Explorer <em>(<a target="_blank" rel="noopener" href="https://info.arxiv.org/labs/showcase.html#arxiv-bibliographic-explorer">What is the Explorer?</a>)</em></p>
+<p>Connected Papers Toggle</p>
+<p>Connected Papers <em>(<a target="_blank" rel="noopener" href="https://www.connectedpapers.com/about">What is Connected Papers?</a>)</em></p>
+<p>Litmaps Toggle</p>
+<p>Litmaps <em>(<a target="_blank" rel="noopener" href="https://www.litmaps.co/">What is Litmaps?</a>)</em></p>
+<p>scite.ai Toggle</p>
+<p>scite Smart Citations <em>(<a target="_blank" rel="noopener" href="https://www.scite.ai/">What are Smart Citations?</a>)</em></p>
+<p>Code, Data, Media</p>
+<p><strong>Code, Data and Media Associated with this Article</strong><br>alphaXiv Toggle</p>
+<p>alphaXiv <em>(<a target="_blank" rel="noopener" href="https://alphaxiv.org/">What is alphaXiv?</a>)</em></p>
+<p>Links to Code Toggle</p>
+<p>CatalyzeX Code Finder for Papers <em>(<a target="_blank" rel="noopener" href="https://www.catalyzex.com/">What is CatalyzeX?</a>)</em></p>
+<p>DagsHub Toggle</p>
+<p>DagsHub <em>(<a target="_blank" rel="noopener" href="https://dagshub.com/">What is DagsHub?</a>)</em></p>
+<p>GotitPub Toggle</p>
+<p>Gotit.pub <em>(<a target="_blank" rel="noopener" href="http://gotit.pub/faq">What is GotitPub?</a>)</em></p>
+<p>Huggingface Toggle</p>
+<p>Hugging Face <em>(<a target="_blank" rel="noopener" href="https://huggingface.co/huggingface">What is Huggingface?</a>)</em></p>
+<p>ScienceCast Toggle</p>
+<p>ScienceCast <em>(<a target="_blank" rel="noopener" href="https://sciencecast.org/welcome">What is ScienceCast?</a>)</em></p>
+<p>Demos</p>
+<p><strong>Demos</strong><br>Replicate Toggle</p>
+<p>Replicate <em>(<a target="_blank" rel="noopener" href="https://replicate.com/docs/arxiv/about">What is Replicate?</a>)</em></p>
+<p>Spaces Toggle</p>
+<p>Hugging Face Spaces <em>(<a target="_blank" rel="noopener" href="https://huggingface.co/docs/hub/spaces">What is Spaces?</a>)</em></p>
+<p>Spaces Toggle</p>
+<p>TXYZ.AI <em>(<a target="_blank" rel="noopener" href="https://txyz.ai/">What is TXYZ.AI?</a>)</em></p>
+<p>Related Papers</p>
+<p><strong>Recommenders and Search Tools</strong><br>Link to Influence Flower</p>
+<p>Influence Flower <em>(<a target="_blank" rel="noopener" href="https://influencemap.cmlab.dev/">What are Influence Flowers?</a>)</em></p>
+<p>Core recommender toggle</p>
+<p>CORE Recommender <em>(<a target="_blank" rel="noopener" href="https://core.ac.uk/services/recommender">What is CORE?</a>)</em></p>
+<ul>
+<li>Author</li>
+<li>Venue</li>
+<li>Institution</li>
+<li>Topic</li>
+</ul>
+<p>About arXivLabs</p>
+<p><strong>arXivLabs: experimental projects with community collaborators</strong><br>arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.</p>
+<p>Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.</p>
+<p>Have an idea for a project that will add value for arXiv’s community? <a target="_blank" rel="noopener" href="https://info.arxiv.org/labs/index.html"><strong>Learn more about arXivLabs</strong></a>.</p>
+<p><a href="/auth/show-endorsers/2602.07900">Which authors of this paper are endorsers?</a> |<br><a href="javascript:setMathjaxCookie()">Disable MathJax</a> (<a target="_blank" rel="noopener" href="https://info.arxiv.org/help/mathjax.html">What is MathJax?</a>)</p>
+</details>
+
+<details class="ai-daily-item" id="news-5">
+<summary>
+  <span class="ai-daily-summary-index">05</span>
+  <span class="ai-daily-summary-title">This is your laptop… on AI</span>
+  <span class="ai-daily-summary-meta">The Verge / 英文</span>
+</summary>
+
+<p class="ai-daily-item-brief">Podcasts AI Gadgets This is your laptop… on AI On The Vergecast: Nvidia’s plan to reboot your PC, Apple’s smart glasses, and the first week of our new daily format. On The Vergecas...</p>
+
+<p class="ai-daily-item-meta">来源：The Verge | 语言：英文 | <a href="https://www.theverge.com/podcast/944058/ai-laptop-nvidia-build-gemini-spark-vergecast" target="_blank" rel="noopener noreferrer">原文链接</a></p>
+
+<ul>
+<li>Podcasts</li>
+<li>AI</li>
+<li>Gadgets</li>
+</ul>
+<p><strong>This is your laptop… on AI</strong><br>On The Vergecast: Nvidia’s plan to reboot your PC, Apple’s smart glasses, and the first week of our new daily format.</p>
+<p>On The Vergecast: Nvidia’s plan to reboot your PC, Apple’s smart glasses, and the first week of our new daily format.</p>
+<p>by  David Pierce</p>
+<p>Jun 5, 2026, 4:39 PM UTC</p>
+<ul>
+<li>Link</li>
+<li>Share</li>
+<li>Gift</li>
+</ul>
+<p>David Pierce is editor-at-large and Vergecast co-host with over a decade of experience covering consumer tech. Previously, at Protocol, The Wall Street Journal, and Wired.</p>
+<p>We’re now deep into developer conference season, and one of the themes so far is the relentless conviction from Big Tech companies that AI is going to change everything about how we do everything. Nvidia’s Jensen Huang made that clearer than anyone this week, when he described <a href="/tech/942588/nvidia-rtx-spark-n2x-n3x-r2-d2-star-trek-star-wars-plan">a completely new way of using our laptops</a> — and a completely <a href="/gadgets/940794/first-nvidia-rtx-spark-laptops-roundup-computex-2026">new kind of laptop</a> made to support it. It’s all very interesting, but it raises the same question we have around so many AI products: Does anyone actually want this?</p>
+<p>On <a target="_blank" rel="noopener" href="https://pod.link/vergecast">this episode of <em>The Vergecast</em></a>, Nilay and David run through a lot of the products coming out of Microsoft Build and Google I&#x2F;O, from <a href="/ai-artificial-intelligence/941388/gemini-spark-ai-agent-trip-planning">Gemini Spark</a> to the <a href="/tech/940589/nvidia-rtx-spark-n1-n1x-laptop-desktop-pc-cpu-gpu-ai-release-date">Nvidia RTX Spark</a> to <a href="/news/939713/microsoft-scout-assistant-openclaw">Microsoft’s Scout</a> and <a href="/news/941830/microsoft-project-solara-os-ai-agent-gadgets">Solara</a> projects. AI agents are everywhere, doing everything, and we’re not exactly sure how to feel about it. Are we due for a complete re-think of our laptops, just so they can run AI models? Or is “more powerful laptop” enough to get the job done?</p>
+<p>After that, it’s time for the Hype Desk, Brendan Carr is a Dummy, our thoughts about WWDC, and a deeply silly Meta hack.</p>
+<p><strong><a target="_blank" rel="noopener" href="https://www.youtube.com/playlist?list=PL39u5ZEfYDEO5PaNRWyqloGY6zzJ1fjBa">Watch</a> | <a target="_blank" rel="noopener" href="https://bit.ly/3hkwRl2">Listen</a> | <a href="/bulletin/795051/verge-podcast-ad-free-set-up-how-to">Get ad-free</a></strong></p>
+<p>Also: We’re now a week in to <em>The Vergecast</em>’s <em>new life</em> as a daily podcast! We’ve talked about <a href="/podcast/941140/casey-neistat-daily-vergecast">the state of posting</a>, <a href="/podcast/942096/todays-vergecast-nvidia-just-started-a-new-chip-war">Nvidia’s chip ambitions</a>, <a href="/podcast/942734/vergecast-enhanced-games">the Steroid Olympics</a>, and <a href="/podcast/943511/microsoft-build-2026-vergecast">Microsoft Build</a>. We already have new ideas for the show and some stuff we want to improve, but we also want to hear how you’re feeling about the new format. Tell us everything! Call the Vergecast Hotline at 866-VERGE11, send us an email at <a href="mailto:&#118;&#x65;&#x72;&#x67;&#x65;&#x63;&#97;&#115;&#x74;&#64;&#x74;&#104;&#101;&#118;&#x65;&#114;&#x67;&#101;&#46;&#99;&#x6f;&#x6d;">vergecast@theverge.com</a>, and tell us everything that’s on your mind. And make sure you subscribe so you don’t miss an episode!</p>
+<p><strong>Follow topics and authors</strong> from this story to see more like this in your personalized homepage feed and to receive email updates.</p>
+<ul>
+<li>David Pierce</li>
+<li>AI</li>
+<li>Gadgets</li>
+<li>Microsoft</li>
+<li>Podcasts</li>
+<li>Tech</li>
+<li>Vergecast</li>
+</ul>
+<p><strong>Most Popular</strong><br>Most Popular</p>
+<ol>
+<li><p><a href="/games/939484/summer-game-fest-live-2026-biggest-news-trailers-announcements">Summer Game Fest Live 2026: The biggest news, trailers, and announcements</a></p>
+</li>
+<li><p><a href="/games/943657/valve-steam-machine-frame-summer-launch-verified">Valve says it’s ready to launch the Steam Machine this summer</a></p>
+</li>
+<li><p><a href="/tech/943108/microsoft-build-2026-windows-love-notepad">Windows is back on the Microsoft menu</a></p>
+</li>
+<li><p>[Rivian’s software chief thinks you don’t need CarPlay or buttons</p>
+<p>Video](&#x2F;podcast&#x2F;929940&#x2F;rivian-wassym-bensaid-software-volkswagen-carplay-assistant-ai)</p>
+</li>
+<li><p><a href="/tech/942617/belkin-gaming-charging-grip-nintendo-switch-2-joy-con-controller">Belkin’s new Joy-Con grips also boost the Switch 2’s battery life</a></p>
+</li>
+</ol>
+<p><strong>The Verge Daily</strong><br>A free daily digest of the news that matters most.</p>
+<p>Email (required)</p>
+<p>Sign Up</p>
+<p>By submitting your email, you agree to our <a target="_blank" rel="noopener" href="https://www.voxmedia.com/legal/terms-of-use">Terms</a> and <a target="_blank" rel="noopener" href="https://www.voxmedia.com/legal/privacy-notice">Privacy Notice</a>. This site is protected by reCAPTCHA and the Google <a target="_blank" rel="noopener" href="https://policies.google.com/privacy">Privacy Policy</a> and <a target="_blank" rel="noopener" href="https://policies.google.com/terms">Terms of Service</a> apply.</p>
+<p>[Advertiser Content From</p>
+<p>This is the title for the native ad](&#x2F;)</p>
+</details>
+
+<details class="ai-daily-item" id="news-6">
+<summary>
+  <span class="ai-daily-summary-index">06</span>
+  <span class="ai-daily-summary-title">Let us filter AI slop, you cowards</span>
+  <span class="ai-daily-summary-meta">The Verge / 英文</span>
+</summary>
+
+<p class="ai-daily-item-brief">AI Report Tech Let us filter AI slop, you cowards Online platforms could prove whether AI labels work by giving us a filter option, but then they’d have to face reality. by Jess We...</p>
+
+<p class="ai-daily-item-meta">来源：The Verge | 语言：英文 | <a href="https://www.theverge.com/ai-artificial-intelligence/942909/let-us-filter-ai-slop-google-youtube-meta-instagram-tiktok" target="_blank" rel="noopener noreferrer">原文链接</a></p>
+
+<ul>
+<li>AI</li>
+<li>Report</li>
+<li>Tech</li>
+</ul>
+<p><strong>Let us filter AI slop, you cowards</strong><br>Online platforms could prove whether AI labels work by giving us a filter option, but then they’d have to face reality.</p>
+<p>by  Jess Weatherbed</p>
+<p>Jun 4, 2026, 12:30 PM UTC</p>
+<ul>
+<li>Link</li>
+<li>Share</li>
+<li>Gift</li>
+</ul>
+<p><em>Nobody should be subjected to seeing shrimp Jesus all over their social feeds.</em></p>
+<p> | Image: Cath Virginia &#x2F; The Verge, Getty Images</p>
+<ul>
+<li>AI</li>
+<li>Report</li>
+<li>Tech</li>
+</ul>
+<p><strong>Let us filter AI slop, you cowards</strong><br>Online platforms could prove whether AI labels work by giving us a filter option, but then they’d have to face reality.</p>
+<p>by  Jess Weatherbed</p>
+<p>Jun 4, 2026, 12:30 PM UTC</p>
+<ul>
+<li>Link</li>
+<li>Share</li>
+<li>Gift</li>
+</ul>
+<p>Jess Weatherbed is a news writer focused on creative industries, computing, and internet culture. Jess started her career at TechRadar, covering news and hardware reviews.</p>
+<p>It’s almost impossible to avoid seeing AI-generated content online, but it doesn’t have to be this way. YouTube, Instagram, TikTok, and more have ramped up content authentication efforts over the last year, with many now automatically applying labels to distinguish AI-generated images, videos, and music from those made by real, human creators.</p>
+<p>That’s all very well and good if we’re just stumbling across labeled content at random, but you know what would be better? Letting us filter out the AI slop.</p>
+<p>Current labeling efforts haven’t meaningfully changed how content is presented online. You may notice that some <a href="/ai-artificial-intelligence/900400/tiktok-ai-ads-labels-samsung-disclosure">TikTok</a> or <a href="/streaming/937915/youtube-ai-labels-shorts-automatic-identification-updates">YouTube videos</a> in your feeds now have AI disclosures in the description, or information labels overlaid onto the clip itself. Meta takes a similar approach by applying “AI info” labels to <a href="/2024/4/5/24121978/meta-ai-generated-content-label-requirements-deepfakes">images on Facebook</a> and <a href="/tech/922886/instagram-is-getting-an-ai-creator-label">Instagram</a> that carry identifying AI metadata or voluntary disclosures from the creators.</p>
+<p>But if you want to actually <em>avoid</em> seeing anything tagged with such labels — which is justifiable, given the brain rot it induces on top of the ethical and environmental concerns around generative AI — it’s actually incredibly difficult to do so. A filter would easily solve this. All we need is an “AI” checkbox to toggle.</p>
+<p>I reached out to Meta, Google, TikTok, and Spotify to ask if they have plans to let users filter the various content they’ve been authenticating with AI labeling systems. TikTok and Spotify never responded, and Google said it had nothing to share. Meta didn’t provide an attributable comment. But to summarize, none of these companies said “yes.”</p>
+<p><em>Notice how DeviantArt chose “suppress” here rather than “exclude.”</em></p>
+<p> Image: DeviantArt &#x2F; <em>The Verge</em></p>
+<p>One of the only online platforms that I’ve seen with an AI content filter is DeviantArt, and its implementation is extremely telling. For one, you can’t access it on DeviantArt’s feeds or store page, so it feels somewhat hidden away. Instead, you have to make an account and then hover over your user icon at the top-right of the page to find the “AI Content Settings” menu. From there, you only have two options: the default “Show AI” setting, or the “Suppress AI” option that claims you’ll see “fewer instances” of AI-generated or manipulated imagery.</p>
+<p>Having tried both options, I, unfortunately, don’t see a notable difference. I’ve got a pretty good eye for spotting AI-generated “digital illustrations” at this point, but I didn’t have to rely on my suspicions alone — almost every dubious image I selected included a creator’s disclosure in the description that confirmed the work was spat out by a robot. DeviantArt does a poor job of <a target="_blank" rel="noopener" href="https://www.deviantart.com/team/journal/New-Label-Requirement-for-AI-Artwork-966421077">automatically applying AI labels</a> to images with metadata that clearly indicates AI provenance.</p>
+<p><a target="_blank" rel="noopener" href="https://newsroom.pinterest.com/en-sg/news/introducing-gen-ai-labels/">Pinterest</a> has a similar system in place. Users who are signed into a Pinterest account can click on the settings icon, select “Refine your recommendations,” and then tap the “AI content” tab to toggle specific categories, including art, beauty, fashion, and home decor. Disabling any of these options will show you “less AI-modified content” for that particular category, according to Pinterest, but in my experience, it’s far from perfect. The setting is also arguably harder to find than a filter built into Pinterest’s feeds. I still saw plenty of images with suspicious AI tells (including uncannily perfect photography models and unexplainable illustration errors), despite the AI filters being maxed out.</p>
+<p><em>I commend the customization options here, but these refinement options are hidden away and don’t actually work effectively.</em></p>
+<p> Image: Pinterest &#x2F; <em>The Verge</em></p>
+<p>And that is almost certainly what will happen if other platforms like YouTube or Instagram introduce an AI content filter: It won’t work very well. But that’s okay because it would expose the ineffective “solutions” our AI emperors dress themselves in. They exist, on paper, to appease regulators and critics, but do little to address the actual problem of distinguishing AI fakery from authentic photography and creative works.</p>
+<p>And platforms <em>do</em> know it’s a problem. Instagram head <a href="/tech/864768/instagram-adam-mosseri-ai-content-algorithm">Adam Mosseri said in December</a> that “authenticity is becoming a scarce resource” amid the rise in AI-generated content. And now we have Google CEO <a href="/podcast/936445/sundar-pichai-ai-search-google-zero-youtube-web">Sundar Pichai admitting</a> in a recent <em>Decoder</em> interview that “there’s a lot of AI slop out there,” and that online users need to “adapt to it.” Okay, give us filters.</p>
+<p>Provenance-based systems like C2PA and SynthID work by embedding metadata or invisible watermarks into content at the point of creation. But there are plenty of open-source AI models that don’t do this (especially if they’re designed for nefarious purposes), and even then, metadata can be stripped out too easily to make this dependable. There are also detection-based methods that analyze patterns in digital content and then rate the likelihood that AI was used to create it, but these can provide false positives. None of this currently works effectively at scale.</p>
+<p>Nevertheless, companies, including <a href="/ai-artificial-intelligence/933442/openai-synthid-content-credentials-c2pa-expansion">AI providers like OpenAI</a>, are currently heralding those AI labeling solutions as something that will help prevent people from being duped by deepfakes and other misleading fakery. If regulators caught wind of how ineffective they are, then online platforms and AI providers may need to actually find a solution that <em>does</em> work, instead of what currently feels like a smokescreen.</p>
+<p><strong>Related</strong></p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.theverge.com/ai-artificial-intelligence/882956/ai-deepfake-detection-labels-c2pa-instagram-youtube">Does Big Tech actually care about fighting AI slop?</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.theverge.com/ai-artificial-intelligence/934521/google-synthid-c2pa-content-credentials-ai-labelling-efforts">It’s make or break time for AI labeling systems</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.theverge.com/podcast/917029/software-brain-ai-backlash-databases-automation">THE PEOPLE DO NOT YEARN FOR AUTOMATION</a></li>
+</ul>
+<p>Platforms will argue that they risk incorrectly flagging authentic content if they push labeling initiatives too hard. Both <a href="/2024/6/24/24184795/meta-instagram-incorrect-made-by-ai-photo-labels">Meta</a> and <a target="_blank" rel="noopener" href="https://www.riddance.ai/p/youtubes-ai-moderation-is-backfiring">YouTube</a> found out the hard way after applying AI labels to images and videos that creators said were produced without the help of such tools. If that’s such a concern for current labeling systems, <em>then find a better solution</em>. Surely improving the user experience for your millions of users is a worthwhile investment to fend off competition?</p>
+<p>And while I’m a</p>
+<p><em>（内容已截断）</em></p>
+</details>
+
+<details class="ai-daily-item" id="news-7">
+<summary>
+  <span class="ai-daily-summary-index">07</span>
+  <span class="ai-daily-summary-title">How virtual power plants could provide energy for data centers</span>
+  <span class="ai-daily-summary-meta">MIT Tech Review / 英文</span>
+</summary>
+
+<p class="ai-daily-item-brief">You need to enable JavaScript to view this site. Skip to Content EXECUTIVE SUMMARY Would you take a payment to ramp down your electricity use? Would it change anything if you were...</p>
+
+<p class="ai-daily-item-meta">来源：MIT Tech Review | 语言：英文 | <a href="https://www.technologyreview.com/2026/06/03/1138350/virtual-power-plants-data-centers/" target="_blank" rel="noopener noreferrer">原文链接</a></p>
+
+<p>You need to enable JavaScript to view this site.</p>
+<p><a href="#content">Skip to Content</a></p>
+<p>EXECUTIVE SUMMARY</p>
+<p>Would you take a payment to ramp down your electricity use? Would it change anything if you were doing so to help power a local data center?</p>
+<p>Google just signed a new deal to help pay for a virtual power plant (VPP) in the largest power grid in the US. The agreement is with Voltus, a leading VPP and distributed energy resources platform.</p>
+<p>Voltus will set up the virtual power plant, grouping together devices like electric vehicles and smart thermostats. It’ll pay customers to participate, and the company will dial back power or use the stored energy during times when the grid is stressed. Google will foot the bill for setting it up, and the extra capacity generated by the project will help run its data centers in the region.</p>
+<p>This is one of the most concrete examples so far of a tech giant using a VPP to help meet energy demand for data centers. But there are still some lingering questions about just how far this sort of program can go, and what the limits are.</p>
+<p>Last year, it felt as if everyone was talking about data center flexibility. A <a target="_blank" rel="noopener" href="https://nicholasinstitute.duke.edu/publications/rethinking-load-growth">high-profile study</a> from Duke University found that if data centers agreed to decrease their energy demand for roughly 40 hours per year, a whole bunch of them (about 100 gigawatts’ worth) could come online without making new power plants or transmission equipment necessary.</p>
+<p>The underlying reason is that our power grid is designed not for our average energy use, but for the absolute maximum: the brutally hot July evening when everyone is blasting their air conditioners, watching <em>Love Island</em>, and microwaving popcorn. If a data center is willing to refrain from pulling so much power during those high-stress times, the grid can happily support it the rest of the year.</p>
+<p>One lingering question here is about incentives: How would you get data centers to agree to this? After all, they might not have a very flexible load, especially now that AI use is more widespread—training a model can easily be delayed or shifted, but customer demand is more immediate. Giving up computing capacity could mean losing revenue.</p>
+<p>Regulation is one approach that could work here. <a target="_blank" rel="noopener" href="https://www.latitudemedia.com/news/wright-directs-ferc-to-fast-track-large-load-interconnection/">One proposal</a> in the US would allow new data centers to come online years sooner if they agree to lower demand when the grid is nearing its max.  And a new <a target="_blank" rel="noopener" href="https://www.epri.com/research/products/3002033410">Texas law</a> requires large users to switch to backup power or curtail their demand in emergency situations.</p>
+<p>Another approach is for data center operators to pay for <em>other</em> people to be flexible.</p>
+<p>Voltus announced a new program in September that allows data centers to finance flexibility on their local grid. The company calls it “Bring your own capacity.” Google is now the first named customer taking advantage of this program.</p>
+<p>In the new agreement, Voltus will pay people who agree to participate in the virtual power plant. The plant will be part of PJM, the grid that covers much of the US East Coast. The company says it will be able to aggregate up to 100 megawatts of distributed energy resources each year. The plant should be operational in 2027, according to Voltus.</p>
+<p>This isn’t Google’s first foray into flexibility; the company has agreements with utilities across the US to limit or shift its own energy demand, which can help free up grid capacity. As the company pointed out in a <a target="_blank" rel="noopener" href="https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/demand-response-data-center-milestone/">blog post</a> earlier this year, though, there are limits on how flexible a data center can be, and not every facility will be able to ramp down its power demand.</p>
+<p>“There is no one solution for expanding grid capacity and we’re continuing to explore all options, including the many avenues for load flexibility,” said Michael Terrell, Google’s global head of advanced energy, in an emailed statement in response to written questions.</p>
+<p>Once again, I’m wondering about incentives here. These companies are asking homes and businesses to be flexible. Will they agree?</p>
+<p>A <a target="_blank" rel="noopener" href="https://energyathaas.wordpress.com/2026/06/01/managed-ev-charging-good-work-if-anyone-would-take-it/">recent study</a> in California looked at local people’s willingness to participate in managed electric-vehicle charging. Essentially, the program pays people to give up control of when they charge their EVs. This is another way to help smooth out electricity demand and ease the burden on the grid.</p>
+<p>The problem? Not many people signed up. With no economic incentive, only 1% of EV owners enrolled in managed charging. At $40 per month (about 15% of their power bill), only 4.6% did.</p>
+<p>This is a different situation and a different region from the one in which Google is working with Voltus. (It’s worth noting that the companies aren’t sharing how much they plan to pay the participants, which will obviously be a big determinant in participation for this kind of project.)</p>
+<p>But this study shows that even with money on the table, people may not always jump at the chance to cede control of their electricity demand. And it certainly feels relevant that about 70% of Americans oppose AI data centers in their area, according to <a target="_blank" rel="noopener" href="https://news.gallup.com/poll/709772/americans-oppose-data-centers-area.aspx">recent Gallup polling</a>.</p>
+<p>Being flexible sounds like a great idea in theory, and these financed VPPs could provide an immediate route to meeting energy demand. But as we move from idea to implementation, it’ll be interesting to see whether trial runs work as intended.</p>
+<p><em>This article is from The Spark,</em> MIT Technology Review*’s weekly climate newsletter. To receive it in your inbox every Wednesday,* <a target="_blank" rel="noopener" href="https://forms.technologyreview.com/newsletters/climate-energy-the-spark/"><em>sign up here</em></a><em>.</em></p>
+<p><strong>Deep Dive</strong><br><strong>Climate change and energy</strong><br><a target="_blank" rel="noopener" href="https://www.technologyreview.com/2026/05/07/1136933/balcony-solar-boom/">### The balcony solar boom is coming to the US</a></p>
+<p>Plug-in panels are getting popular—how do we make sure they’re safe?</p>
+<p>By </p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.technologyreview.com/author/casey-crownhart/">Casey Crownhartarchive page</a></li>
+</ul>
+<p><a target="_blank" rel="noopener" href="https://www.technologyreview.com/2026/04/16/1135179/anthropogenic-noise-hurting-animals/">### The noise we make is hurting animals. Can we learn to shut up?</a></p>
+<p>The good news is it’s a problem we can solve if we want to.</p>
+<p>By </p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.technologyreview.com/author/clive-thompson/">Clive Thompsonarchive page</a></li>
+</ul>
+<p><a target="_blank" rel="noopener" href="https://www.technologyreview.com/2026/04/09/1135092/astroturf-fake-grass-artificial-heated-debates/">### Is fake grass a bad idea? The AstroTurf wars are far from over.</a></p>
+<p>Around the country, heated debates are taking place over whether to install artificial turf, pitting neighbors against each other.</p>
+<p>By </p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.technologyreview.com/author/douglas-main/">Douglas Mainarchive page</a></li>
+</ul>
+<p><a target="_blank" rel="noopener" href="https://www.technologyreview.com/2026/04/21/1135231/digging-for-truth-north-pole-past-seabed/">### Digging for clues about the North Pole’s past</a></p>
+<p>To understand what the future holds for Earth’s northernmost waters, scientists are burrowing deep below the seabed.</p>
+<p>By </p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.technologyreview.com/author/tim-kalvelage/">Tim Kalvelagearchive page</a></li>
+</ul>
+<p><strong>Stay connected</strong><br>Illustration by Rose Wong</p>
+<p><strong>Get the latest updates from MIT Technology Review</strong><br>Discover special offers, top stories,<br>upcoming events, and more.</p>
+<p>Enter your email</p>
+<p><a href="/privacy/">Privacy Policy</a></p>
+<p>Thank you for submitting your email!</p>
+<p><a href="/newsletter-preferences?email_address=undefined">Explore more newsletters</a></p>
+<p>It looks like something went wrong.</p>
+<p>We’re having trouble saving your preferences.<br>Try refreshing this page and updating them one<br>more time. If you continue to get this message,<br>reach out to us at<br>[<a href="mailto:&#99;&#117;&#x73;&#116;&#x6f;&#109;&#101;&#x72;&#x2d;&#x73;&#x65;&#114;&#118;&#x69;&#99;&#x65;&#x40;&#116;&#x65;&#x63;&#x68;&#110;&#x6f;&#x6c;&#111;&#103;&#121;&#x72;&#101;&#118;&#105;&#101;&#119;&#x2e;&#x63;&#x6f;&#x6d;">customer-service@technologyreview.com</a>](mailto:<a href="mailto:&#99;&#x75;&#x73;&#x74;&#111;&#x6d;&#101;&#114;&#45;&#115;&#101;&#114;&#x76;&#x69;&#x63;&#101;&#x40;&#116;&#101;&#99;&#104;&#x6e;&#111;&#x6c;&#111;&#103;&#x79;&#x72;&#x65;&#118;&#x69;&#101;&#x77;&#46;&#x63;&#111;&#109;">customer-service@technologyreview.com</a></p>
+<p><em>（内容已截断）</em></p>
+</details>
+
+<details class="ai-daily-item" id="news-8">
+<summary>
+  <span class="ai-daily-summary-index">08</span>
+  <span class="ai-daily-summary-title">The Download: Trump’s new AI order, and smart glasses for warfare</span>
+  <span class="ai-daily-summary-meta">MIT Tech Review / 英文</span>
+</summary>
+
+<p class="ai-daily-item-brief">You need to enable JavaScript to view this site. Skip to Content This is today&#x27;s edition of The Download , our weekday newsletter that provides a daily dose of what&#x27;s going on in t...</p>
+
+<p class="ai-daily-item-meta">来源：MIT Tech Review | 语言：英文 | <a href="https://www.technologyreview.com/2026/06/03/1138322/the-download-trump-ai-order-smart-glasses-warfare/" target="_blank" rel="noopener noreferrer">原文链接</a></p>
+
+<p>You need to enable JavaScript to view this site.</p>
+<p><a href="#content">Skip to Content</a></p>
+<p><em>This is today’s edition of</em> <a target="_blank" rel="noopener" href="https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289"><em>The Download</em></a>, <em>our weekday newsletter that provides a daily dose of what’s going on in the world of technology.</em></p>
+<p><strong><strong>5 key points in Trump’s new AI order</strong></strong><br>Less than two weeks after scrapping an executive order on AI, President Donald Trump signed a new one on Tuesday. Promising to promote innovation and security, the policy represents a turning point in the White House’s AI governance—but is likely to attract criticism from both opponents and supporters of stricter regulation. Here are five key points from the order:  </p>
+<p><strong>1. It’s created a voluntary review system:</strong> tech companies will be asked to share frontier models with the government for review 30 days before they plan to release them.<br><strong>2. There’s no mandatory licensing:</strong> the government will not require permits before software can be deployed.<br><strong>3. It establishes a dedicated AI cybersecurity clearinghouse:</strong> the new hub will coordinate security checks with the private sector.<br><strong>4. It’s a watered-down version of the order Trump shelved last month:</strong> the earlier version requested models 90 days before their release.<br><strong>5. But it’s still a move towards stronger AI oversight:</strong> the policy marks a clear departure from the White House’s previous hands-off approach.</p>
+<p><em>Plus: here’s why</em> <a target="_blank" rel="noopener" href="https://www.technologyreview.com/2025/07/24/1120639/trumps-ai-action-plan-is-a-distraction/?utm_source=the_download&utm_medium=email&utm_campaign=the_download.unpaid.engagement&utm_term=*%7CSUBCLASS%7C*&utm_content=*%7CDATE:m-d-Y%7C*"><em>a previous Trump administration’s AI policy was a distraction</em></a> <em>and how</em> <a target="_blank" rel="noopener" href="https://www.technologyreview.com/2026/02/12/1132386/ai-already-making-online-swindles-easier/?utm_source=the_download&utm_medium=email&utm_campaign=the_download.unpaid.engagement&utm_term=*%7CSUBCLASS%7C*&utm_content=*%7CDATE:m-d-Y%7C*"><em>AI is already making online crimes easier</em></a><em>.</em></p>
+<p><strong><strong>MIT Technology Review Narrated: inside Anduril and Meta’s quest to make smart glasses for warfare</strong></strong><br>The defense-tech company Anduril has <a target="_blank" rel="noopener" href="https://www.technologyreview.com/2026/05/18/1137412/inside-anduril-and-metas-quest-to-make-smart-glasses-for-warfare/?utm_source=the_download&utm_medium=email&utm_campaign=the_download.unpaid.engagement&utm_term=*%7CSUBCLASS%7C*&utm_content=*%7CDATE:m-d-Y%7C*">shared new details about the augmented-reality headset for the military it’s prototyping with Meta</a>, including a vision for ordering drone strikes via eye-tracking and voice commands.</p>
+<p>Quay Barnett, who leads the effort at Anduril following a career in the Army’s Special Operations Command, aims to optimize “the human as a weapons system.” His vision is cyborg-inspired: drones and soldiers will see together, share information seamlessly, and make decisions as one.</p>
+<p><em>—James O’Donnell</em></p>
+<p><strong>This is our latest</strong> <a target="_blank" rel="noopener" href="https://www.technologyreview.com/2026/05/18/1137412/inside-anduril-and-metas-quest-to-make-smart-glasses-for-warfare/?utm_source=the_download&utm_medium=email&utm_campaign=the_download.unpaid.engagement&utm_term=*%7CSUBCLASS%7C*&utm_content=*%7CDATE:m-d-Y%7C*"><strong>story</strong></a> <strong>to be turned into an MIT Technology Review Narrated podcast, which we publish each week on</strong> <a target="_blank" rel="noopener" href="https://open.spotify.com/show/6QefEeY1IKYVn5w6nUV83Y"><strong>Spotify</strong></a> <strong>and</strong> <a target="_blank" rel="noopener" href="https://podcasts.apple.com/gb/podcast/mit-technology-review-narrated/id1523584878"><strong>Apple Podcasts</strong></a><strong>. Just navigate to MIT Technology Review Narrated on either platform, and follow us to get all our new content as it’s released.</strong></p>
+<p><strong>The must-reads</strong></p>
+<p><em>I’ve combed the internet to find you today’s most fun&#x2F;important&#x2F;scary&#x2F;fascinating stories about technology.</em></p>
+<p><strong>1 President Trump has signed an AI order that expands model oversight</strong>The long-awaited executive order aims to mitigate security threats. (<a target="_blank" rel="noopener" href="https://www.nytimes.com/2026/06/02/technology/trump-executive-order-ai.html">NYT $</a>)<br>+<em>It asks companies to submit models voluntarily for tests before release.</em> (<a target="_blank" rel="noopener" href="https://www.npr.org/2026/06/02/nx-s1-5844347/ai-safety-trump-executive-order">NPR</a>)<br><em>+ It’s a slimmed-down version of the order Trump shelved in May.</em> (<a target="_blank" rel="noopener" href="https://www.wsj.com/tech/ai/trump-signs-ai-executive-order-to-increase-government-oversight-e78fb21f?mod=tech_lead_pos1">WSJ $</a>)<br><em>+ And marks a strategic shift in his AI strategy.</em> (<a target="_blank" rel="noopener" href="https://www.reuters.com/world/trump-signed-order-promote-advanced-ai-innovation-security-white-house-says-2026-06-02/">Reuters</a> $)<br><em>+ A war over AI regulation is coming to the US.</em> (<a target="_blank" rel="noopener" href="https://www.technologyreview.com/2026/01/23/1131559/americas-coming-war-over-ai-regulation/?utm_source=the_download&utm_medium=email&utm_campaign=the_download.unpaid.engagement&utm_term=*%7CSUBCLASS%7C*&utm_content=*%7CDATE:m-d-Y%7C*">MIT Technology Review</a>)</p>
+<p><strong>2 SpaceX plans to raise $75 billion in IPO at $135 per share</strong>The company intends to sell 555.6 million shares. (<a target="_blank" rel="noopener" href="https://www.reuters.com/business/media-telecom/spacex-plans-raise-75-billion-ipo-135-per-share-source-says-2026-06-03/">Reuters</a> $)<em>+ The fixed price breaks from the traditional IPO process.</em> (<a target="_blank" rel="noopener" href="https://www.bloomberg.com/news/articles/2026-06-03/spacex-seeks-75-billion-in-ipo-at-135-per-share-reuters-says">Bloomberg</a> $)<br><em>+ Morningstar says the valuation should be nearly 50% lower.</em> (<a target="_blank" rel="noopener" href="https://www.businessinsider.com/spacex-ipo-valuation-starlink-grok-elon-musk-ai-morningstar-spcx-2026-6">BI</a>)  </p>
+<p><strong>3 Meta has scaled back plans to track workers’ clicks and keystrokes to train AI</strong>All staff can pause it for 30 minutes, with some fully exempt.(<a target="_blank" rel="noopener" href="https://www.theinformation.com/articles/meta-rolls-back-parts-employee-tracking-tool-staff-backlash">The Information</a> $)<br><em>+ The changes follow a fierce backlash to the tracking plans.</em> (<a target="_blank" rel="noopener" href="https://www.reuters.com/world/meta-scales-back-ai-mouse-clicks-tool-citing-employee-concerns-2026-06-02/">Reuters</a> $)<br><em>+ AI is supercharging surveillance.</em> (<a target="_blank" rel="noopener" href="https://www.technologyreview.com/2026/04/21/1135919/ai-surveillance-privacy-llms-bulk-data/?utm_source=the_download&utm_medium=email&utm_campaign=the_download.unpaid.engagement&utm_term=*%7CSUBCLASS%7C*&utm_content=*%7CDATE:m-d-Y%7C*">MIT Technology Review</a>)</p>
+<p><strong>4 Microsoft wants to ‘make users addicted’ to its new AI assistant</strong>According tointernal documents for the “Scout” tool. (<a target="_blank" rel="noopener" href="https://www.404media.co/microsoft-wants-to-make-people-addicted-to-scout-its-new-ai-assistant-internal-documents-reveal/">404 Media</a>)<br><em>+ Microsoft launched the assistant on Tuesday.</em> (<a target="_blank" rel="noopener" href="https://techcrunch.com/2026/06/02/microsoft-launches-scout-an-openclaw-inspired-personal-assistant/">TechCrunch</a>)</p>
+<p><strong>5 Mathematicians fear that AI threatens their field</strong>A new declaration raises concerns about AI’s trustworthiness. (<a target="_blank" rel="noopener" href="https://arstechnica.com/tech-policy/2026/06/mathematicians-warn-of-ai-threats-to-profession-as-industry-encroaches/">Ars Technica</a>)<br><em>+ It arrives a week after OpenAI said it solved a famous math problem.</em> (<a target="_blank" rel="noopener" href="https://www.wsj.com/tech/ai/ai-math-solves-erdos-problem-openai-c4029e84">WSJ</a> $)  </p>
+<ul>
+<li><em>A startup wants to change how mathematicians do math.</em> (<a target="_blank" rel="noopener" href="https://www.technologyreview.com/2026/03/25/1134642/this-startup-wants-to-change-how-mathematicians-do-math/?utm_source=the_download&utm_medium=email&utm_campaign=the_download.unpaid.engagement&utm_term=*%7CSUBCLASS%7C*&utm_content=*%7CDATE:m-d-Y%7C*">MIT Technology Review</a>)</li>
+</ul>
+<p><strong>6 Scientists have found a way to supercharge computer worms with AI</strong>The worm could target any known flaw in the world’s computers. (<a target="_blank" rel="noopener" href="https://www.nytimes.com/2026/06/02/technology/scientists-find-way-to-supercharge-dangerous-computer-worms-with-ai.html">NYT</a> $)<br><em>+ AI supercharging scams.</em> ([MIT Technology Review](<a target="_blank" rel="noopener" href="https://www.technologyreview.com/2026/04/21/1135647/supercharged-scams-ai-artificial-intelligence/?utm_source=the_download&utm_medium=email&utm_campaign=the_download.unpaid.engagement&utm_term=*%257">https://www.technologyreview.com/2026/04/21/1135647/supercharged-scams-ai-artificial-intelligence/?utm_source=the_download&amp;utm_medium=email&amp;utm_campaign=the_download.unpaid.engagement&amp;utm_term=*%7</a></p>
+<p><em>（内容已截断）</em></p>
+</details>
+
+<details class="ai-daily-item" id="news-9">
+<summary>
+  <span class="ai-daily-summary-index">09</span>
+  <span class="ai-daily-summary-title">Toward Pre-Deployment Assurance for Enterprise AI Agents: Ontology-Grounded Simulation and Trust Certification</span>
+  <span class="ai-daily-summary-meta">ArXiv AI / 英文</span>
+</summary>
+
+<p class="ai-daily-item-brief">Computer Science Artificial Intelligence arXiv:2606.04037 (cs) Submitted on 2 Jun 2026 ([v1), last revised 4 Jun 2026 (this version, v2)] Title:Toward Pre Deployment Assurance for...</p>
+
+<p class="ai-daily-item-meta">来源：ArXiv AI | 语言：英文 | <a href="https://arxiv.org/abs/2606.04037" target="_blank" rel="noopener noreferrer">原文链接</a></p>
+
+<p><strong>Computer Science &gt; Artificial Intelligence</strong><br><strong>arXiv:2606.04037</strong> (cs)</p>
+<p>[Submitted on 2 Jun 2026 (<a target="_blank" rel="noopener" href="https://arxiv.org/abs/2606.04037v1">v1</a>), last revised 4 Jun 2026 (this version, v2)]</p>
+<p><strong>Title:Toward Pre-Deployment Assurance for Enterprise AI Agents: Ontology-Grounded Simulation and Trust Certification</strong><br>Authors:<a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=Tuan,+T+L">Thanh Luong Tuan</a>, <a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=Sanyal,+A">Abhijit Sanyal</a></p>
+<p>View a PDF of the paper titled Toward Pre-Deployment Assurance for Enterprise AI Agents: Ontology-Grounded Simulation and Trust Certification, by Thanh Luong Tuan and 1 other authors</p>
+<p><a href="/pdf/2606.04037">View PDF</a><br><a target="_blank" rel="noopener" href="https://arxiv.org/html/2606.04037v2">HTML (experimental)</a></p>
+<blockquote>
+<p>Abstract:Pre-deployment verification of enterprise artificial intelligence (AI) agents remains a critical gap between large language model (LLM) capability benchmarking and production deployment. Post-deployment monitoring, human-in-the-loop controls, and prompt-level guardrails offer limited assurance once an agent is operating in production. We present an ontology-grounded verification framework – to our knowledge the first to combine three components: an Agent Operational Envelope formalizing the certification space across permissions, domain constraints, safety properties, governance rules, and autonomy levels; an ontology-to-scenario generation pipeline that derives regulatory, operational, and adversarial test scenarios automatically; and a machine-verifiable Trust Certificate with graduated deployment verdicts. A controlled pilot across four regulated industries (Fintech, Banking, Insurance, Healthcare), instantiated as five industry-by-regulatory-regime cells across the United States and Vietnam (where Vietnam’s 2025 AI Law makes such verification legally mandated for financial services), generated 1,800 scenarios evaluated against 125 primary-source regulatory requirements and 25 injected faults. Ontology-grounded generation significantly outperformed the dominant persona-based baseline on regulatory coverage (48.3% versus 33.1%; corrected p_c &#x3D; .0006) and attained the highest domain specificity (4.77&#x2F;5.0; p &#x3D; 2e-6); transparently, its advantage over plain and retrieval-augmented prompting did not survive Bonferroni correction. Cross-validation across three LLM families (Claude Sonnet 4, Qwen 2.5 72B, Gemma 4 26B; 5,400 total scenarios) replicated the persona-versus-ontology pattern. The framework offers a reproducible, regulation-grounded route to pre-deployment assurance for enterprise AI agents, complementing runtime governance with an auditable deployment gate.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Comments:</td>
+<td>26 pages, 3 figures. Companion to <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2604.00555">arXiv:2604.00555</a>. Code and data: <a target="_blank" rel="noopener" href="https://github.com/frank-luongt/faos-research/tree/main/RA-6">this https URL</a></td>
+</tr>
+<tr>
+<td>Subjects:</td>
+<td>Artificial Intelligence (cs.AI); Machine Learning (cs.LG); Software Engineering (cs.SE)</td>
+</tr>
+<tr>
+<td>ACM classes:</td>
+<td>I.2.0; D.2.4</td>
+</tr>
+<tr>
+<td>Cite as:</td>
+<td><a target="_blank" rel="noopener" href="https://arxiv.org/abs/2606.04037">arXiv:2606.04037</a> [cs.AI]</td>
+</tr>
+<tr>
+<td></td>
+<td>(or  <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2606.04037v2">arXiv:2606.04037v2</a> [cs.AI] for this version)</td>
+</tr>
+<tr>
+<td></td>
+<td><a target="_blank" rel="noopener" href="https://doi.org/10.48550/arXiv.2606.04037">https://doi.org/10.48550/arXiv.2606.04037</a> Focus to learn more  arXiv-issued DOI via DataCite</td>
+</tr>
+</tbody></table>
+<p><strong>Submission history</strong><br>From: Thanh Luong Tuan [<a href="/show-email/b55485ef/2606.04037">view email</a>]<br> <strong><a href="/abs/2606.04037v1">[v1]</a></strong><br>Tue, 2 Jun 2026 02:37:11 UTC (62 KB)<br><strong>[v2]</strong><br>Thu, 4 Jun 2026 15:00:59 UTC (63 KB)</p>
+<p>Full-text links:</p>
+<p><strong>Access Paper:</strong><br>View a PDF of the paper titled Toward Pre-Deployment Assurance for Enterprise AI Agents: Ontology-Grounded Simulation and Trust Certification, by Thanh Luong Tuan and 1 other authors</p>
+<ul>
+<li><a href="/pdf/2606.04037">View PDF</a></li>
+<li><a target="_blank" rel="noopener" href="https://arxiv.org/html/2606.04037v2">HTML (experimental)</a></li>
+<li><a href="/src/2606.04037">TeX Source</a></li>
+</ul>
+<p><a target="_blank" rel="noopener" href="http://creativecommons.org/licenses/by/4.0/" title="Rights to this article">view license</a></p>
+<p><strong>Current browse context:</strong><br>cs.AI</p>
+<p><a href="/prevnext?id=2606.04037&function=prev&context=cs.AI" title="previous in cs.AI (accesskey p)">&lt; prev</a><br>  |  <br><a href="/prevnext?id=2606.04037&function=next&context=cs.AI" title="next in cs.AI (accesskey n)">next &gt;</a></p>
+<p><a href="/list/cs.AI/new">new</a><br> |<br><a href="/list/cs.AI/recent">recent</a><br> | <a href="/list/cs.AI/2026-06">2026-06</a></p>
+<p>Change to browse by:</p>
+<p><a href="/abs/2606.04037?context=cs">cs</a><br><a href="/abs/2606.04037?context=cs.LG">cs.LG</a><br><a href="/abs/2606.04037?context=cs.SE">cs.SE</a></p>
+<p><strong>References &amp; Citations</strong></p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://ui.adsabs.harvard.edu/abs/arXiv:2606.04037">NASA ADS</a></li>
+<li><a target="_blank" rel="noopener" href="https://scholar.google.com/scholar_lookup?arxiv_id=2606.04037">Google Scholar</a></li>
+<li><a target="_blank" rel="noopener" href="https://api.semanticscholar.org/arXiv:2606.04037">Semantic Scholar</a></li>
+</ul>
+<p>export BibTeX citation<br>Loading…</p>
+<p><strong>BibTeX formatted citation</strong><br>×</p>
+<p>loading…</p>
+<p>Data provided by:</p>
+<p><strong>Bookmark</strong><br>Bibliographic Tools</p>
+<p><strong>Bibliographic and Citation Tools</strong><br>Bibliographic Explorer Toggle</p>
+<p>Bibliographic Explorer <em>(<a target="_blank" rel="noopener" href="https://info.arxiv.org/labs/showcase.html#arxiv-bibliographic-explorer">What is the Explorer?</a>)</em></p>
+<p>Connected Papers Toggle</p>
+<p>Connected Papers <em>(<a target="_blank" rel="noopener" href="https://www.connectedpapers.com/about">What is Connected Papers?</a>)</em></p>
+<p>Litmaps Toggle</p>
+<p>Litmaps <em>(<a target="_blank" rel="noopener" href="https://www.litmaps.co/">What is Litmaps?</a>)</em></p>
+<p>scite.ai Toggle</p>
+<p>scite Smart Citations <em>(<a target="_blank" rel="noopener" href="https://www.scite.ai/">What are Smart Citations?</a>)</em></p>
+<p>Code, Data, Media</p>
+<p><strong>Code, Data and Media Associated with this Article</strong><br>alphaXiv Toggle</p>
+<p>alphaXiv <em>(<a target="_blank" rel="noopener" href="https://alphaxiv.org/">What is alphaXiv?</a>)</em></p>
+<p>Links to Code Toggle</p>
+<p>CatalyzeX Code Finder for Papers <em>(<a target="_blank" rel="noopener" href="https://www.catalyzex.com/">What is CatalyzeX?</a>)</em></p>
+<p>DagsHub Toggle</p>
+<p>DagsHub <em>(<a target="_blank" rel="noopener" href="https://dagshub.com/">What is DagsHub?</a>)</em></p>
+<p>GotitPub Toggle</p>
+<p>Gotit.pub <em>(<a target="_blank" rel="noopener" href="http://gotit.pub/faq">What is GotitPub?</a>)</em></p>
+<p>Huggingface Toggle</p>
+<p>Hugging Face <em>(<a target="_blank" rel="noopener" href="https://huggingface.co/huggingface">What is Huggingface?</a>)</em></p>
+<p>ScienceCast Toggle</p>
+<p>ScienceCast <em>(<a target="_blank" rel="noopener" href="https://sciencecast.org/welcome">What is ScienceCast?</a>)</em></p>
+<p>Demos</p>
+<p><strong>Demos</strong><br>Replicate Toggle</p>
+<p>Replicate <em>(<a target="_blank" rel="noopener" href="https://replicate.com/docs/arxiv/about">What is Replicate?</a>)</em></p>
+<p>Spaces Toggle</p>
+<p>Hugging Face Spaces <em>(<a target="_blank" rel="noopener" href="https://huggingface.co/docs/hub/spaces">What is Spaces?</a>)</em></p>
+<p>Spaces Toggle</p>
+<p>TXYZ.AI <em>(<a target="_blank" rel="noopener" href="https://txyz.ai/">What is TXYZ.AI?</a>)</em></p>
+<p>Related Papers</p>
+<p><strong>Recommenders and Search Tools</strong><br>Link to Influence Flower</p>
+<p>Influence Flower <em>(<a target="_blank" rel="noopener" href="https://influencemap.cmlab.dev/">What are Influence Flowers?</a>)</em></p>
+<p>Core recommender toggle</p>
+<p>CORE Recommender <em>(<a target="_blank" rel="noopener" href="https://core.ac.uk/services/recommender">What is CORE?</a>)</em></p>
+<ul>
+<li>Author</li>
+<li>Venue</li>
+<li>Institution</li>
+<li>Topic</li>
+</ul>
+<p>About arXivLabs</p>
+<p><strong>arXivLabs: experimental projects with community collaborators</strong><br>arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.</p>
+<p>Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.</p>
+<p>Have an idea for a project that will add value for arXiv’s community? <a target="_blank" rel="noopener" href="https://info.arxiv.org/labs/index.html"><strong>Learn more about arXivLabs</strong></a>.</p>
+<p><a href="/auth/show-endorsers/2606.04037">Which authors of this paper are endorsers?</a> |<br><a href="javascript:setMathjaxCookie()">Disable MathJax</a> (<a target="_blank" rel="noopener" href="https://info.arxiv.org/help/mathjax.html">What is MathJax?</a>)</p>
+</details>
+
+<details class="ai-daily-item" id="news-10">
+<summary>
+  <span class="ai-daily-summary-index">10</span>
+  <span class="ai-daily-summary-title">Stumbling Into AI Emotional Dependence: How Routine AI Interactions Reshape Human Connection</span>
+  <span class="ai-daily-summary-meta">ArXiv AI / 英文</span>
+</summary>
+
+<p class="ai-daily-item-brief">Computer Science Artificial Intelligence arXiv:2606.04150 (cs) [Submitted on 2 Jun 2026] Title:Stumbling Into AI Emotional Dependence: How Routine AI Interactions Reshape Human Con...</p>
+
+<p class="ai-daily-item-meta">来源：ArXiv AI | 语言：英文 | <a href="https://arxiv.org/abs/2606.04150" target="_blank" rel="noopener noreferrer">原文链接</a></p>
+
+<p><strong>Computer Science &gt; Artificial Intelligence</strong><br><strong>arXiv:2606.04150</strong> (cs)</p>
+<p>[Submitted on 2 Jun 2026]</p>
+<p><strong>Title:Stumbling Into AI Emotional Dependence: How Routine AI Interactions Reshape Human Connection</strong><br>Authors:<a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=Shi,+Y">Yaoxi Shi</a>, <a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=Fang,+C+M">Cathy Mengying Fang</a>, <a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=Maez,+P">Pattie Maez</a>, <a target="_blank" rel="noopener" href="https://arxiv.org/search/cs?searchtype=author&query=Goldenberg,+A">Amit Goldenberg</a></p>
+<p>View a PDF of the paper titled Stumbling Into AI Emotional Dependence: How Routine AI Interactions Reshape Human Connection, by Yaoxi Shi and 3 other authors</p>
+<p><a href="/pdf/2606.04150">View PDF</a></p>
+<blockquote>
+<p>Abstract:Public discourse and emerging policy typically assume that AI emotional support is a deliberate act: a lonely user consciously seeking comfort from a dedicated companion chatbot. In this paper, we draw on emerging empirical evidence and argue that this picture is inaccurate on two accounts, both in how AI emotional support arises and how it shapes future behavior. First, AI emotional support commonly emerges incidentally within task-oriented interactions on general-purpose platforms, much as workplace friendships deepen through collaboration. Second, these incidental encounters are path-dependent: positive experiences of AI emotional support update people’s beliefs about AI’s emotional capabilities and redirect their choices for future emotional support, increasing preference for AI and decreasing preference for humans. We review recent evidence, including a large-scale longitudinal study conducted in collaboration with OpenAI, showing that daily five-minute conversations with an AI about personal issues over 28 days led to a 10.3% decrease in the preference for seeking support from humans and an 11.6% increase in the preference for AI. These findings suggest that current policy, focused on companion apps and isolated interactions, cannot adequately protect human connection. Instead, effective regulations should extend to general-purpose AI systems and address cumulative, trajectory-level changes in how people seek support. Recognizing how people stumble into AI emotional support and how those encounters redirect human connections over time is essential to safeguarding human well-being.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Subjects:</td>
+<td>Artificial Intelligence (cs.AI); Human-Computer Interaction (cs.HC)</td>
+</tr>
+<tr>
+<td>Cite as:</td>
+<td><a target="_blank" rel="noopener" href="https://arxiv.org/abs/2606.04150">arXiv:2606.04150</a> [cs.AI]</td>
+</tr>
+<tr>
+<td></td>
+<td>(or  <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2606.04150v1">arXiv:2606.04150v1</a> [cs.AI] for this version)</td>
+</tr>
+<tr>
+<td></td>
+<td><a target="_blank" rel="noopener" href="https://doi.org/10.48550/arXiv.2606.04150">https://doi.org/10.48550/arXiv.2606.04150</a> Focus to learn more  arXiv-issued DOI via DataCite (pending registration)</td>
+</tr>
+</tbody></table>
+<p><strong>Submission history</strong><br>From: Amit Goldenberg [<a href="/show-email/4d4626ac/2606.04150">view email</a>]<br> <strong>[v1]</strong><br>Tue, 2 Jun 2026 19:18:39 UTC (2,023 KB)</p>
+<p>Full-text links:</p>
+<p><strong>Access Paper:</strong><br>View a PDF of the paper titled Stumbling Into AI Emotional Dependence: How Routine AI Interactions Reshape Human Connection, by Yaoxi Shi and 3 other authors</p>
+<ul>
+<li><a href="/pdf/2606.04150">View PDF</a></li>
+</ul>
+<p><a target="_blank" rel="noopener" href="http://creativecommons.org/licenses/by/4.0/" title="Rights to this article">view license</a></p>
+<p><strong>Current browse context:</strong><br>cs.AI</p>
+<p><a href="/prevnext?id=2606.04150&function=prev&context=cs.AI" title="previous in cs.AI (accesskey p)">&lt; prev</a><br>  |  <br><a href="/prevnext?id=2606.04150&function=next&context=cs.AI" title="next in cs.AI (accesskey n)">next &gt;</a></p>
+<p><a href="/list/cs.AI/new">new</a><br> |<br><a href="/list/cs.AI/recent">recent</a><br> | <a href="/list/cs.AI/2026-06">2026-06</a></p>
+<p>Change to browse by:</p>
+<p><a href="/abs/2606.04150?context=cs">cs</a><br><a href="/abs/2606.04150?context=cs.HC">cs.HC</a></p>
+<p><strong>References &amp; Citations</strong></p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://ui.adsabs.harvard.edu/abs/arXiv:2606.04150">NASA ADS</a></li>
+<li><a target="_blank" rel="noopener" href="https://scholar.google.com/scholar_lookup?arxiv_id=2606.04150">Google Scholar</a></li>
+<li><a target="_blank" rel="noopener" href="https://api.semanticscholar.org/arXiv:2606.04150">Semantic Scholar</a></li>
+</ul>
+<p>export BibTeX citation<br>Loading…</p>
+<p><strong>BibTeX formatted citation</strong><br>×</p>
+<p>loading…</p>
+<p>Data provided by:</p>
+<p><strong>Bookmark</strong><br>Bibliographic Tools</p>
+<p><strong>Bibliographic and Citation Tools</strong><br>Bibliographic Explorer Toggle</p>
+<p>Bibliographic Explorer <em>(<a target="_blank" rel="noopener" href="https://info.arxiv.org/labs/showcase.html#arxiv-bibliographic-explorer">What is the Explorer?</a>)</em></p>
+<p>Connected Papers Toggle</p>
+<p>Connected Papers <em>(<a target="_blank" rel="noopener" href="https://www.connectedpapers.com/about">What is Connected Papers?</a>)</em></p>
+<p>Litmaps Toggle</p>
+<p>Litmaps <em>(<a target="_blank" rel="noopener" href="https://www.litmaps.co/">What is Litmaps?</a>)</em></p>
+<p>scite.ai Toggle</p>
+<p>scite Smart Citations <em>(<a target="_blank" rel="noopener" href="https://www.scite.ai/">What are Smart Citations?</a>)</em></p>
+<p>Code, Data, Media</p>
+<p><strong>Code, Data and Media Associated with this Article</strong><br>alphaXiv Toggle</p>
+<p>alphaXiv <em>(<a target="_blank" rel="noopener" href="https://alphaxiv.org/">What is alphaXiv?</a>)</em></p>
+<p>Links to Code Toggle</p>
+<p>CatalyzeX Code Finder for Papers <em>(<a target="_blank" rel="noopener" href="https://www.catalyzex.com/">What is CatalyzeX?</a>)</em></p>
+<p>DagsHub Toggle</p>
+<p>DagsHub <em>(<a target="_blank" rel="noopener" href="https://dagshub.com/">What is DagsHub?</a>)</em></p>
+<p>GotitPub Toggle</p>
+<p>Gotit.pub <em>(<a target="_blank" rel="noopener" href="http://gotit.pub/faq">What is GotitPub?</a>)</em></p>
+<p>Huggingface Toggle</p>
+<p>Hugging Face <em>(<a target="_blank" rel="noopener" href="https://huggingface.co/huggingface">What is Huggingface?</a>)</em></p>
+<p>ScienceCast Toggle</p>
+<p>ScienceCast <em>(<a target="_blank" rel="noopener" href="https://sciencecast.org/welcome">What is ScienceCast?</a>)</em></p>
+<p>Demos</p>
+<p><strong>Demos</strong><br>Replicate Toggle</p>
+<p>Replicate <em>(<a target="_blank" rel="noopener" href="https://replicate.com/docs/arxiv/about">What is Replicate?</a>)</em></p>
+<p>Spaces Toggle</p>
+<p>Hugging Face Spaces <em>(<a target="_blank" rel="noopener" href="https://huggingface.co/docs/hub/spaces">What is Spaces?</a>)</em></p>
+<p>Spaces Toggle</p>
+<p>TXYZ.AI <em>(<a target="_blank" rel="noopener" href="https://txyz.ai/">What is TXYZ.AI?</a>)</em></p>
+<p>Related Papers</p>
+<p><strong>Recommenders and Search Tools</strong><br>Link to Influence Flower</p>
+<p>Influence Flower <em>(<a target="_blank" rel="noopener" href="https://influencemap.cmlab.dev/">What are Influence Flowers?</a>)</em></p>
+<p>Core recommender toggle</p>
+<p>CORE Recommender <em>(<a target="_blank" rel="noopener" href="https://core.ac.uk/services/recommender">What is CORE?</a>)</em></p>
+<ul>
+<li>Author</li>
+<li>Venue</li>
+<li>Institution</li>
+<li>Topic</li>
+</ul>
+<p>About arXivLabs</p>
+<p><strong>arXivLabs: experimental projects with community collaborators</strong><br>arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.</p>
+<p>Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.</p>
+<p>Have an idea for a project that will add value for arXiv’s community? <a target="_blank" rel="noopener" href="https://info.arxiv.org/labs/index.html"><strong>Learn more about arXivLabs</strong></a>.</p>
+<p><a href="/auth/show-endorsers/2606.04150">Which authors of this paper are endorsers?</a> |<br><a href="javascript:setMathjaxCookie()">Disable MathJax</a> (<a target="_blank" rel="noopener" href="https://info.arxiv.org/help/mathjax.html">What is MathJax?</a>)</p>
+</details>
+
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://modestyzht.github.io">驴哥</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://modestyzht.github.io/ai-daily-2026-06-06/">https://modestyzht.github.io/ai-daily-2026-06-06/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="https://modestyzht.github.io" target="_blank">西北驴哥</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/AI/">AI</a><a class="post-meta__tags" href="/tags/%E6%96%B0%E9%97%BB/">新闻</a><a class="post-meta__tags" href="/tags/%E6%97%A5%E6%8A%A5/">日报</a><a class="post-meta__tags" href="/tags/LLM/">LLM</a></div><div class="post-share"><div class="social-share" data-image="/img/core/ai-daily-cover.png" data-sites="facebook,x,wechat,weibo,qq"></div><link rel="stylesheet" href="/vendor/sharejs/css/share.min.css" media="print" onload="this.media='all'"><script src="/vendor/sharejs/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related" href="/ai-daily-2026-06-07/" title="AI 日报 - 2026-06-07"><img class="cover" src="/img/core/ai-daily-cover.png" onerror="onerror=null;src='/img/glama.png'" alt="cover of previous post"><div class="info"><div class="info-1"><div class="info-item-1">上一篇</div><div class="info-item-2">AI 日报 - 2026-06-07</div></div><div class="info-2"><div class="info-item-1">每日 AI 行业新闻速递，涵盖 AI 技术、大模型、行业应用等领域。</div></div></div></a><a class="pagination-related" href="/ai-daily-2026-06-05/" title="AI 日报 - 2026-06-05"><img class="cover" src="/img/core/ai-daily-cover.png" onerror="onerror=null;src='/img/glama.png'" alt="cover of next post"><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">AI 日报 - 2026-06-05</div></div><div class="info-2"><div class="info-item-1">每日 AI 行业新闻速递，涵盖 AI 技术、大模型、行业应用等领域。</div></div></div></a></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/ai-daily-2026-06-05/" title="AI 日报 - 2026-06-05"><img class="cover" src="/img/core/ai-daily-cover.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-06-05</div><div class="info-item-2">AI 日报 - 2026-06-05</div></div><div class="info-2"><div class="info-item-1">每日 AI 行业新闻速递，涵盖 AI 技术、大模型、行业应用等领域。</div></div></div></a><a class="pagination-related" href="/ai-daily-2026-06-08/" title="AI 日报 - 2026-06-08"><img class="cover" src="/img/core/ai-daily-cover.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-06-08</div><div class="info-item-2">AI 日报 - 2026-06-08</div></div><div class="info-2"><div class="info-item-1">每日 AI 行业新闻速递，涵盖 AI 技术、大模型、行业应用等领域。</div></div></div></a><a class="pagination-related" href="/ai-daily-2026-06-09/" title="AI 日报 - 2026-06-09"><img class="cover" src="/img/core/ai-daily-cover.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-06-09</div><div class="info-item-2">AI 日报 - 2026-06-09</div></div><div class="info-2"><div class="info-item-1">每日 AI 行业新闻速递，涵盖 AI 技术、大模型、行业应用等领域。</div></div></div></a><a class="pagination-related" href="/ai-daily-2026-06-21/" title="AI 日报 - 2026-06-21"><img class="cover" src="/img/core/ai-daily-cover.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-06-21</div><div class="info-item-2">AI 日报 - 2026-06-21</div></div><div class="info-2"><div class="info-item-1">每日 AI 行业新闻速递，涵盖 AI 技术、大模型、行业应用等领域。</div></div></div></a><a class="pagination-related" href="/ai-daily-2026-06-07/" title="AI 日报 - 2026-06-07"><img class="cover" src="/img/core/ai-daily-cover.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-06-07</div><div class="info-item-2">AI 日报 - 2026-06-07</div></div><div class="info-2"><div class="info-item-1">每日 AI 行业新闻速递，涵盖 AI 技术、大模型、行业应用等领域。</div></div></div></a></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/glama.png" onerror="this.onerror=null;this.src='/img/glama.png'" alt="avatar"/></div><div class="author-info-name">驴哥</div><div class="author-info-description"></div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">28</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">19</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/modestyzht/modestyzht.github.io"><i class="fa-solid fa-dinosaur"></i><span>跟俺来！（码仓）</span></a><div class="card-info-social-icons"><a class="social-icon" href="https://github.com/modestyzht/modestyzht.github.io" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="mailto:2855935354@qq.com" target="_blank" title="QQ邮箱"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a><a class="social-icon" href="https://space.bilibili.com/1089540568" target="_blank" title="哔哩哔哩"><i class="fab fa-bilibili" style="color: #FB7299;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">正在折腾 AI 智慧农业与 Vibe Coding，一起探索 AI 的无限可能 ✨</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#AI-%E6%97%A5%E6%8A%A5-2026-06-06"><span class="toc-number">1.</span> <span class="toc-text">AI 日报 - 2026-06-06</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%8A%E6%97%A5%E9%80%9F%E8%A7%88"><span class="toc-number">1.1.</span> <span class="toc-text">今日速览</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AF%A6%E7%BB%86%E5%86%85%E5%AE%B9"><span class="toc-number">1.2.</span> <span class="toc-text">详细内容</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/ai-daily-2026-06-21/" title="AI 日报 - 2026-06-21"><img src="/img/core/ai-daily-cover.png" onerror="this.onerror=null;this.src='/img/glama.png'" alt="AI 日报 - 2026-06-21"/></a><div class="content"><a class="title" href="/ai-daily-2026-06-21/" title="AI 日报 - 2026-06-21">AI 日报 - 2026-06-21</a><time datetime="2026-06-21T02:27:59.000Z" title="发表于 2026-06-21 02:27:59">2026-06-21</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/FloatingBall-WPF%E6%A1%8C%E9%9D%A2%E6%82%AC%E6%B5%AE%E7%90%83-Vibe-Coding%E5%AE%9E%E6%88%98/" title="用 Vibe Coding 做一个 WPF 桌面悬浮球：FloatingBall 完整开发复盘"><img src="/img/posts/floatingball-vibecoding-cover.png" onerror="this.onerror=null;this.src='/img/glama.png'" alt="用 Vibe Coding 做一个 WPF 桌面悬浮球：FloatingBall 完整开发复盘"/></a><div class="content"><a class="title" href="/FloatingBall-WPF%E6%A1%8C%E9%9D%A2%E6%82%AC%E6%B5%AE%E7%90%83-Vibe-Coding%E5%AE%9E%E6%88%98/" title="用 Vibe Coding 做一个 WPF 桌面悬浮球：FloatingBall 完整开发复盘">用 Vibe Coding 做一个 WPF 桌面悬浮球：FloatingBall 完整开发复盘</a><time datetime="2026-06-09T00:00:00.000Z" title="发表于 2026-06-09 00:00:00">2026-06-09</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/%E5%9F%BA%E7%A1%80%E7%AF%87-%E9%9B%B6%E5%9F%BA%E7%A1%80Vibe-Coding%E5%85%A5%E9%97%A8/" title="零基础 Vibe Coding 入门：用 TRAE 亲手做出你的第一个应用"><img src="/img/vibe-coding/%E5%9F%BA%E7%A1%80%E7%AF%87/page2_1.jpeg" onerror="this.onerror=null;this.src='/img/glama.png'" alt="零基础 Vibe Coding 入门：用 TRAE 亲手做出你的第一个应用"/></a><div class="content"><a class="title" href="/%E5%9F%BA%E7%A1%80%E7%AF%87-%E9%9B%B6%E5%9F%BA%E7%A1%80Vibe-Coding%E5%85%A5%E9%97%A8/" title="零基础 Vibe Coding 入门：用 TRAE 亲手做出你的第一个应用">零基础 Vibe Coding 入门：用 TRAE 亲手做出你的第一个应用</a><time datetime="2026-06-05T00:00:00.000Z" title="发表于 2026-06-05 00:00:00">2026-06-05</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/%E6%8A%80%E5%B7%A7%E7%AF%87-%E6%A8%A1%E5%9D%97%E5%8C%96PRD%E6%96%B9%E6%B3%95/" title="Vibe Coding 技巧：模块化 PRD 方法，让 AI 写出不崩的项目"><img src="/img/vibe-coding/page01.png" onerror="this.onerror=null;this.src='/img/glama.png'" alt="Vibe Coding 技巧：模块化 PRD 方法，让 AI 写出不崩的项目"/></a><div class="content"><a class="title" href="/%E6%8A%80%E5%B7%A7%E7%AF%87-%E6%A8%A1%E5%9D%97%E5%8C%96PRD%E6%96%B9%E6%B3%95/" title="Vibe Coding 技巧：模块化 PRD 方法，让 AI 写出不崩的项目">Vibe Coding 技巧：模块化 PRD 方法，让 AI 写出不崩的项目</a><time datetime="2026-06-05T00:00:00.000Z" title="发表于 2026-06-05 00:00:00">2026-06-05</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/%E7%90%86%E8%AE%BA%E7%AF%87-Vibe-Coding%E7%9A%84%E6%95%B0%E5%AD%A6%E5%AF%86%E7%A0%81/" title="Vibe Coding 的数学密码：为什么自然语言能写代码？"><img src="/img/vibe-coding/%E7%90%86%E8%AE%BA%E7%AF%87/%E7%90%86%E8%AE%BA.png" onerror="this.onerror=null;this.src='/img/glama.png'" alt="Vibe Coding 的数学密码：为什么自然语言能写代码？"/></a><div class="content"><a class="title" href="/%E7%90%86%E8%AE%BA%E7%AF%87-Vibe-Coding%E7%9A%84%E6%95%B0%E5%AD%A6%E5%AF%86%E7%A0%81/" title="Vibe Coding 的数学密码：为什么自然语言能写代码？">Vibe Coding 的数学密码：为什么自然语言能写代码？</a><time datetime="2026-06-05T00:00:00.000Z" title="发表于 2026-06-05 00:00:00">2026-06-05</time></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2023 - 2026 By 驴哥</span></div><div class="footer_custom_text"><div id="workboard"></div></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><div class="js-pjax"></div><script src="/vendor/pangu/pangu.umd.js"></script><script> const initPangu = () => { if (typeof pangu !== 'undefined') { pangu.spacingPage(); } }; document.addEventListener('DOMContentLoaded', initPangu); document.addEventListener('pjax:complete', initPangu); </script><script src="/js/runtime.js"></script><script src="/js/tag-enhance.js"></script></div></body></html>
