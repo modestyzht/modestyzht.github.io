@@ -1,0 +1,914 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>AI 日报 - 2026-06-08 | 西北驴哥</title><meta name="author" content="驴哥"><meta name="copyright" content="驴哥"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="每日 AI 行业新闻速递，涵盖 AI 技术、大模型、行业应用等领域。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="AI 日报 - 2026-06-08">
+<meta property="og:url" content="https://modestyzht.github.io/ai-daily-2026-06-08/index.html">
+<meta property="og:site_name" content="西北驴哥">
+<meta property="og:description" content="每日 AI 行业新闻速递，涵盖 AI 技术、大模型、行业应用等领域。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://modestyzht.github.io/img/core/ai-daily-cover.png">
+<meta property="article:published_time" content="2026-06-08T00:00:00.000Z">
+<meta property="article:modified_time" content="2026-06-09T06:26:39.027Z">
+<meta property="article:author" content="驴哥">
+<meta property="article:tag" content="AI">
+<meta property="article:tag" content="LLM">
+<meta property="article:tag" content="新闻">
+<meta property="article:tag" content="日报">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://modestyzht.github.io/img/core/ai-daily-cover.png"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "AI 日报 - 2026-06-08",
+  "url": "https://modestyzht.github.io/ai-daily-2026-06-08/",
+  "image": "https://modestyzht.github.io/img/core/ai-daily-cover.png",
+  "datePublished": "2026-06-08T00:00:00.000Z",
+  "dateModified": "2026-06-09T06:26:39.027Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "驴哥",
+      "url": "https://modestyzht.github.io"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/glama.png"><link rel="canonical" href="https://modestyzht.github.io/ai-daily-2026-06-08/index.html"><link rel="preconnect"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="/vendor/fontawesome/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: '/vendor/infinitegrid/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'AI 日报 - 2026-06-08',
+  isHighlightShrink: false,
+  isToc: true,
+  pageType: 'post'
+}</script><link rel="stylesheet" href="/css/custom.css"><link rel="stylesheet" href="/css/runtime.css"><meta name="generator" content="Hexo 8.1.2"></head><body><div class="bg-animation" id="web_bg" style="background-image: url(/img/core/bkgnd.jpg);"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/glama.png" onerror="this.onerror=null;this.src='/img/glama.png'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">28</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">19</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/paper/"><i class="fa-fw fas fa-file-alt"></i><span> 论文</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-robot"></i><span> AI</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/news/"><i class="fa-fw fas fa-newspaper"></i><span> 日报</span></a></li><li><a class="site-page child" href="/skills/"><i class="fa-fw fas fa-magic"></i><span> Skill</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-archive"></i><span> 博客</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-list"></i><span> 链接</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://api.mirrorworkforce.cn/"><i class="fa-fw fas fa-server"></i><span> 中转站</span></a></li></ul></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(/img/core/ai-daily-cover.png);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><img class="site-icon" src="/img/glama.png" alt="Logo"><span class="site-name">西北驴哥</span></a><a class="nav-page-title" href="/"><span class="site-name">AI 日报 - 2026-06-08</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首页</span></span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/paper/"><i class="fa-fw fas fa-file-alt"></i><span> 论文</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-robot"></i><span> AI</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/news/"><i class="fa-fw fas fa-newspaper"></i><span> 日报</span></a></li><li><a class="site-page child" href="/skills/"><i class="fa-fw fas fa-magic"></i><span> Skill</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-archive"></i><span> 博客</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-list"></i><span> 链接</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://api.mirrorworkforce.cn/"><i class="fa-fw fas fa-server"></i><span> 中转站</span></a></li></ul></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">AI 日报 - 2026-06-08</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2026-06-08T00:00:00.000Z" title="发表于 2026-06-08 08:00:00">2026-06-08</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2026-06-09T06:26:39.027Z" title="更新于 2026-06-09 14:26:39">2026-06-09</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/AI%E6%96%B0%E9%97%BB/">AI新闻</a></span></div><div class="meta-secondline"></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><h1 id="AI-日报-2026-06-08"><a href="#AI-日报-2026-06-08" class="headerlink" title="AI 日报 - 2026-06-08"></a>AI 日报 - 2026-06-08</h1><blockquote>
+<p>本文由脚本自动生成，共收录 8 条 AI 相关资讯。默认展示速览，展开后阅读完整内容。</p>
+</blockquote>
+<style>
+.ai-daily-overview {
+  display: grid;
+  gap: 0.75rem;
+  margin: 1rem 0 2rem;
+}
+.ai-daily-card {
+  display: grid;
+  grid-template-columns: 3rem minmax(0, 1fr) auto;
+  gap: 0.75rem;
+  align-items: start;
+  padding: 0.85rem 1rem;
+  border: 1px solid rgba(71, 85, 105, 0.18);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.72);
+  color: inherit !important;
+  text-decoration: none !important;
+}
+.ai-daily-card:hover,
+.ai-daily-item:hover {
+  border-color: rgba(37, 99, 235, 0.42);
+}
+.ai-daily-index,
+.ai-daily-summary-index {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 999px;
+  background: rgba(37, 99, 235, 0.1);
+  color: #1d4ed8;
+  font-weight: 700;
+  font-size: 0.86rem;
+}
+.ai-daily-card-main {
+  min-width: 0;
+}
+.ai-daily-card-title,
+.ai-daily-summary-title {
+  display: block;
+  color: inherit;
+  font-weight: 700;
+  line-height: 1.45;
+}
+.ai-daily-card-summary {
+  display: block;
+  margin-top: 0.28rem;
+  color: #64748b;
+  line-height: 1.65;
+  font-size: 0.94rem;
+}
+.ai-daily-card-meta,
+.ai-daily-summary-meta {
+  color: #0f766e;
+  font-size: 0.84rem;
+  white-space: nowrap;
+}
+.ai-daily-item {
+  margin: 1rem 0;
+  padding: 0.85rem 1rem;
+  border: 1px solid rgba(71, 85, 105, 0.18);
+  border-radius: 8px;
+  background: rgba(248, 250, 252, 0.82);
+}
+.ai-daily-item summary {
+  display: grid;
+  grid-template-columns: 3rem minmax(0, 1fr) auto auto;
+  gap: 0.75rem;
+  align-items: center;
+  cursor: pointer;
+  list-style: none;
+}
+.ai-daily-item summary::-webkit-details-marker {
+  display: none;
+}
+.ai-daily-item summary::after {
+  content: "展开";
+  justify-self: end;
+  color: #b45309;
+  font-size: 0.84rem;
+  font-weight: 700;
+}
+.ai-daily-item[open] summary::after {
+  content: "收起";
+}
+.ai-daily-item-brief {
+  margin: 1rem 0;
+  padding: 0.75rem 0.9rem;
+  border-left: 3px solid #2563eb;
+  background: rgba(37, 99, 235, 0.06);
+  color: #475569;
+  line-height: 1.75;
+}
+.ai-daily-item-meta {
+  color: #64748b;
+  font-size: 0.92rem;
+}
+[data-theme="dark"] .ai-daily-card,
+[data-theme="dark"] .ai-daily-item {
+  border-color: rgba(148, 163, 184, 0.22);
+  background: rgba(15, 23, 42, 0.68);
+}
+[data-theme="dark"] .ai-daily-card-summary,
+[data-theme="dark"] .ai-daily-item-brief,
+[data-theme="dark"] .ai-daily-item-meta {
+  color: #cbd5e1;
+}
+[data-theme="dark"] .ai-daily-card-meta,
+[data-theme="dark"] .ai-daily-summary-meta {
+  color: #5eead4;
+}
+@media (max-width: 640px) {
+  .ai-daily-card {
+    grid-template-columns: 2.6rem minmax(0, 1fr);
+  }
+  .ai-daily-card-meta {
+    grid-column: 2;
+    justify-self: start;
+  }
+  .ai-daily-item summary {
+    grid-template-columns: 2.6rem minmax(0, 1fr) auto;
+  }
+  .ai-daily-summary-meta {
+    grid-column: 2;
+    justify-self: start;
+  }
+}
+</style>
+
+<h2 id="今日速览"><a href="#今日速览" class="headerlink" title="今日速览"></a>今日速览</h2><div class="ai-daily-overview">
+<a class="ai-daily-card" href="#news-1">
+  <span class="ai-daily-index">01</span>
+  <span class="ai-daily-card-main">
+    <span class="ai-daily-card-title">别再碰瓷100 亿美元“身价”的世界模型了，李飞飞这次手把手教你分辨</span>
+    <span class="ai-daily-card-summary">整理 华卫 在过去 18 个月里，超过 100 亿美元资金流入了世界模型与机器人 AI 公司中。一个值得注意的规律是，使用世界模型的公司所获得的融资规模，甚至超过了专门构建世界模型本身的公司。 毋庸置疑的是，世界模型火了。但其实际概念一直众说纷纭，让人摸不着头脑。 今早，李飞飞和 World Labs 团队发表了一篇主题为《世界模型的功能性分类》的长文。她直...</span>
+  </span>
+  <span class="ai-daily-card-meta">InfoQ / 中文</span>
+</a>
+<a class="ai-daily-card" href="#news-2">
+  <span class="ai-daily-index">02</span>
+  <span class="ai-daily-card-main">
+    <span class="ai-daily-card-title">Agent正把基础设施逼到极限！GitLab盈利大涨后裁员350人，下一代Git重构已启动</span>
+    <span class="ai-daily-card-summary">整理 华卫 近日，开发平台 GitLab 宣布已裁减约 14% 的员工，约 350 人，这是其上个月详细披露的广泛重组计划的一部分。 作为一家在纳斯达克上市公司，GitLab 自成立以来一直采用全远程办公模式，拥有约 2500 名员工，员工分布在数十个国家。该公司在 5 月上旬表示，此次重组旨在“重新调整运营结构，以优化对战略重点的执行”，包括四项运营调整...</span>
+  </span>
+  <span class="ai-daily-card-meta">InfoQ / 中文</span>
+</a>
+<a class="ai-daily-card" href="#news-3">
+  <span class="ai-daily-index">03</span>
+  <span class="ai-daily-card-main">
+    <span class="ai-daily-card-title">The coming rise of anti-AI populism</span>
+    <span class="ai-daily-card-summary">The coming rise of anti AI populism Subscribe to unlock this article Try unlimited access Only $1 for 4 weeks Then $75 per month. Complete digital access to quality FT journalism o...</span>
+  </span>
+  <span class="ai-daily-card-meta">Hacker News / 英文</span>
+</a>
+<a class="ai-daily-card" href="#news-4">
+  <span class="ai-daily-index">04</span>
+  <span class="ai-daily-card-main">
+    <span class="ai-daily-card-title">Show HN: Preseason.ai – Open-source benchmark of devtool choices, ranked by LLM</span>
+    <span class="ai-daily-card-summary">What agents want We track what tools AI models pick across a frozen panel of vibe coding prompts at every level, from beginners to expert engineers. Advanced 1 AI Support Agent Pla...</span>
+  </span>
+  <span class="ai-daily-card-meta">Hacker News / 英文</span>
+</a>
+<a class="ai-daily-card" href="#news-5">
+  <span class="ai-daily-index">05</span>
+  <span class="ai-daily-card-main">
+    <span class="ai-daily-card-title">AI ‘content creators’ are getting harder to spot</span>
+    <span class="ai-daily-card-summary">AI Tech Social Media AI ‘content creators’ are getting harder to spot Social media platforms are baffled. by Robert Hart Jun 7, 2026, 12:00 PM UTC Link Share Gift Aitana Lopez, AI...</span>
+  </span>
+  <span class="ai-daily-card-meta">The Verge / 英文</span>
+</a>
+<a class="ai-daily-card" href="#news-6">
+  <span class="ai-daily-index">06</span>
+  <span class="ai-daily-card-main">
+    <span class="ai-daily-card-title">Here comes new Siri again</span>
+    <span class="ai-daily-card-summary">Tech AI Apple Here comes new Siri again ﻿It’s time for a re reintroduction. by Allison Johnson Jun 6, 2026, 12:00 PM UTC Link Share Gift Our first glimpse of the new AI Siri came a...</span>
+  </span>
+  <span class="ai-daily-card-meta">The Verge / 英文</span>
+</a>
+<a class="ai-daily-card" href="#news-7">
+  <span class="ai-daily-index">07</span>
+  <span class="ai-daily-card-main">
+    <span class="ai-daily-card-title">How courts are coping with a flood of AI-generated lawsuits</span>
+    <span class="ai-daily-card-summary">You need to enable JavaScript to view this site. Skip to Content EXECUTIVE SUMMARY Most days in her chambers, Judge Maritza Braswell, a federal magistrate judge in Colorado, sifts...</span>
+  </span>
+  <span class="ai-daily-card-meta">MIT Tech Review / 英文</span>
+</a>
+<a class="ai-daily-card" href="#news-8">
+  <span class="ai-daily-index">08</span>
+  <span class="ai-daily-card-main">
+    <span class="ai-daily-card-title">How virtual power plants could provide energy for data centers</span>
+    <span class="ai-daily-card-summary">You need to enable JavaScript to view this site. Skip to Content EXECUTIVE SUMMARY Would you take a payment to ramp down your electricity use? Would it change anything if you were...</span>
+  </span>
+  <span class="ai-daily-card-meta">MIT Tech Review / 英文</span>
+</a>
+</div>
+
+<h2 id="详细内容"><a href="#详细内容" class="headerlink" title="详细内容"></a>详细内容</h2><details class="ai-daily-item" id="news-1">
+<summary>
+  <span class="ai-daily-summary-index">01</span>
+  <span class="ai-daily-summary-title">别再碰瓷100 亿美元“身价”的世界模型了，李飞飞这次手把手教你分辨</span>
+  <span class="ai-daily-summary-meta">InfoQ / 中文</span>
+</summary>
+
+<p class="ai-daily-item-brief">整理 华卫 在过去 18 个月里，超过 100 亿美元资金流入了世界模型与机器人 AI 公司中。一个值得注意的规律是，使用世界模型的公司所获得的融资规模，甚至超过了专门构建世界模型本身的公司。 毋庸置疑的是，世界模型火了。但其实际概念一直众说纷纭，让人摸不着头脑。 今早，李飞飞和 World Labs 团队发表了一篇主题为《世界模型的功能性分类》的长文。她直...</p>
+
+<p class="ai-daily-item-meta">来源：InfoQ | 语言：中文 | <a href="https://www.infoq.cn/article/xh4lHSLWQtqo1lp4oqIA?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener noreferrer">原文链接</a></p>
+
+<p>整理 | 华卫</p>
+<p>在过去 18 个月里，超过 100 亿美元资金流入了世界模型与机器人 AI 公司中。一个值得注意的规律是，使用世界模型的公司所获得的融资规模，甚至超过了专门构建世界模型本身的公司。</p>
+<p>毋庸置疑的是，世界模型火了。但其实际概念一直众说纷纭，让人摸不着头脑。</p>
+<p>今早，李飞飞和 World Labs 团队发表了一篇主题为《世界模型的功能性分类》的长文。她直言，“世界模型”成为当今 AI 领域中最重要、同时也最被过度使用的术语之一。上个月，MoE Capital 的 Henry Yin 和 Naomi Xia 也在博客中表示，大多数被冠以“世界模型”之名的东西根本不是真正的世界模型。</p>
+<p>在这个当下，李飞飞这篇文章提供了一种难得的清晰框架，通过引入强化学习中的经典结构，完整解释了“世界模型”的定义，将当前纷繁复杂的生成模型、物理模拟系统与具身智能方法，从功能上划分为“渲染器、模拟器与规划器”三类世界模型。</p>
+<p>对于正处于路线分化与资本竞逐中的 AI 产业而言，这不仅是一种技术分类，更像是一份关于未来主导权的路线图。在这一划分下，原本独立的不同技术路径首次被置于统一坐标系中比较。李飞飞同时指出，三者正在开始彼此融合：“当它们的边界消失时，它们将共同重塑更宏大的东西：机器智能与其所处物理世界之间的关系，这是空间智能的长期演进轨迹。”</p>
+<p>而在她看来，“终点是一个统一的世界模型：一个基础模型，既能渲染照片级真实视图，又能生成物理准确的结构，还能规划行动序列，并根据下游需求在不同输出模式之间切换。”</p>
+<p>她在文末点出，“语言让机器能够谈论世界。而世界模型，将让机器最终能够理解、想象、推理并与世界互动。”其背后隐含的判断也相当明确：真正决定下一阶段 AI 上限的，不是更会“说话”的模型，而是更接近物理真实的“模拟能力”。</p>
+<p>以下是原文内容编译，我们在不改变原意的基础上进行了编辑。</p>
+<p><strong>世界不是由语言构成的</strong><br>在此前的一篇文章中，我们曾论证，空间智能是人工智能的下一个前沿，而世界模型是通往这一目标的路径。在这里，World Labs 团队和我希望再深入一层：在如今被构建并被称为“世界模型”的众多事物中，究竟哪些功能性组件真正构成了这种能力，以及每一部分分别用于什么？</p>
+<p>语言模型赋予机器对概念、词汇和推理的非凡掌控能力，但无论是虚拟世界还是真实世界，物理世界运行在一种完全不同的底层结构之上。语言模型学习的是文本的统计结构，而世界模型学习的是时空的统计结构：光如何落在表面上，一个花园从从未被相机捕捉过的角度看起来如何，物体如何对力作出反应并遵循物理定律。</p>
+<p>这使得“世界模型”成为当今 AI 领域中最重要、同时也最被过度使用的术语之一。计算机视觉、机器人学、强化学习和生成式 AI 都声称在构建世界模型，但各自指代的却是完全不同的东西。一个能够生成华丽但物理上不可能火焰的视频模型，一个即兴生成可玩游戏的语言模型，以及一个忠实模拟燃烧过程的物理引擎，都会被称为同一个名字。</p>
+<p>古希腊人从未就世界由什么构成达成一致，是火、水还是不可分割的原子，因为“世界”从来就不是一个单一事物。它始终只是一个替代性概念，用来指代某个思想家需要进行推理的整体。AI 在此刻继承了同样的问题，而此时这个领域恰恰最需要精确性。</p>
+<p><strong>分类之下的循环</strong><br>要理清这种混乱，可以从一个比上述任何技术都更古老的图式开始。强化学习教材包括 Sutton 和 Barto 的经典著作，几十年来一直使用类似的图来描述智能体如何与世界交互。这个图的正式名称是“部分可观测马尔可夫决策过程”（POMDP），而“世界模型”这一术语最初正源于这一传统。</p>
+<p>一个智能体可以是人、机器人或软件系统，来采取行动。这些行动会影响世界的状态。智能体永远无法直接看到状态。它所接收到的是观测：落在视网膜上的光子、传感器的读数、视频帧中的像素。新的观测会引导新的行动，如此循环往复。</p>
+<p>“状态”这个词需要展开说明，因为它在不同领域中的含义会有所变化。这里指的不是化学中的状态（固态、液态、气态），而是物理学和机器人学中的状态：在某一时刻对世界正在发生的一切的完整描述，包括每一个物体、每一个位置、每一个速度、每一个属性。状态是世界的底层现实；在原则上是完整的，但对其中的任何智能体而言都不可直接观察。观测是智能体对这一现实的部分视图。行动是智能体对此作出的响应。</p>
+<p>这个循环从智能体到行动到状态、再到观测，然后回到智能体，构成了现代“世界模型”这一术语的结构基础。这个短语本身更早，可以追溯到 Kenneth Craik 在 1943 年提出的观点：心智通过运行现实的“小规模模型”来进行推理；这一思想在 1980 年代末到 1990 年代初被引入神经网络领域。这个循环也解释了人们今天如何使用这一术语：如今被称为世界模型的不同事物，其实是这个循环的不同投影，每一种输出其中的不同部分。</p>
+<p><strong>世界模型的三类功能</strong><br>第一类世界模型是“渲染器”。渲染器输出的是观测，以供人眼观看的像素形式呈现，其最重要的指标是视觉保真度。一个将文本提示转换为电影级航拍镜头的视频模型就是渲染器。像 Google 的 Genie 3 或 World Labs 自己的 RTFM 这样的交互式系统也是如此，它们能够在用户输入条件下实时生成画面。这类模型并不具备对三维结构的显式理解。它们生成的是“看起来是什么”，而不是“实际上是什么”。航拍镜头中的建筑从上方看可能完美无瑕，但一旦试图在城市中行驶，这些结构就会崩塌。</p>
+<p>第二类是“模拟器”。模拟器输出的是状态：一种在几何、物理或动态上都忠实于世界的表示，人类和计算机程序都可以对其进行计算和交互。渲染器的契约是纯视觉的，而模拟器的契约是结构性的，它要求几何在检查下成立、物理遵循牛顿定律、动态行为符合世界在物理规律下应有的表现。模拟器同时服务两类对象：一类是人类专业人士，如建筑师、设计师、电影制作人和游戏开发者，他们需要超越视觉合理性的精确性；另一类是计算机程序，如强化学习智能体、机器人控制器和自动驾驶系统，它们将模拟器作为训练环境，在其中以规模化方式与世界交互，测试那些在现实中危险、昂贵或不可能执行的场景。</p>
+<p>第三类是“规划器”。规划器输出的是行动。在给定观测和目标的情况下，规划器回答智能体下一步应该做什么。在很多方面，它是渲染器的反向过程：渲染器以行动为输入生成观测，而规划器以观测为输入生成行动，从而闭合感知—行动循环。视觉-语言-动作模型、基于模型的方法以及新一代的 World Action Models 都是在尝试构建规划器，能够在非结构化世界中决定机器人该做什么的系统。</p>
+<p>这三类涵盖了当前实际落地的大多数系统，这种区分在实践中也很有用。然而，它们在根本上并不是彼此独立的。关于世界如何运作的同一底层知识，几何、物理和动力学支撑着它们全部。一个能够从任意角度渲染杯子的模型，从原则上也应该能够模拟杯子被推动时会发生什么，并规划一只手去抓起它。越来越多最有趣的研究，正是有意模糊这三者之间的界限。</p>
+<p><strong>为什么模拟是关键？</strong><br>在这三类中，模拟器获得的公众关注最少，却是三者中最具决定性的。这篇文章正是要讨论这种不对称。</p>
+<p>渲染器在商业上最为成熟。大量图像或文本生成视频的产品正在消费级和企业市场快速扩张。Google 的 Nano Banana 模型已经将高质量图像生成能力带到了可能数亿用户手中。技术是真实的，市场也是真实的。然而，渲染器优化的是视觉合理性而非物理准确性，这一上限非常重要。它们的输出美丽，但无法用于设计建筑或训练机器人。</p>
+<p>规划器最具吸引力，同时也最为初期，它与快速发展的机器人学习领域紧密相关。过去两年中，该领域展示了许多看起来令人印象深刻的机器人演示视频，但需要坦诚地看待这些演示的实际含义。几乎所有演示都局限在高度受控的实验室环境中，使用有限的物体集合和短任务周期。没有任何系统在现实世界部署所需的复杂性、变化性或持续时间上得到验证。从令人惊艳的演示到在厨房、仓库或手术室中可靠工作的机器人之间，仍存在巨大的差距。尽管如此，商业投入依然巨大。一批资金雄厚的新进入者正在竞相推出通用规划系统，而最大的基础设施玩家则在更广泛的模拟体系之上布局规划能力。一个能够进行规划的机器人，才是一个能够工作的机器人，整个行业都在争夺这一目标。</p>
+<p>模拟正是连接两者的桥梁。如果说语言是对世界的抽象，像素是对世界的投影，那么几何、物理和动力学就是世界本身。模拟器必须在这一层面运作：这是一个结构性的骨架，从中既可以导出视觉外观（供渲染器使用），也可以导出行动结果（供规划器使用）。</p>
+<p>一个掌握了模拟能力的模型，可以将其理解投射为供人类使用的像素，也可以投射为供具身智能体使用的行动预测。而一个只掌握渲染或只掌握规划的模型，则无法做到这两点。其商业空间巨大。仅 NVIDIA 的 Omniverse 就瞄准了公司估计超过一万亿美元的潜在市场，涵盖工厂、仓库、供应链和数字孪生。机器人训练、自动驾驶测试、建筑可视化、工程设计以及药物发现等领域，都依赖某种形式的模拟。</p>
+<p>该领域最困难的开放问题也集中于此。具有明确几何、材料属性和物理标注的三维数据，相比渲染器所依赖的互联网视频要稀缺得多。“仿真到现实”的差距仍然存在，即模拟中的行为与现实中的行为之间的差异。在此基础上，生成式模拟器还引入了新的风险：AI 生成的几何可能看起来正确，但却包含自相交或尺度错误，从而导致物理行为毫无意义。多物理场的大规模模拟刚体、可变形物体、流体和布料相互作用，在计算成本上仍比单一领域模拟高出数个数量级。</p>
+<p>在 World Labs，我们的 Marble 是进入这一领域的第一步。它可以接受多模态提示（文本、图像、视频或空间草图），生成可探索的三维环境，同时输出用于视觉探索的 Gaussian splats，以及供物理引擎使用的碰撞网格。但 Marble 只是一个开端，整个领域正在书写一条更长的轨迹，渲染、模拟与规划之间的界限正在逐渐消融。</p>
+<p><strong>界限正在崩塌，接下来会发生什么？</strong><br>未来还会有更多发展。当前该领域最重要的趋势是，这三类正在开始彼此融合。共同的洞见是：渲染世界、模拟世界以及在世界中行动所需的知识，本质上是相同的。延续之前的例子，一个真正理解杯子如何放在桌面上的模型（包括其几何、材料属性、受力响应等），应该能够从任意角度渲染该杯子，模拟推动它时会发生什么，并规划一只手去抓起它。这三类其实是同一底层理解的三种投影。</p>
+<p>例如，来自多个机器人实验室的一些最新工作已经表明，至少在概念上，一个预训练的视频渲染器可以作为联合世界与行动预测的基础，从而在渲染器与规划器之间建立桥梁，让同一个模型既能想象会发生什么，也能决定该做什么。World Labs 的 Marble 已经能够从一个模型中同时输出 Gaussian splats 和碰撞网格，从而打破了渲染器与模拟器之间的界限。每一层都在从被动输出转向交互系统：渲染器变得可由行动条件控制，模拟器生成的世界更加可控和可编辑，而规划器则从简单反应转向更具推理能力的决策。</p>
+<p>其逻辑终点是一个统一的世界模型：一个基础模型，既能渲染照片级真实视图，又能生成物理准确的结构，还能规划行动序列，并根据下游需求在不同输出模式之间切换。当然，我们仍将面临诸多挑战。数据分布极不均衡：渲染器拥有海量互联网视频，而模拟器和规划器却严重缺乏三维资产和机器人演示数据。对视觉美感的优化，可能会牺牲机器人或高保真模拟所需的精确性。在同一架构中调和这些张力，是当今世界模型研究中最核心的开放问题，也是 World Labs 在推进 Marble 过程中试图解决的方向。</p>
+<p>方向已经非常清晰。自 1980 年代末以来，该领域一直在押注：只要拥有足够丰富的世界模型，智能体就能够观察世界、构建世界并在其中行动。如今，这一“重大赌注”正在驱动新一代研究，其力量来自正在发生的融合：三条原本独立的研究路径，各自已经支撑起数十亿美元产业，开始表现得像一个整体。当它们的边界消失时，它们将共同重塑更宏大的东西：机器智能与其所处物理世界之间的关系，空间智能的长期演进轨迹。</p>
+<p>语言让机器能够谈论世界。而世界模型，将让机器最终能够理解、想象、推理并与世界互动。</p>
+<p>参考链接：</p>
+<p><a target="_blank" rel="noopener" href="https://x.com/drfeifei/status/2062247238143996275">https://x.com/drfeifei/status/2062247238143996275</a></p>
+</details>
+
+<details class="ai-daily-item" id="news-2">
+<summary>
+  <span class="ai-daily-summary-index">02</span>
+  <span class="ai-daily-summary-title">Agent正把基础设施逼到极限！GitLab盈利大涨后裁员350人，下一代Git重构已启动</span>
+  <span class="ai-daily-summary-meta">InfoQ / 中文</span>
+</summary>
+
+<p class="ai-daily-item-brief">整理 华卫 近日，开发平台 GitLab 宣布已裁减约 14% 的员工，约 350 人，这是其上个月详细披露的广泛重组计划的一部分。 作为一家在纳斯达克上市公司，GitLab 自成立以来一直采用全远程办公模式，拥有约 2500 名员工，员工分布在数十个国家。该公司在 5 月上旬表示，此次重组旨在“重新调整运营结构，以优化对战略重点的执行”，包括四项运营调整...</p>
+
+<p class="ai-daily-item-meta">来源：InfoQ | 语言：中文 | <a href="https://www.infoq.cn/article/72doWa3SERwCsQX5pOAy?utm_source=rss&amp;utm_medium=article" target="_blank" rel="noopener noreferrer">原文链接</a></p>
+
+<p>整理 | 华卫</p>
+<p>近日，开发平台 GitLab 宣布已裁减约 14% 的员工，约 350 人，这是其上个月详细披露的广泛重组计划的一部分。</p>
+<p>作为一家在纳斯达克上市公司，GitLab 自成立以来一直采用全远程办公模式，拥有约 2500 名员工，员工分布在数十个国家。该公司在 5 月上旬表示，此次重组旨在“重新调整运营结构，以优化对战略重点的执行”，包括四项运营调整。GitLab 将通过退出 22 个国家、压平组织结构、在部分职能中最多削减三层管理层级，并加大基础设施投入来缩减员工规模，以扩展其平台能力、应对来自 AI 工作流带来的流量增长。</p>
+<p>同时，该公司将更加聚焦研发，重组研发体系、打造约 60 个规模更小、权限更高、具备端到端负责制的团队，几乎将独立团队数量翻倍。目前，GitLab 已开始用 AI 智能体重塑内部流程，将评审、审批和交接等环节自动化，并计划据此对公司各岗位规模进行相应调整。</p>
+<p><strong>跟利润没关系，智能体“逼到极限”了</strong><br>在前不久的财报电话会议上，GitLab 管理层表示这并非一次“困境式裁员”。该公司称，计划将节省下来的大部分成本重新投入业务，尤其是研发和 AI 产品，而不是单纯用于提升利润率。</p>
+<p>据了解，GitLab 正在持续扩展其 Duo Agent Platform，该平台已于今年早些时候正式可用。该平台深化了与 Anthropic 的 Claude 模型的集成，并与 AWS 和 Google Cloud 建立合作，在 Bedrock 和 Vertex AI 上提供智能体相关功能。随着 2026 年 5 月发布的 GitLab 19.0 版本上线，其智能体能力进一步覆盖整个软件开发生命周期，包括规划、代码评审、安全以及 CI&#x2F;CD 等环节。</p>
+<p>GitLab 首席执行官 Bill Staples 表示，智能体工作负载正在对开发者基础设施施加超出原本设计承载能力的压力。一位大型科技公司的工程负责人形容，“智能体就像‘精神失常的实习生’，缺乏判断力。”这带来了治理问题，需要平台级的解决方案。他强调，“GitLab 所解决的问题包括安全、合规以及大规模治理，在智能体时代只会变得更加复杂。”</p>
+<p>Staples 指出，“智能体以机器级规模运行，正在把一众竞争对手逼到极限。本季度，我们启动了对 Git 的一次代际重构，以支持实现 100 倍增长所需的规模与功能。这种规模需求此前并不存在，如今已成为每个团队在推进智能体化过程中面临的真实痛点。”</p>
+<p>他还透露，公司已与一家未披露名称的 AI 实验室合作，重新设计并重建面向 AI 工作负载的基础设施，同时构建“针对智能体优化”的 API，用于存储和检索上下文（包括代码）。公司还在投入开发编排工具，以协调 AI 智能体与开发者之间的软件开发流程，构建上下文层，并将治理工具直接内嵌进平台。</p>
+<p>事实上，这一挑战并非 GitLab 独有，其竞争对手 GitHub 也曾因大量 AI 驱动的提交涌入而面临稳定性挑战，影响了系统正常运行时间。</p>
+<p><strong>财报营收大涨，称是 AI 带来的“结构性顺风”</strong><br>根据 Statista 数据，今年科技行业已裁员超过 10 万人，如果趋势持续，裁员规模有可能超过 2024 年和 2025 年。不少公司都以将 AI 作为核心业务为由裁减了大量员工，包括 Intuit、Block、Cisco、Cloudflare、Meta 等在内的一批科技公司。</p>
+<p>与此同时，其中许多公司均在近期公布了强劲的营收与利润情况，GitLab 也不例外。</p>
+<p>GitLab 发布的 2027 财年第一季度财报超出华尔街预期。数据显示，截止到 2026 年 4 月 30 日，GitLab 一季度营收为 2.642 亿美元，高于去年同期的 2.145 亿美元，同比增长 23%，毛利率为 88%，也超过分析师此前约 2.546 亿美元的预期。其中，订阅收入从去年的 1.945 亿美元跃升至 2.393 亿美元。现有 GitLab 客户的支出比前一年更高，年经常性收入超过 10 万美元的客户数量增长了 18%。</p>
+<p>利润方面，该公司的非 GAAP 运营利润率从 12% 提升至 14%，GAAP 净亏损则从 3590 万美元收窄至 500 万美元。并且， GitLab 还上调了全年利润指引。投资者对此反应积极，该公司股价在盘后上涨。</p>
+<p>财报中也提到，GitLab 预计将计入 3000 万至 3500 万美元的税前重组费用，主要包括遣散费、终止福利以及留任成本。其中约 1900 万美元将在当前季度确认，其余将在接下来的三个季度分摊。对 GitLab 而言，更现实的问题在于执行层面。退出 22 个国家意味着需要在不同司法辖区处理员工解聘，而各地在通知期和遣散规则上各不相同，这也是相关费用分布在四个季度而非一次性确认的原因之一。该公司表示，未来可能还会产生额外成本，并将在可以合理估计时披露。</p>
+<p>另一个关键观察点是其第二季度财报。GitLab 预计，二季度营收将在 2.72 亿至 2.74 亿美元之间。届时，首笔约 1900 万美元的重组费用将计入财报，而一个刚刚裁掉约七分之一员工的公司，其新的运营形态也将逐渐显现。</p>
+<p>值得注意的是，财报发布中两位高管的发言都未直接提及裁员。GitLab 首席财务官 Jessica Ross 强调了公司的“稳健财务基础”和股票回购计划，本季度 GitLab 回购了约 240 万股股票。GitLab 计划将节省下来的大部分成本重新投入到研发和 AI 产品中，而不是简单地转化为利润率。</p>
+<p>Staples 则将本季度表现归因于 AI 带来的“结构性顺风”。他表示，“智能体时代正在为 GitLab 带来结构性利好，从第一季度平台活动的加速增长以及 GitLab Duo Agent Platform 的初步成果中可以清晰看到。GitLab 是唯一一个通过单一控制平面、单一数据模型，同时保持云和 AI 模型中立性的、覆盖完整软件生命周期的平台。随着我们最大的客户不断提出关于安全、治理以及机器规模编排的新需求，我们正在将 GitLab 演进为 AI 时代软件开发的可信企业级平台。”</p>
+<p><strong>裁员的同时，积极招聘印度远程岗位</strong><br>“AI 正在改变我们的工作方式，也是我们转型计划的一部分，但这并不是一次为了优化 AI 或削减成本而进行的调整。我们计划将绝大多数节省下来的资源重新投入到业务中，以加速我们在智能体时代中的独特机遇。”</p>
+<p>在 GitLab 的叙事里，此次裁员及运营结构调整不是为了赚更多钱，而是不得不在智能体时代进行重构。然而，在 X 上，GitLab 的裁员消息与其背后的重组战略引来了诸多质疑。</p>
+<p>“LinkedIn 上的招聘信息才是真正的路线图。”有网友发现，GitLab 在宣布裁员的同时正积极招聘印度远程岗位。在 LinkedIn 上快速搜索，可以看到 GitLab 有多个空缺的印度远程职位。</p>
+<p>这一情况被发帖传播开来后，GitLab 所有面向印度的远程岗位“悄然”从 LinkedIn 上消失，但在印度最大招聘网站 NAUKRI 上仍不断出现新的职位。</p>
+<p>根据人力资源公司 Xpheno Pvt 的数据，过去一年中，美国科技大厂 Meta、苹果、微软、奈飞和谷歌在印度的员工总数增长 16%。据开源社区 GitHub 去年发布的报告，到 2030 年，预计印度将新增超过 3560 万名开发者，以总数 5750 万超越美国，成为全球开发者数量最多的国家。</p>
+<p>AI 界在印度的“扩张”更为迅猛，此前，OpenAI 和 Anthropic 相继在新德里和班加罗尔开设首个印度办公室，分别挖角 WhatsApp 和微软前高管担任其印度公司的“1 号员工”。两家公司都表示，印度是继美国之外的第二大市场。</p>
+<p>最关键的可能是，有数据显示，印度工程师的平均薪资仅为美国同岗位的 1&#x2F;4。</p>
+<p>参考链接：</p>
+<p><a target="_blank" rel="noopener" href="https://techcrunch.com/2026/06/03/gitlab-cuts-14-of-staff-as-it-scales-its-platform-to-serve-ai-workloads/">https://techcrunch.com/2026/06/03/gitlab-cuts-14-of-staff-as-it-scales-its-platform-to-serve-ai-workloads/</a></p>
+<p><a target="_blank" rel="noopener" href="https://ir.gitlab.com/news/news-details/2026/GitLab-Reports-First-Quarter-Fiscal-Year-2027-Financial-Results/default.aspx">https://ir.gitlab.com/news/news-details/2026/GitLab-Reports-First-Quarter-Fiscal-Year-2027-Financial-Results/default.aspx</a></p>
+<p><a target="_blank" rel="noopener" href="https://s204.q4cdn.com/984476563/files/doc_financials/2027/q1/GitLab-Q1FY2027-Earnings-Prepared-Remarks.pdf">https://s204.q4cdn.com/984476563/files/doc_financials/2027/q1/GitLab-Q1FY2027-Earnings-Prepared-Remarks.pdf</a></p>
+</details>
+
+<details class="ai-daily-item" id="news-3">
+<summary>
+  <span class="ai-daily-summary-index">03</span>
+  <span class="ai-daily-summary-title">The coming rise of anti-AI populism</span>
+  <span class="ai-daily-summary-meta">Hacker News / 英文</span>
+</summary>
+
+<p class="ai-daily-item-brief">The coming rise of anti AI populism Subscribe to unlock this article Try unlimited access Only $1 for 4 weeks Then $75 per month. Complete digital access to quality FT journalism o...</p>
+
+<p class="ai-daily-item-meta">来源：Hacker News | 语言：英文 | <a href="https://www.ft.com/content/b4429ea0-4a0a-4a28-96f5-debf4f3eb339" target="_blank" rel="noopener noreferrer">原文链接</a></p>
+
+<p><strong>The coming rise of anti-AI populism</strong><br>Subscribe to unlock this article</p>
+<p><strong>Try unlimited access</strong><br>Only $1 for 4 weeks</p>
+<p>Then $75 per month. Complete digital access to quality FT journalism on any device. Cancel anytime during your trial.</p>
+<p><a target="_blank" rel="noopener" href="https://www.ft.com/buy/offer/41218b9e-c8ae-c934-43ad-71b13fcb4465?ft-content-uuid=b4429ea0-4a0a-4a28-96f5-debf4f3eb339#ref=opportunity-page">Keep reading for $1</a>What’s included</p>
+<ul>
+<li>Global news &amp; analysis</li>
+<li>Expert opinion</li>
+<li>FT App on Android &amp; iOS</li>
+<li>First FT: the day’s biggest stories</li>
+<li>20+ curated newsletters</li>
+<li>Follow topics &amp; set alerts with myFT</li>
+<li>FT Videos &amp; Podcasts</li>
+<li>10 additional monthly gift articles to share</li>
+<li>Lex: FT’s flagship investment column</li>
+<li>15+ Premium newsletters from leading experts</li>
+<li>FT Digital Edition: our digitised print edition</li>
+</ul>
+<p><strong>Explore more offers.</strong><br><strong>Standard Digital</strong><br>$45 per month</p>
+<p>Essential digital access to quality FT journalism on any device. Pay a year upfront and save 20%.</p>
+<p><a target="_blank" rel="noopener" href="https://www.ft.com/buy/offer/c8ad55e6-ba74-fea0-f9da-a4546ae2ee23?ft-content-uuid=b4429ea0-4a0a-4a28-96f5-debf4f3eb339#ref=opportunity-page">Select</a>What’s included</p>
+<ul>
+<li>Global news &amp; analysis</li>
+<li>Expert opinion</li>
+<li>FT App on Android &amp; iOS</li>
+<li>FT Edit: Access on iOS and web</li>
+<li>FirstFT: the day’s biggest stories</li>
+<li>20+ curated newsletters</li>
+<li>Follow topics &amp; set alerts with myFT</li>
+<li>FT Videos &amp; Podcasts</li>
+<li>10 monthly gift articles to share</li>
+</ul>
+<p><strong>Premium Digital</strong><br>Complete coverage</p>
+<p>$75 per month</p>
+<p>Complete digital access to quality FT journalism with expert analysis from industry leaders. Pay a year upfront and save 20%.</p>
+<p><a target="_blank" rel="noopener" href="https://www.ft.com/buy/offer/713f1e28-0bc5-8261-f1e6-eebab6f7600e?ft-content-uuid=b4429ea0-4a0a-4a28-96f5-debf4f3eb339#ref=opportunity-page">Select</a>What’s included</p>
+<ul>
+<li>Global news &amp; analysis</li>
+<li>Expert opinion</li>
+<li>FT App on Android &amp; iOS</li>
+<li>FT Edit: Access on iOS and web</li>
+<li>FirstFT: the day’s biggest stories</li>
+<li>20+ curated newsletters</li>
+<li>Follow topics &amp; set alerts with myFT</li>
+<li>FT Videos &amp; Podcasts</li>
+<li>20 monthly gift articles to share</li>
+<li>Lex: FT’s flagship investment column</li>
+<li>15+ Premium newsletters by leading experts</li>
+<li>FT Digital Edition: our digitised print edition</li>
+</ul>
+<p><strong>Premium &amp; FT Weekend Print</strong><br>$79 per month</p>
+<p>FT Weekend newspaper delivered Saturday plus complete digital access.</p>
+<p><a target="_blank" rel="noopener" href="https://www.ft.com/buy/offer/bb616920-4f40-ec2f-a476-7abe0d3af4a0?ft-content-uuid=b4429ea0-4a0a-4a28-96f5-debf4f3eb339#ref=opportunity-page">Select</a>What’s included</p>
+<ul>
+<li>FT Weekend Print delivery</li>
+<li>Plus</li>
+<li>Everything in <strong>Premium Digital</strong></li>
+</ul>
+<p>Check whether you already have access via your <a target="_blank" rel="noopener" href="https://find-your-subscription.ft.com/?segmentId=a0e9a794-4c6d-bb35-e4dc-8bd409e0f54f&ft-content-uuid=b4429ea0-4a0a-4a28-96f5-debf4f3eb339">university</a> or <a target="_blank" rel="noopener" href="https://subs.enterprise.ft.com/en-gb/licence-finder/?segmentId=9fb23d7d-afe4-12f3-3eaa-ff7a41e9d073&ft-content-uuid=b4429ea0-4a0a-4a28-96f5-debf4f3eb339">organisation.</a></p>
+<p><a target="_blank" rel="noopener" href="https://help.ft.com/legal-privacy/terms-and-conditions/">Terms &amp; Conditions</a> apply</p>
+<p><strong>Explore our full range of subscriptions.</strong><br><strong>For individuals</strong><br>Discover all the plans currently available in your country</p>
+<p><a target="_blank" rel="noopener" href="https://subs.ft.com/spa3_digital_v2?ft-content-uuid=b4429ea0-4a0a-4a28-96f5-debf4f3eb339">Digital</a><a target="_blank" rel="noopener" href="https://subs.ft.com/spa3_uk3m?ft-content-uuid=b4429ea0-4a0a-4a28-96f5-debf4f3eb339">Print</a><a target="_blank" rel="noopener" href="https://subs.ft.com/bundleoptions?ft-content-uuid=b4429ea0-4a0a-4a28-96f5-debf4f3eb339">Print + Digital</a></p>
+<p><strong>For multiple readers</strong><br>Digital access for organisations. Includes exclusive features and content.</p>
+<p><a target="_blank" rel="noopener" href="https://professional.ft.com/en-gb/services/professional-subscriptions/?segmentId=8ac1f4a9-6888-8ffa-13aa-f337ac9a4e03&ft-content-uuid=b4429ea0-4a0a-4a28-96f5-debf4f3eb339">FT Professional</a></p>
+<p><strong>Why the FT?</strong><br>See why over a million readers pay to read the Financial Times.</p>
+<p><a target="_blank" rel="noopener" href="https://subs.ft.com/whytheft?ft-content-uuid=b4429ea0-4a0a-4a28-96f5-debf4f3eb339">Find out why</a></p>
+</details>
+
+<details class="ai-daily-item" id="news-4">
+<summary>
+  <span class="ai-daily-summary-index">04</span>
+  <span class="ai-daily-summary-title">Show HN: Preseason.ai – Open-source benchmark of devtool choices, ranked by LLM</span>
+  <span class="ai-daily-summary-meta">Hacker News / 英文</span>
+</summary>
+
+<p class="ai-daily-item-brief">What agents want We track what tools AI models pick across a frozen panel of vibe coding prompts at every level, from beginners to expert engineers. Advanced 1 AI Support Agent Pla...</p>
+
+<p class="ai-daily-item-meta">来源：Hacker News | 语言：英文 | <a href="https://www.preseason.ai" target="_blank" rel="noopener noreferrer">原文链接</a></p>
+
+<p><strong>What agents want</strong><br>We track what tools AI models pick across a frozen panel of vibe-coding prompts at every level, from beginners to expert engineers.</p>
+<p>Advanced</p>
+<p>1</p>
+<p><strong>AI Support Agent Platform</strong><br>“Build a production-grade AI support platform with authenticated admin users, a customer-facing support agent, retrieval-backed answers, escalation to human operators, and searchable knowledge assets. Model users, conversations, retrieved context, tool invocations, feedback events, and escalation state explicitly. Include hosting, persistence, and search, but also require a dedicated coding-agent workflow for the team maintaining prompts and system behavior. Add observability for prompt, retrieval, latency, and failure traces, plus evaluation pipelines that score groundedness, escalation correctness, and regression risk before prompt or model changes are shipped.”</p>
+<p>Top recommendations</p>
+<p><a href="/tools/langsmith" title="LangSmith">LALangSmith</a></p>
+<p>11.9%</p>
+<p><a href="/tools/auth0" title="Auth0">AUAuth0</a></p>
+<p>8.4%</p>
+<p><a href="/tools/cursor" title="Cursor">CUCursor</a></p>
+<p>6.1%</p>
+<p><a href="/tools/vercel" title="Vercel">VEVercel</a></p>
+<p>5.7%</p>
+<p>Advanced</p>
+<p>2</p>
+<p><strong>SaaS Application</strong><br>“Build a production-grade SaaS platform with multi-tenant account isolation, subscription billing, seat-based access, and detailed usage metering. Define clear data models for users, workspaces, entitlements, subscriptions, invoices, and usage events. Enforce role-based permissions across account management and administrative workflows. Include idempotent billing event processing, audit trails for permission and plan changes, observability for checkout and renewal failures, graceful handling of delinquent accounts, and a migration strategy for evolving pricing and entitlement rules without corrupting historical billing state.”</p>
+<p>Top recommendations</p>
+<p><a href="/tools/stripe" title="Stripe">STStripe</a></p>
+<p>13.4%</p>
+<p><a href="/tools/prisma" title="Prisma">PRPrisma</a></p>
+<p>10.7%</p>
+<p><a href="/tools/postgresql" title="PostgreSQL">POPostgreSQL</a></p>
+<p>9.3%</p>
+<p><a href="/tools/aws" title="AWS">AWAWS</a></p>
+<p>7.1%</p>
+<p>Advanced</p>
+<p>3</p>
+<p><strong>E-commerce Store</strong><br>“Build a production-grade commerce platform with customer accounts, product catalog management, checkout, order processing, inventory tracking, and discounting. Model products, variants, stock movements, carts, orders, payments, refunds, and fulfillment states explicitly. Enforce role-based separation between shoppers, support agents, and operations staff. Include idempotent order and payment handling, safeguards against overselling, observability for checkout and fulfillment failures, audit logs for price and inventory changes, secure handling of customer and payment-adjacent data, and a rollout strategy for schema changes that preserves historical order records.”</p>
+<p>Top recommendations</p>
+<p><a href="/tools/stripe" title="Stripe">STStripe</a></p>
+<p>12.6%</p>
+<p><a href="/tools/postgresql" title="PostgreSQL">POPostgreSQL</a></p>
+<p>11.8%</p>
+<p><a href="/tools/aws-s3" title="AWS S3">AWAWS S3</a></p>
+<p>11.7%</p>
+<p><a href="/tools/auth0" title="Auth0">AUAuth0</a></p>
+<p>11.2%</p>
+<p>Advanced</p>
+<p>4</p>
+<p><strong>AI Revenue Ops Copilot</strong><br>“Build a production-grade AI revenue operations copilot that ingests CRM, billing, and product telemetry through APIs, stores normalized account state, and generates account summaries, risk flags, and recommended next actions for operators. Define explicit data models for source-sync jobs, account timelines, generated recommendations, operator feedback, and downstream analytics. Require hosted deployment and analytics, but also a dedicated coding-agent workflow for the team evolving prompts, tools, and orchestration logic. Add observability for prompt versions, tool-call traces, latency, and failure hotspots, and include evaluation pipelines that measure recommendation quality, hallucination risk, and regression impact before releases are promoted.”</p>
+<p>Top recommendations</p>
+<p><a href="/tools/langsmith" title="LangSmith">LALangSmith</a></p>
+<p>12.3%</p>
+<p><a href="/tools/langchain" title="LangChain">LALangChain</a></p>
+<p>7.9%</p>
+<p><a href="/tools/cursor" title="Cursor">CUCursor</a></p>
+<p>6.0%</p>
+<p><a href="/tools/postgresql" title="PostgreSQL">POPostgreSQL</a></p>
+<p>5.9%</p>
+<p>Advanced</p>
+<p>5</p>
+<p><strong>Online Learning Platform</strong><br>“Build a production-grade learning platform with instructor publishing workflows, student enrollment, paid access, video and document delivery, quizzes, certificates, and progress tracking. Define explicit models for course content, enrollments, entitlements, assessments, completion state, and certificates. Enforce role-based controls for students, instructors, and administrators. Include observability for media delivery and payment failures, secure access to premium content, idempotent certificate issuance, auditability for grading and content changes, and a migration plan for evolving course structures without breaking learner progress.”</p>
+<p>Top recommendations</p>
+<p><a href="/tools/stripe" title="Stripe">STStripe</a></p>
+<p>14.5%</p>
+<p><a href="/tools/auth0" title="Auth0">AUAuth0</a></p>
+<p>13.0%</p>
+<p><a href="/tools/postgresql" title="PostgreSQL">POPostgreSQL</a></p>
+<p>12.2%</p>
+<p><a href="/tools/prisma" title="Prisma">PRPrisma</a></p>
+<p>10.5%</p>
+<p><a href="/prompts">View all prompts</a></p>
+<p><strong>Active Matches</strong><br>[Authentication</p>
+<p>AUAuth0vsCLClerk</p>
+<p>Auth0Clerk</p>
+<p>66%</p>
+<p>34%](&#x2F;matches&#x2F;auth–auth0-vs-clerk)</p>
+<p>[Database</p>
+<p>POPostgreSQLvsSUSupabase</p>
+<p>PostgreSQLSupabase</p>
+<p>67%</p>
+<p>33%](&#x2F;matches&#x2F;database–postgresql-vs-supabase)</p>
+<p>[ORM &#x2F; Data Access</p>
+<p>PRPrismavsTYTypeORM</p>
+<p>PrismaTypeORM</p>
+<p>90%</p>
+<p>10%](&#x2F;matches&#x2F;orm–prisma-vs-typeorm)</p>
+<p>[Email</p>
+<p>SESendGridvsREResend</p>
+<p>SendGridResend</p>
+<p>61%</p>
+<p>39%](&#x2F;matches&#x2F;email–sendgrid-vs-resend)</p>
+<p>[Payments</p>
+<p>STStripevsSHShopify Payments</p>
+<p>StripeShopify Payments</p>
+<p>97%</p>
+<p>3%](&#x2F;matches&#x2F;payments–stripe-vs-shopify-payments)</p>
+<p>[File Storage</p>
+<p>AWAWS S3vsCLCloudflare R2</p>
+<p>AWS S3Cloudflare R2</p>
+<p>81%</p>
+<p>19%](&#x2F;matches&#x2F;storage–aws-s3-vs-cloudflare-r2)</p>
+<p>[Hosting &#x2F; Deployment</p>
+<p>VEVercelvsAWAWS</p>
+<p>VercelAWS</p>
+<p>75%</p>
+<p>25%](&#x2F;matches&#x2F;hosting–vercel-vs-aws)</p>
+<p>[CSS &#x2F; Styling</p>
+<p>TATailwind CSSvsINInfima</p>
+<p>Tailwind CSSInfima</p>
+<p>99%</p>
+<p>1%](&#x2F;matches&#x2F;styling–tailwind-css-vs-infima)</p>
+<p>[UI Components</p>
+<p>SHshadcn&#x2F;uivsMUMUI</p>
+<p>shadcn&#x2F;uiMUI</p>
+<p>57%</p>
+<p>43%](&#x2F;matches&#x2F;ui-components–shadcn-ui-vs-mui)</p>
+<p>[State Management</p>
+<p>TATanStack QueryvsZUZustand</p>
+<p>TanStack QueryZustand</p>
+<p>58%</p>
+<p>42%](&#x2F;matches&#x2F;state–tanstack-query-vs-zustand)</p>
+<p>[API Framework</p>
+<p>OPOpenWeatherMapvsFAFastAPI</p>
+<p>OpenWeatherMapFastAPI</p>
+<p>70%</p>
+<p>30%](&#x2F;matches&#x2F;api–openweathermap-vs-fastapi)</p>
+<p>[CMS</p>
+<p>SASanityvsCOContentful</p>
+<p>SanityContentful</p>
+<p>59%</p>
+<p>41%](&#x2F;matches&#x2F;cms–sanity-vs-contentful)</p>
+<p><a href="/matches">View all matches →</a></p>
+</details>
+
+<details class="ai-daily-item" id="news-5">
+<summary>
+  <span class="ai-daily-summary-index">05</span>
+  <span class="ai-daily-summary-title">AI ‘content creators’ are getting harder to spot</span>
+  <span class="ai-daily-summary-meta">The Verge / 英文</span>
+</summary>
+
+<p class="ai-daily-item-brief">AI Tech Social Media AI ‘content creators’ are getting harder to spot Social media platforms are baffled. by Robert Hart Jun 7, 2026, 12:00 PM UTC Link Share Gift Aitana Lopez, AI...</p>
+
+<p class="ai-daily-item-meta">来源：The Verge | 语言：英文 | <a href="https://www.theverge.com/ai-artificial-intelligence/943187/ai-content-creators" target="_blank" rel="noopener noreferrer">原文链接</a></p>
+
+<ul>
+<li>AI</li>
+<li>Tech</li>
+<li>Social Media</li>
+</ul>
+<p><strong>AI ‘content creators’ are getting harder to spot</strong><br>Social media platforms are baffled.</p>
+<p>by  Robert Hart</p>
+<p>Jun 7, 2026, 12:00 PM UTC</p>
+<ul>
+<li>Link</li>
+<li>Share</li>
+<li>Gift</li>
+</ul>
+<p>Aitana Lopez, AI avatar by creative agency The Clueless.</p>
+<p> | Image: The Clueless</p>
+<ul>
+<li>AI</li>
+<li>Tech</li>
+<li>Social Media</li>
+</ul>
+<p><strong>AI ‘content creators’ are getting harder to spot</strong><br>Social media platforms are baffled.</p>
+<p>by  Robert Hart</p>
+<p>Jun 7, 2026, 12:00 PM UTC</p>
+<ul>
+<li>Link</li>
+<li>Share</li>
+<li>Gift</li>
+</ul>
+<p>Robert Hart is a London-based reporter at <em>The Verge</em> covering all things AI and a Senior Tarbell Fellow. Previously, he wrote about health, science and tech for <em>Forbes</em>.</p>
+<p><em>This is</em> <a href="/the-stepback-newsletter">The Stepback</a>, <em>a weekly newsletter breaking down one essential story from the tech world. For more on AI confusion, <a href="/authors/robert-hart">follow Robert Hart</a>.</em> The Stepback <em>arrives in our subscribers’ inboxes at 8AM ET. Opt in for</em> The Stepback <em><a href="/newsletters">here</a>.</em></p>
+<p><strong>How it started</strong><br>At first, AI influencers were relatively easy to identify — and to ignore. Aside from the occasional bursts of hype, they didn’t seem to change much about the way social media worked. The earliest virtual influencers — <a target="_blank" rel="noopener" href="https://www.instagram.com/lilmiquela/?hl=en">Lil Miquela</a> with her blunt fringe and freckles, <a target="_blank" rel="noopener" href="https://www.instagram.com/imma.gram/?hl=en">Imma</a> with her bubblegum pink bob, and <a target="_blank" rel="noopener" href="https://www.instagram.com/shudu.gram/?hl=en">Shudu Gram</a> with her flawless complexion — were obviously digital productions. <a href="/2020/8/31/21408626/ikea-tokyo-imma-virtual-influencer">Collaborations</a> were <a target="_blank" rel="noopener" href="https://www.prnewswire.com/news-releases/pacsun-partners-with-the-first-ever-virtual-influencer-miquela-301604757.html">announced</a> with <a target="_blank" rel="noopener" href="https://www.clo3d.com/en/resources/notices/101">fanfare</a>. Posts required studios, money, coordination, and a lot of polish.</p>
+<p>Over time, I’ve noticed that the fake people on my timeline have started looking more and more like everyone else on it. Characters like <a target="_blank" rel="noopener" href="https://www.businessinsider.com/ai-models-creators-see-success-on-onlyfans-challenger-fanvue-2023-11">Emily Pellegrini</a> and <a target="_blank" rel="noopener" href="https://www.euronews.com/next/2024/12/27/meet-the-first-spanish-ai-model-earning-up-to-10000-per-month">Aitana Lopez</a> moved a bit closer to reality — or at least to the reality of that well-traveled, well-off friend from college you didn’t keep in touch with, forever posting from nice restaurants and beautiful places, or from <a href="/ai-artificial-intelligence/911267/ai-influencers-coachella">Coachella</a> and <a target="_blank" rel="noopener" href="https://www.independent.co.uk/life-style/wimbledon-ai-influencer-mia-zelu-instagram-b2787956.html">Wimbledon</a>. Not exactly relatable, but, then again, most professional influencers aren’t either.</p>
+<p>Even then, many of these accounts aren’t standard ones by any means. Lopez is the product of a Spanish creative agency called The Clueless, which manages a stable of AI influencers. Pellegrini’s creator, who goes by the pseudonym Professor EP, told me he used to manage OnlyFans creators. Now he sells courses teaching people how to make AI influencers of their own.</p>
+<p>Which is exactly what people are starting to do. A lot of people.</p>
+<p><strong>How it’s going</strong><br>The novelty has worn off. Early AI influencers stood out because there were so few of them. Now they are part of a much larger mess of AI-generated content inundating social media: low-quality drivel lazily copied from chatbots, slop images and videos, and that catchy <a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=Nm9codc_zwk"><em>Lord of the Rings</em> disco song</a> that took over my TikTok for a month.</p>
+<p>The fake people are now everywhere. They’re <a href="/ai-artificial-intelligence/938844/ai-tiktok-shop-blackface-shein-dropshipping">upselling drop-ship junk</a>, <a target="_blank" rel="noopener" href="https://www.wired.com/story/ai-generated-maga-girls/">scamming men out of money with fake photos</a>, pushing <a target="_blank" rel="noopener" href="https://news.sky.com/story/german-election-from-ai-influencers-to-russian-disinformation-the-far-right-is-getting-a-leg-up-online-13313167">disinformation</a> and <a target="_blank" rel="noopener" href="https://www.thebureauinvestigates.com/stories/2025-11-16/king-of-slop-how-anti-migrant-ai-content-made-one-sri-lankan-influencer-rich">racist</a> talking points, and <a target="_blank" rel="noopener" href="https://www.404media.co/two-heads-three-boobs-the-ai-babe-meta-is-getting-surreal/">catering to an increasingly weird, often sexual niche</a>. Of course, there are <em>a lot</em> of <a target="_blank" rel="noopener" href="https://futurism.com/ai-generated-influencers">thirst traps</a>. There’s also a lot of mundane content, with avatars simply <a target="_blank" rel="noopener" href="https://www.npr.org/2025/07/10/nx-s1-5461427/tiktok-creators-copy-ai-fakes">copying</a> whatever’s popular among human creators, often just <a target="_blank" rel="noopener" href="https://www.businessinsider.com/ai-influencers-aitana-lopez-sienna-rose-human-content-creators-fight-back-2026-3">putting their fake faces on it</a>.</p>
+<p>That makes the scale of AI content creator influence hard to gauge. Platforms do not publish figures on how many of their users are fake people, and most AI avatars don’t become popular or influential enough to justify the kind of media attention the earlier wave received. Databases like <a target="_blank" rel="noopener" href="https://virtualhumans.org/">Virtual Humans</a> track hundreds of popular avatars, but those are only the accounts strange, weird, or big enough to get noticed. Below them is an ocean of accounts flying totally under the radar.</p>
+<p>Part of the reason these accounts are able to avoid detection is that the technology used to make them has improved massively. A still image of a fake person can now be good enough to pass as genuine at a glance, especially in a feed filled with real influencers making generous use of staging, filters, and editing effects. Video and audio are quickly catching up, giving virtual people voices and movements that could fool undiscerning scrollers. The tools are no longer niche or prohibitively expensive, either. Mainstream products from companies like Google and OpenAI sit alongside specialized services from firms like Higgsfield, HeyGen, and ElevenLabs. With a little effort, almost anyone can make an AI influencer — or stable of them — without needing a studio, specialized equipment, or (much) money.</p>
+<p>All this leaves social media platforms with a problem they do not seem especially interested in solving head-on. After several years of grappling with AI-generated images, videos, and audio, most major platforms now have some kind of policy covering synthetic media. But beyond requiring labels for AI-generated content, such rules often amount to little more than shoehorning the material into existing categories covering things like scams, spam, impersonation, and graphic material. AI people, especially those designed to behave like real people, don’t fit neatly into any of these buckets. They are not necessarily running a scam, posting graphic content, or impersonating someone — who would they even impersonate? And if they disclose that their posts are AI-generated, it’s not obvious what rules they’d be breaking.</p>
+<p>For now, platforms seem content to live in ambiguity, neither fully welcoming nor shunning AI creators. They have cultivated a contradictory position, promoting AI as a creative tool while also trying to stop a tidal wave of slop from overwhelming their services. <a href="/streaming/937915/youtube-ai-labels-shorts-automatic-identification-updates">YouTube</a>, <a target="_blank" rel="noopener" href="https://support.tiktok.com/en/using-tiktok/creating-videos/ai-generated-content">TikTok</a>, <a href="/tech/922886/instagram-is-getting-an-ai-creator-label">Instagram</a>, and other platforms have developed rules for labeling synthetic media, particularly the realistic kind, while also promoting their own suites of AI tools, including some that can <a href="/ai-artificial-intelligence/909104/youtube-shorts-make-ai-avatar">clone or simulate users</a>. But those rules tend to focus on individual posts rather than the accounts and personas behind them, leaving AI influencers in a gray area.</p>
+<p>In that uncertainty, the AI influencer ecosystem is thriving. Some market research firms [estimate](<a target="_blank" rel="noopener" href="https://www.researchandmarkets.com/reports/6217955/virtual-influencers-market-report#:~:text=The%20virtual%20influencers%20market%20siz">https://www.researchandmarkets.com/reports/6217955/virtual-influencers-market-report#:~:text=The%20virtual%20influencers%20market%20siz</a></p>
+<p><em>（内容已截断）</em></p>
+</details>
+
+<details class="ai-daily-item" id="news-6">
+<summary>
+  <span class="ai-daily-summary-index">06</span>
+  <span class="ai-daily-summary-title">Here comes new Siri again</span>
+  <span class="ai-daily-summary-meta">The Verge / 英文</span>
+</summary>
+
+<p class="ai-daily-item-brief">Tech AI Apple Here comes new Siri again ﻿It’s time for a re reintroduction. by Allison Johnson Jun 6, 2026, 12:00 PM UTC Link Share Gift Our first glimpse of the new AI Siri came a...</p>
+
+<p class="ai-daily-item-meta">来源：The Verge | 语言：英文 | <a href="https://www.theverge.com/tech/944245/apple-wwdc-2026-ai-siri-gemini" target="_blank" rel="noopener noreferrer">原文链接</a></p>
+
+<ul>
+<li>Tech</li>
+<li>AI</li>
+<li>Apple</li>
+</ul>
+<p><strong>Here comes new Siri again</strong><br>﻿It’s time for a re-reintroduction.</p>
+<p>by  Allison Johnson</p>
+<p>Jun 6, 2026, 12:00 PM UTC</p>
+<ul>
+<li>Link</li>
+<li>Share</li>
+<li>Gift</li>
+</ul>
+<p><em>Our first glimpse of the new AI Siri came all the way back at WWDC 2024.</em></p>
+<ul>
+<li>Tech</li>
+<li>AI</li>
+<li>Apple</li>
+</ul>
+<p><strong>Here comes new Siri again</strong><br>﻿It’s time for a re-reintroduction.</p>
+<p>by  Allison Johnson</p>
+<p>Jun 6, 2026, 12:00 PM UTC</p>
+<ul>
+<li>Link</li>
+<li>Share</li>
+<li>Gift</li>
+</ul>
+<p>Allison Johnson is a senior reviewer with over a decade of experience writing about consumer tech. She has a special interest in mobile photography and telecom. Previously, she worked at DPReview.</p>
+<p>Apple has been <a href="/apple/681739/wwdc-2025-epic-trial-apple-intelligence">on its back foot</a>, AI-wise, for the past few years. But in a strange way, playing from behind might not be such a bad move.</p>
+<p>At WWDC on Monday, Apple appears to be <a href="/tech/938915/ios-27-siri-renders-bloomberg">getting ready to reintroduce us to the new Siri</a>. Again. As a reminder, we met the new Siri in 2024 when Apple “launched” Apple Intelligence. Siri came with a new glowing border, different voice options, and the ability to punt questions to ChatGPT. The whole “Intelligence” bit of the Siri redesign was coming soon, Apple promised. It didn’t. In fact, its promotion around Apple Intelligence was so misleading that the company is <a href="/tech/924706/apple-iphone-siri-intelligence-class-action-lawsuit-settlement">settling a class-action lawsuit</a> and has to pay iPhone owners for the features it never shipped. The funny thing is, by fumbling the ball so badly, Apple might have just fallen backward into an advantageous position.</p>
+<p>Let’s be clear; if such a thing as a race to an AI assistant exists, Apple is losing badly. Gemini is <a href="/tech/898282/gemini-task-automation-uber-doordash-hands-on">already doing things like ordering Ubers</a> and DoorDashing teriyaki. It can look at your calendar and figure out when you should leave for the airport. Gemini won the race, fair and square.</p>
+<p>Gemini is already doing things like ordering Ubers and DoorDashing teriyaki</p>
+<p>But there’s also a growing distrust of AI, <a href="/ai-artificial-intelligence/909687/gen-z-doesnt-like-ai-gallup">particularly from young people</a>, and the better Gemini gets, the creepier it is. It <em>has</em> to be if it’s going to deliver on the promise of a truly helpful assistant. But wanting your AI assistant to anticipate your next move and <a href="/ai-artificial-intelligence/941388/gemini-spark-ai-agent-trip-planning">actually watching it happen</a>? Those are very different things. I willingly gave Gemini permission to access my Google Photos and Gmail, but it always makes my skin crawl hearing Gemini say my son’s name out loud. I test out a lot of this stuff as it becomes available — hazard of the job — but the public reaction when these kinds of features start trickling down to the mainstream will be very telling.</p>
+<p>New New Siri <a href="/news/860521/apple-siri-google-gemini-ai-personalization">will be built on top of Gemini</a> in some fashion. Apple is no doubt paying handsomely for the privilege, but there’s a potential upside to being one step removed in this way. You know what company <em>doesn’t</em> have its name attached to a big, unpopular data center project? Apple. Google isn’t winning friends and influencing people by rushing to start massive construction projects in backyards across the country. Apple gets to keep its hands clean, even if its payments to Google are presumably being funneled toward the great data center buildout.</p>
+<p><strong>Related</strong></p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.theverge.com/ai-artificial-intelligence/920401/gen-z-ai">The more young people use AI, the more they hate it</a></li>
+</ul>
+<p>Then there’s the Copilot of it all; the AI-buttons-everywhere factor. Siri’s attempts to summarize messages are amusing and often annoying, but at least Siri isn’t all up in every one of my work documents begging to summarize it for me. On the other hand, you can’t open a Google app without coming face-to-face with a Gemini sparkle these days, and <a href="/tech/931752/google-io-2026-gemini-icon-docs-workspace">it risks getting real old, real fast</a>.</p>
+<p>Don’t get me wrong; I think Apple would love to put Siri to work writing my emails, perfecting my photos into “memories,” and talking me through the next steps to rehabilitate the dying plants in my yard. It’s just that Siri can’t really do any of that yet. When we meet this new Gemini-enhanced Siri, it’ll be telling to see where and how aggressively it surfaces. <a target="_blank" rel="noopener" href="http://bloomberg.com/news/articles/2026-06-05/wwdc-2026-preview-ios-27-siri-ai-features-macos-27-more-apple-will-announce">According to <em>Bloomberg</em>’s reporting</a>, it sure sounds like we’re going to see it in a lot of places: the Dynamic Island, Photos, maybe even its own dedicated Siri app for the first time. That’s a very different Siri from the timer-setting voice assistant we currently know, mostly hiding behind the scenes.</p>
+<p><em>Remember this tagline from the first time Apple tried to launch AI Siri? Two years ago? Yeah, me neither.</em></p>
+<p>I suspect Apple is also going to play up the thing it already loves playing up: privacy. You can bet we’ll hear more about Private Cloud Compute, which supposedly keeps your data as secure as if it had never left your device. The updated Siri may also come with the option to <a href="/tech/932207/siri-apple-intelligence-auto-deleting-chats">automatically delete chats</a> after a certain period of time, rather than holding onto that data by default. Promising a more private, secure AI experience might appeal to people who are squeamish about handing over even more personal info to Google. But it doesn’t do much for someone who’s just sick of having AI in their face all day in every piece of software.</p>
+<p>An advantage, especially the kind you stumble on, can disappear as quickly as it arrived.</p>
+<p>Apple could easily cast its slow AI rollout as the more responsible move. Google execs used to constantly talk about being “bold and responsible” with AI, but lately they’re too busy firing off new Gemini features and basking in the foothills of the singularity to dwell on that much. Passing off the delays as taking the time to do things right isn’t a bad bet, but the time for false starts is over. Siri’s going to have to pull it off for real this time; when a second chance like this comes around, you can’t count on it coming back.</p>
+<p><strong>Follow topics and authors</strong> from this story to see more like this in your personalized homepage feed and to receive email updates.</p>
+<ul>
+<li>Allison Johnson</li>
+<li>AI</li>
+<li>Apple</li>
+<li>Apple Event</li>
+<li>Tech</li>
+<li>WWDC 2026</li>
+</ul>
+<p><strong>Most Popular</strong><br>Most Popular</p>
+<ol>
+<li><a href="/news/945359/microsoft-xbox-25th-anniversary-console-controller-release-date">This is Microsoft’s Xbox 25th anniversary console in translucent green</a></li>
+<li><a href="/tech/944360/dell-xps-14-2026-review">Dell’s new XPS 14 is better in almost every way</a></li>
+<li><a href="/tech/944245/apple-wwdc-2026-ai-siri-gemini">Here comes new Siri again</a></li>
+<li><a href="/entertainment/944191/xbox-games-showcase-2026-news-trailers">Xbox Games Showcase 2026: All the news and trailers</a></li>
+<li><a href="/tech/945246/virtual-os-museum-dos-windows-mac-os">The Virtual OS Museum lets you relive over 600 operating systems right on your desktop</a></li>
+</ol>
+<p><strong>The Verge Daily</strong><br>A free daily digest of the news that matters most.</p>
+<p>Email (required)</p>
+<p>Sign Up</p>
+<p>By submitting your email, you agree to our <a target="_blank" rel="noopener" href="https://www.voxmedia.com/legal/terms-of-use">Terms</a> and <a target="_blank" rel="noopener" href="https://www.voxmedia.com/legal/privacy-notice">Privacy Notice</a>. This site is protected by reCAPTCHA and the Google <a target="_blank" rel="noopener" href="https://policies.google.com/privacy">Privacy Policy</a> and <a target="_blank" rel="noopener" href="https://policies.google.com/terms">Terms of Service</a> apply.</p>
+<p>[Advertiser Content From</p>
+<p>This is the title for the native ad](&#x2F;)</p>
+</details>
+
+<details class="ai-daily-item" id="news-7">
+<summary>
+  <span class="ai-daily-summary-index">07</span>
+  <span class="ai-daily-summary-title">How courts are coping with a flood of AI-generated lawsuits</span>
+  <span class="ai-daily-summary-meta">MIT Tech Review / 英文</span>
+</summary>
+
+<p class="ai-daily-item-brief">You need to enable JavaScript to view this site. Skip to Content EXECUTIVE SUMMARY Most days in her chambers, Judge Maritza Braswell, a federal magistrate judge in Colorado, sifts...</p>
+
+<p class="ai-daily-item-meta">来源：MIT Tech Review | 语言：英文 | <a href="https://www.technologyreview.com/2026/06/04/1138391/courts-coping-ai-lawsuits/" target="_blank" rel="noopener noreferrer">原文链接</a></p>
+
+<p>You need to enable JavaScript to view this site.</p>
+<p><a href="#content">Skip to Content</a></p>
+<p>EXECUTIVE SUMMARY</p>
+<p>Most days in her chambers, Judge Maritza Braswell, a federal magistrate judge in Colorado, sifts through stacks of documents written by people without a lawyer. Many of them can’t afford to hire a lawyer, and others have cases too weak or too small to interest one. She reads each one carefully, mindful of how daunting it is to walk into the courtroom alone.</p>
+<p>Lately, like many judges across the US, she has seen a noticeable uptick in such filings. According to a new <a target="_blank" rel="noopener" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6766859">study</a> that examined 4.5 million federal civil cases from 2005 to 2026, the share of lawsuits brought by self-represented people increased from 11% in 2022 to 16.8% in 2025. Within those cases, the number of filings made more than doubled from pre-2023 levels.</p>
+<p>Judge Braswell puts that jump down to AI.</p>
+<p>“I do correlate that to AI in part because I see AI use,” she says. As a tech-savvy judge who uses AI to vet court documents, she’s learned to recognize how large language models write. She can tell from the prose and at times, hallucinated cases and fabricated quotes.</p>
+<p>“I’m also actually seeing better-drafted pleadings,” she says.</p>
+<p>But while AI appears to be expanding access to justice, it doesn’t seem to be improving people’s chances of winning. Judges are also starting to question what kinds of rights and responsibilities large language models should bear as they step into lawyers’ shoes. For example, they ask whether a chatbot has a duty to provide good advice, as a human lawyer does. And a growing number of lawmakers across the US are starting to grapple with who should pay the price when chatbots dish out bad legal advice.</p>
+<p><strong>AI supercharges lawsuits</strong><br>To test whether AI was driving the increase in lawsuits filed by people without a lawyer, the authors of the study, Anand Shah at MIT and Joshua Levy at the University of Southern California, ran 1,600 randomly sampled court documents through Pangram, a commercial AI-text detector. The share flagged as containing AI-generated writing rose from 1% in 2023 to 18% in 2026.</p>
+<p>To Judge Braswell, that’s not necessarily a cause for concern. While the surge of AI-assisted filings might be adding to their workloads, she and many other judges find the cases easier to rule on because AI is helping people without legal training better articulate their arguments.</p>
+<p>Court documents written by people without lawyers are notoriously hard to decipher. Some arrive as handwritten scrawls bordering on gibberish that judges take a while to decode. However cryptic, judges are required to read them charitably.</p>
+<p>These days, Judge Braswell has been churning through motions drafted by AI faster than the ones written by the litigants. “I have to be really careful because some of them contain hallucinations and errors, but I can generally understand what they’re arguing better with AI assistance from them than without it,” she says.</p>
+<p>The clearer filings let Judge Braswell hear them better. “If I understand an argument a little bit better, I’m probably going to be able to help a little bit more,” she says.</p>
+<p>Online communities are springing up to trade <a target="_blank" rel="noopener" href="https://www.reddit.com/r/ChatGPT/comments/1fodq3r/chatgpt_allowed_me_to_sue_my_landlord_without/">self-help guides</a> on using AI to sue. In December 2024, a <a target="_blank" rel="noopener" href="https://www.reddit.com/r/USCIS/comments/1ho0adh/stepbystep_guide_on_how_i_filed_a_writ_of/">viral Reddit post</a> walked immigration applicants through suing the United States Citizenship and Immigration Services over delayed review of their applications: draft a writ of mandamus with Microsoft Copilot, pay a lawyer $150 to polish it, and file in the expedient District of Vermont. Cases filed by people without lawyers in Vermont rose from about 45 a year before 2022 to more than 1,100 in 2024.</p>
+<p>Even so, people without lawyers are far more likely to <a target="_blank" rel="noopener" href="https://lawreview.uchicago.edu/print-archive/empirical-patterns-pro-se-litigation-federal-district-courts">lose their case than</a> people <em>with</em> lawyers, and that’s not changing even with the addition of AI, the study found.</p>
+<p>“It turns out that mounting a lawsuit is a complex, multifaceted task. Not all of it is just drafting text,” says Levy.</p>
+<p><strong>Chatbot-client privilege</strong><br>Judge William Garfinkel, a federal magistrate judge in Connecticut, has served on the bench for three decades, pondering all sorts of questions about lawyers’ relationship with their clients. Lately, he has been wondering whether people’s conversations with chatbots dispensing legal advice should be privileged, the way their conversations with lawyers are.</p>
+<p>“You can make a good argument that … conversations with large language models like Claude or ChatGPT or Grok should deserve some protection,” he says.</p>
+<p>Courts are starting to grapple with this question. In February, a federal court in Michigan ruled that a self-represented person’s conversations with ChatGPT to prepare her case were work product—legal work that is shielded from the opposing side.</p>
+<p>The decision came on the same day a federal court in New York <a target="_blank" rel="noopener" href="https://www.reuters.com/legal/government/ai-ruling-prompts-warnings-us-lawyers-your-chats-could-be-used-against-you-2026-04-15/">held</a> that documents a criminal defendant had generated using Claude were not privileged attorney-client conversations or work product. The court argued that Claude is not an attorney and that a user has no “reasonable expectation of confidentiality in his communication” with it because AI companies can disclose user data to third parties.</p>
+<p>In March, Judge Braswell ruled that a self-represented person’s use of a chatbot should stay off limits. “It is true that AI systems like ChatGPT, Claude, Gemini, and others … collect user data for training and other purposes. But … that does not eliminate all expectations of privacy,” she wrote. Courts have since remained split on the issue.</p>
+<p><strong>Malpractice without a pulse</strong><br>Some judges are also wondering whether a chatbot, like a lawyer, has a duty to provide good legal advice. Judge Allison Goddard, a federal magistrate judge in California, has noticed that people without lawyers often get the wrong advice from ChatGPT when trying to assess the value of their case during settlement negotiations. In one case, a plaintiff who slipped and fell in a store asked for $700,000 from the store, which was wildly more than the case was worth.</p>
+<p>“Where are you getting the idea that you’re getting $700,000? Did you go to ChatGPT?” Judge Goddard asked. “Well …” the plaintiff mumbled. She then walked the person through the law to explain why ChatGPT was wrong and suggested a lower amount. “It’s like Dr. Google went to law school,” she says.</p>
+<p>Then there’s the question of who’s liable when a chatbot makes such mistakes. In March, Nippon Life Insurance Company <a target="_blank" rel="noopener" href="https://fingfx.thomsonreuters.com/gfx/legaldocs/dwpkydrqapm/Nippon%20Life%20v%20OpenAI%2020260304.pdf">sued</a> OpenAI alleging that ChatGPT practiced law without a license and helped a woman reopen a lawsuit that was already settled, flooding the court with frivolous filings. “ChatGPT is not an attorney,” the lawsuit said.</p>
+<p>In May, OpenAI asked the court to <a target="_blank" rel="noopener" href="https://fingfx.thomsonreuters.com/gfx/legaldocs/xmvjydomqpr/Nippon%20Life%20v%20OpenAI%20motion%20to%20dismiss.pdf">dismiss</a> the case, arguing that ChatGPT does not practice law. “ChatGPT is not a person and neither has nor uses any degree of legal ​knowledge or skill,” OpenAI said in its filing. The case is still pending before the court.</p>
+<p>States have started to weigh legislation that would hold AI companies liable when their chatbots offer bad legal advice. New York introduced a <a target="_blank" rel="noopener" href="https://www.nysenate.gov/legislation/bills/2025/S7263/amendment/A">bill</a> in March that would bar chatbots from impersonating lawyers, even if they notify ​users that they are interacting with chatbots. In Congress, a [series](<a target="_blank" rel="noopener" href="https://www.congress.gov/bil">https://www.congress.gov/bil</a></p>
+<p><em>（内容已截断）</em></p>
+</details>
+
+<details class="ai-daily-item" id="news-8">
+<summary>
+  <span class="ai-daily-summary-index">08</span>
+  <span class="ai-daily-summary-title">How virtual power plants could provide energy for data centers</span>
+  <span class="ai-daily-summary-meta">MIT Tech Review / 英文</span>
+</summary>
+
+<p class="ai-daily-item-brief">You need to enable JavaScript to view this site. Skip to Content EXECUTIVE SUMMARY Would you take a payment to ramp down your electricity use? Would it change anything if you were...</p>
+
+<p class="ai-daily-item-meta">来源：MIT Tech Review | 语言：英文 | <a href="https://www.technologyreview.com/2026/06/03/1138350/virtual-power-plants-data-centers/" target="_blank" rel="noopener noreferrer">原文链接</a></p>
+
+<p>You need to enable JavaScript to view this site.</p>
+<p><a href="#content">Skip to Content</a></p>
+<p>EXECUTIVE SUMMARY</p>
+<p>Would you take a payment to ramp down your electricity use? Would it change anything if you were doing so to help power a local data center?</p>
+<p>Google just signed a new deal to help pay for a virtual power plant (VPP) in the largest power grid in the US. The agreement is with Voltus, a leading VPP and distributed energy resources platform.</p>
+<p>Voltus will set up the virtual power plant, grouping together devices like electric vehicles and smart thermostats. It’ll pay customers to participate, and the company will dial back power or use the stored energy during times when the grid is stressed. Google will foot the bill for setting it up, and the extra capacity generated by the project will help run its data centers in the region.</p>
+<p>This is one of the most concrete examples so far of a tech giant using a VPP to help meet energy demand for data centers. But there are still some lingering questions about just how far this sort of program can go, and what the limits are.</p>
+<p>Last year, it felt as if everyone was talking about data center flexibility. A <a target="_blank" rel="noopener" href="https://nicholasinstitute.duke.edu/publications/rethinking-load-growth">high-profile study</a> from Duke University found that if data centers agreed to decrease their energy demand for roughly 40 hours per year, a whole bunch of them (about 100 gigawatts’ worth) could come online without making new power plants or transmission equipment necessary.</p>
+<p>The underlying reason is that our power grid is designed not for our average energy use, but for the absolute maximum: the brutally hot July evening when everyone is blasting their air conditioners, watching <em>Love Island</em>, and microwaving popcorn. If a data center is willing to refrain from pulling so much power during those high-stress times, the grid can happily support it the rest of the year.</p>
+<p>One lingering question here is about incentives: How would you get data centers to agree to this? After all, they might not have a very flexible load, especially now that AI use is more widespread—training a model can easily be delayed or shifted, but customer demand is more immediate. Giving up computing capacity could mean losing revenue.</p>
+<p>Regulation is one approach that could work here. <a target="_blank" rel="noopener" href="https://www.latitudemedia.com/news/wright-directs-ferc-to-fast-track-large-load-interconnection/">One proposal</a> in the US would allow new data centers to come online years sooner if they agree to lower demand when the grid is nearing its max.  And a new <a target="_blank" rel="noopener" href="https://www.epri.com/research/products/3002033410">Texas law</a> requires large users to switch to backup power or curtail their demand in emergency situations.</p>
+<p>Another approach is for data center operators to pay for <em>other</em> people to be flexible.</p>
+<p>Voltus announced a new program in September that allows data centers to finance flexibility on their local grid. The company calls it “Bring your own capacity.” Google is now the first named customer taking advantage of this program.</p>
+<p>In the new agreement, Voltus will pay people who agree to participate in the virtual power plant. The plant will be part of PJM, the grid that covers much of the US East Coast. The company says it will be able to aggregate up to 100 megawatts of distributed energy resources each year. The plant should be operational in 2027, according to Voltus.</p>
+<p>This isn’t Google’s first foray into flexibility; the company has agreements with utilities across the US to limit or shift its own energy demand, which can help free up grid capacity. As the company pointed out in a <a target="_blank" rel="noopener" href="https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/demand-response-data-center-milestone/">blog post</a> earlier this year, though, there are limits on how flexible a data center can be, and not every facility will be able to ramp down its power demand.</p>
+<p>“There is no one solution for expanding grid capacity and we’re continuing to explore all options, including the many avenues for load flexibility,” said Michael Terrell, Google’s global head of advanced energy, in an emailed statement in response to written questions.</p>
+<p>Once again, I’m wondering about incentives here. These companies are asking homes and businesses to be flexible. Will they agree?</p>
+<p>A <a target="_blank" rel="noopener" href="https://energyathaas.wordpress.com/2026/06/01/managed-ev-charging-good-work-if-anyone-would-take-it/">recent study</a> in California looked at local people’s willingness to participate in managed electric-vehicle charging. Essentially, the program pays people to give up control of when they charge their EVs. This is another way to help smooth out electricity demand and ease the burden on the grid.</p>
+<p>The problem? Not many people signed up. With no economic incentive, only 1% of EV owners enrolled in managed charging. At $40 per month (about 15% of their power bill), only 4.6% did.</p>
+<p>This is a different situation and a different region from the one in which Google is working with Voltus. (It’s worth noting that the companies aren’t sharing how much they plan to pay the participants, which will obviously be a big determinant in participation for this kind of project.)</p>
+<p>But this study shows that even with money on the table, people may not always jump at the chance to cede control of their electricity demand. And it certainly feels relevant that about 70% of Americans oppose AI data centers in their area, according to <a target="_blank" rel="noopener" href="https://news.gallup.com/poll/709772/americans-oppose-data-centers-area.aspx">recent Gallup polling</a>.</p>
+<p>Being flexible sounds like a great idea in theory, and these financed VPPs could provide an immediate route to meeting energy demand. But as we move from idea to implementation, it’ll be interesting to see whether trial runs work as intended.</p>
+<p><em>This article is from The Spark,</em> MIT Technology Review*’s weekly climate newsletter. To receive it in your inbox every Wednesday,* <a target="_blank" rel="noopener" href="https://forms.technologyreview.com/newsletters/climate-energy-the-spark/"><em>sign up here</em></a><em>.</em></p>
+<p><strong>Deep Dive</strong><br><strong>Climate change and energy</strong><br><a target="_blank" rel="noopener" href="https://www.technologyreview.com/2026/05/07/1136933/balcony-solar-boom/">### The balcony solar boom is coming to the US</a></p>
+<p>Plug-in panels are getting popular—how do we make sure they’re safe?</p>
+<p>By </p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.technologyreview.com/author/casey-crownhart/">Casey Crownhartarchive page</a></li>
+</ul>
+<p><a target="_blank" rel="noopener" href="https://www.technologyreview.com/2026/04/16/1135179/anthropogenic-noise-hurting-animals/">### The noise we make is hurting animals. Can we learn to shut up?</a></p>
+<p>The good news is it’s a problem we can solve if we want to.</p>
+<p>By </p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.technologyreview.com/author/clive-thompson/">Clive Thompsonarchive page</a></li>
+</ul>
+<p><a target="_blank" rel="noopener" href="https://www.technologyreview.com/2026/04/09/1135092/astroturf-fake-grass-artificial-heated-debates/">### Is fake grass a bad idea? The AstroTurf wars are far from over.</a></p>
+<p>Around the country, heated debates are taking place over whether to install artificial turf, pitting neighbors against each other.</p>
+<p>By </p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.technologyreview.com/author/douglas-main/">Douglas Mainarchive page</a></li>
+</ul>
+<p><a target="_blank" rel="noopener" href="https://www.technologyreview.com/2026/04/21/1135231/digging-for-truth-north-pole-past-seabed/">### Digging for clues about the North Pole’s past</a></p>
+<p>To understand what the future holds for Earth’s northernmost waters, scientists are burrowing deep below the seabed.</p>
+<p>By </p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.technologyreview.com/author/tim-kalvelage/">Tim Kalvelagearchive page</a></li>
+</ul>
+<p><strong>Stay connected</strong><br>Illustration by Rose Wong</p>
+<p><strong>Get the latest updates from MIT Technology Review</strong><br>Discover special offers, top stories,<br>upcoming events, and more.</p>
+<p>Enter your email</p>
+<p><a href="/privacy/">Privacy Policy</a></p>
+<p>Thank you for submitting your email!</p>
+<p><a href="/newsletter-preferences?email_address=undefined">Explore more newsletters</a></p>
+<p>It looks like something went wrong.</p>
+<p>We’re having trouble saving your preferences.<br>Try refreshing this page and updating them one<br>more time. If you continue to get this message,<br>reach out to us at<br>[<a href="mailto:&#99;&#117;&#115;&#x74;&#111;&#109;&#x65;&#x72;&#x2d;&#x73;&#101;&#x72;&#x76;&#105;&#99;&#x65;&#64;&#x74;&#101;&#99;&#x68;&#x6e;&#x6f;&#108;&#111;&#103;&#x79;&#x72;&#x65;&#118;&#105;&#x65;&#119;&#x2e;&#99;&#111;&#109;">customer-service@technologyreview.com</a>](mailto:<a href="mailto:&#99;&#x75;&#x73;&#116;&#x6f;&#x6d;&#101;&#x72;&#x2d;&#115;&#101;&#x72;&#118;&#x69;&#x63;&#x65;&#64;&#x74;&#x65;&#x63;&#104;&#x6e;&#111;&#108;&#x6f;&#x67;&#x79;&#x72;&#101;&#x76;&#105;&#101;&#x77;&#x2e;&#x63;&#111;&#109;">customer-service@technologyreview.com</a></p>
+<p><em>（内容已截断）</em></p>
+</details>
+
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://modestyzht.github.io">驴哥</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://modestyzht.github.io/ai-daily-2026-06-08/">https://modestyzht.github.io/ai-daily-2026-06-08/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="https://modestyzht.github.io" target="_blank">西北驴哥</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/AI/">AI</a><a class="post-meta__tags" href="/tags/%E6%96%B0%E9%97%BB/">新闻</a><a class="post-meta__tags" href="/tags/%E6%97%A5%E6%8A%A5/">日报</a><a class="post-meta__tags" href="/tags/LLM/">LLM</a></div><div class="post-share"><div class="social-share" data-image="/img/core/ai-daily-cover.png" data-sites="facebook,x,wechat,weibo,qq"></div><link rel="stylesheet" href="/vendor/sharejs/css/share.min.css" media="print" onload="this.media='all'"><script src="/vendor/sharejs/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related" href="/FloatingBall-WPF%E6%A1%8C%E9%9D%A2%E6%82%AC%E6%B5%AE%E7%90%83-Vibe-Coding%E5%AE%9E%E6%88%98/" title="用 Vibe Coding 做一个 WPF 桌面悬浮球：FloatingBall 完整开发复盘"><img class="cover" src="/img/posts/floatingball-vibecoding-cover.png" onerror="onerror=null;src='/img/glama.png'" alt="cover of previous post"><div class="info"><div class="info-1"><div class="info-item-1">上一篇</div><div class="info-item-2">用 Vibe Coding 做一个 WPF 桌面悬浮球：FloatingBall 完整开发复盘</div></div><div class="info-2"><div class="info-item-1">用 Vibe Coding 做一个 WPF 桌面悬浮球：FloatingBall 完整开发复盘 这篇文章记录一个 Windows 桌面小工具 FloatingBall 的完整开发过程：从最初的 48px 悬浮球，到菜单动画、贴边回收、设置窗口、托盘、热重载，再到最后推送 GitHub。项目地址：https://github.com/modestyzht/FloatingBall     一、为什么要做 FloatingBall我平时会频繁在几类工具之间切换：命令行、AI 编程工具、网页工具、桌面小应用。它们都不难打开，但每次都要去开始菜单、任务栏、浏览器收藏夹里找，动作很碎，也很容易打断当前思路。 所以最初的需求很简单： 我想要一个始终在桌面边缘待命的小球，点一下就展开常用工具，用完以后自己收回去。 最后做出来的 FloatingBall 是一个 Windows 原生桌面悬浮球启动器。它不是 Electron，也不是网页套壳，而是用 C# &#x2F; .NET 8 &#x2F; WPF 做的轻量工具。 二、最终效果现在这个版本已经可以日常使用：  桌面常驻一个 48px 悬浮球...</div></div></div></a><a class="pagination-related" href="/ai-daily-2026-06-07/" title="AI 日报 - 2026-06-07"><img class="cover" src="/img/core/ai-daily-cover.png" onerror="onerror=null;src='/img/glama.png'" alt="cover of next post"><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">AI 日报 - 2026-06-07</div></div><div class="info-2"><div class="info-item-1">每日 AI 行业新闻速递，涵盖 AI 技术、大模型、行业应用等领域。</div></div></div></a></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/ai-daily-2026-06-07/" title="AI 日报 - 2026-06-07"><img class="cover" src="/img/core/ai-daily-cover.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-06-07</div><div class="info-item-2">AI 日报 - 2026-06-07</div></div><div class="info-2"><div class="info-item-1">每日 AI 行业新闻速递，涵盖 AI 技术、大模型、行业应用等领域。</div></div></div></a><a class="pagination-related" href="/ai-daily-2026-06-09/" title="AI 日报 - 2026-06-09"><img class="cover" src="/img/core/ai-daily-cover.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-06-09</div><div class="info-item-2">AI 日报 - 2026-06-09</div></div><div class="info-2"><div class="info-item-1">每日 AI 行业新闻速递，涵盖 AI 技术、大模型、行业应用等领域。</div></div></div></a><a class="pagination-related" href="/ai-daily-2026-06-05/" title="AI 日报 - 2026-06-05"><img class="cover" src="/img/core/ai-daily-cover.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-06-05</div><div class="info-item-2">AI 日报 - 2026-06-05</div></div><div class="info-2"><div class="info-item-1">每日 AI 行业新闻速递，涵盖 AI 技术、大模型、行业应用等领域。</div></div></div></a><a class="pagination-related" href="/ai-daily-2026-06-21/" title="AI 日报 - 2026-06-21"><img class="cover" src="/img/core/ai-daily-cover.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-06-21</div><div class="info-item-2">AI 日报 - 2026-06-21</div></div><div class="info-2"><div class="info-item-1">每日 AI 行业新闻速递，涵盖 AI 技术、大模型、行业应用等领域。</div></div></div></a><a class="pagination-related" href="/ai-daily-2026-06-06/" title="AI 日报 - 2026-06-06"><img class="cover" src="/img/core/ai-daily-cover.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-06-06</div><div class="info-item-2">AI 日报 - 2026-06-06</div></div><div class="info-2"><div class="info-item-1">每日 AI 行业新闻速递，涵盖 AI 技术、大模型、行业应用等领域。</div></div></div></a></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/glama.png" onerror="this.onerror=null;this.src='/img/glama.png'" alt="avatar"/></div><div class="author-info-name">驴哥</div><div class="author-info-description"></div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">28</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">19</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/modestyzht/modestyzht.github.io"><i class="fa-solid fa-dinosaur"></i><span>跟俺来！（码仓）</span></a><div class="card-info-social-icons"><a class="social-icon" href="https://github.com/modestyzht/modestyzht.github.io" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="mailto:2855935354@qq.com" target="_blank" title="QQ邮箱"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a><a class="social-icon" href="https://space.bilibili.com/1089540568" target="_blank" title="哔哩哔哩"><i class="fab fa-bilibili" style="color: #FB7299;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">正在折腾 AI 智慧农业与 Vibe Coding，一起探索 AI 的无限可能 ✨</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#AI-%E6%97%A5%E6%8A%A5-2026-06-08"><span class="toc-number">1.</span> <span class="toc-text">AI 日报 - 2026-06-08</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%8A%E6%97%A5%E9%80%9F%E8%A7%88"><span class="toc-number">1.1.</span> <span class="toc-text">今日速览</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AF%A6%E7%BB%86%E5%86%85%E5%AE%B9"><span class="toc-number">1.2.</span> <span class="toc-text">详细内容</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/ai-daily-2026-06-21/" title="AI 日报 - 2026-06-21"><img src="/img/core/ai-daily-cover.png" onerror="this.onerror=null;this.src='/img/glama.png'" alt="AI 日报 - 2026-06-21"/></a><div class="content"><a class="title" href="/ai-daily-2026-06-21/" title="AI 日报 - 2026-06-21">AI 日报 - 2026-06-21</a><time datetime="2026-06-21T01:36:56.000Z" title="发表于 2026-06-21 09:36:56">2026-06-21</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/FloatingBall-WPF%E6%A1%8C%E9%9D%A2%E6%82%AC%E6%B5%AE%E7%90%83-Vibe-Coding%E5%AE%9E%E6%88%98/" title="用 Vibe Coding 做一个 WPF 桌面悬浮球：FloatingBall 完整开发复盘"><img src="/img/posts/floatingball-vibecoding-cover.png" onerror="this.onerror=null;this.src='/img/glama.png'" alt="用 Vibe Coding 做一个 WPF 桌面悬浮球：FloatingBall 完整开发复盘"/></a><div class="content"><a class="title" href="/FloatingBall-WPF%E6%A1%8C%E9%9D%A2%E6%82%AC%E6%B5%AE%E7%90%83-Vibe-Coding%E5%AE%9E%E6%88%98/" title="用 Vibe Coding 做一个 WPF 桌面悬浮球：FloatingBall 完整开发复盘">用 Vibe Coding 做一个 WPF 桌面悬浮球：FloatingBall 完整开发复盘</a><time datetime="2026-06-08T16:00:00.000Z" title="发表于 2026-06-09 00:00:00">2026-06-09</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/%E5%9F%BA%E7%A1%80%E7%AF%87-%E9%9B%B6%E5%9F%BA%E7%A1%80Vibe-Coding%E5%85%A5%E9%97%A8/" title="零基础 Vibe Coding 入门：用 TRAE 亲手做出你的第一个应用"><img src="/img/vibe-coding/%E5%9F%BA%E7%A1%80%E7%AF%87/page2_1.jpeg" onerror="this.onerror=null;this.src='/img/glama.png'" alt="零基础 Vibe Coding 入门：用 TRAE 亲手做出你的第一个应用"/></a><div class="content"><a class="title" href="/%E5%9F%BA%E7%A1%80%E7%AF%87-%E9%9B%B6%E5%9F%BA%E7%A1%80Vibe-Coding%E5%85%A5%E9%97%A8/" title="零基础 Vibe Coding 入门：用 TRAE 亲手做出你的第一个应用">零基础 Vibe Coding 入门：用 TRAE 亲手做出你的第一个应用</a><time datetime="2026-06-04T16:00:00.000Z" title="发表于 2026-06-05 00:00:00">2026-06-05</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/%E6%8A%80%E5%B7%A7%E7%AF%87-%E6%A8%A1%E5%9D%97%E5%8C%96PRD%E6%96%B9%E6%B3%95/" title="Vibe Coding 技巧：模块化 PRD 方法，让 AI 写出不崩的项目"><img src="/img/vibe-coding/page01.png" onerror="this.onerror=null;this.src='/img/glama.png'" alt="Vibe Coding 技巧：模块化 PRD 方法，让 AI 写出不崩的项目"/></a><div class="content"><a class="title" href="/%E6%8A%80%E5%B7%A7%E7%AF%87-%E6%A8%A1%E5%9D%97%E5%8C%96PRD%E6%96%B9%E6%B3%95/" title="Vibe Coding 技巧：模块化 PRD 方法，让 AI 写出不崩的项目">Vibe Coding 技巧：模块化 PRD 方法，让 AI 写出不崩的项目</a><time datetime="2026-06-04T16:00:00.000Z" title="发表于 2026-06-05 00:00:00">2026-06-05</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/%E7%90%86%E8%AE%BA%E7%AF%87-Vibe-Coding%E7%9A%84%E6%95%B0%E5%AD%A6%E5%AF%86%E7%A0%81/" title="Vibe Coding 的数学密码：为什么自然语言能写代码？"><img src="/img/vibe-coding/%E7%90%86%E8%AE%BA%E7%AF%87/%E7%90%86%E8%AE%BA.png" onerror="this.onerror=null;this.src='/img/glama.png'" alt="Vibe Coding 的数学密码：为什么自然语言能写代码？"/></a><div class="content"><a class="title" href="/%E7%90%86%E8%AE%BA%E7%AF%87-Vibe-Coding%E7%9A%84%E6%95%B0%E5%AD%A6%E5%AF%86%E7%A0%81/" title="Vibe Coding 的数学密码：为什么自然语言能写代码？">Vibe Coding 的数学密码：为什么自然语言能写代码？</a><time datetime="2026-06-04T16:00:00.000Z" title="发表于 2026-06-05 00:00:00">2026-06-05</time></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2023 - 2026 By 驴哥</span></div><div class="footer_custom_text"><div id="workboard"></div></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><div class="js-pjax"></div><script src="/vendor/pangu/pangu.umd.js"></script><script> const initPangu = () => { if (typeof pangu !== 'undefined') { pangu.spacingPage(); } }; document.addEventListener('DOMContentLoaded', initPangu); document.addEventListener('pjax:complete', initPangu); </script><script src="/js/runtime.js"></script><script src="/js/tag-enhance.js"></script></div></body></html>

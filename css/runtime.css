@@ -1,0 +1,177 @@
+#workboard {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+#footer #runtime {
+  --runtime-accent: #1e9f74;
+  --runtime-accent-soft: rgba(30, 159, 116, 0.2);
+  --runtime-bg: rgba(255, 255, 255, 0.74);
+  --runtime-border: rgba(30, 159, 116, 0.28);
+  --runtime-text: #243746;
+  --runtime-muted: rgba(36, 55, 70, 0.72);
+
+  position: relative;
+  isolation: isolate;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  max-width: min(92vw, 680px);
+  min-height: 34px;
+  padding: 7px 15px;
+  overflow: hidden;
+  border: 1px solid var(--runtime-border);
+  border-radius: 999px;
+  background:
+    radial-gradient(circle at 15% 20%, rgba(255, 255, 255, 0.86), transparent 34%),
+    linear-gradient(135deg, var(--runtime-bg), rgba(255, 255, 255, 0.46));
+  box-shadow: 0 10px 28px rgba(31, 45, 61, 0.12), inset 0 1px 0 rgba(255, 255, 255, 0.55);
+  color: var(--runtime-text) !important;
+  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  line-height: 1.35;
+  backdrop-filter: blur(10px);
+  transform: translateZ(0);
+  animation: runtime-float 5.5s ease-in-out infinite;
+}
+
+#footer #runtime::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(120deg, transparent 10%, rgba(255, 255, 255, 0.48) 42%, transparent 68%);
+  transform: translateX(-120%);
+  animation: runtime-shine 7s ease-in-out infinite;
+}
+
+#footer #runtime::after {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  z-index: -2;
+  border-radius: inherit;
+  background: linear-gradient(90deg, transparent, var(--runtime-accent-soft), transparent);
+  opacity: 0.75;
+}
+
+#footer #runtime.is-resting {
+  --runtime-accent: #7c6ce4;
+  --runtime-accent-soft: rgba(124, 108, 228, 0.2);
+  --runtime-border: rgba(124, 108, 228, 0.28);
+}
+
+#footer #runtime .runtime-orb {
+  width: 9px;
+  height: 9px;
+  flex: 0 0 auto;
+  border-radius: 999px;
+  background: var(--runtime-accent);
+  box-shadow: 0 0 0 0 var(--runtime-accent-soft), 0 0 18px var(--runtime-accent);
+  animation: runtime-pulse 2.2s ease-out infinite;
+}
+
+#footer #runtime .boardsign-text,
+#footer #runtime .runtime-label,
+#footer #runtime .runtime-clock,
+#footer #runtime .runtime-divider {
+  color: inherit !important;
+}
+
+#footer #runtime .boardsign-text {
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+#footer #runtime .runtime-label {
+  color: var(--runtime-muted) !important;
+}
+
+#footer #runtime .runtime-clock {
+  color: var(--runtime-accent) !important;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  font-size: 0.95em;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+#footer #runtime .runtime-divider {
+  width: 1px;
+  height: 14px;
+  background: rgba(36, 55, 70, 0.18);
+}
+
+html[data-theme="dark"] #footer #runtime {
+  --runtime-bg: rgba(30, 34, 42, 0.78);
+  --runtime-text: #e6edf3;
+  --runtime-muted: rgba(230, 237, 243, 0.68);
+
+  background:
+    radial-gradient(circle at 15% 20%, rgba(255, 255, 255, 0.1), transparent 34%),
+    linear-gradient(135deg, var(--runtime-bg), rgba(18, 22, 30, 0.74));
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.28), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+html[data-theme="dark"] #footer #runtime .runtime-divider {
+  background: rgba(230, 237, 243, 0.2);
+}
+
+@keyframes runtime-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-3px);
+  }
+}
+
+@keyframes runtime-shine {
+  0%,
+  35% {
+    transform: translateX(-120%);
+  }
+
+  60%,
+  100% {
+    transform: translateX(120%);
+  }
+}
+
+@keyframes runtime-pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--runtime-accent-soft), 0 0 18px var(--runtime-accent);
+  }
+
+  70% {
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0), 0 0 18px var(--runtime-accent);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0), 0 0 18px var(--runtime-accent);
+  }
+}
+
+@media (max-width: 480px) {
+  #footer #runtime {
+    gap: 6px;
+    padding: 7px 11px;
+    font-size: 0.86rem;
+  }
+
+  #footer #runtime .runtime-divider {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #footer #runtime,
+  #footer #runtime::before,
+  #footer #runtime .runtime-orb {
+    animation: none;
+  }
+}

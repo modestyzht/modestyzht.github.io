@@ -1,0 +1,312 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Attention Is All You Need | 西北驴哥</title><meta name="author" content="驴哥"><meta name="copyright" content="驴哥"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content=".paper-detail {     max-width: 800px;     margin: 0 auto;     padding: 40px 20px;   }   .paper-header {     text-align: center;     margin-bottom: 40px;     padding-bottom: 30px;     border-bottom:">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Attention Is All You Need">
+<meta property="og:url" content="https://modestyzht.github.io/paper/papers/attention-is-all-you-need.html">
+<meta property="og:site_name" content="西北驴哥">
+<meta property="og:description" content=".paper-detail {     max-width: 800px;     margin: 0 auto;     padding: 40px 20px;   }   .paper-header {     text-align: center;     margin-bottom: 40px;     padding-bottom: 30px;     border-bottom:">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://modestyzht.github.io/img/glama.png">
+<meta property="article:published_time" content="2026-06-06T04:00:00.000Z">
+<meta property="article:modified_time" content="2026-06-09T05:09:20.994Z">
+<meta property="article:author" content="驴哥">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://modestyzht.github.io/img/glama.png"><script type="application/ld+json"></script><link rel="shortcut icon" href="/img/glama.png"><link rel="canonical" href="https://modestyzht.github.io/paper/papers/attention-is-all-you-need.html"><link rel="preconnect"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="/vendor/fontawesome/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: '/vendor/infinitegrid/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Attention Is All You Need',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: 'page'
+}</script><link rel="stylesheet" href="/css/custom.css"><link rel="stylesheet" href="/css/runtime.css"><meta name="generator" content="Hexo 8.1.2"></head><body><div class="bg-animation" id="web_bg" style="background-image: url(/img/core/bkgnd.jpg);"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/glama.png" onerror="this.onerror=null;this.src='/img/glama.png'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">28</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">19</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/paper/"><i class="fa-fw fas fa-file-alt"></i><span> 论文</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-robot"></i><span> AI</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/news/"><i class="fa-fw fas fa-newspaper"></i><span> 日报</span></a></li><li><a class="site-page child" href="/skills/"><i class="fa-fw fas fa-magic"></i><span> Skill</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-archive"></i><span> 博客</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-list"></i><span> 链接</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://api.mirrorworkforce.cn/"><i class="fa-fw fas fa-server"></i><span> 中转站</span></a></li></ul></div></div></div></div><div class="page type-paper" id="body-wrap"><header class="not-home-page" id="page-header" style="background: transparent;"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><img class="site-icon" src="/img/glama.png" alt="Logo"><span class="site-name">西北驴哥</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/paper/"><i class="fa-fw fas fa-file-alt"></i><span> 论文</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-robot"></i><span> AI</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/news/"><i class="fa-fw fas fa-newspaper"></i><span> 日报</span></a></li><li><a class="site-page child" href="/skills/"><i class="fa-fw fas fa-magic"></i><span> Skill</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-archive"></i><span> 博客</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-list"></i><span> 链接</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://api.mirrorworkforce.cn/"><i class="fa-fw fas fa-server"></i><span> 中转站</span></a></li></ul></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="page-site-info"><h1 id="site-title">Attention Is All You Need</h1></div></header><main class="layout hide-aside" id="content-inner"><div id="page"><div class="container" id="article-container"><style>
+  .paper-detail {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  .paper-header {
+    text-align: center;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #f0f2f5;
+  }
+  .paper-header h1 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 15px;
+  }
+  .paper-meta-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    color: #666;
+    font-size: 0.95rem;
+  }
+  .paper-meta-info span {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .paper-tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 20px;
+  }
+  .paper-tag-item {
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+  }
+  .paper-section {
+    margin-bottom: 30px;
+  }
+  .paper-section h2 {
+    font-size: 1.4rem;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f0f2f5;
+  }
+  .paper-section p {
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 15px;
+  }
+  .paper-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 24px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  .paper-link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+  }
+</style>
+
+<div class="paper-detail">
+  <div class="paper-header">
+    <h1>Attention Is All You Need</h1>
+    <div class="paper-meta-info">
+      <span><i class="fas fa-users"></i> Ashish Vaswani, Noam Shazeer, Niki Parmar 等</span>
+      <span><i class="fas fa-building"></i> Google Brain / Google Research</span>
+      <span><i class="fas fa-calendar"></i> 2017 年</span>
+      <span><i class="fas fa-book"></i> NeurIPS 2017</span>
+    </div>
+    <div class="paper-tags-container">
+      <span class="paper-tag-item">Transformer</span>
+      <span class="paper-tag-item">自注意力机制</span>
+      <span class="paper-tag-item">NLP</span>
+      <span class="paper-tag-item">深度学习</span>
+    </div>
+  </div>
+
+  <div class="paper-section">
+    <h2><i class="fas fa-file-alt"></i> 论文简介</h2>
+    <p>
+      本文提出了 Transformer 架构，这是一种全新的序列转换模型，完全基于注意力机制，摒弃了传统的循环和卷积结构。
+      Transformer 通过多头自注意力机制（Multi-Head Self-Attention）和位置编码（Positional Encoding），
+      在机器翻译任务上取得了当时最优的性能，同时大幅提升了训练效率。
+    </p>
+    <p>
+      这篇论文是现代 NLP 的里程碑之作，GPT、BERT、T5 等后续所有大语言模型都建立在 Transformer 架构之上。
+    </p>
+  </div>
+
+  <div class="paper-section">
+    <h2><i class="fas fa-lightbulb"></i> 核心创新</h2>
+    <p>
+      <strong>1. 自注意力机制（Self-Attention）</strong><br>
+      传统的 RNN 模型需要按顺序处理序列，无法并行化。Transformer 的自注意力机制允许模型同时关注序列中的所有位置，
+      大幅提升了并行计算能力。
+    </p>
+    <p>
+      <strong>2. 多头注意力（Multi-Head Attention）</strong><br>
+      通过多个注意力头并行计算，模型可以同时关注不同位置和不同语义层面的信息，
+      增强了模型的表达能力。
+    </p>
+    <p>
+      <strong>3. 位置编码（Positional Encoding）</strong><br>
+      由于 Transformer 没有循环结构，需要通过位置编码来注入序列的位置信息。
+      论文使用了正弦和余弦函数来生成位置编码。
+    </p>
+    <p>
+      <strong>4. 编码器-解码器架构</strong><br>
+      Transformer 采用编码器-解码器结构，编码器负责理解输入序列，
+      解码器负责生成输出序列，两者通过注意力机制进行交互。
+    </p>
+  </div>
+
+  <div class="paper-section">
+    <h2><i class="fas fa-chart-line"></i> 实验结果</h2>
+    <p>
+      在 WMT 2014 英德翻译任务上，Transformer 达到了 28.4 BLEU，超越了当时所有的循环和卷积模型。
+      在 WMT 2014 英法翻译任务上，达到了 41.0 BLEU 的单模型最优性能。
+    </p>
+    <p>
+      训练效率方面，Transformer 在 8 个 P100 GPU 上训练 3.5 天即可达到最优性能，
+      远快于之前的模型。
+    </p>
+  </div>
+
+  <div class="paper-section">
+    <h2><i class="fas fa-bolt"></i> 影响与意义</h2>
+    <p>
+      Transformer 架构彻底改变了深度学习的格局：
+    </p>
+    <p>
+      • <strong>NLP 领域</strong>: GPT、BERT、T5、LLaMA 等所有大语言模型都基于 Transformer<br>
+      • <strong>计算机视觉</strong>: ViT、Swin Transformer 等将 Transformer 应用于图像领域<br>
+      • <strong>多模态</strong>: CLIP、GPT-4V 等多模态模型使用 Transformer 融合不同模态信息<br>
+      • <strong>生成模型</strong>: DALL-E、Stable Diffusion 等图像生成模型也采用 Transformer 架构
+    </p>
+  </div>
+
+  <div class="paper-section" style="text-align: center; margin-top: 40px;">
+    <a href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer" class="paper-link">
+      <i class="fas fa-external-link-alt"></i> 查看论文原文 (arXiv)
+    </a>
+  </div>
+
+  <div style="text-align: center; margin-top: 40px;">
+    <a href="/paper/" style="color: #49b1f5; text-decoration: none;">
+      <i class="fas fa-arrow-left"></i> 返回论文列表
+    </a>
+  </div>
+</div>
+</div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2023 - 2026 By 驴哥</span></div><div class="footer_custom_text"><div id="workboard"></div></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><div class="js-pjax"></div><script src="/vendor/pangu/pangu.umd.js"></script><script> const initPangu = () => { if (typeof pangu !== 'undefined') { pangu.spacingPage(); } }; document.addEventListener('DOMContentLoaded', initPangu); document.addEventListener('pjax:complete', initPangu); </script><script src="/js/runtime.js"></script><script src="/js/tag-enhance.js"></script></div></body></html>
