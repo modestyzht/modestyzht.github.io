@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-06T04:38:03.510Z",
+  "generatedAt": "2026-07-13T03:58:25.090Z",
   "updateCadence": "weekly",
   "source": "GitHub REST Search API + curated skill metadata",
   "categories": [
@@ -73,12 +73,12 @@
           "fullName": "mattpocock/skills",
           "url": "https://github.com/mattpocock/skills",
           "description": "Skills for Real Engineers. Straight from my .claude directory.",
-          "stars": 157712,
-          "forks": 13565,
+          "stars": 167096,
+          "forks": 14401,
           "language": "Shell",
           "topics": [],
-          "pushedAt": "2026-07-05T17:37:25Z",
-          "updatedAt": "2026-07-06T04:37:23Z"
+          "pushedAt": "2026-07-10T13:15:20Z",
+          "updatedAt": "2026-07-13T03:58:15Z"
         }
       ],
       "features": [
@@ -106,14 +106,14 @@
         "fullName": "mattpocock/skills",
         "url": "https://github.com/mattpocock/skills",
         "description": "Skills for Real Engineers. Straight from my .claude directory.",
-        "stars": 157712,
-        "forks": 13565,
+        "stars": 167096,
+        "forks": 14401,
         "language": "Shell",
         "topics": [],
-        "pushedAt": "2026-07-05T17:37:25Z",
-        "updatedAt": "2026-07-06T04:37:23Z"
+        "pushedAt": "2026-07-10T13:15:20Z",
+        "updatedAt": "2026-07-13T03:58:15Z"
       },
-      "stars": 157712,
+      "stars": 167096,
       "source": "curated"
     },
     {
@@ -141,8 +141,8 @@
           "fullName": "affaan-m/ECC",
           "url": "https://github.com/affaan-m/ECC",
           "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-          "stars": 226381,
-          "forks": 34629,
+          "stars": 228990,
+          "forks": 35108,
           "language": "JavaScript",
           "topics": [
             "ai-agents",
@@ -154,8 +154,8 @@
             "mcp",
             "productivity"
           ],
-          "pushedAt": "2026-07-04T20:44:28Z",
-          "updatedAt": "2026-07-06T04:37:54Z"
+          "pushedAt": "2026-07-09T07:53:52Z",
+          "updatedAt": "2026-07-13T03:49:28Z"
         }
       ],
       "features": [
@@ -182,8 +182,8 @@
         "fullName": "affaan-m/ECC",
         "url": "https://github.com/affaan-m/ECC",
         "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-        "stars": 226381,
-        "forks": 34629,
+        "stars": 228990,
+        "forks": 35108,
         "language": "JavaScript",
         "topics": [
           "ai-agents",
@@ -195,10 +195,10 @@
           "mcp",
           "productivity"
         ],
-        "pushedAt": "2026-07-04T20:44:28Z",
-        "updatedAt": "2026-07-06T04:37:54Z"
+        "pushedAt": "2026-07-09T07:53:52Z",
+        "updatedAt": "2026-07-13T03:49:28Z"
       },
-      "stars": 226381,
+      "stars": 228990,
       "source": "curated"
     },
     {
@@ -225,9 +225,9 @@
           "name": "antigravity-awesome-skills",
           "fullName": "sickn33/antigravity-awesome-skills",
           "url": "https://github.com/sickn33/antigravity-awesome-skills",
-          "description": "Installable GitHub library of 1,800+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
-          "stars": 42408,
-          "forks": 6761,
+          "description": "Installable GitHub library of 1,900+ agentic skills for Claude Code, Cursor, Codex CLI, Autohand Code, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+          "stars": 43026,
+          "forks": 6829,
           "language": "Python",
           "topics": [
             "agent-skills",
@@ -251,8 +251,8 @@
             "mcp",
             "skill-library"
           ],
-          "pushedAt": "2026-07-05T16:58:49Z",
-          "updatedAt": "2026-07-06T04:36:01Z"
+          "pushedAt": "2026-07-12T23:41:18Z",
+          "updatedAt": "2026-07-13T03:54:14Z"
         }
       ],
       "features": [
@@ -278,9 +278,9 @@
         "name": "antigravity-awesome-skills",
         "fullName": "sickn33/antigravity-awesome-skills",
         "url": "https://github.com/sickn33/antigravity-awesome-skills",
-        "description": "Installable GitHub library of 1,800+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
-        "stars": 42408,
-        "forks": 6761,
+        "description": "Installable GitHub library of 1,900+ agentic skills for Claude Code, Cursor, Codex CLI, Autohand Code, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+        "stars": 43026,
+        "forks": 6829,
         "language": "Python",
         "topics": [
           "agent-skills",
@@ -304,10 +304,10 @@
           "mcp",
           "skill-library"
         ],
-        "pushedAt": "2026-07-05T16:58:49Z",
-        "updatedAt": "2026-07-06T04:36:01Z"
+        "pushedAt": "2026-07-12T23:41:18Z",
+        "updatedAt": "2026-07-13T03:54:14Z"
       },
-      "stars": 42408,
+      "stars": 43026,
       "source": "curated"
     },
     {
@@ -334,9 +334,9 @@
           "name": "antigravity-awesome-skills",
           "fullName": "sickn33/antigravity-awesome-skills",
           "url": "https://github.com/sickn33/antigravity-awesome-skills",
-          "description": "Installable GitHub library of 1,800+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
-          "stars": 42408,
-          "forks": 6761,
+          "description": "Installable GitHub library of 1,900+ agentic skills for Claude Code, Cursor, Codex CLI, Autohand Code, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+          "stars": 43026,
+          "forks": 6829,
           "language": "Python",
           "topics": [
             "agent-skills",
@@ -360,8 +360,8 @@
             "mcp",
             "skill-library"
           ],
-          "pushedAt": "2026-07-05T16:58:49Z",
-          "updatedAt": "2026-07-06T04:36:01Z"
+          "pushedAt": "2026-07-12T23:41:18Z",
+          "updatedAt": "2026-07-13T03:54:14Z"
         }
       ],
       "features": [
@@ -387,9 +387,9 @@
         "name": "antigravity-awesome-skills",
         "fullName": "sickn33/antigravity-awesome-skills",
         "url": "https://github.com/sickn33/antigravity-awesome-skills",
-        "description": "Installable GitHub library of 1,800+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
-        "stars": 42408,
-        "forks": 6761,
+        "description": "Installable GitHub library of 1,900+ agentic skills for Claude Code, Cursor, Codex CLI, Autohand Code, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+        "stars": 43026,
+        "forks": 6829,
         "language": "Python",
         "topics": [
           "agent-skills",
@@ -413,10 +413,10 @@
           "mcp",
           "skill-library"
         ],
-        "pushedAt": "2026-07-05T16:58:49Z",
-        "updatedAt": "2026-07-06T04:36:01Z"
+        "pushedAt": "2026-07-12T23:41:18Z",
+        "updatedAt": "2026-07-13T03:54:14Z"
       },
-      "stars": 42408,
+      "stars": 43026,
       "source": "curated"
     },
     {
@@ -443,9 +443,9 @@
           "name": "antigravity-awesome-skills",
           "fullName": "sickn33/antigravity-awesome-skills",
           "url": "https://github.com/sickn33/antigravity-awesome-skills",
-          "description": "Installable GitHub library of 1,800+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
-          "stars": 42408,
-          "forks": 6761,
+          "description": "Installable GitHub library of 1,900+ agentic skills for Claude Code, Cursor, Codex CLI, Autohand Code, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+          "stars": 43026,
+          "forks": 6829,
           "language": "Python",
           "topics": [
             "agent-skills",
@@ -469,8 +469,8 @@
             "mcp",
             "skill-library"
           ],
-          "pushedAt": "2026-07-05T16:58:49Z",
-          "updatedAt": "2026-07-06T04:36:01Z"
+          "pushedAt": "2026-07-12T23:41:18Z",
+          "updatedAt": "2026-07-13T03:54:14Z"
         }
       ],
       "features": [
@@ -496,9 +496,9 @@
         "name": "antigravity-awesome-skills",
         "fullName": "sickn33/antigravity-awesome-skills",
         "url": "https://github.com/sickn33/antigravity-awesome-skills",
-        "description": "Installable GitHub library of 1,800+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
-        "stars": 42408,
-        "forks": 6761,
+        "description": "Installable GitHub library of 1,900+ agentic skills for Claude Code, Cursor, Codex CLI, Autohand Code, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+        "stars": 43026,
+        "forks": 6829,
         "language": "Python",
         "topics": [
           "agent-skills",
@@ -522,10 +522,10 @@
           "mcp",
           "skill-library"
         ],
-        "pushedAt": "2026-07-05T16:58:49Z",
-        "updatedAt": "2026-07-06T04:36:01Z"
+        "pushedAt": "2026-07-12T23:41:18Z",
+        "updatedAt": "2026-07-13T03:54:14Z"
       },
-      "stars": 42408,
+      "stars": 43026,
       "source": "curated"
     },
     {
@@ -552,9 +552,9 @@
           "name": "open-design",
           "fullName": "nexu-io/open-design",
           "url": "https://github.com/nexu-io/open-design",
-          "description": "🎨 The Vibe Design Workspace & the open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen & 20+ CLIs via BYOK.",
-          "stars": 75275,
-          "forks": 8611,
+          "description": "🎨 The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen & 20+ CLIs via BYOK.",
+          "stars": 77616,
+          "forks": 8886,
           "language": "TypeScript",
           "topics": [
             "agent-skills",
@@ -578,8 +578,8 @@
             "ui-generator",
             "vibe-coding"
           ],
-          "pushedAt": "2026-07-06T04:32:44Z",
-          "updatedAt": "2026-07-06T04:28:17Z"
+          "pushedAt": "2026-07-13T03:57:59Z",
+          "updatedAt": "2026-07-13T03:57:49Z"
         }
       ],
       "features": [
@@ -605,9 +605,9 @@
         "name": "open-design",
         "fullName": "nexu-io/open-design",
         "url": "https://github.com/nexu-io/open-design",
-        "description": "🎨 The Vibe Design Workspace & the open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen & 20+ CLIs via BYOK.",
-        "stars": 75275,
-        "forks": 8611,
+        "description": "🎨 The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen & 20+ CLIs via BYOK.",
+        "stars": 77616,
+        "forks": 8886,
         "language": "TypeScript",
         "topics": [
           "agent-skills",
@@ -631,10 +631,10 @@
           "ui-generator",
           "vibe-coding"
         ],
-        "pushedAt": "2026-07-06T04:32:44Z",
-        "updatedAt": "2026-07-06T04:28:17Z"
+        "pushedAt": "2026-07-13T03:57:59Z",
+        "updatedAt": "2026-07-13T03:57:49Z"
       },
-      "stars": 75275,
+      "stars": 77616,
       "source": "curated"
     },
     {
@@ -732,7 +732,7 @@
           "fullName": "viknesh20-20/claude-code-tool-kit",
           "url": "https://github.com/viknesh20-20/claude-code-tool-kit",
           "description": "Production-ready Claude Code configuration. 12 original agents, 200+ slash-command skills, 45+ MCP servers, 14 plugins, design + 3D + WebGPU + GSAP + RAG tooling. One-command Node.js installer for premium websites, SaaS apps, AI agents. Free, MIT, stack-agnostic.",
-          "stars": 5,
+          "stars": 6,
           "forks": 0,
           "language": "JavaScript",
           "topics": [
@@ -757,7 +757,7 @@
             "webgpu"
           ],
           "pushedAt": "2026-05-02T19:03:58Z",
-          "updatedAt": "2026-06-09T14:52:19Z"
+          "updatedAt": "2026-07-12T08:38:54Z"
         }
       ],
       "features": [
@@ -784,7 +784,7 @@
         "fullName": "viknesh20-20/claude-code-tool-kit",
         "url": "https://github.com/viknesh20-20/claude-code-tool-kit",
         "description": "Production-ready Claude Code configuration. 12 original agents, 200+ slash-command skills, 45+ MCP servers, 14 plugins, design + 3D + WebGPU + GSAP + RAG tooling. One-command Node.js installer for premium websites, SaaS apps, AI agents. Free, MIT, stack-agnostic.",
-        "stars": 5,
+        "stars": 6,
         "forks": 0,
         "language": "JavaScript",
         "topics": [
@@ -809,9 +809,9 @@
           "webgpu"
         ],
         "pushedAt": "2026-05-02T19:03:58Z",
-        "updatedAt": "2026-06-09T14:52:19Z"
+        "updatedAt": "2026-07-12T08:38:54Z"
       },
-      "stars": 5,
+      "stars": 6,
       "source": "curated"
     },
     {
@@ -838,9 +838,9 @@
           "name": "open-design",
           "fullName": "nexu-io/open-design",
           "url": "https://github.com/nexu-io/open-design",
-          "description": "🎨 The Vibe Design Workspace & the open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen & 20+ CLIs via BYOK.",
-          "stars": 75275,
-          "forks": 8611,
+          "description": "🎨 The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen & 20+ CLIs via BYOK.",
+          "stars": 77616,
+          "forks": 8886,
           "language": "TypeScript",
           "topics": [
             "agent-skills",
@@ -864,8 +864,8 @@
             "ui-generator",
             "vibe-coding"
           ],
-          "pushedAt": "2026-07-06T04:32:44Z",
-          "updatedAt": "2026-07-06T04:28:17Z"
+          "pushedAt": "2026-07-13T03:57:59Z",
+          "updatedAt": "2026-07-13T03:57:49Z"
         }
       ],
       "features": [
@@ -891,9 +891,9 @@
         "name": "open-design",
         "fullName": "nexu-io/open-design",
         "url": "https://github.com/nexu-io/open-design",
-        "description": "🎨 The Vibe Design Workspace & the open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen & 20+ CLIs via BYOK.",
-        "stars": 75275,
-        "forks": 8611,
+        "description": "🎨 The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen & 20+ CLIs via BYOK.",
+        "stars": 77616,
+        "forks": 8886,
         "language": "TypeScript",
         "topics": [
           "agent-skills",
@@ -917,10 +917,10 @@
           "ui-generator",
           "vibe-coding"
         ],
-        "pushedAt": "2026-07-06T04:32:44Z",
-        "updatedAt": "2026-07-06T04:28:17Z"
+        "pushedAt": "2026-07-13T03:57:59Z",
+        "updatedAt": "2026-07-13T03:57:49Z"
       },
-      "stars": 75275,
+      "stars": 77616,
       "source": "curated"
     },
     {
@@ -947,9 +947,9 @@
           "name": "antigravity-awesome-skills",
           "fullName": "sickn33/antigravity-awesome-skills",
           "url": "https://github.com/sickn33/antigravity-awesome-skills",
-          "description": "Installable GitHub library of 1,800+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
-          "stars": 42408,
-          "forks": 6761,
+          "description": "Installable GitHub library of 1,900+ agentic skills for Claude Code, Cursor, Codex CLI, Autohand Code, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+          "stars": 43026,
+          "forks": 6829,
           "language": "Python",
           "topics": [
             "agent-skills",
@@ -973,8 +973,8 @@
             "mcp",
             "skill-library"
           ],
-          "pushedAt": "2026-07-05T16:58:49Z",
-          "updatedAt": "2026-07-06T04:36:01Z"
+          "pushedAt": "2026-07-12T23:41:18Z",
+          "updatedAt": "2026-07-13T03:54:14Z"
         }
       ],
       "features": [
@@ -1000,9 +1000,9 @@
         "name": "antigravity-awesome-skills",
         "fullName": "sickn33/antigravity-awesome-skills",
         "url": "https://github.com/sickn33/antigravity-awesome-skills",
-        "description": "Installable GitHub library of 1,800+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
-        "stars": 42408,
-        "forks": 6761,
+        "description": "Installable GitHub library of 1,900+ agentic skills for Claude Code, Cursor, Codex CLI, Autohand Code, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+        "stars": 43026,
+        "forks": 6829,
         "language": "Python",
         "topics": [
           "agent-skills",
@@ -1026,10 +1026,10 @@
           "mcp",
           "skill-library"
         ],
-        "pushedAt": "2026-07-05T16:58:49Z",
-        "updatedAt": "2026-07-06T04:36:01Z"
+        "pushedAt": "2026-07-12T23:41:18Z",
+        "updatedAt": "2026-07-13T03:54:14Z"
       },
-      "stars": 42408,
+      "stars": 43026,
       "source": "curated"
     },
     {
@@ -1056,9 +1056,9 @@
           "name": "antigravity-awesome-skills",
           "fullName": "sickn33/antigravity-awesome-skills",
           "url": "https://github.com/sickn33/antigravity-awesome-skills",
-          "description": "Installable GitHub library of 1,800+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
-          "stars": 42408,
-          "forks": 6761,
+          "description": "Installable GitHub library of 1,900+ agentic skills for Claude Code, Cursor, Codex CLI, Autohand Code, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+          "stars": 43026,
+          "forks": 6829,
           "language": "Python",
           "topics": [
             "agent-skills",
@@ -1082,8 +1082,8 @@
             "mcp",
             "skill-library"
           ],
-          "pushedAt": "2026-07-05T16:58:49Z",
-          "updatedAt": "2026-07-06T04:36:01Z"
+          "pushedAt": "2026-07-12T23:41:18Z",
+          "updatedAt": "2026-07-13T03:54:14Z"
         }
       ],
       "features": [
@@ -1108,9 +1108,9 @@
         "name": "antigravity-awesome-skills",
         "fullName": "sickn33/antigravity-awesome-skills",
         "url": "https://github.com/sickn33/antigravity-awesome-skills",
-        "description": "Installable GitHub library of 1,800+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
-        "stars": 42408,
-        "forks": 6761,
+        "description": "Installable GitHub library of 1,900+ agentic skills for Claude Code, Cursor, Codex CLI, Autohand Code, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+        "stars": 43026,
+        "forks": 6829,
         "language": "Python",
         "topics": [
           "agent-skills",
@@ -1134,10 +1134,10 @@
           "mcp",
           "skill-library"
         ],
-        "pushedAt": "2026-07-05T16:58:49Z",
-        "updatedAt": "2026-07-06T04:36:01Z"
+        "pushedAt": "2026-07-12T23:41:18Z",
+        "updatedAt": "2026-07-13T03:54:14Z"
       },
-      "stars": 42408,
+      "stars": 43026,
       "source": "curated"
     },
     {
@@ -1164,9 +1164,9 @@
           "name": "antigravity-awesome-skills",
           "fullName": "sickn33/antigravity-awesome-skills",
           "url": "https://github.com/sickn33/antigravity-awesome-skills",
-          "description": "Installable GitHub library of 1,800+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
-          "stars": 42408,
-          "forks": 6761,
+          "description": "Installable GitHub library of 1,900+ agentic skills for Claude Code, Cursor, Codex CLI, Autohand Code, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+          "stars": 43026,
+          "forks": 6829,
           "language": "Python",
           "topics": [
             "agent-skills",
@@ -1190,8 +1190,8 @@
             "mcp",
             "skill-library"
           ],
-          "pushedAt": "2026-07-05T16:58:49Z",
-          "updatedAt": "2026-07-06T04:36:01Z"
+          "pushedAt": "2026-07-12T23:41:18Z",
+          "updatedAt": "2026-07-13T03:54:14Z"
         }
       ],
       "features": [
@@ -1216,9 +1216,9 @@
         "name": "antigravity-awesome-skills",
         "fullName": "sickn33/antigravity-awesome-skills",
         "url": "https://github.com/sickn33/antigravity-awesome-skills",
-        "description": "Installable GitHub library of 1,800+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
-        "stars": 42408,
-        "forks": 6761,
+        "description": "Installable GitHub library of 1,900+ agentic skills for Claude Code, Cursor, Codex CLI, Autohand Code, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+        "stars": 43026,
+        "forks": 6829,
         "language": "Python",
         "topics": [
           "agent-skills",
@@ -1242,10 +1242,10 @@
           "mcp",
           "skill-library"
         ],
-        "pushedAt": "2026-07-05T16:58:49Z",
-        "updatedAt": "2026-07-06T04:36:01Z"
+        "pushedAt": "2026-07-12T23:41:18Z",
+        "updatedAt": "2026-07-13T03:54:14Z"
       },
-      "stars": 42408,
+      "stars": 43026,
       "source": "curated"
     },
     {
@@ -1272,9 +1272,9 @@
           "name": "antigravity-awesome-skills",
           "fullName": "sickn33/antigravity-awesome-skills",
           "url": "https://github.com/sickn33/antigravity-awesome-skills",
-          "description": "Installable GitHub library of 1,800+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
-          "stars": 42408,
-          "forks": 6761,
+          "description": "Installable GitHub library of 1,900+ agentic skills for Claude Code, Cursor, Codex CLI, Autohand Code, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+          "stars": 43026,
+          "forks": 6829,
           "language": "Python",
           "topics": [
             "agent-skills",
@@ -1298,8 +1298,8 @@
             "mcp",
             "skill-library"
           ],
-          "pushedAt": "2026-07-05T16:58:49Z",
-          "updatedAt": "2026-07-06T04:36:01Z"
+          "pushedAt": "2026-07-12T23:41:18Z",
+          "updatedAt": "2026-07-13T03:54:14Z"
         }
       ],
       "features": [
@@ -1324,9 +1324,9 @@
         "name": "antigravity-awesome-skills",
         "fullName": "sickn33/antigravity-awesome-skills",
         "url": "https://github.com/sickn33/antigravity-awesome-skills",
-        "description": "Installable GitHub library of 1,800+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
-        "stars": 42408,
-        "forks": 6761,
+        "description": "Installable GitHub library of 1,900+ agentic skills for Claude Code, Cursor, Codex CLI, Autohand Code, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+        "stars": 43026,
+        "forks": 6829,
         "language": "Python",
         "topics": [
           "agent-skills",
@@ -1350,10 +1350,10 @@
           "mcp",
           "skill-library"
         ],
-        "pushedAt": "2026-07-05T16:58:49Z",
-        "updatedAt": "2026-07-06T04:36:01Z"
+        "pushedAt": "2026-07-12T23:41:18Z",
+        "updatedAt": "2026-07-13T03:54:14Z"
       },
-      "stars": 42408,
+      "stars": 43026,
       "source": "curated"
     },
     {
@@ -1382,7 +1382,7 @@
           "fullName": "viknesh20-20/claude-code-tool-kit",
           "url": "https://github.com/viknesh20-20/claude-code-tool-kit",
           "description": "Production-ready Claude Code configuration. 12 original agents, 200+ slash-command skills, 45+ MCP servers, 14 plugins, design + 3D + WebGPU + GSAP + RAG tooling. One-command Node.js installer for premium websites, SaaS apps, AI agents. Free, MIT, stack-agnostic.",
-          "stars": 5,
+          "stars": 6,
           "forks": 0,
           "language": "JavaScript",
           "topics": [
@@ -1407,7 +1407,7 @@
             "webgpu"
           ],
           "pushedAt": "2026-05-02T19:03:58Z",
-          "updatedAt": "2026-06-09T14:52:19Z"
+          "updatedAt": "2026-07-12T08:38:54Z"
         }
       ],
       "features": [
@@ -1433,7 +1433,7 @@
         "fullName": "viknesh20-20/claude-code-tool-kit",
         "url": "https://github.com/viknesh20-20/claude-code-tool-kit",
         "description": "Production-ready Claude Code configuration. 12 original agents, 200+ slash-command skills, 45+ MCP servers, 14 plugins, design + 3D + WebGPU + GSAP + RAG tooling. One-command Node.js installer for premium websites, SaaS apps, AI agents. Free, MIT, stack-agnostic.",
-        "stars": 5,
+        "stars": 6,
         "forks": 0,
         "language": "JavaScript",
         "topics": [
@@ -1458,9 +1458,9 @@
           "webgpu"
         ],
         "pushedAt": "2026-05-02T19:03:58Z",
-        "updatedAt": "2026-06-09T14:52:19Z"
+        "updatedAt": "2026-07-12T08:38:54Z"
       },
-      "stars": 5,
+      "stars": 6,
       "source": "curated"
     },
     {
@@ -1489,7 +1489,7 @@
           "fullName": "viknesh20-20/claude-code-tool-kit",
           "url": "https://github.com/viknesh20-20/claude-code-tool-kit",
           "description": "Production-ready Claude Code configuration. 12 original agents, 200+ slash-command skills, 45+ MCP servers, 14 plugins, design + 3D + WebGPU + GSAP + RAG tooling. One-command Node.js installer for premium websites, SaaS apps, AI agents. Free, MIT, stack-agnostic.",
-          "stars": 5,
+          "stars": 6,
           "forks": 0,
           "language": "JavaScript",
           "topics": [
@@ -1514,7 +1514,7 @@
             "webgpu"
           ],
           "pushedAt": "2026-05-02T19:03:58Z",
-          "updatedAt": "2026-06-09T14:52:19Z"
+          "updatedAt": "2026-07-12T08:38:54Z"
         }
       ],
       "features": [
@@ -1540,7 +1540,7 @@
         "fullName": "viknesh20-20/claude-code-tool-kit",
         "url": "https://github.com/viknesh20-20/claude-code-tool-kit",
         "description": "Production-ready Claude Code configuration. 12 original agents, 200+ slash-command skills, 45+ MCP servers, 14 plugins, design + 3D + WebGPU + GSAP + RAG tooling. One-command Node.js installer for premium websites, SaaS apps, AI agents. Free, MIT, stack-agnostic.",
-        "stars": 5,
+        "stars": 6,
         "forks": 0,
         "language": "JavaScript",
         "topics": [
@@ -1565,9 +1565,9 @@
           "webgpu"
         ],
         "pushedAt": "2026-05-02T19:03:58Z",
-        "updatedAt": "2026-06-09T14:52:19Z"
+        "updatedAt": "2026-07-12T08:38:54Z"
       },
-      "stars": 5,
+      "stars": 6,
       "source": "curated"
     },
     {
@@ -1678,9 +1678,9 @@
           "name": "antigravity-awesome-skills",
           "fullName": "sickn33/antigravity-awesome-skills",
           "url": "https://github.com/sickn33/antigravity-awesome-skills",
-          "description": "Installable GitHub library of 1,800+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
-          "stars": 42408,
-          "forks": 6761,
+          "description": "Installable GitHub library of 1,900+ agentic skills for Claude Code, Cursor, Codex CLI, Autohand Code, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+          "stars": 43026,
+          "forks": 6829,
           "language": "Python",
           "topics": [
             "agent-skills",
@@ -1704,8 +1704,8 @@
             "mcp",
             "skill-library"
           ],
-          "pushedAt": "2026-07-05T16:58:49Z",
-          "updatedAt": "2026-07-06T04:36:01Z"
+          "pushedAt": "2026-07-12T23:41:18Z",
+          "updatedAt": "2026-07-13T03:54:14Z"
         }
       ],
       "features": [
@@ -1730,9 +1730,9 @@
         "name": "antigravity-awesome-skills",
         "fullName": "sickn33/antigravity-awesome-skills",
         "url": "https://github.com/sickn33/antigravity-awesome-skills",
-        "description": "Installable GitHub library of 1,800+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
-        "stars": 42408,
-        "forks": 6761,
+        "description": "Installable GitHub library of 1,900+ agentic skills for Claude Code, Cursor, Codex CLI, Autohand Code, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+        "stars": 43026,
+        "forks": 6829,
         "language": "Python",
         "topics": [
           "agent-skills",
@@ -1756,10 +1756,10 @@
           "mcp",
           "skill-library"
         ],
-        "pushedAt": "2026-07-05T16:58:49Z",
-        "updatedAt": "2026-07-06T04:36:01Z"
+        "pushedAt": "2026-07-12T23:41:18Z",
+        "updatedAt": "2026-07-13T03:54:14Z"
       },
-      "stars": 42408,
+      "stars": 43026,
       "source": "curated"
     },
     {
@@ -1785,9 +1785,9 @@
           "name": "antigravity-awesome-skills",
           "fullName": "sickn33/antigravity-awesome-skills",
           "url": "https://github.com/sickn33/antigravity-awesome-skills",
-          "description": "Installable GitHub library of 1,800+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
-          "stars": 42408,
-          "forks": 6761,
+          "description": "Installable GitHub library of 1,900+ agentic skills for Claude Code, Cursor, Codex CLI, Autohand Code, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+          "stars": 43026,
+          "forks": 6829,
           "language": "Python",
           "topics": [
             "agent-skills",
@@ -1811,8 +1811,8 @@
             "mcp",
             "skill-library"
           ],
-          "pushedAt": "2026-07-05T16:58:49Z",
-          "updatedAt": "2026-07-06T04:36:01Z"
+          "pushedAt": "2026-07-12T23:41:18Z",
+          "updatedAt": "2026-07-13T03:54:14Z"
         }
       ],
       "features": [
@@ -1837,9 +1837,9 @@
         "name": "antigravity-awesome-skills",
         "fullName": "sickn33/antigravity-awesome-skills",
         "url": "https://github.com/sickn33/antigravity-awesome-skills",
-        "description": "Installable GitHub library of 1,800+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
-        "stars": 42408,
-        "forks": 6761,
+        "description": "Installable GitHub library of 1,900+ agentic skills for Claude Code, Cursor, Codex CLI, Autohand Code, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+        "stars": 43026,
+        "forks": 6829,
         "language": "Python",
         "topics": [
           "agent-skills",
@@ -1863,10 +1863,10 @@
           "mcp",
           "skill-library"
         ],
-        "pushedAt": "2026-07-05T16:58:49Z",
-        "updatedAt": "2026-07-06T04:36:01Z"
+        "pushedAt": "2026-07-12T23:41:18Z",
+        "updatedAt": "2026-07-13T03:54:14Z"
       },
-      "stars": 42408,
+      "stars": 43026,
       "source": "curated"
     },
     {
@@ -1892,9 +1892,9 @@
           "name": "antigravity-awesome-skills",
           "fullName": "sickn33/antigravity-awesome-skills",
           "url": "https://github.com/sickn33/antigravity-awesome-skills",
-          "description": "Installable GitHub library of 1,800+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
-          "stars": 42408,
-          "forks": 6761,
+          "description": "Installable GitHub library of 1,900+ agentic skills for Claude Code, Cursor, Codex CLI, Autohand Code, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+          "stars": 43026,
+          "forks": 6829,
           "language": "Python",
           "topics": [
             "agent-skills",
@@ -1918,8 +1918,8 @@
             "mcp",
             "skill-library"
           ],
-          "pushedAt": "2026-07-05T16:58:49Z",
-          "updatedAt": "2026-07-06T04:36:01Z"
+          "pushedAt": "2026-07-12T23:41:18Z",
+          "updatedAt": "2026-07-13T03:54:14Z"
         }
       ],
       "features": [
@@ -1944,9 +1944,9 @@
         "name": "antigravity-awesome-skills",
         "fullName": "sickn33/antigravity-awesome-skills",
         "url": "https://github.com/sickn33/antigravity-awesome-skills",
-        "description": "Installable GitHub library of 1,800+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
-        "stars": 42408,
-        "forks": 6761,
+        "description": "Installable GitHub library of 1,900+ agentic skills for Claude Code, Cursor, Codex CLI, Autohand Code, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+        "stars": 43026,
+        "forks": 6829,
         "language": "Python",
         "topics": [
           "agent-skills",
@@ -1970,10 +1970,10 @@
           "mcp",
           "skill-library"
         ],
-        "pushedAt": "2026-07-05T16:58:49Z",
-        "updatedAt": "2026-07-06T04:36:01Z"
+        "pushedAt": "2026-07-12T23:41:18Z",
+        "updatedAt": "2026-07-13T03:54:14Z"
       },
-      "stars": 42408,
+      "stars": 43026,
       "source": "curated"
     },
     {
@@ -1999,9 +1999,9 @@
           "name": "antigravity-awesome-skills",
           "fullName": "sickn33/antigravity-awesome-skills",
           "url": "https://github.com/sickn33/antigravity-awesome-skills",
-          "description": "Installable GitHub library of 1,800+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
-          "stars": 42408,
-          "forks": 6761,
+          "description": "Installable GitHub library of 1,900+ agentic skills for Claude Code, Cursor, Codex CLI, Autohand Code, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+          "stars": 43026,
+          "forks": 6829,
           "language": "Python",
           "topics": [
             "agent-skills",
@@ -2025,8 +2025,8 @@
             "mcp",
             "skill-library"
           ],
-          "pushedAt": "2026-07-05T16:58:49Z",
-          "updatedAt": "2026-07-06T04:36:01Z"
+          "pushedAt": "2026-07-12T23:41:18Z",
+          "updatedAt": "2026-07-13T03:54:14Z"
         }
       ],
       "features": [
@@ -2051,9 +2051,9 @@
         "name": "antigravity-awesome-skills",
         "fullName": "sickn33/antigravity-awesome-skills",
         "url": "https://github.com/sickn33/antigravity-awesome-skills",
-        "description": "Installable GitHub library of 1,800+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
-        "stars": 42408,
-        "forks": 6761,
+        "description": "Installable GitHub library of 1,900+ agentic skills for Claude Code, Cursor, Codex CLI, Autohand Code, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+        "stars": 43026,
+        "forks": 6829,
         "language": "Python",
         "topics": [
           "agent-skills",
@@ -2077,10 +2077,10 @@
           "mcp",
           "skill-library"
         ],
-        "pushedAt": "2026-07-05T16:58:49Z",
-        "updatedAt": "2026-07-06T04:36:01Z"
+        "pushedAt": "2026-07-12T23:41:18Z",
+        "updatedAt": "2026-07-13T03:54:14Z"
       },
-      "stars": 42408,
+      "stars": 43026,
       "source": "curated"
     },
     {
@@ -2297,7 +2297,7 @@
             "webflow",
             "website-to-react"
           ],
-          "pushedAt": "2026-07-05T15:11:25Z",
+          "pushedAt": "2026-07-09T15:24:14Z",
           "updatedAt": "2026-06-22T15:17:52Z"
         }
       ],
@@ -2349,7 +2349,7 @@
           "webflow",
           "website-to-react"
         ],
-        "pushedAt": "2026-07-05T15:11:25Z",
+        "pushedAt": "2026-07-09T15:24:14Z",
         "updatedAt": "2026-06-22T15:17:52Z"
       },
       "stars": 5,
@@ -2379,9 +2379,9 @@
           "name": "antigravity-awesome-skills",
           "fullName": "sickn33/antigravity-awesome-skills",
           "url": "https://github.com/sickn33/antigravity-awesome-skills",
-          "description": "Installable GitHub library of 1,800+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
-          "stars": 42408,
-          "forks": 6761,
+          "description": "Installable GitHub library of 1,900+ agentic skills for Claude Code, Cursor, Codex CLI, Autohand Code, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+          "stars": 43026,
+          "forks": 6829,
           "language": "Python",
           "topics": [
             "agent-skills",
@@ -2405,8 +2405,8 @@
             "mcp",
             "skill-library"
           ],
-          "pushedAt": "2026-07-05T16:58:49Z",
-          "updatedAt": "2026-07-06T04:36:01Z"
+          "pushedAt": "2026-07-12T23:41:18Z",
+          "updatedAt": "2026-07-13T03:54:14Z"
         }
       ],
       "features": [
@@ -2431,9 +2431,9 @@
         "name": "antigravity-awesome-skills",
         "fullName": "sickn33/antigravity-awesome-skills",
         "url": "https://github.com/sickn33/antigravity-awesome-skills",
-        "description": "Installable GitHub library of 1,800+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
-        "stars": 42408,
-        "forks": 6761,
+        "description": "Installable GitHub library of 1,900+ agentic skills for Claude Code, Cursor, Codex CLI, Autohand Code, Gemini CLI, Antigravity, and more. Includes specialized plugins, installer CLI, bundles, workflows, and official/community skill collections.",
+        "stars": 43026,
+        "forks": 6829,
         "language": "Python",
         "topics": [
           "agent-skills",
@@ -2457,10 +2457,10 @@
           "mcp",
           "skill-library"
         ],
-        "pushedAt": "2026-07-05T16:58:49Z",
-        "updatedAt": "2026-07-06T04:36:01Z"
+        "pushedAt": "2026-07-12T23:41:18Z",
+        "updatedAt": "2026-07-13T03:54:14Z"
       },
-      "stars": 42408,
+      "stars": 43026,
       "source": "curated"
     },
     {
@@ -2489,12 +2489,12 @@
           "fullName": "awesome-skills/code-review-skill",
           "url": "https://github.com/awesome-skills/code-review-skill",
           "description": "A comprehensive code review skill for Claude Code, covering React 19, Vue 3, Rust, TypeScript, TanStack Query v5, and more.",
-          "stars": 1270,
-          "forks": 130,
+          "stars": 1374,
+          "forks": 142,
           "language": "HTML",
           "topics": [],
-          "pushedAt": "2026-06-28T09:16:13Z",
-          "updatedAt": "2026-07-06T02:16:35Z"
+          "pushedAt": "2026-07-09T06:50:14Z",
+          "updatedAt": "2026-07-13T03:00:22Z"
         }
       ],
       "features": [
@@ -2521,14 +2521,14 @@
         "fullName": "awesome-skills/code-review-skill",
         "url": "https://github.com/awesome-skills/code-review-skill",
         "description": "A comprehensive code review skill for Claude Code, covering React 19, Vue 3, Rust, TypeScript, TanStack Query v5, and more.",
-        "stars": 1270,
-        "forks": 130,
+        "stars": 1374,
+        "forks": 142,
         "language": "HTML",
         "topics": [],
-        "pushedAt": "2026-06-28T09:16:13Z",
-        "updatedAt": "2026-07-06T02:16:35Z"
+        "pushedAt": "2026-07-09T06:50:14Z",
+        "updatedAt": "2026-07-13T03:00:22Z"
       },
-      "stars": 1270,
+      "stars": 1374,
       "source": "curated"
     },
     {
@@ -2555,12 +2555,12 @@
           "fullName": "anthropics/claude-code",
           "url": "https://github.com/anthropics/claude-code",
           "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-          "stars": 136367,
-          "forks": 21914,
+          "stars": 137602,
+          "forks": 22218,
           "language": "Python",
           "topics": [],
-          "pushedAt": "2026-07-03T23:50:35Z",
-          "updatedAt": "2026-07-06T04:35:19Z"
+          "pushedAt": "2026-07-11T00:52:10Z",
+          "updatedAt": "2026-07-13T03:51:39Z"
         }
       ],
       "features": [
@@ -2586,14 +2586,14 @@
         "fullName": "anthropics/claude-code",
         "url": "https://github.com/anthropics/claude-code",
         "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-        "stars": 136367,
-        "forks": 21914,
+        "stars": 137602,
+        "forks": 22218,
         "language": "Python",
         "topics": [],
-        "pushedAt": "2026-07-03T23:50:35Z",
-        "updatedAt": "2026-07-06T04:35:19Z"
+        "pushedAt": "2026-07-11T00:52:10Z",
+        "updatedAt": "2026-07-13T03:51:39Z"
       },
-      "stars": 136367,
+      "stars": 137602,
       "source": "curated"
     },
     {
@@ -2622,7 +2622,7 @@
           "fullName": "waybarrios/opencode-power-pack",
           "url": "https://github.com/waybarrios/opencode-power-pack",
           "description": "Eleven Claude Code skills ported to OpenCode: code-review, security-review, feature-dev, frontend-design + 7 more. One config line, one plugin.",
-          "stars": 416,
+          "stars": 426,
           "forks": 38,
           "language": "JavaScript",
           "topics": [
@@ -2638,7 +2638,7 @@
             "skills"
           ],
           "pushedAt": "2026-06-10T02:41:28Z",
-          "updatedAt": "2026-07-05T14:03:34Z"
+          "updatedAt": "2026-07-11T03:31:51Z"
         }
       ],
       "features": [
@@ -2665,7 +2665,7 @@
         "fullName": "waybarrios/opencode-power-pack",
         "url": "https://github.com/waybarrios/opencode-power-pack",
         "description": "Eleven Claude Code skills ported to OpenCode: code-review, security-review, feature-dev, frontend-design + 7 more. One config line, one plugin.",
-        "stars": 416,
+        "stars": 426,
         "forks": 38,
         "language": "JavaScript",
         "topics": [
@@ -2681,9 +2681,9 @@
           "skills"
         ],
         "pushedAt": "2026-06-10T02:41:28Z",
-        "updatedAt": "2026-07-05T14:03:34Z"
+        "updatedAt": "2026-07-11T03:31:51Z"
       },
-      "stars": 416,
+      "stars": 426,
       "source": "curated"
     },
     {
@@ -2712,7 +2712,7 @@
           "fullName": "waybarrios/opencode-power-pack",
           "url": "https://github.com/waybarrios/opencode-power-pack",
           "description": "Eleven Claude Code skills ported to OpenCode: code-review, security-review, feature-dev, frontend-design + 7 more. One config line, one plugin.",
-          "stars": 416,
+          "stars": 426,
           "forks": 38,
           "language": "JavaScript",
           "topics": [
@@ -2728,7 +2728,7 @@
             "skills"
           ],
           "pushedAt": "2026-06-10T02:41:28Z",
-          "updatedAt": "2026-07-05T14:03:34Z"
+          "updatedAt": "2026-07-11T03:31:51Z"
         }
       ],
       "features": [
@@ -2755,7 +2755,7 @@
         "fullName": "waybarrios/opencode-power-pack",
         "url": "https://github.com/waybarrios/opencode-power-pack",
         "description": "Eleven Claude Code skills ported to OpenCode: code-review, security-review, feature-dev, frontend-design + 7 more. One config line, one plugin.",
-        "stars": 416,
+        "stars": 426,
         "forks": 38,
         "language": "JavaScript",
         "topics": [
@@ -2771,9 +2771,9 @@
           "skills"
         ],
         "pushedAt": "2026-06-10T02:41:28Z",
-        "updatedAt": "2026-07-05T14:03:34Z"
+        "updatedAt": "2026-07-11T03:31:51Z"
       },
-      "stars": 416,
+      "stars": 426,
       "source": "curated"
     }
   ],
@@ -2784,8 +2784,8 @@
       "fullName": "obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "url": "https://github.com/obra/superpowers",
-      "stars": 247064,
-      "forks": 21914,
+      "stars": 253157,
+      "forks": 22612,
       "language": "Shell",
       "topics": [
         "ai",
@@ -2797,8 +2797,8 @@
         "subagent-driven-development",
         "superpowers"
       ],
-      "pushedAt": "2026-07-05T22:52:28Z",
-      "updatedAt": "2026-07-06T04:37:04Z"
+      "pushedAt": "2026-07-10T15:58:09Z",
+      "updatedAt": "2026-07-13T03:57:52Z"
     },
     {
       "id": "affaan-m-ecc",
@@ -2806,8 +2806,8 @@
       "fullName": "affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "url": "https://github.com/affaan-m/ECC",
-      "stars": 226381,
-      "forks": 34629,
+      "stars": 228990,
+      "forks": 35108,
       "language": "JavaScript",
       "topics": [
         "ai-agents",
@@ -2819,8 +2819,8 @@
         "mcp",
         "productivity"
       ],
-      "pushedAt": "2026-07-04T20:44:28Z",
-      "updatedAt": "2026-07-06T04:37:54Z"
+      "pushedAt": "2026-07-09T07:53:52Z",
+      "updatedAt": "2026-07-13T03:49:28Z"
     },
     {
       "id": "multica-ai-andrej-karpathy-skills",
@@ -2828,27 +2828,12 @@
       "fullName": "multica-ai/andrej-karpathy-skills",
       "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
       "url": "https://github.com/multica-ai/andrej-karpathy-skills",
-      "stars": 188120,
-      "forks": 19305,
+      "stars": 191293,
+      "forks": 19638,
       "language": "",
       "topics": [],
       "pushedAt": "2026-04-20T10:05:04Z",
-      "updatedAt": "2026-07-06T04:35:52Z"
-    },
-    {
-      "id": "anthropics-skills",
-      "name": "skills",
-      "fullName": "anthropics/skills",
-      "description": "Public repository for Agent Skills",
-      "url": "https://github.com/anthropics/skills",
-      "stars": 158497,
-      "forks": 18694,
-      "language": "Python",
-      "topics": [
-        "agent-skills"
-      ],
-      "pushedAt": "2026-07-01T18:11:25Z",
-      "updatedAt": "2026-07-06T04:33:21Z"
+      "updatedAt": "2026-07-13T03:52:11Z"
     },
     {
       "id": "mattpocock-skills",
@@ -2856,12 +2841,27 @@
       "fullName": "mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .claude directory.",
       "url": "https://github.com/mattpocock/skills",
-      "stars": 157712,
-      "forks": 13565,
+      "stars": 167096,
+      "forks": 14401,
       "language": "Shell",
       "topics": [],
-      "pushedAt": "2026-07-05T17:37:25Z",
-      "updatedAt": "2026-07-06T04:37:23Z"
+      "pushedAt": "2026-07-10T13:15:20Z",
+      "updatedAt": "2026-07-13T03:58:15Z"
+    },
+    {
+      "id": "anthropics-skills",
+      "name": "skills",
+      "fullName": "anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "url": "https://github.com/anthropics/skills",
+      "stars": 160631,
+      "forks": 18960,
+      "language": "Python",
+      "topics": [
+        "agent-skills"
+      ],
+      "pushedAt": "2026-07-01T18:11:25Z",
+      "updatedAt": "2026-07-13T03:56:58Z"
     },
     {
       "id": "farion1231-cc-switch",
@@ -2869,8 +2869,8 @@
       "fullName": "farion1231/cc-switch",
       "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io",
       "url": "https://github.com/farion1231/cc-switch",
-      "stars": 113606,
-      "forks": 7569,
+      "stars": 116404,
+      "forks": 7805,
       "language": "Rust",
       "topics": [
         "ai-tools",
@@ -2894,8 +2894,8 @@
         "typescript",
         "wsl-support"
       ],
-      "pushedAt": "2026-07-06T01:11:56Z",
-      "updatedAt": "2026-07-06T04:37:34Z"
+      "pushedAt": "2026-07-12T13:47:46Z",
+      "updatedAt": "2026-07-13T03:57:31Z"
     },
     {
       "id": "nextlevelbuilder-ui-ux-pro-max-skill",
@@ -2903,8 +2903,8 @@
       "fullName": "nextlevelbuilder/ui-ux-pro-max-skill",
       "description": "An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms",
       "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
-      "stars": 101327,
-      "forks": 10682,
+      "stars": 104815,
+      "forks": 11104,
       "language": "Python",
       "topics": [
         "ai-skills",
@@ -2927,8 +2927,8 @@
         "uikit",
         "windsurf-ai"
       ],
-      "pushedAt": "2026-07-04T02:25:13Z",
-      "updatedAt": "2026-07-06T04:34:57Z"
+      "pushedAt": "2026-07-10T14:30:06Z",
+      "updatedAt": "2026-07-13T03:55:46Z"
     },
     {
       "id": "thedotmack-claude-mem",
@@ -2936,8 +2936,8 @@
       "fullName": "thedotmack/claude-mem",
       "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
       "url": "https://github.com/thedotmack/claude-mem",
-      "stars": 86014,
-      "forks": 7445,
+      "stars": 86993,
+      "forks": 7519,
       "language": "JavaScript",
       "topics": [
         "ai",
@@ -2961,8 +2961,8 @@
         "sqlite",
         "supermemory"
       ],
-      "pushedAt": "2026-07-05T22:47:21Z",
-      "updatedAt": "2026-07-06T04:37:06Z"
+      "pushedAt": "2026-07-13T03:54:37Z",
+      "updatedAt": "2026-07-13T03:56:31Z"
     },
     {
       "id": "graphify-labs-graphify",
@@ -2970,8 +2970,8 @@
       "fullName": "Graphify-Labs/graphify",
       "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
       "url": "https://github.com/Graphify-Labs/graphify",
-      "stars": 78237,
-      "forks": 7733,
+      "stars": 83421,
+      "forks": 8228,
       "language": "Python",
       "topics": [
         "antigravity",
@@ -2986,14 +2986,38 @@
         "skills",
         "tree-sitter"
       ],
-      "pushedAt": "2026-07-06T01:34:29Z",
-      "updatedAt": "2026-07-06T04:31:12Z"
+      "pushedAt": "2026-07-12T10:12:23Z",
+      "updatedAt": "2026-07-13T03:56:26Z"
+    },
+    {
+      "id": "dietrichgebert-ponytail",
+      "name": "ponytail",
+      "fullName": "DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "stars": 81478,
+      "forks": 4402,
+      "language": "JavaScript",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "claude",
+        "claude-code",
+        "claude-code-plugin",
+        "cursor-rules",
+        "developer-tools",
+        "llm",
+        "prompt-engineering",
+        "yagni"
+      ],
+      "pushedAt": "2026-07-10T02:44:32Z",
+      "updatedAt": "2026-07-13T03:52:32Z"
     }
   ],
   "counts": {
     "skills": 28,
     "categories": 7,
     "repositories": 14,
-    "githubLeaderboard": 9
+    "githubLeaderboard": 10
   }
 }
