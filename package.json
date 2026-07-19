@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@egjs/infinitegrid": "^4.13.0",
-    "@fortawesome/fontawesome-free": "^7.3.0",
+    "@fortawesome/fontawesome-free": "^7.3.1",
     "butterfly-extsrc": "^1.1.6",
     "hexo": "^8.0.0",
     "hexo-deployer-git": "^4.0.0",
