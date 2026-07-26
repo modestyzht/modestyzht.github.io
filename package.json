@@ -32,6 +32,6 @@
     "hexo-server": "^3.0.0",
     "hexo-theme-butterfly": "^5.6.1",
     "hexo-theme-landscape": "^1.0.0",
-    "pangu": "^8.0.0"
+    "pangu": "^8.2.0"
   }
 }
