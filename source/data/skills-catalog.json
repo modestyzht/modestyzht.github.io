@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-19T04:37:54.763Z",
+  "generatedAt": "2026-10-26T04:43:54.277Z",
   "updateCadence": "weekly",
   "source": "GitHub REST Search API + curated skill metadata",
   "categories": [
@@ -73,12 +73,12 @@
           "fullName": "mattpocock/skills",
           "url": "https://github.com/mattpocock/skills",
           "description": "Skills for Real Engineers. Straight from my .agents directory.",
-          "stars": 296423,
-          "forks": 24886,
+          "stars": 303374,
+          "forks": 25529,
           "language": "Shell",
           "topics": [],
-          "pushedAt": "2026-10-13T08:46:40Z",
-          "updatedAt": "2026-10-19T04:36:01Z"
+          "pushedAt": "2026-10-22T09:35:28Z",
+          "updatedAt": "2026-10-26T04:43:20Z"
         }
       ],
       "features": [
@@ -106,14 +106,14 @@
         "fullName": "mattpocock/skills",
         "url": "https://github.com/mattpocock/skills",
         "description": "Skills for Real Engineers. Straight from my .agents directory.",
-        "stars": 296423,
-        "forks": 24886,
+        "stars": 303374,
+        "forks": 25529,
         "language": "Shell",
         "topics": [],
-        "pushedAt": "2026-10-13T08:46:40Z",
-        "updatedAt": "2026-10-19T04:36:01Z"
+        "pushedAt": "2026-10-22T09:35:28Z",
+        "updatedAt": "2026-10-26T04:43:20Z"
       },
-      "stars": 296423,
+      "stars": 303374,
       "source": "curated"
     },
     {
@@ -141,8 +141,8 @@
           "fullName": "affaan-m/ECC",
           "url": "https://github.com/affaan-m/ECC",
           "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-          "stars": 283412,
-          "forks": 42100,
+          "stars": 288969,
+          "forks": 42833,
           "language": "JavaScript",
           "topics": [
             "ai-agents",
@@ -154,8 +154,8 @@
             "mcp",
             "productivity"
           ],
-          "pushedAt": "2026-10-15T19:17:01Z",
-          "updatedAt": "2026-10-19T04:37:03Z"
+          "pushedAt": "2026-10-26T04:03:57Z",
+          "updatedAt": "2026-10-26T04:41:08Z"
         }
       ],
       "features": [
@@ -182,8 +182,8 @@
         "fullName": "affaan-m/ECC",
         "url": "https://github.com/affaan-m/ECC",
         "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-        "stars": 283412,
-        "forks": 42100,
+        "stars": 288969,
+        "forks": 42833,
         "language": "JavaScript",
         "topics": [
           "ai-agents",
@@ -195,10 +195,10 @@
           "mcp",
           "productivity"
         ],
-        "pushedAt": "2026-10-15T19:17:01Z",
-        "updatedAt": "2026-10-19T04:37:03Z"
+        "pushedAt": "2026-10-26T04:03:57Z",
+        "updatedAt": "2026-10-26T04:41:08Z"
       },
-      "stars": 283412,
+      "stars": 288969,
       "source": "curated"
     },
     {
@@ -225,9 +225,9 @@
           "name": "antigravity-awesome-skills",
           "fullName": "sickn33/antigravity-awesome-skills",
           "url": "https://github.com/sickn33/antigravity-awesome-skills",
-          "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,600+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
-          "stars": 47906,
-          "forks": 6994,
+          "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,750+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
+          "stars": 48505,
+          "forks": 7052,
           "language": "Python",
           "topics": [
             "agent-skills",
@@ -251,8 +251,8 @@
             "mcp",
             "skill-library"
           ],
-          "pushedAt": "2026-10-18T22:26:45Z",
-          "updatedAt": "2026-10-19T04:33:34Z"
+          "pushedAt": "2026-10-24T21:31:58Z",
+          "updatedAt": "2026-10-26T04:25:45Z"
         }
       ],
       "features": [
@@ -278,9 +278,9 @@
         "name": "antigravity-awesome-skills",
         "fullName": "sickn33/antigravity-awesome-skills",
         "url": "https://github.com/sickn33/antigravity-awesome-skills",
-        "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,600+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
-        "stars": 47906,
-        "forks": 6994,
+        "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,750+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
+        "stars": 48505,
+        "forks": 7052,
         "language": "Python",
         "topics": [
           "agent-skills",
@@ -304,10 +304,10 @@
           "mcp",
           "skill-library"
         ],
-        "pushedAt": "2026-10-18T22:26:45Z",
-        "updatedAt": "2026-10-19T04:33:34Z"
+        "pushedAt": "2026-10-24T21:31:58Z",
+        "updatedAt": "2026-10-26T04:25:45Z"
       },
-      "stars": 47906,
+      "stars": 48505,
       "source": "curated"
     },
     {
@@ -334,9 +334,9 @@
           "name": "antigravity-awesome-skills",
           "fullName": "sickn33/antigravity-awesome-skills",
           "url": "https://github.com/sickn33/antigravity-awesome-skills",
-          "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,600+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
-          "stars": 47906,
-          "forks": 6994,
+          "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,750+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
+          "stars": 48505,
+          "forks": 7052,
           "language": "Python",
           "topics": [
             "agent-skills",
@@ -360,8 +360,8 @@
             "mcp",
             "skill-library"
           ],
-          "pushedAt": "2026-10-18T22:26:45Z",
-          "updatedAt": "2026-10-19T04:33:34Z"
+          "pushedAt": "2026-10-24T21:31:58Z",
+          "updatedAt": "2026-10-26T04:25:45Z"
         }
       ],
       "features": [
@@ -387,9 +387,9 @@
         "name": "antigravity-awesome-skills",
         "fullName": "sickn33/antigravity-awesome-skills",
         "url": "https://github.com/sickn33/antigravity-awesome-skills",
-        "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,600+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
-        "stars": 47906,
-        "forks": 6994,
+        "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,750+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
+        "stars": 48505,
+        "forks": 7052,
         "language": "Python",
         "topics": [
           "agent-skills",
@@ -413,10 +413,10 @@
           "mcp",
           "skill-library"
         ],
-        "pushedAt": "2026-10-18T22:26:45Z",
-        "updatedAt": "2026-10-19T04:33:34Z"
+        "pushedAt": "2026-10-24T21:31:58Z",
+        "updatedAt": "2026-10-26T04:25:45Z"
       },
-      "stars": 47906,
+      "stars": 48505,
       "source": "curated"
     },
     {
@@ -443,9 +443,9 @@
           "name": "antigravity-awesome-skills",
           "fullName": "sickn33/antigravity-awesome-skills",
           "url": "https://github.com/sickn33/antigravity-awesome-skills",
-          "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,600+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
-          "stars": 47906,
-          "forks": 6994,
+          "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,750+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
+          "stars": 48505,
+          "forks": 7052,
           "language": "Python",
           "topics": [
             "agent-skills",
@@ -469,8 +469,8 @@
             "mcp",
             "skill-library"
           ],
-          "pushedAt": "2026-10-18T22:26:45Z",
-          "updatedAt": "2026-10-19T04:33:34Z"
+          "pushedAt": "2026-10-24T21:31:58Z",
+          "updatedAt": "2026-10-26T04:25:45Z"
         }
       ],
       "features": [
@@ -496,9 +496,9 @@
         "name": "antigravity-awesome-skills",
         "fullName": "sickn33/antigravity-awesome-skills",
         "url": "https://github.com/sickn33/antigravity-awesome-skills",
-        "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,600+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
-        "stars": 47906,
-        "forks": 6994,
+        "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,750+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
+        "stars": 48505,
+        "forks": 7052,
         "language": "Python",
         "topics": [
           "agent-skills",
@@ -522,10 +522,10 @@
           "mcp",
           "skill-library"
         ],
-        "pushedAt": "2026-10-18T22:26:45Z",
-        "updatedAt": "2026-10-19T04:33:34Z"
+        "pushedAt": "2026-10-24T21:31:58Z",
+        "updatedAt": "2026-10-26T04:25:45Z"
       },
-      "stars": 47906,
+      "stars": 48505,
       "source": "curated"
     },
     {
@@ -553,8 +553,8 @@
           "fullName": "nexu-io/open-design",
           "url": "https://github.com/nexu-io/open-design",
           "description": "The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create motion, prototypes, websites, apps, dashboards, presentations, images, and videos with your team and AI agents. Share work, exchange feedback, and iterate together in one workspace.",
-          "stars": 102252,
-          "forks": 11730,
+          "stars": 103991,
+          "forks": 11888,
           "language": "TypeScript",
           "topics": [
             "agent-skills",
@@ -578,8 +578,8 @@
             "ui-generator",
             "vibe-coding"
           ],
-          "pushedAt": "2026-10-19T03:34:05Z",
-          "updatedAt": "2026-10-19T04:32:41Z"
+          "pushedAt": "2026-10-26T04:32:05Z",
+          "updatedAt": "2026-10-26T04:30:05Z"
         }
       ],
       "features": [
@@ -606,8 +606,8 @@
         "fullName": "nexu-io/open-design",
         "url": "https://github.com/nexu-io/open-design",
         "description": "The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create motion, prototypes, websites, apps, dashboards, presentations, images, and videos with your team and AI agents. Share work, exchange feedback, and iterate together in one workspace.",
-        "stars": 102252,
-        "forks": 11730,
+        "stars": 103991,
+        "forks": 11888,
         "language": "TypeScript",
         "topics": [
           "agent-skills",
@@ -631,10 +631,10 @@
           "ui-generator",
           "vibe-coding"
         ],
-        "pushedAt": "2026-10-19T03:34:05Z",
-        "updatedAt": "2026-10-19T04:32:41Z"
+        "pushedAt": "2026-10-26T04:32:05Z",
+        "updatedAt": "2026-10-26T04:30:05Z"
       },
-      "stars": 102252,
+      "stars": 103991,
       "source": "curated"
     },
     {
@@ -839,8 +839,8 @@
           "fullName": "nexu-io/open-design",
           "url": "https://github.com/nexu-io/open-design",
           "description": "The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create motion, prototypes, websites, apps, dashboards, presentations, images, and videos with your team and AI agents. Share work, exchange feedback, and iterate together in one workspace.",
-          "stars": 102252,
-          "forks": 11730,
+          "stars": 103991,
+          "forks": 11888,
           "language": "TypeScript",
           "topics": [
             "agent-skills",
@@ -864,8 +864,8 @@
             "ui-generator",
             "vibe-coding"
           ],
-          "pushedAt": "2026-10-19T03:34:05Z",
-          "updatedAt": "2026-10-19T04:32:41Z"
+          "pushedAt": "2026-10-26T04:32:05Z",
+          "updatedAt": "2026-10-26T04:30:05Z"
         }
       ],
       "features": [
@@ -892,8 +892,8 @@
         "fullName": "nexu-io/open-design",
         "url": "https://github.com/nexu-io/open-design",
         "description": "The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create motion, prototypes, websites, apps, dashboards, presentations, images, and videos with your team and AI agents. Share work, exchange feedback, and iterate together in one workspace.",
-        "stars": 102252,
-        "forks": 11730,
+        "stars": 103991,
+        "forks": 11888,
         "language": "TypeScript",
         "topics": [
           "agent-skills",
@@ -917,10 +917,10 @@
           "ui-generator",
           "vibe-coding"
         ],
-        "pushedAt": "2026-10-19T03:34:05Z",
-        "updatedAt": "2026-10-19T04:32:41Z"
+        "pushedAt": "2026-10-26T04:32:05Z",
+        "updatedAt": "2026-10-26T04:30:05Z"
       },
-      "stars": 102252,
+      "stars": 103991,
       "source": "curated"
     },
     {
@@ -947,9 +947,9 @@
           "name": "antigravity-awesome-skills",
           "fullName": "sickn33/antigravity-awesome-skills",
           "url": "https://github.com/sickn33/antigravity-awesome-skills",
-          "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,600+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
-          "stars": 47906,
-          "forks": 6994,
+          "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,750+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
+          "stars": 48505,
+          "forks": 7052,
           "language": "Python",
           "topics": [
             "agent-skills",
@@ -973,8 +973,8 @@
             "mcp",
             "skill-library"
           ],
-          "pushedAt": "2026-10-18T22:26:45Z",
-          "updatedAt": "2026-10-19T04:33:34Z"
+          "pushedAt": "2026-10-24T21:31:58Z",
+          "updatedAt": "2026-10-26T04:25:45Z"
         }
       ],
       "features": [
@@ -1000,9 +1000,9 @@
         "name": "antigravity-awesome-skills",
         "fullName": "sickn33/antigravity-awesome-skills",
         "url": "https://github.com/sickn33/antigravity-awesome-skills",
-        "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,600+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
-        "stars": 47906,
-        "forks": 6994,
+        "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,750+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
+        "stars": 48505,
+        "forks": 7052,
         "language": "Python",
         "topics": [
           "agent-skills",
@@ -1026,10 +1026,10 @@
           "mcp",
           "skill-library"
         ],
-        "pushedAt": "2026-10-18T22:26:45Z",
-        "updatedAt": "2026-10-19T04:33:34Z"
+        "pushedAt": "2026-10-24T21:31:58Z",
+        "updatedAt": "2026-10-26T04:25:45Z"
       },
-      "stars": 47906,
+      "stars": 48505,
       "source": "curated"
     },
     {
@@ -1056,9 +1056,9 @@
           "name": "antigravity-awesome-skills",
           "fullName": "sickn33/antigravity-awesome-skills",
           "url": "https://github.com/sickn33/antigravity-awesome-skills",
-          "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,600+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
-          "stars": 47906,
-          "forks": 6994,
+          "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,750+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
+          "stars": 48505,
+          "forks": 7052,
           "language": "Python",
           "topics": [
             "agent-skills",
@@ -1082,8 +1082,8 @@
             "mcp",
             "skill-library"
           ],
-          "pushedAt": "2026-10-18T22:26:45Z",
-          "updatedAt": "2026-10-19T04:33:34Z"
+          "pushedAt": "2026-10-24T21:31:58Z",
+          "updatedAt": "2026-10-26T04:25:45Z"
         }
       ],
       "features": [
@@ -1108,9 +1108,9 @@
         "name": "antigravity-awesome-skills",
         "fullName": "sickn33/antigravity-awesome-skills",
         "url": "https://github.com/sickn33/antigravity-awesome-skills",
-        "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,600+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
-        "stars": 47906,
-        "forks": 6994,
+        "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,750+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
+        "stars": 48505,
+        "forks": 7052,
         "language": "Python",
         "topics": [
           "agent-skills",
@@ -1134,10 +1134,10 @@
           "mcp",
           "skill-library"
         ],
-        "pushedAt": "2026-10-18T22:26:45Z",
-        "updatedAt": "2026-10-19T04:33:34Z"
+        "pushedAt": "2026-10-24T21:31:58Z",
+        "updatedAt": "2026-10-26T04:25:45Z"
       },
-      "stars": 47906,
+      "stars": 48505,
       "source": "curated"
     },
     {
@@ -1164,9 +1164,9 @@
           "name": "antigravity-awesome-skills",
           "fullName": "sickn33/antigravity-awesome-skills",
           "url": "https://github.com/sickn33/antigravity-awesome-skills",
-          "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,600+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
-          "stars": 47906,
-          "forks": 6994,
+          "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,750+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
+          "stars": 48505,
+          "forks": 7052,
           "language": "Python",
           "topics": [
             "agent-skills",
@@ -1190,8 +1190,8 @@
             "mcp",
             "skill-library"
           ],
-          "pushedAt": "2026-10-18T22:26:45Z",
-          "updatedAt": "2026-10-19T04:33:34Z"
+          "pushedAt": "2026-10-24T21:31:58Z",
+          "updatedAt": "2026-10-26T04:25:45Z"
         }
       ],
       "features": [
@@ -1216,9 +1216,9 @@
         "name": "antigravity-awesome-skills",
         "fullName": "sickn33/antigravity-awesome-skills",
         "url": "https://github.com/sickn33/antigravity-awesome-skills",
-        "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,600+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
-        "stars": 47906,
-        "forks": 6994,
+        "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,750+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
+        "stars": 48505,
+        "forks": 7052,
         "language": "Python",
         "topics": [
           "agent-skills",
@@ -1242,10 +1242,10 @@
           "mcp",
           "skill-library"
         ],
-        "pushedAt": "2026-10-18T22:26:45Z",
-        "updatedAt": "2026-10-19T04:33:34Z"
+        "pushedAt": "2026-10-24T21:31:58Z",
+        "updatedAt": "2026-10-26T04:25:45Z"
       },
-      "stars": 47906,
+      "stars": 48505,
       "source": "curated"
     },
     {
@@ -1272,9 +1272,9 @@
           "name": "antigravity-awesome-skills",
           "fullName": "sickn33/antigravity-awesome-skills",
           "url": "https://github.com/sickn33/antigravity-awesome-skills",
-          "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,600+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
-          "stars": 47906,
-          "forks": 6994,
+          "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,750+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
+          "stars": 48505,
+          "forks": 7052,
           "language": "Python",
           "topics": [
             "agent-skills",
@@ -1298,8 +1298,8 @@
             "mcp",
             "skill-library"
           ],
-          "pushedAt": "2026-10-18T22:26:45Z",
-          "updatedAt": "2026-10-19T04:33:34Z"
+          "pushedAt": "2026-10-24T21:31:58Z",
+          "updatedAt": "2026-10-26T04:25:45Z"
         }
       ],
       "features": [
@@ -1324,9 +1324,9 @@
         "name": "antigravity-awesome-skills",
         "fullName": "sickn33/antigravity-awesome-skills",
         "url": "https://github.com/sickn33/antigravity-awesome-skills",
-        "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,600+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
-        "stars": 47906,
-        "forks": 6994,
+        "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,750+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
+        "stars": 48505,
+        "forks": 7052,
         "language": "Python",
         "topics": [
           "agent-skills",
@@ -1350,10 +1350,10 @@
           "mcp",
           "skill-library"
         ],
-        "pushedAt": "2026-10-18T22:26:45Z",
-        "updatedAt": "2026-10-19T04:33:34Z"
+        "pushedAt": "2026-10-24T21:31:58Z",
+        "updatedAt": "2026-10-26T04:25:45Z"
       },
-      "stars": 47906,
+      "stars": 48505,
       "source": "curated"
     },
     {
@@ -1596,7 +1596,7 @@
           "fullName": "Nyx-abu/awwwards-ui-skill",
           "url": "https://github.com/Nyx-abu/awwwards-ui-skill",
           "description": "Skill that forces award-tier design quality on AI-generated UIs. Teaches Claude Code / Codex / Antigravity to build with real design intent — motion, typography, color, WCAG AA — instead of generic slop.",
-          "stars": 13,
+          "stars": 18,
           "forks": 1,
           "language": "JavaScript",
           "topics": [
@@ -1614,7 +1614,7 @@
             "webgl"
           ],
           "pushedAt": "2026-06-21T07:32:59Z",
-          "updatedAt": "2026-10-16T15:39:36Z"
+          "updatedAt": "2026-10-24T23:57:20Z"
         }
       ],
       "features": [
@@ -1640,7 +1640,7 @@
         "fullName": "Nyx-abu/awwwards-ui-skill",
         "url": "https://github.com/Nyx-abu/awwwards-ui-skill",
         "description": "Skill that forces award-tier design quality on AI-generated UIs. Teaches Claude Code / Codex / Antigravity to build with real design intent — motion, typography, color, WCAG AA — instead of generic slop.",
-        "stars": 13,
+        "stars": 18,
         "forks": 1,
         "language": "JavaScript",
         "topics": [
@@ -1658,9 +1658,9 @@
           "webgl"
         ],
         "pushedAt": "2026-06-21T07:32:59Z",
-        "updatedAt": "2026-10-16T15:39:36Z"
+        "updatedAt": "2026-10-24T23:57:20Z"
       },
-      "stars": 13,
+      "stars": 18,
       "source": "curated"
     },
     {
@@ -1686,9 +1686,9 @@
           "name": "antigravity-awesome-skills",
           "fullName": "sickn33/antigravity-awesome-skills",
           "url": "https://github.com/sickn33/antigravity-awesome-skills",
-          "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,600+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
-          "stars": 47906,
-          "forks": 6994,
+          "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,750+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
+          "stars": 48505,
+          "forks": 7052,
           "language": "Python",
           "topics": [
             "agent-skills",
@@ -1712,8 +1712,8 @@
             "mcp",
             "skill-library"
           ],
-          "pushedAt": "2026-10-18T22:26:45Z",
-          "updatedAt": "2026-10-19T04:33:34Z"
+          "pushedAt": "2026-10-24T21:31:58Z",
+          "updatedAt": "2026-10-26T04:25:45Z"
         }
       ],
       "features": [
@@ -1738,9 +1738,9 @@
         "name": "antigravity-awesome-skills",
         "fullName": "sickn33/antigravity-awesome-skills",
         "url": "https://github.com/sickn33/antigravity-awesome-skills",
-        "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,600+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
-        "stars": 47906,
-        "forks": 6994,
+        "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,750+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
+        "stars": 48505,
+        "forks": 7052,
         "language": "Python",
         "topics": [
           "agent-skills",
@@ -1764,10 +1764,10 @@
           "mcp",
           "skill-library"
         ],
-        "pushedAt": "2026-10-18T22:26:45Z",
-        "updatedAt": "2026-10-19T04:33:34Z"
+        "pushedAt": "2026-10-24T21:31:58Z",
+        "updatedAt": "2026-10-26T04:25:45Z"
       },
-      "stars": 47906,
+      "stars": 48505,
       "source": "curated"
     },
     {
@@ -1793,9 +1793,9 @@
           "name": "antigravity-awesome-skills",
           "fullName": "sickn33/antigravity-awesome-skills",
           "url": "https://github.com/sickn33/antigravity-awesome-skills",
-          "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,600+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
-          "stars": 47906,
-          "forks": 6994,
+          "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,750+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
+          "stars": 48505,
+          "forks": 7052,
           "language": "Python",
           "topics": [
             "agent-skills",
@@ -1819,8 +1819,8 @@
             "mcp",
             "skill-library"
           ],
-          "pushedAt": "2026-10-18T22:26:45Z",
-          "updatedAt": "2026-10-19T04:33:34Z"
+          "pushedAt": "2026-10-24T21:31:58Z",
+          "updatedAt": "2026-10-26T04:25:45Z"
         }
       ],
       "features": [
@@ -1845,9 +1845,9 @@
         "name": "antigravity-awesome-skills",
         "fullName": "sickn33/antigravity-awesome-skills",
         "url": "https://github.com/sickn33/antigravity-awesome-skills",
-        "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,600+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
-        "stars": 47906,
-        "forks": 6994,
+        "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,750+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
+        "stars": 48505,
+        "forks": 7052,
         "language": "Python",
         "topics": [
           "agent-skills",
@@ -1871,10 +1871,10 @@
           "mcp",
           "skill-library"
         ],
-        "pushedAt": "2026-10-18T22:26:45Z",
-        "updatedAt": "2026-10-19T04:33:34Z"
+        "pushedAt": "2026-10-24T21:31:58Z",
+        "updatedAt": "2026-10-26T04:25:45Z"
       },
-      "stars": 47906,
+      "stars": 48505,
       "source": "curated"
     },
     {
@@ -1900,9 +1900,9 @@
           "name": "antigravity-awesome-skills",
           "fullName": "sickn33/antigravity-awesome-skills",
           "url": "https://github.com/sickn33/antigravity-awesome-skills",
-          "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,600+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
-          "stars": 47906,
-          "forks": 6994,
+          "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,750+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
+          "stars": 48505,
+          "forks": 7052,
           "language": "Python",
           "topics": [
             "agent-skills",
@@ -1926,8 +1926,8 @@
             "mcp",
             "skill-library"
           ],
-          "pushedAt": "2026-10-18T22:26:45Z",
-          "updatedAt": "2026-10-19T04:33:34Z"
+          "pushedAt": "2026-10-24T21:31:58Z",
+          "updatedAt": "2026-10-26T04:25:45Z"
         }
       ],
       "features": [
@@ -1952,9 +1952,9 @@
         "name": "antigravity-awesome-skills",
         "fullName": "sickn33/antigravity-awesome-skills",
         "url": "https://github.com/sickn33/antigravity-awesome-skills",
-        "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,600+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
-        "stars": 47906,
-        "forks": 6994,
+        "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,750+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
+        "stars": 48505,
+        "forks": 7052,
         "language": "Python",
         "topics": [
           "agent-skills",
@@ -1978,10 +1978,10 @@
           "mcp",
           "skill-library"
         ],
-        "pushedAt": "2026-10-18T22:26:45Z",
-        "updatedAt": "2026-10-19T04:33:34Z"
+        "pushedAt": "2026-10-24T21:31:58Z",
+        "updatedAt": "2026-10-26T04:25:45Z"
       },
-      "stars": 47906,
+      "stars": 48505,
       "source": "curated"
     },
     {
@@ -2007,9 +2007,9 @@
           "name": "antigravity-awesome-skills",
           "fullName": "sickn33/antigravity-awesome-skills",
           "url": "https://github.com/sickn33/antigravity-awesome-skills",
-          "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,600+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
-          "stars": 47906,
-          "forks": 6994,
+          "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,750+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
+          "stars": 48505,
+          "forks": 7052,
           "language": "Python",
           "topics": [
             "agent-skills",
@@ -2033,8 +2033,8 @@
             "mcp",
             "skill-library"
           ],
-          "pushedAt": "2026-10-18T22:26:45Z",
-          "updatedAt": "2026-10-19T04:33:34Z"
+          "pushedAt": "2026-10-24T21:31:58Z",
+          "updatedAt": "2026-10-26T04:25:45Z"
         }
       ],
       "features": [
@@ -2059,9 +2059,9 @@
         "name": "antigravity-awesome-skills",
         "fullName": "sickn33/antigravity-awesome-skills",
         "url": "https://github.com/sickn33/antigravity-awesome-skills",
-        "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,600+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
-        "stars": 47906,
-        "forks": 6994,
+        "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,750+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
+        "stars": 48505,
+        "forks": 7052,
         "language": "Python",
         "topics": [
           "agent-skills",
@@ -2085,10 +2085,10 @@
           "mcp",
           "skill-library"
         ],
-        "pushedAt": "2026-10-18T22:26:45Z",
-        "updatedAt": "2026-10-19T04:33:34Z"
+        "pushedAt": "2026-10-24T21:31:58Z",
+        "updatedAt": "2026-10-26T04:25:45Z"
       },
-      "stars": 47906,
+      "stars": 48505,
       "source": "curated"
     },
     {
@@ -2387,9 +2387,9 @@
           "name": "antigravity-awesome-skills",
           "fullName": "sickn33/antigravity-awesome-skills",
           "url": "https://github.com/sickn33/antigravity-awesome-skills",
-          "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,600+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
-          "stars": 47906,
-          "forks": 6994,
+          "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,750+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
+          "stars": 48505,
+          "forks": 7052,
           "language": "Python",
           "topics": [
             "agent-skills",
@@ -2413,8 +2413,8 @@
             "mcp",
             "skill-library"
           ],
-          "pushedAt": "2026-10-18T22:26:45Z",
-          "updatedAt": "2026-10-19T04:33:34Z"
+          "pushedAt": "2026-10-24T21:31:58Z",
+          "updatedAt": "2026-10-26T04:25:45Z"
         }
       ],
       "features": [
@@ -2439,9 +2439,9 @@
         "name": "antigravity-awesome-skills",
         "fullName": "sickn33/antigravity-awesome-skills",
         "url": "https://github.com/sickn33/antigravity-awesome-skills",
-        "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,600+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
-        "stars": 47906,
-        "forks": 6994,
+        "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,750+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
+        "stars": 48505,
+        "forks": 7052,
         "language": "Python",
         "topics": [
           "agent-skills",
@@ -2465,10 +2465,10 @@
           "mcp",
           "skill-library"
         ],
-        "pushedAt": "2026-10-18T22:26:45Z",
-        "updatedAt": "2026-10-19T04:33:34Z"
+        "pushedAt": "2026-10-24T21:31:58Z",
+        "updatedAt": "2026-10-26T04:25:45Z"
       },
-      "stars": 47906,
+      "stars": 48505,
       "source": "curated"
     },
     {
@@ -2497,12 +2497,12 @@
           "fullName": "awesome-skills/code-review-skill",
           "url": "https://github.com/awesome-skills/code-review-skill",
           "description": "A comprehensive code review skill for Claude Code, covering React 19, Vue 3, Rust, TypeScript, TanStack Query v5, and more.",
-          "stars": 2115,
-          "forks": 217,
+          "stars": 2143,
+          "forks": 219,
           "language": "HTML",
           "topics": [],
           "pushedAt": "2026-09-08T15:09:45Z",
-          "updatedAt": "2026-10-18T19:00:50Z"
+          "updatedAt": "2026-10-26T02:31:35Z"
         }
       ],
       "features": [
@@ -2529,14 +2529,14 @@
         "fullName": "awesome-skills/code-review-skill",
         "url": "https://github.com/awesome-skills/code-review-skill",
         "description": "A comprehensive code review skill for Claude Code, covering React 19, Vue 3, Rust, TypeScript, TanStack Query v5, and more.",
-        "stars": 2115,
-        "forks": 217,
+        "stars": 2143,
+        "forks": 219,
         "language": "HTML",
         "topics": [],
         "pushedAt": "2026-09-08T15:09:45Z",
-        "updatedAt": "2026-10-18T19:00:50Z"
+        "updatedAt": "2026-10-26T02:31:35Z"
       },
-      "stars": 2115,
+      "stars": 2143,
       "source": "curated"
     },
     {
@@ -2563,12 +2563,12 @@
           "fullName": "anthropics/claude-code",
           "url": "https://github.com/anthropics/claude-code",
           "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-          "stars": 152282,
-          "forks": 27032,
+          "stars": 153376,
+          "forks": 26032,
           "language": "TypeScript",
           "topics": [],
-          "pushedAt": "2026-10-18T22:26:53Z",
-          "updatedAt": "2026-10-19T04:24:24Z"
+          "pushedAt": "2026-10-25T20:11:26Z",
+          "updatedAt": "2026-10-26T04:13:26Z"
         }
       ],
       "features": [
@@ -2594,14 +2594,14 @@
         "fullName": "anthropics/claude-code",
         "url": "https://github.com/anthropics/claude-code",
         "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-        "stars": 152282,
-        "forks": 27032,
+        "stars": 153376,
+        "forks": 26032,
         "language": "TypeScript",
         "topics": [],
-        "pushedAt": "2026-10-18T22:26:53Z",
-        "updatedAt": "2026-10-19T04:24:24Z"
+        "pushedAt": "2026-10-25T20:11:26Z",
+        "updatedAt": "2026-10-26T04:13:26Z"
       },
-      "stars": 152282,
+      "stars": 153376,
       "source": "curated"
     },
     {
@@ -2630,8 +2630,8 @@
           "fullName": "waybarrios/opencode-power-pack",
           "url": "https://github.com/waybarrios/opencode-power-pack",
           "description": "54 rigorous skills for Codex, OpenCode, and Pi: code review, security audit, feature development, frontend design, MCP tools, Hugging Face ML/training, and more.",
-          "stars": 541,
-          "forks": 44,
+          "stars": 542,
+          "forks": 43,
           "language": "Python",
           "topics": [
             "ai-agents",
@@ -2655,8 +2655,8 @@
             "security-audit",
             "skills"
           ],
-          "pushedAt": "2026-10-12T13:51:15Z",
-          "updatedAt": "2026-10-18T14:03:40Z"
+          "pushedAt": "2026-10-26T04:29:38Z",
+          "updatedAt": "2026-10-25T05:06:06Z"
         }
       ],
       "features": [
@@ -2683,8 +2683,8 @@
         "fullName": "waybarrios/opencode-power-pack",
         "url": "https://github.com/waybarrios/opencode-power-pack",
         "description": "54 rigorous skills for Codex, OpenCode, and Pi: code review, security audit, feature development, frontend design, MCP tools, Hugging Face ML/training, and more.",
-        "stars": 541,
-        "forks": 44,
+        "stars": 542,
+        "forks": 43,
         "language": "Python",
         "topics": [
           "ai-agents",
@@ -2708,10 +2708,10 @@
           "security-audit",
           "skills"
         ],
-        "pushedAt": "2026-10-12T13:51:15Z",
-        "updatedAt": "2026-10-18T14:03:40Z"
+        "pushedAt": "2026-10-26T04:29:38Z",
+        "updatedAt": "2026-10-25T05:06:06Z"
       },
-      "stars": 541,
+      "stars": 542,
       "source": "curated"
     },
     {
@@ -2740,8 +2740,8 @@
           "fullName": "waybarrios/opencode-power-pack",
           "url": "https://github.com/waybarrios/opencode-power-pack",
           "description": "54 rigorous skills for Codex, OpenCode, and Pi: code review, security audit, feature development, frontend design, MCP tools, Hugging Face ML/training, and more.",
-          "stars": 541,
-          "forks": 44,
+          "stars": 542,
+          "forks": 43,
           "language": "Python",
           "topics": [
             "ai-agents",
@@ -2765,8 +2765,8 @@
             "security-audit",
             "skills"
           ],
-          "pushedAt": "2026-10-12T13:51:15Z",
-          "updatedAt": "2026-10-18T14:03:40Z"
+          "pushedAt": "2026-10-26T04:29:38Z",
+          "updatedAt": "2026-10-25T05:06:06Z"
         }
       ],
       "features": [
@@ -2793,8 +2793,8 @@
         "fullName": "waybarrios/opencode-power-pack",
         "url": "https://github.com/waybarrios/opencode-power-pack",
         "description": "54 rigorous skills for Codex, OpenCode, and Pi: code review, security audit, feature development, frontend design, MCP tools, Hugging Face ML/training, and more.",
-        "stars": 541,
-        "forks": 44,
+        "stars": 542,
+        "forks": 43,
         "language": "Python",
         "topics": [
           "ai-agents",
@@ -2818,10 +2818,10 @@
           "security-audit",
           "skills"
         ],
-        "pushedAt": "2026-10-12T13:51:15Z",
-        "updatedAt": "2026-10-18T14:03:40Z"
+        "pushedAt": "2026-10-26T04:29:38Z",
+        "updatedAt": "2026-10-25T05:06:06Z"
       },
-      "stars": 541,
+      "stars": 542,
       "source": "curated"
     }
   ],
@@ -2832,8 +2832,8 @@
       "fullName": "morluto/rea",
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "url": "https://github.com/morluto/rea",
-      "stars": 324993,
-      "forks": 82307,
+      "stars": 385770,
+      "forks": 96612,
       "language": "TypeScript",
       "topics": [
         "agent-skills",
@@ -2857,8 +2857,8 @@
         "static-analysis",
         "touhou"
       ],
-      "pushedAt": "2026-10-19T04:32:37Z",
-      "updatedAt": "2026-10-19T04:37:50Z"
+      "pushedAt": "2026-10-25T19:21:28Z",
+      "updatedAt": "2026-10-26T04:43:34Z"
     },
     {
       "id": "obra-superpowers",
@@ -2866,8 +2866,8 @@
       "fullName": "obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "url": "https://github.com/obra/superpowers",
-      "stars": 301721,
-      "forks": 26942,
+      "stars": 305145,
+      "forks": 27184,
       "language": "Shell",
       "topics": [
         "ai",
@@ -2879,8 +2879,8 @@
         "subagent-driven-development",
         "superpowers"
       ],
-      "pushedAt": "2026-10-10T03:03:30Z",
-      "updatedAt": "2026-10-19T04:33:39Z"
+      "pushedAt": "2026-10-23T03:48:57Z",
+      "updatedAt": "2026-10-26T04:36:00Z"
     },
     {
       "id": "mattpocock-skills",
@@ -2888,12 +2888,12 @@
       "fullName": "mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "url": "https://github.com/mattpocock/skills",
-      "stars": 296423,
-      "forks": 24886,
+      "stars": 303374,
+      "forks": 25529,
       "language": "Shell",
       "topics": [],
-      "pushedAt": "2026-10-13T08:46:40Z",
-      "updatedAt": "2026-10-19T04:36:01Z"
+      "pushedAt": "2026-10-22T09:35:28Z",
+      "updatedAt": "2026-10-26T04:43:20Z"
     },
     {
       "id": "affaan-m-ecc",
@@ -2901,8 +2901,8 @@
       "fullName": "affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "url": "https://github.com/affaan-m/ECC",
-      "stars": 283412,
-      "forks": 42100,
+      "stars": 288969,
+      "forks": 42833,
       "language": "JavaScript",
       "topics": [
         "ai-agents",
@@ -2914,8 +2914,8 @@
         "mcp",
         "productivity"
       ],
-      "pushedAt": "2026-10-15T19:17:01Z",
-      "updatedAt": "2026-10-19T04:37:03Z"
+      "pushedAt": "2026-10-26T04:03:57Z",
+      "updatedAt": "2026-10-26T04:41:08Z"
     },
     {
       "id": "multica-ai-andrej-karpathy-skills",
@@ -2923,27 +2923,12 @@
       "fullName": "multica-ai/andrej-karpathy-skills",
       "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
       "url": "https://github.com/multica-ai/andrej-karpathy-skills",
-      "stars": 221008,
-      "forks": 22201,
+      "stars": 223942,
+      "forks": 22417,
       "language": "",
       "topics": [],
       "pushedAt": "2026-04-20T10:05:04Z",
-      "updatedAt": "2026-10-19T04:34:40Z"
-    },
-    {
-      "id": "anthropics-skills",
-      "name": "skills",
-      "fullName": "anthropics/skills",
-      "description": "Public repository for Agent Skills",
-      "url": "https://github.com/anthropics/skills",
-      "stars": 182036,
-      "forks": 21575,
-      "language": "Python",
-      "topics": [
-        "agent-skills"
-      ],
-      "pushedAt": "2026-10-09T18:45:52Z",
-      "updatedAt": "2026-10-19T04:32:27Z"
+      "updatedAt": "2026-10-26T04:42:34Z"
     },
     {
       "id": "dietrichgebert-ponytail",
@@ -2951,8 +2936,8 @@
       "fullName": "DietrichGebert/ponytail",
       "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
       "url": "https://github.com/DietrichGebert/ponytail",
-      "stars": 167180,
-      "forks": 9077,
+      "stars": 176311,
+      "forks": 9630,
       "language": "JavaScript",
       "topics": [
         "agent-skills",
@@ -2967,7 +2952,7 @@
         "yagni"
       ],
       "pushedAt": "2026-10-18T01:55:14Z",
-      "updatedAt": "2026-10-19T04:34:10Z"
+      "updatedAt": "2026-10-26T04:41:13Z"
     },
     {
       "id": "farion1231-cc-switch",
@@ -2975,8 +2960,8 @@
       "fullName": "farion1231/cc-switch",
       "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
       "url": "https://github.com/farion1231/cc-switch",
-      "stars": 145985,
-      "forks": 9656,
+      "stars": 148692,
+      "forks": 9780,
       "language": "Rust",
       "topics": [
         "ai-tools",
@@ -3000,8 +2985,8 @@
         "tauri",
         "wsl-support"
       ],
-      "pushedAt": "2026-10-19T03:48:25Z",
-      "updatedAt": "2026-10-19T04:31:11Z"
+      "pushedAt": "2026-10-26T04:22:08Z",
+      "updatedAt": "2026-10-26T04:41:53Z"
     },
     {
       "id": "shubhamsaboo-awesome-llm-apps",
@@ -3009,8 +2994,8 @@
       "fullName": "Shubhamsaboo/awesome-llm-apps",
       "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
       "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-      "stars": 142241,
-      "forks": 20914,
+      "stars": 143069,
+      "forks": 21046,
       "language": "Python",
       "topics": [
         "agents",
@@ -3018,8 +3003,8 @@
         "python",
         "rag"
       ],
-      "pushedAt": "2026-10-18T16:28:46Z",
-      "updatedAt": "2026-10-19T04:36:35Z"
+      "pushedAt": "2026-10-22T19:10:10Z",
+      "updatedAt": "2026-10-26T04:43:04Z"
     },
     {
       "id": "nextlevelbuilder-ui-ux-pro-max-skill",
@@ -3027,8 +3012,8 @@
       "fullName": "nextlevelbuilder/ui-ux-pro-max-skill",
       "description": "An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.",
       "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
-      "stars": 137306,
-      "forks": 14585,
+      "stars": 140445,
+      "forks": 14886,
       "language": "Python",
       "topics": [
         "ai-skills",
@@ -3051,8 +3036,8 @@
         "uikit",
         "windsurf-ai"
       ],
-      "pushedAt": "2026-10-15T02:04:34Z",
-      "updatedAt": "2026-10-19T04:32:40Z"
+      "pushedAt": "2026-10-23T10:06:31Z",
+      "updatedAt": "2026-10-26T04:31:18Z"
     },
     {
       "id": "graphify-labs-graphify",
@@ -3060,8 +3045,8 @@
       "fullName": "Graphify-Labs/graphify",
       "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
       "url": "https://github.com/Graphify-Labs/graphify",
-      "stars": 128522,
-      "forks": 12390,
+      "stars": 135418,
+      "forks": 12924,
       "language": "Python",
       "topics": [
         "ai-agents",
@@ -3085,14 +3070,14 @@
         "skills",
         "tree-sitter"
       ],
-      "pushedAt": "2026-10-16T17:57:21Z",
-      "updatedAt": "2026-10-19T04:36:18Z"
+      "pushedAt": "2026-10-23T17:59:28Z",
+      "updatedAt": "2026-10-26T04:43:33Z"
     }
   ],
   "counts": {
     "skills": 28,
     "categories": 7,
     "repositories": 14,
-    "githubLeaderboard": 11
+    "githubLeaderboard": 10
   }
 }
